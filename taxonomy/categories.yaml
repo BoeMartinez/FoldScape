@@ -1,0 +1,136 @@
+# FoldScape Category Taxonomy
+# Defines the hierarchical structure for classifying protein ML tools
+
+layers:
+  - id: infrastructure
+    name: "Layer 1: Infrastructure"
+    description: "Tools for computation, data handling, and orchestration"
+    categories:
+      - id: md_engines
+        name: "MD Engines"
+        examples: ["GROMACS", "AMBER", "OpenMM"]
+      - id: structure_parsers
+        name: "Structure Parsers"
+        examples: ["Biopython", "MDTraj", "ProDy"]
+      - id: file_handlers
+        name: "File Format Handlers"
+        examples: ["gemmi", "biotite"]
+      - id: orchestration
+        name: "Compute Orchestration"
+        examples: ["Nextflow", "Snakemake"]
+      - id: visualization
+        name: "Visualization"
+        examples: ["PyMOL", "ChimeraX", "NGLView"]
+
+  - id: core_methods
+    name: "Layer 2: Core Methods"
+    description: "Foundation models and algorithms"
+    categories:
+      - id: structure_prediction
+        name: "Structure Prediction"
+        subcategories:
+          - id: end_to_end
+            name: "End-to-end Prediction"
+            examples: ["AlphaFold2", "AlphaFold3", "RoseTTAFold", "ESMFold"]
+          - id: domain_specific
+            name: "Domain-specific"
+            examples: ["AlphaFold-Multimer", "AF-Cluster"]
+      - id: generative_design
+        name: "Generative Design"
+        subcategories:
+          - id: de_novo
+            name: "De Novo Design"
+            examples: ["RFDiffusion", "Chroma", "FrameFlow"]
+          - id: binder_design
+            name: "Binder Design"
+            examples: ["RFDiffusion-AA", "BindCraft", "AfDesign"]
+          - id: antibody_design
+            name: "Antibody Design"
+            examples: ["IgFold", "AbLang", "AntiBERTy"]
+      - id: sequence_design
+        name: "Sequence Design"
+        subcategories:
+          - id: inverse_folding
+            name: "Inverse Folding"
+            examples: ["ESM-IF", "ProteinMPNN", "LigandMPNN"]
+          - id: language_models
+            name: "Language Models"
+            examples: ["ESM-2", "ProGen", "ProtGPT2"]
+      - id: analysis_tools
+        name: "Analysis Tools"
+        subcategories:
+          - id: energy_calculation
+            name: "Energy Calculation"
+            examples: ["PyRosetta", "FoldX", "Rosetta"]
+          - id: dynamics
+            name: "Dynamics Analysis"
+            examples: ["MDAnalysis", "PyEMMA"]
+
+  - id: applications
+    name: "Layer 3: Applications"
+    description: "Domain-specific implementations"
+    categories:
+      - id: binder_antibody
+        name: "Binder/Antibody Design"
+      - id: enzyme_engineering
+        name: "Enzyme Design & Engineering"
+      - id: ppi_prediction
+        name: "Protein-Protein Interaction"
+      - id: drug_discovery
+        name: "Drug Discovery"
+        subcategories:
+          - id: docking
+            name: "Docking"
+          - id: virtual_screening
+            name: "Virtual Screening"
+      - id: protein_optimization
+        name: "Protein Optimization"
+        subcategories:
+          - id: stability
+            name: "Stability"
+          - id: expression
+            name: "Expression"
+      - id: proteomics
+        name: "Proteomics"
+      - id: accessibility
+        name: "Accessibility Tools"
+        description: "Making methods accessible (notebooks, web apps)"
+
+# Expression systems (for domain_specific tagging)
+expression_systems:
+  - id: ecoli
+    name: "E.coli"
+    keywords: ["e.coli", "e coli", "escherichia", "bacterial expression", "bl21"]
+  - id: hek293
+    name: "HEK293"
+    keywords: ["hek293", "hek 293", "hek-293", "mammalian", "human cells"]
+  - id: yeast
+    name: "Yeast"
+    keywords: ["yeast", "saccharomyces", "pichia", "s. cerevisiae"]
+  - id: cell_free
+    name: "Cell-free"
+    keywords: ["cell-free", "cell free", "in vitro translation", "ivtt"]
+  - id: insect
+    name: "Insect"
+    keywords: ["insect", "sf9", "baculovirus", "sf21"]
+  - id: cho
+    name: "CHO"
+    keywords: ["cho", "chinese hamster ovary"]
+
+# GPU requirement levels
+gpu_requirements:
+  - id: cpu_only
+    name: "CPU-only"
+    keywords: ["cpu", "no gpu", "cpu only", "runs on cpu"]
+  - id: low
+    name: "<8GB"
+    keywords: ["single gpu", "consumer gpu", "4gb", "6gb", "gtx"]
+  - id: medium
+    name: "8-24GB"
+    keywords: ["rtx 3090", "a5000", "16gb", "24gb", "a4000"]
+  - id: high
+    name: ">24GB"
+    keywords: ["a100", "40gb", "80gb", "h100"]
+  - id: multi
+    name: "Multi-GPU"
+    keywords: ["multiple gpus", "distributed", "multi-gpu", "data parallel"]

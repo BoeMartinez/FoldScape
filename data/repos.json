@@ -1,0 +1,398 @@
+[
+  {
+    "repo_id": "google-deepmind/alphafold",
+    "metadata": {
+      "name": "alphafold",
+      "description": "Open source code for AlphaFold 2 and AlphaFold 3",
+      "url": "https://github.com/google-deepmind/alphafold",
+      "stars": 13500,
+      "forks": 2400,
+      "last_updated": "2025-12-15T10:30:00Z",
+      "created_at": "2021-07-15T00:00:00Z",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": ["protein", "structure-prediction", "deep-learning", "alphafold"]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": "Structure Prediction",
+      "layer": "Layer 2: Core Methods"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": ["E.coli", "HEK293", "Yeast"],
+      "gpu_requirement": "8-24GB",
+      "input_types": ["sequence", "MSA"],
+      "output_formats": ["PDB", "mmCIF"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 45,
+      "star_velocity_30d": 180,
+      "trending": true
+    }
+  },
+  {
+    "repo_id": "RosettaCommons/RFdiffusion",
+    "metadata": {
+      "name": "RFdiffusion",
+      "description": "Code for running RFdiffusion - protein structure generation via diffusion",
+      "url": "https://github.com/RosettaCommons/RFdiffusion",
+      "stars": 2800,
+      "forks": 450,
+      "last_updated": "2025-11-20T14:00:00Z",
+      "created_at": "2023-03-01T00:00:00Z",
+      "language": "Python",
+      "license": "BSD-3-Clause",
+      "topics": ["protein-design", "diffusion", "deep-learning", "generative"]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": "Generative Design",
+      "layer": "Layer 2: Core Methods"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": ["E.coli"],
+      "gpu_requirement": "8-24GB",
+      "input_types": ["structure", "hotspot"],
+      "output_formats": ["PDB"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 32,
+      "star_velocity_30d": 120,
+      "trending": true
+    }
+  },
+  {
+    "repo_id": "dauparas/ProteinMPNN",
+    "metadata": {
+      "name": "ProteinMPNN",
+      "description": "Robust deep learning based protein sequence design",
+      "url": "https://github.com/dauparas/ProteinMPNN",
+      "stars": 1950,
+      "forks": 380,
+      "last_updated": "2025-10-05T08:00:00Z",
+      "created_at": "2022-06-01T00:00:00Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": ["protein-design", "inverse-folding", "deep-learning"]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": "Sequence Design",
+      "layer": "Layer 2: Core Methods"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": ["E.coli", "Yeast"],
+      "gpu_requirement": "<8GB",
+      "input_types": ["structure"],
+      "output_formats": ["FASTA", "sequence"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 18,
+      "star_velocity_30d": 65,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "facebookresearch/esm",
+    "metadata": {
+      "name": "esm",
+      "description": "Evolutionary Scale Modeling - protein language models from Meta AI",
+      "url": "https://github.com/facebookresearch/esm",
+      "stars": 3200,
+      "forks": 620,
+      "last_updated": "2025-12-01T16:00:00Z",
+      "created_at": "2019-06-01T00:00:00Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": ["protein", "language-model", "deep-learning", "transformers"]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": "Sequence Design",
+      "layer": "Layer 2: Core Methods"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": [],
+      "gpu_requirement": "8-24GB",
+      "input_types": ["sequence"],
+      "output_formats": ["embeddings", "structure"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 28,
+      "star_velocity_30d": 95,
+      "trending": true
+    }
+  },
+  {
+    "repo_id": "baker-laboratory/RoseTTAFold",
+    "metadata": {
+      "name": "RoseTTAFold",
+      "description": "Accurate prediction of protein structures and interactions",
+      "url": "https://github.com/baker-laboratory/RoseTTAFold",
+      "stars": 1850,
+      "forks": 420,
+      "last_updated": "2025-08-15T12:00:00Z",
+      "created_at": "2021-06-01T00:00:00Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": ["protein", "structure-prediction", "deep-learning"]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": "Structure Prediction",
+      "layer": "Layer 2: Core Methods"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": ["E.coli", "HEK293"],
+      "gpu_requirement": "8-24GB",
+      "input_types": ["sequence", "MSA"],
+      "output_formats": ["PDB"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 12,
+      "star_velocity_30d": 40,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "openmm/openmm",
+    "metadata": {
+      "name": "openmm",
+      "description": "A high-performance toolkit for molecular simulation",
+      "url": "https://github.com/openmm/openmm",
+      "stars": 3800,
+      "forks": 890,
+      "last_updated": "2026-01-20T09:00:00Z",
+      "created_at": "2013-01-01T00:00:00Z",
+      "language": "C++",
+      "license": "MIT",
+      "topics": ["molecular-dynamics", "simulation", "chemistry", "biophysics"]
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": "MD Engines",
+      "layer": "Layer 1: Infrastructure"
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": "8-24GB",
+      "input_types": ["PDB", "topology"],
+      "output_formats": ["trajectory", "DCD"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 8,
+      "star_velocity_30d": 35,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "biopython/biopython",
+    "metadata": {
+      "name": "biopython",
+      "description": "Official git repository for Biopython",
+      "url": "https://github.com/biopython/biopython",
+      "stars": 4200,
+      "forks": 1750,
+      "last_updated": "2026-01-25T11:00:00Z",
+      "created_at": "2009-01-01T00:00:00Z",
+      "language": "Python",
+      "license": "Biopython License",
+      "topics": ["bioinformatics", "biology", "python", "computational-biology"]
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": "Structure Parsers",
+      "layer": "Layer 1: Infrastructure"
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": "CPU-only",
+      "input_types": ["FASTA", "PDB", "GenBank"],
+      "output_formats": ["various"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 5,
+      "star_velocity_30d": 22,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "sokrypton/ColabFold",
+    "metadata": {
+      "name": "ColabFold",
+      "description": "Making protein folding accessible to all via Google Colab",
+      "url": "https://github.com/sokrypton/ColabFold",
+      "stars": 2400,
+      "forks": 380,
+      "last_updated": "2025-11-10T15:00:00Z",
+      "created_at": "2021-08-01T00:00:00Z",
+      "language": "Jupyter Notebook",
+      "license": "MIT",
+      "topics": ["alphafold", "protein", "colab", "structure-prediction"]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": "Accessibility Tools",
+      "layer": "Layer 3: Applications"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": [],
+      "gpu_requirement": "8-24GB",
+      "input_types": ["sequence"],
+      "output_formats": ["PDB"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 15,
+      "star_velocity_30d": 55,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "generatebio/chroma",
+    "metadata": {
+      "name": "chroma",
+      "description": "Generative model for proteins and protein complexes",
+      "url": "https://github.com/generatebio/chroma",
+      "stars": 950,
+      "forks": 120,
+      "last_updated": "2025-09-20T10:00:00Z",
+      "created_at": "2023-08-01T00:00:00Z",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": ["protein-design", "generative", "diffusion", "deep-learning"]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": "Generative Design",
+      "layer": "Layer 2: Core Methods"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": ["E.coli"],
+      "gpu_requirement": ">24GB",
+      "input_types": ["constraints"],
+      "output_formats": ["PDB"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 22,
+      "star_velocity_30d": 78,
+      "trending": true
+    }
+  },
+  {
+    "repo_id": "HeliXonProtein/binding-ddg-predictor",
+    "metadata": {
+      "name": "binding-ddg-predictor",
+      "description": "Predict binding free energy changes upon mutations",
+      "url": "https://github.com/HeliXonProtein/binding-ddg-predictor",
+      "stars": 320,
+      "forks": 65,
+      "last_updated": "2025-07-15T08:00:00Z",
+      "created_at": "2022-03-01T00:00:00Z",
+      "language": "Python",
+      "license": "MIT",
+      "topics": ["protein", "binding", "mutation", "prediction"]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": "Protein Engineering",
+      "layer": "Layer 3: Applications"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": [],
+      "gpu_requirement": "<8GB",
+      "input_types": ["structure", "mutation"],
+      "output_formats": ["ddG"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 4,
+      "star_velocity_30d": 15,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Rappsilber-Laboratory/xiRT",
+    "metadata": {
+      "name": "xiRT",
+      "description": "Deep learning for cross-linking mass spectrometry",
+      "url": "https://github.com/Rappsilber-Laboratory/xiRT",
+      "stars": 180,
+      "forks": 35,
+      "last_updated": "2025-06-01T14:00:00Z",
+      "created_at": "2021-01-01T00:00:00Z",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "topics": ["proteomics", "mass-spectrometry", "deep-learning"]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": "Proteomics",
+      "layer": "Layer 3: Applications"
+    },
+    "domain_specific": {
+      "experimental_validation": true,
+      "expression_systems": [],
+      "gpu_requirement": "<8GB",
+      "input_types": ["spectra"],
+      "output_formats": ["predictions"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 2,
+      "star_velocity_30d": 8,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "PyMOL/pymol-open-source",
+    "metadata": {
+      "name": "pymol-open-source",
+      "description": "Open-source foundation of the user-sponsored PyMOL",
+      "url": "https://github.com/PyMOL/pymol-open-source",
+      "stars": 1100,
+      "forks": 320,
+      "last_updated": "2025-12-20T16:00:00Z",
+      "created_at": "2016-01-01T00:00:00Z",
+      "language": "C++",
+      "license": "Other",
+      "topics": ["visualization", "molecular", "pymol", "structural-biology"]
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": "Visualization",
+      "layer": "Layer 1: Infrastructure"
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": "CPU-only",
+      "input_types": ["PDB", "mmCIF", "SDF"],
+      "output_formats": ["images", "movies"]
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00Z",
+      "star_velocity_7d": 6,
+      "star_velocity_30d": 25,
+      "trending": false
+    }
+  }
+]

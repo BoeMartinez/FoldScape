@@ -1,0 +1,90 @@
+# FoldScape Search Keywords
+# Used by github_collector.py to find relevant repositories
+
+structure_prediction:
+  - "alphafold"
+  - "rosettafold"
+  - "esmfold"
+  - "openfold"
+  - "protein structure prediction"
+  - "structure prediction neural network"
+  - "protein folding"
+  - "contact prediction"
+
+generative_design:
+  - "rfdiffusion"
+  - "proteinmpnn"
+  - "protein design diffusion"
+  - "de novo protein design"
+  - "generative protein"
+  - "protein generation"
+  - "chroma protein"
+  - "frameflow"
+
+binder_design:
+  - "binder design"
+  - "antibody design"
+  - "epitope targeting"
+  - "protein binder"
+  - "computational antibody"
+  - "nanobody"
+  - "bindcraft"
+  - "afdesign"
+
+sequence_design:
+  - "inverse folding"
+  - "protein language model"
+  - "sequence design"
+  - "protein sequence optimization"
+  - "esm protein"
+  - "progen"
+  - "protgpt"
+  - "ligandmpnn"
+
+molecular_dynamics:
+  - "molecular dynamics protein"
+  - "md simulation protein"
+  - "openmm"
+  - "gromacs"
+  - "amber md"
+  - "protein simulation"
+
+analysis:
+  - "protein analysis"
+  - "pyrosetta"
+  - "foldx"
+  - "protein stability"
+  - "ddg prediction"
+  - "binding affinity"
+
+infrastructure:
+  - "biopython"
+  - "mdtraj"
+  - "prody"
+  - "pymol"
+  - "chimerax"
+  - "biotite"
+  - "gemmi"
+
+# Topics to filter by (GitHub topics)
+github_topics:
+  - protein
+  - biology
+  - bioinformatics
+  - computational-biology
+  - structural-biology
+  - protein-structure
+  - protein-design
+  - alphafold
+  - deep-learning
+  - machine-learning
+
+# Exclude patterns (repos to skip)
+exclude_patterns:
+  - "tutorial"
+  - "course"
+  - "awesome-"
+  - "list-of"
+  - "learning-"
+  - "-notes"
+  - "cheatsheet"
