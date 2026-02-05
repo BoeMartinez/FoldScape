@@ -1,0 +1,39 @@
+# Claude Code local files
+.claude/
+*.claude.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets and local config
+data/private/
+*.api_key
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_output/
+*.test.json
+
+# Logs
+logs/*.log
