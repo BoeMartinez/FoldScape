@@ -3,27 +3,23 @@
  * Loads repos.json and renders the dashboard
  */
 
-const DATA_URL = '../data/repos.json';
-
 // Category colors for chart
 const CATEGORY_COLORS = {
     'Infrastructure': '#3b82f6',
     'Core Methods': '#22c55e',
-    'Applications': '#f59e0b'
+    'Applications': '#f59e0b',
+    'Uncategorized': '#94a3b8'
 };
 
 // Load and render data
-async function init() {
-    try {
-        const response = await fetch(DATA_URL);
-        if (!response.ok) throw new Error('Failed to load data');
-
-        const repos = await response.json();
-        renderDashboard(repos);
-    } catch (error) {
-        console.error('Error loading data:', error);
+function init() {
+    // Use embedded data from window.REPOS_DATA (set in index.html)
+    if (window.REPOS_DATA) {
+        renderDashboard(window.REPOS_DATA);
+    } else {
+        console.error('No data found. REPOS_DATA not embedded in page.');
         document.getElementById('top-table-body').innerHTML =
-            '<tr><td colspan="4">Error loading data. Make sure repos.json exists.</td></tr>';
+            '<tr><td colspan="4">Error: No data loaded.</td></tr>';
     }
 }
 

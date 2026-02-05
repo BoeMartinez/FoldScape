@@ -226,57 +226,6 @@
     }
   },
   {
-    "repo_id": "shyamsaktawat/OpenAlpha_Evolve",
-    "metadata": {
-      "name": "OpenAlpha_Evolve",
-      "description": "OpenAlpha_Evolve is an open-source Python framework inspired by the groundbreaking research on autonomous coding agents like DeepMind's AlphaEvolve.",
-      "url": "https://github.com/shyamsaktawat/OpenAlpha_Evolve",
-      "stars": 966,
-      "forks": 149,
-      "last_updated": "2025-05-31T16:34:33+00:00",
-      "created_at": "2025-05-17T21:04:30+00:00",
-      "language": "Python",
-      "license": "MIT License",
-      "topics": [
-        "alphafold",
-        "evolutionary-algorithms",
-        "google",
-        "discovery",
-        "evolution-computing",
-        "evolutionary-algorithm",
-        "genetic-algorithm",
-        "iterative-methods",
-        "optimize",
-        "alphacode",
-        "coding-agent",
-        "distributed-evolutionary-algorithms",
-        "iterative-refinement",
-        "llm-engineering",
-        "llm-ensemble",
-        "llm-inference",
-        "openevolve"
-      ]
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:09:04.141040",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
     "repo_id": "kyegomez/Open-AF3",
     "metadata": {
       "name": "Open-AF3",
@@ -379,39 +328,6 @@
     },
     "tracking": {
       "first_tracked": "2026-02-05T09:09:09.303598",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
-    "repo_id": "shenyichong/alphafold3-architecture-walkthrough",
-    "metadata": {
-      "name": "alphafold3-architecture-walkthrough",
-      "description": "alphafold3 architecture step by step walkthrough.",
-      "url": "https://github.com/shenyichong/alphafold3-architecture-walkthrough",
-      "stars": 207,
-      "forks": 8,
-      "last_updated": "2025-06-16T08:53:51+00:00",
-      "created_at": "2025-06-09T08:57:09+00:00",
-      "language": null,
-      "license": "MIT License",
-      "topics": []
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:09:10.977746",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -824,39 +740,6 @@
     }
   },
   {
-    "repo_id": "Gaius-Augustus/BRAKER",
-    "metadata": {
-      "name": "BRAKER",
-      "description": "BRAKER is a pipeline for fully automated prediction of protein coding gene structures with GeneMark-ES/ET/EP/ETP and AUGUSTUS in novel eukaryotic genomes",
-      "url": "https://github.com/Gaius-Augustus/BRAKER",
-      "stars": 445,
-      "forks": 89,
-      "last_updated": "2025-10-20T08:52:07+00:00",
-      "created_at": "2018-08-21T13:53:18+00:00",
-      "language": "Perl",
-      "license": "Other",
-      "topics": []
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:09:37.041831",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
     "repo_id": "rdk/p2rank",
     "metadata": {
       "name": "p2rank",
@@ -1018,39 +901,6 @@
     }
   },
   {
-    "repo_id": "Gaius-Augustus/GALBA",
-    "metadata": {
-      "name": "GALBA",
-      "description": "GALBA is a pipeline for fully automated prediction of protein coding gene structures with AUGUSTUS in novel eukaryotic genomes for the scenario where high quality proteins from one or several closely related species are available.",
-      "url": "https://github.com/Gaius-Augustus/GALBA",
-      "stars": 148,
-      "forks": 6,
-      "last_updated": "2025-01-27T20:11:51+00:00",
-      "created_at": "2022-10-27T08:27:49+00:00",
-      "language": "Perl",
-      "license": "Other",
-      "topics": []
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:09:45.461326",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
     "repo_id": "patrickbryant1/RareFold",
     "metadata": {
       "name": "RareFold",
@@ -1111,42 +961,6 @@
     },
     "tracking": {
       "first_tracked": "2026-02-05T09:09:48.723976",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
-    "repo_id": "Peldom/papers_for_protein_design_using_DL",
-    "metadata": {
-      "name": "papers_for_protein_design_using_DL",
-      "description": "List of papers about Proteins Design using Deep Learning",
-      "url": "https://github.com/Peldom/papers_for_protein_design_using_DL",
-      "stars": 1878,
-      "forks": 217,
-      "last_updated": "2026-01-31T11:52:45+00:00",
-      "created_at": "2021-11-25T15:01:27+00:00",
-      "language": null,
-      "license": "GNU General Public License v3.0",
-      "topics": [
-        "deep-learning",
-        "protein-design"
-      ]
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:09:51.889016",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1252,39 +1066,6 @@
     },
     "tracking": {
       "first_tracked": "2026-02-05T09:09:57.107515",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
-    "repo_id": "Zuricho/ProteinDesignLabs",
-    "metadata": {
-      "name": "ProteinDesignLabs",
-      "description": "List of computational protein design research labs",
-      "url": "https://github.com/Zuricho/ProteinDesignLabs",
-      "stars": 225,
-      "forks": 14,
-      "last_updated": "2025-02-09T02:38:08+00:00",
-      "created_at": "2024-10-01T16:51:53+00:00",
-      "language": null,
-      "license": null,
-      "topics": []
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:09:58.743193",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1699,52 +1480,6 @@
     }
   },
   {
-    "repo_id": "HICAI-ZJU/Scientific-LLM-Survey",
-    "metadata": {
-      "name": "Scientific-LLM-Survey",
-      "description": "Scientific Large Language Models: A Survey on Biological & Chemical Domains ",
-      "url": "https://github.com/HICAI-ZJU/Scientific-LLM-Survey",
-      "stars": 351,
-      "forks": 33,
-      "last_updated": "2025-09-07T02:38:42+00:00",
-      "created_at": "2023-10-12T02:49:48+00:00",
-      "language": null,
-      "license": null,
-      "topics": [
-        "genome",
-        "llms",
-        "molecule",
-        "multimodal",
-        "protein",
-        "science-research",
-        "text",
-        "sci-llm",
-        "cell",
-        "scientific-languages",
-        "survey",
-        "large-language-models"
-      ]
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:10:21.506273",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
     "repo_id": "salesforce/provis",
     "metadata": {
       "name": "provis",
@@ -2040,48 +1775,6 @@
     }
   },
   {
-    "repo_id": "Yijia-Xiao/Protein-LLM-Survey",
-    "metadata": {
-      "name": "Protein-LLM-Survey",
-      "description": "Large Language Models in Protein: A Comprehensive Survey",
-      "url": "https://github.com/Yijia-Xiao/Protein-LLM-Survey",
-      "stars": 170,
-      "forks": 13,
-      "last_updated": "2025-04-02T05:10:45+00:00",
-      "created_at": "2025-02-12T02:40:48+00:00",
-      "language": null,
-      "license": "MIT License",
-      "topics": [
-        "awes",
-        "comprehensive",
-        "llm",
-        "papers",
-        "papers-with-code",
-        "protein",
-        "survey",
-        "large-language-models"
-      ]
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-05T09:10:36.889861",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
     "repo_id": "pengzhangzhi/faplm",
     "metadata": {
       "name": "faplm",
@@ -2192,6 +1885,459 @@
     },
     "tracking": {
       "first_tracked": "2026-02-05T09:10:42.036925",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "RosettaCommons/RFdiffusion",
+    "metadata": {
+      "name": "RFdiffusion",
+      "description": "Code for running RFdiffusion",
+      "url": "https://github.com/RosettaCommons/RFdiffusion",
+      "stars": 2733,
+      "forks": 568,
+      "last_updated": "2025-11-20T16:02:33+00:00",
+      "created_at": "2023-03-28T18:45:31+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "dauparas/ProteinMPNN",
+    "metadata": {
+      "name": "ProteinMPNN",
+      "description": "Code for the ProteinMPNN paper",
+      "url": "https://github.com/dauparas/ProteinMPNN",
+      "stars": 1616,
+      "forks": 435,
+      "last_updated": "2024-08-14T02:57:30+00:00",
+      "created_at": "2022-05-26T02:38:14+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "facebookresearch/esm",
+    "metadata": {
+      "name": "esm",
+      "description": "Evolutionary Scale Modeling (esm): Pretrained language models for proteins",
+      "url": "https://github.com/facebookresearch/esm",
+      "stars": 3967,
+      "forks": 766,
+      "last_updated": "2024-02-07T03:31:38+00:00",
+      "created_at": "2020-08-31T17:41:48+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "sokrypton/ColabFold",
+    "metadata": {
+      "name": "ColabFold",
+      "description": "Making Protein folding accessible to all!",
+      "url": "https://github.com/sokrypton/ColabFold",
+      "stars": 2623,
+      "forks": 694,
+      "last_updated": "2025-12-02T06:08:12+00:00",
+      "created_at": "2021-07-19T23:24:37+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": [
+        "bioinformatics",
+        "multiple-sequence-alignment",
+        "protein-structure",
+        "structure-prediction"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "openmm/openmm",
+    "metadata": {
+      "name": "openmm",
+      "description": "OpenMM is a toolkit for molecular simulation using high performance GPU code. ",
+      "url": "https://github.com/openmm/openmm",
+      "stars": 1784,
+      "forks": 585,
+      "last_updated": "2026-01-30T19:16:39+00:00",
+      "created_at": "2013-05-20T17:42:52+00:00",
+      "language": "C++",
+      "license": null,
+      "topics": [
+        "simulation",
+        "molecular-dynamics"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "biopython/biopython",
+    "metadata": {
+      "name": "biopython",
+      "description": "Official git repository for Biopython (originally converted from CVS)",
+      "url": "https://github.com/biopython/biopython",
+      "stars": 4891,
+      "forks": 1864,
+      "last_updated": "2026-01-26T09:44:51+00:00",
+      "created_at": "2009-03-15T21:09:53+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": [
+        "python",
+        "bioinformatics",
+        "genomics",
+        "biopython",
+        "protein",
+        "protein-structure",
+        "sequence-alignment",
+        "phylogenetics",
+        "dna"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "schrodinger/pymol-open-source",
+    "metadata": {
+      "name": "pymol-open-source",
+      "description": "Open-source foundation of the user-sponsored PyMOL molecular visualization system.",
+      "url": "https://github.com/schrodinger/pymol-open-source",
+      "stars": 1577,
+      "forks": 336,
+      "last_updated": "2026-02-02T16:33:33+00:00",
+      "created_at": "2018-06-19T18:32:13+00:00",
+      "language": "C",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "generatebio/chroma",
+    "metadata": {
+      "name": "chroma",
+      "description": "A generative model for programmable protein design",
+      "url": "https://github.com/generatebio/chroma",
+      "stars": 795,
+      "forks": 108,
+      "last_updated": "2024-04-11T03:20:42+00:00",
+      "created_at": "2023-08-11T14:04:51+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "dptech-corp/Uni-Fold",
+    "metadata": {
+      "name": "Uni-Fold",
+      "description": "An open-source platform for developing protein models beyond AlphaFold.",
+      "url": "https://github.com/dptech-corp/Uni-Fold",
+      "stars": 413,
+      "forks": 80,
+      "last_updated": "2024-06-26T02:52:56+00:00",
+      "created_at": "2022-07-30T03:37:29+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "alphafold",
+        "alphafold-multimer",
+        "protein-structure",
+        "deep-learning",
+        "pytorch"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "HeliXonProtein/OmegaFold",
+    "metadata": {
+      "name": "OmegaFold",
+      "description": "OmegaFold Release Code",
+      "url": "https://github.com/HeliXonProtein/OmegaFold",
+      "stars": 608,
+      "forks": 90,
+      "last_updated": "2022-12-12T14:47:33+00:00",
+      "created_at": "2022-07-21T17:09:41+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "jasonkyuyim/se3_diffusion",
+    "metadata": {
+      "name": "se3_diffusion",
+      "description": "Implementation for SE(3) diffusion model with application to protein backbone generation",
+      "url": "https://github.com/jasonkyuyim/se3_diffusion",
+      "stars": 414,
+      "forks": 65,
+      "last_updated": "2023-07-03T21:51:20+00:00",
+      "created_at": "2023-02-07T12:59:05+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "microsoft/protein-frame-flow",
+    "metadata": {
+      "name": "protein-frame-flow",
+      "description": "Fast protein backbone generation with SE(3) flow matching.",
+      "url": "https://github.com/microsoft/protein-frame-flow",
+      "stars": 311,
+      "forks": 35,
+      "last_updated": "2024-07-19T03:27:01+00:00",
+      "created_at": "2023-08-16T11:13:59+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "evolutionaryscale/esm",
+    "metadata": {
+      "name": "esm",
+      "description": null,
+      "url": "https://github.com/evolutionaryscale/esm",
+      "stars": 2226,
+      "forks": 277,
+      "last_updated": "2026-01-26T19:44:53+00:00",
+      "created_at": "2024-06-25T07:09:18+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-05T00:00:00",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
