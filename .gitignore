@@ -2,6 +2,11 @@
 .claude/
 *.claude.bak
 
+# Private files
+start_session_ritual.txt
+end_session_ritual.txt
+todo/
+
 # Python
 __pycache__/
 *.py[cod]
