@@ -31,6 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python scripts/collectors/github_collector.py || echo "Collector failed, continuing..."
 
+      - name: Calculate trending velocity
+        run: python scripts/analysis/calculate_velocity.py || echo "Velocity calculation skipped"
+
       - name: Run embed script
         run: python scripts/embed_data.py
 

@@ -336,11 +336,17 @@ if __name__ == '__main__':
         print("  3. Run: export GITHUB_TOKEN='ghp_your_token_here'")
         exit(1)
 
-    # Run self-test
-    if run_self_test(token):
-        print("\n" + "=" * 50)
-        print("To run full collection:")
-        print("  from github_collector import ProteinMLCollector")
-        print("  collector = ProteinMLCollector(token)")
-        print("  collector.collect_all(min_stars=100)")
-        print("  collector.save_results('data/repos.json')")
+    # Run self-test first
+    if not run_self_test(token):
+        print("Self-test failed, exiting.")
+        exit(1)
+
+    # Run full collection
+    print("\n" + "=" * 50)
+    print("Running full collection...")
+    print("=" * 50)
+
+    collector = ProteinMLCollector(token)
+    collector.collect_all(min_stars=100)
+    collector.save_results('data/repos.json')
+    collector.save_historical_snapshot('data/historical')
