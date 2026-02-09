@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 try:
-    from github import Github, RateLimitExceededException
+    from github import Github, Auth, RateLimitExceededException
 except ImportError:
     print("ERROR: PyGithub not installed. Run: pip install PyGithub")
     exit(1)
@@ -45,17 +45,22 @@ class ProteinMLCollector:
     ]
 
     def __init__(self, github_token):
-        self.gh = Github(github_token)
+        self.gh = Github(auth=Auth.Token(github_token))
         self.results = []
         self._seen_repos = set()
 
     def check_rate_limit(self):
         """Check remaining API calls and wait if needed."""
         rate = self.gh.get_rate_limit()
-        remaining = rate.core.remaining
+        # Handle both old and new PyGithub versions
+        try:
+            remaining = rate.core.remaining
+            reset_time = rate.core.reset
+        except AttributeError:
+            remaining = rate.rate.remaining
+            reset_time = rate.rate.reset
 
         if remaining < 50:
-            reset_time = rate.core.reset
             wait_seconds = (reset_time - datetime.utcnow()).total_seconds()
             if wait_seconds > 0:
                 print(f"Rate limit low ({remaining}). Waiting {int(wait_seconds)}s...")
