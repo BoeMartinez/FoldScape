@@ -34,6 +34,9 @@ jobs:
       - name: Calculate trending velocity
         run: python scripts/analysis/calculate_velocity.py || echo "Velocity calculation skipped"
 
+      - name: Cleanup old snapshots (keep 30 days)
+        run: find data/historical -name "*.json" -mtime +30 -delete 2>/dev/null || true
+
       - name: Run embed script
         run: python scripts/embed_data.py
 
