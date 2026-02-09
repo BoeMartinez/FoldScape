@@ -11,9 +11,14 @@ def embed_data():
     with open('data/repos.json', 'r', encoding='utf-8') as f:
         repos = json.load(f)
 
+    # Load metadata
+    with open('data/metadata.json', 'r', encoding='utf-8') as f:
+        metadata = json.load(f)
+
     # Minified JSON for embedding
     data_json = json.dumps(repos, ensure_ascii=False, separators=(',', ':'))
-    script_tag = f'<script>window.REPOS_DATA={data_json};</script>'
+    metadata_json = json.dumps(metadata, ensure_ascii=False, separators=(',', ':'))
+    script_tag = f'<script>window.REPOS_DATA={data_json};window.REPOS_METADATA={metadata_json};</script>'
 
     # Pattern to match existing REPOS_DATA script tag
     pattern = r'<script>window\.REPOS_DATA=.*?</script>'

@@ -36,12 +36,17 @@ function renderDashboard(repos) {
     // Render trending table
     renderTrendingRepos(repos);
 
-    // Update timestamp
-    document.getElementById('last-updated').textContent = new Date().toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
+    // Update timestamp from actual data collection date
+    const collectedAt = window.REPOS_METADATA?.collected_at;
+    if (collectedAt) {
+        document.getElementById('last-updated').textContent = new Date(collectedAt).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+    } else {
+        document.getElementById('last-updated').textContent = 'Unknown';
+    }
 }
 
 function renderStats(repos) {

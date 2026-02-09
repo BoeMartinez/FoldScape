@@ -210,6 +210,16 @@ class ProteinMLCollector:
         temp_path.replace(filepath)
         print(f"Saved {len(self.results)} repos to {filepath}")
 
+        # Save metadata with collection timestamp
+        metadata = {
+            "collected_at": datetime.now().isoformat(),
+            "repo_count": len(self.results)
+        }
+        metadata_path = filepath.parent / "metadata.json"
+        with open(metadata_path, 'w', encoding='utf-8') as f:
+            json.dump(metadata, f, indent=2)
+        print(f"Saved metadata to {metadata_path}")
+
     def save_historical_snapshot(self, directory='data/historical'):
         """Save dated snapshot for temporal analysis."""
         directory = Path(directory)
