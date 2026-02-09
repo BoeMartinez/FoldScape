@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
+        /* Color Variables */
         :root { --primary: #6366f1; --primary-hover: #4f46e5; }
+        /* Hero Section: main title */
         .hero { text-align: center; padding: 2rem 0 3rem; }
         .hero h1 {
             font-family: 'Inter', system-ui, sans-serif;
@@ -21,15 +23,18 @@
             color: #1d1d1f;
         }
         .hero p { color: var(--muted-color); font-size: 1.1rem; }
+        /* Stats Cards Grid */ 
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 2rem 0; }
         .stat-card { background: var(--card-background-color); border-radius: var(--border-radius); padding: 1.5rem; text-align: center; border: 1px solid var(--muted-border-color); }
         .stat-card h2 { font-size: 2rem; margin: 0; color: var(--primary); }
         .stat-card p { margin: 0.5rem 0 0; color: var(--muted-color); font-size: 0.9rem; }
-        .section-title { margin-top: 3rem; margin-bottom: 1rem; border-bottom: 2px solid var(--muted-border-color); padding-bottom: 0.5rem; }
+        /* Section headings: to match hero style */
+        .section-title { font-family: 'Inter', system-ui, sans-serif; font-size: 2rem; font-weight: 600; Letter-spacing: -0.03em; color: #1d1d1f; margin-top: 3rem; margin-bottom: 3rem; border-bottom: 2px solid var(--muted-border-color); padding-bottom: 0.5rem; }
         .chart-container { max-width: 400px; margin: 0 auto; }
         table { margin-top: 1rem; }
         .trending-badge { background: #10b981; color: white; font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 9999px; margin-left: 0.5rem; }
         .stars { color: #f59e0b; font-weight: 600; }
+        /* Category badges and coloring*/
         .category-badge { font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: var(--muted-border-color); }
         .category-badge.infrastructure { background: #dbeafe; color: #1e40af; }
         .category-badge.core-methods { background: #dcfce7; color: #166534; }
@@ -41,6 +46,7 @@
     </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
     <nav class="container">
         <ul><li><strong>FoldScape</strong></li></ul>
         <ul>
@@ -48,27 +54,32 @@
             <li><a href="tools.html" class="secondary">Browse All</a></li>
         </ul>
     </nav>
+    <!-- Main Content -->
     <main class="container">
         <section class="hero">
             <h1>FoldScape</h1>
             <p>Daily-updated landscape of computational protein design & ML tools</p>
             <p class="last-updated">Last updated: <span id="last-updated">Loading...</span></p>
         </section>
+        <!-- Stats Cards -->
         <section class="stats-grid">
             <article class="stat-card"><h2 id="total-repos">-</h2><p>Total Tools</p></article>
             <article class="stat-card"><h2 id="trending-count">-</h2><p>Trending</p></article>
             <article class="stat-card"><h2 id="validated-count">-</h2><p>Experimentally Validated</p></article>
             <article class="stat-card"><h2 id="total-stars">-</h2><p>Total Stars</p></article>
         </section>
+        <!-- Category Chart -->
         <h2 class="section-title">Tools by Category</h2>
         <div class="chart-container"><canvas id="category-chart"></canvas></div>
         <h2 class="section-title">Top Tools by Stars</h2>
         <figure>
+            <!-- Top Tools Table -->
             <table role="grid" id="top-table">
                 <thead><tr><th>Tool</th><th>Category</th><th>Stars</th><th>GPU</th></tr></thead>
                 <tbody id="top-table-body"><tr><td colspan="4">Loading...</td></tr></tbody>
             </table>
         </figure>
+        <!-- Trending Section -->
         <h2 class="section-title">Trending This Week</h2>
         <figure>
             <table role="grid" id="trending-table">
@@ -77,6 +88,7 @@
             </table>
         </figure>
     </main>
+    <!-- Footer -->
     <footer class="container">
         <p><strong>FoldScape</strong> - Tracking the protein ML ecosystem<br>
         Inspired by <a href="https://goodailist.com" target="_blank">Good AI List</a><br>
