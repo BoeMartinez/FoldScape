@@ -115,7 +115,8 @@ function renderTopRepos(repos) {
         const category = repo.classification?.category || 'Uncategorized';
         const categoryClass = category.toLowerCase().replace(' ', '-');
         const stars = repo.metadata?.stars || 0;
-        const gpu = repo.domain_specific?.gpu_requirement || '-';
+        const license = formatLicense(repo.metadata?.license);
+        const age = formatAge(repo.metadata?.created_at);
         const trending = repo.tracking?.trending;
 
         return `
@@ -126,7 +127,8 @@ function renderTopRepos(repos) {
                 </td>
                 <td><span class="category-badge ${categoryClass}">${category}</span></td>
                 <td class="stars">${formatNumber(stars)}</td>
-                <td>${gpu}</td>
+                <td>${license}</td>
+                <td>${age}</td>
             </tr>
         `;
     }).join('');
@@ -167,6 +169,39 @@ function formatNumber(num) {
         return (num / 1000).toFixed(1) + 'k';
     }
     return num.toString();
+}
+
+function formatLicense(license) {
+    if (!license) return '—';
+    // Shorten common license names
+    const shortNames = {
+        'MIT License': 'MIT',
+        'Apache License 2.0': 'Apache 2.0',
+        'GNU General Public License v3.0': 'GPL-3.0',
+        'GNU General Public License v2.0': 'GPL-2.0',
+        'BSD 3-Clause "New" or "Revised" License': 'BSD-3',
+        'BSD 2-Clause "Simplified" License': 'BSD-2',
+        'Mozilla Public License 2.0': 'MPL-2.0',
+        'GNU Lesser General Public License v3.0': 'LGPL-3.0',
+        'The Unlicense': 'Unlicense'
+    };
+    return shortNames[license] || license;
+}
+
+function formatAge(createdAt) {
+    if (!createdAt) return '—';
+    const created = new Date(createdAt);
+    const now = new Date();
+    const months = Math.floor((now - created) / (1000 * 60 * 60 * 24 * 30));
+
+    if (months < 1) return '<1 mo';
+    if (months < 12) return `${months} mo`;
+
+    const years = Math.floor(months / 12);
+    const remainingMonths = months % 12;
+
+    if (remainingMonths === 0) return `${years}y`;
+    return `${years}y ${remainingMonths}mo`;
 }
 
 // Initialize on page load
