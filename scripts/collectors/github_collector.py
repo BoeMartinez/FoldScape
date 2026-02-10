@@ -202,23 +202,50 @@ class ProteinMLCollector:
         return self.results
 
     def save_results(self, filepath):
-        """Save collected repos to JSON file with atomic write."""
+        """Save collected repos, merging with existing data to preserve manual fields."""
         filepath = Path(filepath)
         filepath.parent.mkdir(parents=True, exist_ok=True)
 
+        # Load existing data to preserve manual fields (categories, etc.)
+        existing = {}
+        if filepath.exists():
+            try:
+                with open(filepath, 'r', encoding='utf-8') as f:
+                    for repo in json.load(f):
+                        existing[repo['repo_id']] = repo
+                print(f"Loaded {len(existing)} existing repos for merge")
+            except (json.JSONDecodeError, KeyError):
+                print("Warning: Could not load existing data, starting fresh")
+
+        # Merge: update metadata but preserve classification and domain_specific
+        merged = []
+        new_count = 0
+        updated_count = 0
+
+        for repo in self.results:
+            repo_id = repo['repo_id']
+            if repo_id in existing:
+                # Preserve manual fields from existing data
+                old = existing[repo_id]
+                repo['classification'] = old.get('classification', repo['classification'])
+                repo['domain_specific'] = old.get('domain_specific', repo['domain_specific'])
+                updated_count += 1
+            else:
+                new_count += 1
+            merged.append(repo)
+
+        # Write merged results
         temp_path = filepath.with_suffix('.tmp')
-
         with open(temp_path, 'w', encoding='utf-8') as f:
-            json.dump(self.results, f, indent=2, ensure_ascii=False)
+            json.dump(merged, f, indent=2, ensure_ascii=False)
 
-        # Atomic rename
         temp_path.replace(filepath)
-        print(f"Saved {len(self.results)} repos to {filepath}")
+        print(f"Saved {len(merged)} repos ({new_count} new, {updated_count} updated)")
 
         # Save metadata with collection timestamp
         metadata = {
             "collected_at": datetime.now().isoformat(),
-            "repo_count": len(self.results)
+            "repo_count": len(merged)
         }
         metadata_path = filepath.parent / "metadata.json"
         with open(metadata_path, 'w', encoding='utf-8') as f:
