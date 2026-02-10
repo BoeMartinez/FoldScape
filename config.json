@@ -1,0 +1,55 @@
+{
+  "collection": {
+    "min_stars": 100,
+    "max_age_months": 18,
+    "max_per_keyword": 20
+  },
+  "trending": {
+    "days_back": 7,
+    "threshold": 10
+  },
+  "categories": {
+    "_comment": "Order matters: first match wins. Check Applications first (specific), then Core, then Infra.",
+    "keywords": {
+      "Applications": [
+        "benchmark", "survey", "tutorial", "notebook", "colab",
+        "binder design", "antibody design", "drug discovery",
+        "docking", "PPI", "interaction", "accessibility", "GUI",
+        "papers_for", "walkthrough", "decoded", "labs"
+      ],
+      "Core Methods": [
+        "structure prediction", "folding", "alphafold", "rosettafold", "esmfold",
+        "language model", "PLM", "inverse folding", "diffusion", "generative",
+        "de novo", "MPNN", "transformer"
+      ],
+      "Infrastructure": [
+        "visualization", "parser", "file format", "molecular dynamics",
+        "simulation", "database", "pipeline", "workflow", "annotation",
+        "gene prediction", "efficient", "fast"
+      ]
+    },
+    "overrides": {
+      "google-deepmind/alphafold": "Core Methods",
+      "google-deepmind/alphafold3": "Core Methods",
+      "biopython/biopython": "Infrastructure",
+      "schrodinger/pymol-open-source": "Infrastructure",
+      "openmm/openmm": "Infrastructure",
+      "pengzhangzhi/faplm": "Infrastructure",
+      "pachterlab/gget": "Infrastructure",
+      "sokrypton/ColabFold": "Applications",
+      "sokrypton/ColabDesign": "Applications",
+      "martinpacesa/BindCraft": "Applications",
+      "patrickbryant1/EvoBind": "Applications",
+      "HannesStark/EquiBind": "Applications",
+      "Peldom/papers_for_protein_design_using_DL": "Applications",
+      "OATML-Markslab/ProteinNPT": "Core Methods",
+      "Graylab/DL4Proteins-notebooks": "Applications",
+      "westlake-repl/SaprotHub": "Applications",
+      "escalante-bio/mosaic": "Core Methods",
+      "LPDI-EPFL/masif-neosurf": "Core Methods",
+      "bytedance/PXDesignBench": "Applications",
+      "martinez-zacharya/TRILL": "Applications",
+      "J-SNACKKB/FLIP": "Applications"
+    }
+  }
+}
