@@ -22,12 +22,12 @@
             margin-bottom: 0.5rem;
             color: #1d1d1f;
         }
-        .hero p { color: #86868b; font-size: 1.1rem; }
+        .hero p { color: #86868b; font-size: 1rem; }
         /* Stats Cards Grid */ 
-        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 2rem 0; }
-        .stat-card { background: var(--card-background-color); border-radius: 12px; padding: 1.5rem; text-align: center; border: 1px solid var(--muted-border-color); }
-        .stat-card h2 { font-size: 2rem; margin: 0; background: linear-gradient(90deg, #3b82f6, #8b5cf6, #d946ef, #fb923c); background-attachment: fixed; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .stat-card p { margin: 0.5rem 0 0; color: var(--muted-color); font-size: 0.9rem; }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin: 2rem auto 3rem; max-width: 800px; }
+        .stat-card { background: #ffffff; border-radius: 12px; padding: 1.5rem 1rem; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: none; }
+        .stat-card h2 { font-size: 2.618rem; margin: 0; background: linear-gradient(90deg, #3b82f6, #8b5cf6, #d946ef, #fb923c); background-attachment: fixed; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .stat-card p { margin: 0.5rem 0 0; color: #afafb2; font-size: 0.8125rem; }
         /* Section headings: to match hero style */
         .section-title { font-family: 'Inter', system-ui, sans-serif; font-size: 2rem; font-weight: 600; Letter-spacing: -0.03em; color: #1d1d1f; margin-top: 3rem; margin-bottom: 3rem; border-bottom: 2px solid var(--muted-border-color); padding-bottom: 0.5rem; }
         .chart-container { max-width: 400px; margin: 0 auto; }
@@ -40,7 +40,7 @@
         .category-badge.core-methods { background: #dcfce7; color: #166534; }
         .category-badge.applications { background: #fef3c7; color: #92400e; }
         footer { margin-top: 4rem; padding: 2rem 0; text-align: center; color: var(--muted-color); border-top: 1px solid var(--muted-border-color); }
-        .last-updated { font-size: 0.85rem; color: #afafb2; }
+        .last-updated { font-size: 0.8125rem; color: #c7c7cc; }
         a { text-decoration: none; }
         a:hover { text-decoration: underline; }
     </style>
