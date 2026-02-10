@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-09T20:24:14.056887",
+      "first_tracked": "2026-02-10T06:52:28.286141",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-09T20:24:15.629339",
+      "first_tracked": "2026-02-10T06:52:29.868063",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -71,8 +71,8 @@
       "name": "openfold",
       "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
       "url": "https://github.com/aqlaboratory/openfold",
-      "stars": 3265,
-      "forks": 661,
+      "stars": 3266,
+      "forks": 660,
       "last_updated": "2025-12-16T09:41:53+00:00",
       "created_at": "2021-09-14T23:59:02+00:00",
       "language": "Python",
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-09T20:24:17.202853",
+      "first_tracked": "2026-02-10T06:52:31.474842",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-09T20:24:18.787083",
+      "first_tracked": "2026-02-10T06:52:33.051389",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,7 +148,7 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/pachterlab/gget",
-      "stars": 1097,
+      "stars": 1098,
       "forks": 83,
       "last_updated": "2026-02-09T17:04:56+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
@@ -186,7 +186,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-09T20:24:20.476026",
+      "first_tracked": "2026-02-10T06:52:34.642681",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
