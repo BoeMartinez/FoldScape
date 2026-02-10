@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Tools - FoldScape</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
     <style>
         :root { --primary: #6366f1; }
         .page-header { margin-bottom: 2rem; }
-        .page-header h1 { margin-bottom: 0.5rem; }
+        .page-header h1 { font-family: 'Inter', system-ui, sans-serif; font-size: 2.75rem; font-weight: 600; letter-spacing: -0.03em; margin-bottom: 0.5rem; color: #1d1d1f; }
         .filters { margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
-        .filters input[type="search"] { max-width: 300px; }
-        .filters select { max-width: 200px; }
+        .filters input[type="search"] { max-width: 300px; border-radius: 8px; }
+        .filters select { max-width: 200px; border-radius: 8px; }
         .stats-bar { background: var(--card-background-color); padding: 1rem; border-radius: var(--border-radius); margin-bottom: 1rem; display: flex; gap: 2rem; flex-wrap: wrap; }
         .stats-bar span { color: var(--muted-color); }
         .stats-bar strong { color: var(--primary); }
