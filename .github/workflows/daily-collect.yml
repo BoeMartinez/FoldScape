@@ -31,6 +31,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: python scripts/collectors/github_collector.py || echo "Collector failed, continuing..."
 
+      - name: Categorize repos
+        run: python scripts/categorize_repos.py
+
       - name: Calculate trending velocity
         run: python scripts/analysis/calculate_velocity.py || echo "Velocity calculation skipped"
 
