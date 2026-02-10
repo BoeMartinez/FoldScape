@@ -14,7 +14,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -47,7 +47,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -84,7 +84,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -124,7 +124,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -174,7 +174,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Infrastructure",
       "subcategory": null,
       "layer": null
     },
@@ -207,7 +207,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -258,7 +258,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -300,7 +300,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -333,7 +333,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -366,7 +366,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -399,7 +399,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -432,7 +432,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -473,7 +473,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -514,7 +514,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -547,7 +547,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -580,7 +580,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -613,7 +613,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -646,7 +646,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -679,7 +679,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -712,7 +712,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -745,7 +745,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -784,7 +784,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -830,7 +830,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -871,7 +871,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -904,7 +904,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Infrastructure",
       "subcategory": null,
       "layer": null
     },
@@ -958,7 +958,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -991,7 +991,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1024,7 +1024,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1065,7 +1065,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1098,7 +1098,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Infrastructure",
       "subcategory": null,
       "layer": null
     },
@@ -1131,7 +1131,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1164,7 +1164,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1200,7 +1200,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1239,7 +1239,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1272,7 +1272,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1305,7 +1305,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1338,7 +1338,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1371,7 +1371,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1409,7 +1409,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1442,7 +1442,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1477,7 +1477,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1514,7 +1514,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1547,7 +1547,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1587,7 +1587,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1631,7 +1631,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1667,7 +1667,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1700,7 +1700,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1746,7 +1746,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1792,7 +1792,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -1825,7 +1825,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1860,7 +1860,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1893,7 +1893,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1944,7 +1944,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -1977,7 +1977,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -2010,7 +2010,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -2043,7 +2043,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -2087,7 +2087,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -2129,7 +2129,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -2166,7 +2166,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Infrastructure",
       "subcategory": null,
       "layer": null
     },
@@ -2199,7 +2199,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -2245,7 +2245,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -2284,7 +2284,7 @@
       ]
     },
     "classification": {
-      "category": null,
+      "category": "Core Methods",
       "subcategory": null,
       "layer": null
     },
@@ -2317,7 +2317,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Applications",
       "subcategory": null,
       "layer": null
     },
@@ -2350,7 +2350,7 @@
       "topics": []
     },
     "classification": {
-      "category": null,
+      "category": "Infrastructure",
       "subcategory": null,
       "layer": null
     },
