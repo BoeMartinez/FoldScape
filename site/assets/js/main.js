@@ -82,20 +82,35 @@ function renderCategoryChart(repos) {
             datasets: [{
                 data: data,
                 backgroundColor: colors,
-                borderWidth: 2,
-                borderColor: '#ffffff'
+                borderWidth: 3,
+                borderColor: '#ffffff',
+                hoverBorderWidth: 3,
+                hoverOffset: 8
             }]
         },
         options: {
             responsive: true,
+            maintainAspectRatio: true,
+            cutout: '65%',
             plugins: {
                 legend: {
                     position: 'bottom',
                     labels: {
-                        padding: 20,
-                        usePointStyle: true
+                        padding: 24,
+                        usePointStyle: true,
+                        pointStyle: 'circle',
+                        font: {
+                            family: "'Inter', sans-serif",
+                            size: 13,
+                            weight: 500
+                        },
+                        color: '#86868b'
                     }
                 }
+            },
+            animation: {
+                animateRotate: true,
+                animateScale: true
             }
         }
     });
