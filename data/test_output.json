@@ -6,7 +6,7 @@
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
       "stars": 14252,
-      "forks": 2554,
+      "forks": 2557,
       "last_updated": "2026-01-15T13:24:56+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-11T06:47:54.663246",
+      "first_tracked": "2026-02-12T06:46:39.483869",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 7583,
-      "forks": 1103,
-      "last_updated": "2026-02-10T15:44:26+00:00",
+      "stars": 7587,
+      "forks": 1105,
+      "last_updated": "2026-02-11T18:01:31+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Other",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-11T06:47:56.380448",
+      "first_tracked": "2026-02-12T06:46:41.022773",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -72,7 +72,7 @@
       "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
       "url": "https://github.com/aqlaboratory/openfold",
       "stars": 3266,
-      "forks": 660,
+      "forks": 661,
       "last_updated": "2025-12-16T09:41:53+00:00",
       "created_at": "2021-09-14T23:59:02+00:00",
       "language": "Python",
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-11T06:47:58.035299",
+      "first_tracked": "2026-02-12T06:46:42.566358",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-11T06:47:59.697542",
+      "first_tracked": "2026-02-12T06:46:44.126403",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -150,7 +150,7 @@
       "url": "https://github.com/pachterlab/gget",
       "stars": 1098,
       "forks": 83,
-      "last_updated": "2026-02-09T17:04:56+00:00",
+      "last_updated": "2026-02-11T23:03:01+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -186,7 +186,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-11T06:48:01.384805",
+      "first_tracked": "2026-02-12T06:46:45.637658",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false

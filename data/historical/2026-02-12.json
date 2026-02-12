@@ -27,7 +27,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:48.768102",
-      "star_velocity_7d": 8,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -60,9 +60,9 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:50.374542",
-      "star_velocity_7d": 18,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
-      "trending": true
+      "trending": false
     }
   },
   {
@@ -97,7 +97,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:51.925328",
-      "star_velocity_7d": 5,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -137,7 +137,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:53.475019",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -187,7 +187,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:55.043316",
-      "star_velocity_7d": 4,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -220,7 +220,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:56.568301",
-      "star_velocity_7d": 2,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -271,7 +271,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:46:58.157714",
-      "star_velocity_7d": 2,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -346,7 +346,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:01.146420",
-      "star_velocity_7d": -1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -412,7 +412,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:04.193540",
-      "star_velocity_7d": 2,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -659,7 +659,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:15.888422",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -797,7 +797,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:23.586301",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -843,7 +843,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:27.501056",
-      "star_velocity_7d": 7,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -884,7 +884,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:29.010736",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -971,7 +971,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:32.109641",
-      "star_velocity_7d": 4,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1078,7 +1078,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:36.664751",
-      "star_velocity_7d": 3,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1144,7 +1144,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:39.676719",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1177,7 +1177,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:41.178190",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1213,7 +1213,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:43.837576",
-      "star_velocity_7d": 4,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1252,9 +1252,9 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:45.338554",
-      "star_velocity_7d": 10,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
-      "trending": true
+      "trending": false
     }
   },
   {
@@ -1285,7 +1285,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:46.869089",
-      "star_velocity_7d": 4,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1318,7 +1318,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:48.378144",
-      "star_velocity_7d": 8,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1351,7 +1351,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:49.903148",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1422,7 +1422,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:52.943057",
-      "star_velocity_7d": 2,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1455,7 +1455,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:47:54.475179",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1713,7 +1713,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:48:07.482490",
-      "star_velocity_7d": 2,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1805,7 +1805,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:48:10.641577",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1873,7 +1873,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:48:13.716444",
-      "star_velocity_7d": 3,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -2023,7 +2023,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:48:19.828677",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -2142,7 +2142,7 @@
     },
     "tracking": {
       "first_tracked": "2026-02-12T06:48:24.438479",
-      "star_velocity_7d": 1,
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
