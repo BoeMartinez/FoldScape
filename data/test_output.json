@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14255,
-      "forks": 2559,
+      "stars": 14253,
+      "forks": 2555,
       "last_updated": "2026-01-15T13:24:56+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-13T06:44:12.674774",
+      "first_tracked": "2026-02-14T06:30:10.270174",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,7 +38,7 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 7592,
+      "stars": 7589,
       "forks": 1106,
       "last_updated": "2026-02-11T18:01:31+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-13T06:44:14.220669",
+      "first_tracked": "2026-02-14T06:30:11.986780",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -71,7 +71,7 @@
       "name": "openfold",
       "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
       "url": "https://github.com/aqlaboratory/openfold",
-      "stars": 3267,
+      "stars": 3268,
       "forks": 661,
       "last_updated": "2025-12-16T09:41:53+00:00",
       "created_at": "2021-09-14T23:59:02+00:00",
@@ -96,47 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-13T06:44:15.812314",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
-    "repo_id": "lucidrains/alphafold3-pytorch",
-    "metadata": {
-      "name": "alphafold3-pytorch",
-      "description": "Implementation of Alphafold 3 from Google Deepmind in Pytorch",
-      "url": "https://github.com/lucidrains/alphafold3-pytorch",
-      "stars": 1623,
-      "forks": 217,
-      "last_updated": "2025-09-18T23:30:40+00:00",
-      "created_at": "2024-05-08T15:26:29+00:00",
-      "language": "Python",
-      "license": "MIT License",
-      "topics": [
-        "artificial-intelligence",
-        "deep-learning",
-        "attention-mechanisms",
-        "denoising-diffusion",
-        "transformers",
-        "protein-structure-prediction"
-      ]
-    },
-    "classification": {
-      "category": null,
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-02-13T06:44:17.317260",
+      "first_tracked": "2026-02-14T06:30:13.648934",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -186,7 +146,40 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-13T06:44:18.861708",
+      "first_tracked": "2026-02-14T06:30:15.366493",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Ligo-Biosciences/AlphaFold3",
+    "metadata": {
+      "name": "AlphaFold3",
+      "description": "Open source implementation of AlphaFold3",
+      "url": "https://github.com/Ligo-Biosciences/AlphaFold3",
+      "stars": 1035,
+      "forks": 88,
+      "last_updated": "2024-10-07T02:08:29+00:00",
+      "created_at": "2023-11-11T12:42:56+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-02-14T06:30:17.086328",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
