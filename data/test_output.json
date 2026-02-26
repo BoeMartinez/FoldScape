@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14283,
-      "forks": 2566,
+      "stars": 14285,
+      "forks": 2565,
       "last_updated": "2026-01-15T13:24:56+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-25T06:47:45.884395",
+      "first_tracked": "2026-02-26T06:44:06.355208",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 7635,
+      "stars": 7638,
       "forks": 1123,
-      "last_updated": "2026-02-20T15:34:53+00:00",
+      "last_updated": "2026-02-25T14:14:30+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Other",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-25T06:47:47.451640",
+      "first_tracked": "2026-02-26T06:44:08.095438",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-25T06:47:49.041872",
+      "first_tracked": "2026-02-26T06:44:09.720487",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -110,7 +110,7 @@
       "url": "https://github.com/pachterlab/gget",
       "stars": 1100,
       "forks": 85,
-      "last_updated": "2026-02-24T15:53:48+00:00",
+      "last_updated": "2026-02-25T22:53:33+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -146,7 +146,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-25T06:47:50.649624",
+      "first_tracked": "2026-02-26T06:44:11.378365",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -179,7 +179,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-02-25T06:47:52.402617",
+      "first_tracked": "2026-02-26T06:44:12.989351",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
