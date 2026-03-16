@@ -2,9 +2,9 @@
 
 A curated, daily-updated landscape of computational protein design and machine learning tools.
 
-[![FoldScape Dashboard](assets/screenshot.png?v=2)](https://sefuss.github.io/foldscape/)
+[![FoldScape Dashboard](assets/screenshot.png?v=2)](https://sefuss.github.io/FoldScape/)
 
-**[View Live Site](https://sefuss.github.io/foldscape/)**
+**[View Live Site](https://sefuss.github.io/FoldScape/)**
 
 ## What's Tracked
 
