@@ -5,7 +5,7 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14632,
+      "stars": 14637,
       "forks": 2623,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-05-31T08:31:07.971109",
+      "first_tracked": "2026-06-01T11:02:47.692577",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,8 +38,8 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8113,
-      "forks": 1240,
+      "stars": 8122,
+      "forks": 1242,
       "last_updated": "2026-05-22T12:10:15+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-05-31T08:31:09.601115",
+      "first_tracked": "2026-06-01T11:02:49.402179",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-05-31T08:31:11.161380",
+      "first_tracked": "2026-06-01T11:02:51.104759",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-05-31T08:31:12.790013",
+      "first_tracked": "2026-06-01T11:02:52.819512",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -150,7 +150,7 @@
       "url": "https://github.com/pachterlab/gget",
       "stars": 1124,
       "forks": 85,
-      "last_updated": "2026-05-29T01:04:02+00:00",
+      "last_updated": "2026-06-01T01:08:47+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -186,7 +186,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-05-31T08:31:14.402791",
+      "first_tracked": "2026-06-01T11:02:54.579160",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
