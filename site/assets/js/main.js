@@ -52,12 +52,10 @@ function renderDashboard(repos) {
 function renderStats(repos) {
     const total = repos.length;
     const trending = repos.filter(r => r.tracking?.trending).length;
-    const validated = repos.filter(r => r.domain_specific?.experimental_validation === true).length;
     const totalStars = repos.reduce((sum, r) => sum + (r.metadata?.stars || 0), 0);
 
     document.getElementById('total-repos').textContent = total;
     document.getElementById('trending-count').textContent = trending;
-    document.getElementById('validated-count').textContent = validated;
     document.getElementById('total-stars').textContent = formatNumber(totalStars);
 }
 
