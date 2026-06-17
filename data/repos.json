@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:37.247244",
+      "first_tracked": "2026-06-17T17:34:30.133203",
       "star_velocity_7d": 18,
       "star_velocity_30d": 0,
       "trending": true
@@ -38,7 +38,7 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8231,
+      "stars": 8232,
       "forks": 1269,
       "last_updated": "2026-06-09T12:26:49+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
@@ -59,8 +59,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:39.077607",
-      "star_velocity_7d": 41,
+      "first_tracked": "2026-06-17T17:34:31.872490",
+      "star_velocity_7d": 42,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:40.879228",
+      "first_tracked": "2026-06-17T17:34:33.589719",
       "star_velocity_7d": 9,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:42.636070",
+      "first_tracked": "2026-06-17T17:34:35.321653",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:44.472714",
+      "first_tracked": "2026-06-17T17:34:37.053590",
       "star_velocity_7d": 13,
       "star_velocity_30d": 0,
       "trending": true
@@ -238,7 +238,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:46.243722",
+      "first_tracked": "2026-06-17T17:34:38.786925",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -280,7 +280,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:48.099102",
+      "first_tracked": "2026-06-17T17:34:40.552231",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -313,7 +313,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:49.870472",
+      "first_tracked": "2026-06-17T17:34:42.241509",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -346,7 +346,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:51.704142",
+      "first_tracked": "2026-06-17T17:34:43.953018",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -379,7 +379,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:53.451960",
+      "first_tracked": "2026-06-17T17:34:45.613813",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -412,7 +412,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:55.210501",
+      "first_tracked": "2026-06-17T17:34:47.328460",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -445,7 +445,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:56.972155",
+      "first_tracked": "2026-06-17T17:34:49.029583",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -478,7 +478,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:28:58.705419",
+      "first_tracked": "2026-06-17T17:34:50.725413",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -511,7 +511,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:00.508297",
+      "first_tracked": "2026-06-17T17:34:52.452559",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -544,7 +544,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:02.308938",
+      "first_tracked": "2026-06-17T17:34:54.184104",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -577,7 +577,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:05.414851",
+      "first_tracked": "2026-06-17T17:34:57.295985",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -610,7 +610,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:07.210209",
+      "first_tracked": "2026-06-17T17:34:59.020166",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -643,7 +643,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:09.099990",
+      "first_tracked": "2026-06-17T17:35:00.728098",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -682,7 +682,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:13.210761",
+      "first_tracked": "2026-06-17T17:35:04.665085",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -720,7 +720,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:15.013479",
+      "first_tracked": "2026-06-17T17:35:06.395803",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -732,8 +732,8 @@
       "name": "BIoClaw",
       "description": null,
       "url": "https://github.com/qinheming/BIoClaw",
-      "stars": 289,
-      "forks": 4,
+      "stars": 229,
+      "forks": 3,
       "last_updated": "2026-04-08T09:56:41+00:00",
       "created_at": "2026-03-25T07:20:57+00:00",
       "language": "Python",
@@ -763,10 +763,10 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:19.367738",
-      "star_velocity_7d": 40,
+      "first_tracked": "2026-06-17T17:35:10.218479",
+      "star_velocity_7d": -20,
       "star_velocity_30d": 0,
-      "trending": true
+      "trending": false
     }
   },
   {
@@ -808,7 +808,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:21.185716",
+      "first_tracked": "2026-06-17T17:35:11.965411",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -854,7 +854,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:25.375455",
+      "first_tracked": "2026-06-17T17:35:15.682485",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -895,7 +895,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:27.148662",
+      "first_tracked": "2026-06-17T17:35:17.435955",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -928,7 +928,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:28.918994",
+      "first_tracked": "2026-06-17T17:35:19.143188",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -982,7 +982,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:30.727495",
+      "first_tracked": "2026-06-17T17:35:20.875992",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1015,7 +1015,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:32.518803",
+      "first_tracked": "2026-06-17T17:35:22.581131",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1048,7 +1048,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:34.288836",
+      "first_tracked": "2026-06-17T17:35:24.303634",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1089,7 +1089,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:36.132173",
+      "first_tracked": "2026-06-17T17:35:26.023530",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1122,7 +1122,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:37.946910",
+      "first_tracked": "2026-06-17T17:35:27.716216",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1155,7 +1155,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:39.873778",
+      "first_tracked": "2026-06-17T17:35:29.414326",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1188,7 +1188,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:41.644485",
+      "first_tracked": "2026-06-17T17:35:31.078519",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1224,7 +1224,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:45.404356",
+      "first_tracked": "2026-06-17T17:35:34.605929",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1263,7 +1263,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:47.189629",
+      "first_tracked": "2026-06-17T17:35:36.332558",
       "star_velocity_7d": 12,
       "star_velocity_30d": 0,
       "trending": true
@@ -1296,7 +1296,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:48.980625",
+      "first_tracked": "2026-06-17T17:35:38.012347",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1329,7 +1329,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:50.767445",
+      "first_tracked": "2026-06-17T17:35:39.757605",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1362,7 +1362,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:52.663854",
+      "first_tracked": "2026-06-17T17:35:41.481323",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1395,7 +1395,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:54.445342",
+      "first_tracked": "2026-06-17T17:35:43.147738",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1432,7 +1432,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:56.222188",
+      "first_tracked": "2026-06-17T17:35:44.847294",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1470,7 +1470,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:58.022506",
+      "first_tracked": "2026-06-17T17:35:46.614577",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1482,8 +1482,8 @@
       "name": "fampnn",
       "description": "Sidechain conditioning and modeling for full-atom protein sequence design",
       "url": "https://github.com/richardshuai/fampnn",
-      "stars": 140,
-      "forks": 24,
+      "stars": 141,
+      "forks": 25,
       "last_updated": "2025-11-11T13:08:41+00:00",
       "created_at": "2025-02-06T20:31:54+00:00",
       "language": "Python",
@@ -1503,8 +1503,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:29:59.821570",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-06-17T17:35:48.551886",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1541,7 +1541,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:01.654545",
+      "first_tracked": "2026-06-17T17:35:50.298513",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1578,7 +1578,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:03.466349",
+      "first_tracked": "2026-06-17T17:35:52.030041",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1613,7 +1613,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:05.267651",
+      "first_tracked": "2026-06-17T17:35:53.787791",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1653,7 +1653,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:07.050143",
+      "first_tracked": "2026-06-17T17:35:55.475452",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1686,7 +1686,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:08.809704",
+      "first_tracked": "2026-06-17T17:35:57.169133",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1719,7 +1719,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:10.603089",
+      "first_tracked": "2026-06-17T17:35:58.880984",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1763,7 +1763,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:12.384850",
+      "first_tracked": "2026-06-17T17:36:00.584769",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1796,7 +1796,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:14.162860",
+      "first_tracked": "2026-06-17T17:36:02.353564",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1808,7 +1808,7 @@
       "name": "AiCE",
       "description": "Predicting high-fitness mutations based on protein inverse folding models",
       "url": "https://github.com/ScorpioLea/AiCE",
-      "stars": 953,
+      "stars": 958,
       "forks": 161,
       "last_updated": "2025-09-30T03:16:29+00:00",
       "created_at": "2025-01-30T12:38:57+00:00",
@@ -1829,8 +1829,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:17.135553",
-      "star_velocity_7d": 140,
+      "first_tracked": "2026-06-17T17:36:05.397890",
+      "star_velocity_7d": 145,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -1865,7 +1865,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:18.919948",
+      "first_tracked": "2026-06-17T17:36:07.176120",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1898,7 +1898,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:22.481135",
+      "first_tracked": "2026-06-17T17:36:10.604154",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1944,7 +1944,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:24.279698",
+      "first_tracked": "2026-06-17T17:36:12.608840",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1990,7 +1990,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:26.131802",
+      "first_tracked": "2026-06-17T17:36:14.318207",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2025,7 +2025,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:27.900685",
+      "first_tracked": "2026-06-17T17:36:16.064457",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2058,7 +2058,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:29.674307",
+      "first_tracked": "2026-06-17T17:36:17.751047",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2091,7 +2091,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:31.473099",
+      "first_tracked": "2026-06-17T17:36:19.519529",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2124,7 +2124,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:33.236675",
+      "first_tracked": "2026-06-17T17:36:21.233309",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2157,7 +2157,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:35.039347",
+      "first_tracked": "2026-06-17T17:36:22.935035",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2204,7 +2204,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:36.884418",
+      "first_tracked": "2026-06-17T17:36:24.692591",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2237,7 +2237,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:38.844940",
+      "first_tracked": "2026-06-17T17:36:26.413774",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2279,7 +2279,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:40.615539",
+      "first_tracked": "2026-06-17T17:36:28.143635",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2316,7 +2316,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:42.411010",
+      "first_tracked": "2026-06-17T17:36:29.864366",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2362,7 +2362,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:44.239468",
+      "first_tracked": "2026-06-17T17:36:31.572665",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2401,7 +2401,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:46.074181",
+      "first_tracked": "2026-06-17T17:36:33.296874",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2434,7 +2434,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:47.858472",
+      "first_tracked": "2026-06-17T17:36:34.977710",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2467,7 +2467,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:49.600408",
+      "first_tracked": "2026-06-17T17:36:36.654578",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2500,7 +2500,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:51.454734",
+      "first_tracked": "2026-06-17T17:36:38.389105",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2537,7 +2537,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-17T14:30:53.231376",
+      "first_tracked": "2026-06-17T17:36:40.125828",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
