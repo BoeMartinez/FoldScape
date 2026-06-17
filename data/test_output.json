@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-16T10:48:31.762368",
+      "first_tracked": "2026-06-17T14:28:26.254520",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,8 +38,8 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8228,
-      "forks": 1267,
+      "stars": 8231,
+      "forks": 1269,
       "last_updated": "2026-06-09T12:26:49+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-16T10:48:33.555704",
+      "first_tracked": "2026-06-17T14:28:28.048985",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-16T10:48:35.153751",
+      "first_tracked": "2026-06-17T14:28:29.839234",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -108,7 +108,7 @@
       "name": "alphafold3-pytorch",
       "description": "Implementation of Alphafold 3 from Google Deepmind in Pytorch",
       "url": "https://github.com/lucidrains/alphafold3-pytorch",
-      "stars": 1671,
+      "stars": 1672,
       "forks": 227,
       "last_updated": "2025-09-18T23:30:40+00:00",
       "created_at": "2024-05-08T15:26:29+00:00",
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-16T10:48:36.795727",
+      "first_tracked": "2026-06-17T14:28:31.631569",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,7 +148,7 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1161,
+      "stars": 1160,
       "forks": 89,
       "last_updated": "2026-06-15T20:06:32+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-16T10:48:38.440961",
+      "first_tracked": "2026-06-17T14:28:33.434566",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
