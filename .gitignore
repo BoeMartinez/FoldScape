@@ -6,6 +6,7 @@
 start_session_ritual.txt
 end_session_ritual.txt
 todo/
+site-sandbox/
 
 # Python
 __pycache__/
