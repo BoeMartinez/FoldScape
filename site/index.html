@@ -11,42 +11,258 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
-        /* Color Variables */
-        :root { --primary: #6366f1; --primary-hover: #4f46e5; }
-        /* Hero Section: main title */
-        .hero { text-align: center; padding: 2rem 0 3rem; }
+        /* ─────────────────────────────────────────────────────────────
+           FoldScape — Apple-direction system (sandbox)
+           Restrained. Natural neutrals. Confidence through typography
+           and whitespace, not chrome or color.
+           ───────────────────────────────────────────────────────────── */
+
+        :root {
+            --ink:        #0a0a0a;
+            --ink-soft:   #2a2a2a;
+            --ink-mute:   #6e6e72;
+            --ink-faint:  #a0a0a5;
+            --line:       rgba(0,0,0,0.06);
+            --line-strong:rgba(0,0,0,0.12);
+            --surface:    #ffffff;
+            --surface-tint: #fafaf8;   /* warm-gray for hover */
+            --accent:     #b8843a;     /* restrained warm gold — used sparingly */
+            --primary:    var(--ink);  /* override pico's indigo */
+        }
+
+        body { background: #fbfbfa; }
+        main.container { max-width: 1080px; }
+
+        /* Hero */
+        .hero { text-align: center; padding: 3.5rem 0 2.5rem; }
         .hero h1 {
             font-family: 'Inter', system-ui, sans-serif;
-            font-size: 2.75rem;
+            font-size: 3rem;
             font-weight: 600;
-            letter-spacing: -0.03em;
+            letter-spacing: -0.035em;
             margin-bottom: 0.5rem;
-            color: #1d1d1f;
+            color: var(--ink);
         }
-        .hero p { color: #86868b; font-size: 1rem; }
-        /* Stats Cards Grid */ 
-        .stats-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 2rem auto 3rem; max-width: 800px; }
+        .hero p { color: var(--ink-mute); font-size: 1.0625rem; font-weight: 300; max-width: 540px; margin: 0 auto 0.5rem; }
+        .last-updated { font-size: 0.75rem; color: var(--ink-faint); letter-spacing: 0.01em; }
+
+        /* Stats Cards — original gradient cards preserved per user preference */
+        .stats-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 3rem auto 4rem; max-width: 800px; }
         .stat-card { background: #ffffff; border-radius: 12px; padding: 1.5rem 1rem; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: none; }
         .stat-card h2 { font-size: 2.618rem; margin: 0; background: linear-gradient(90deg, #3b82f6, #8b5cf6, #d946ef, #fb923c); background-attachment: fixed; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
         .stat-card p { margin: 0.5rem 0 0; color: #afafb2; font-size: 0.8125rem; }
-        /* Section headings: to match hero style */
-        .section-title { font-family: 'Inter', system-ui, sans-serif; font-size: 2rem; font-weight: 600; Letter-spacing: -0.03em; color: #1d1d1f; margin-top: 3rem; margin-bottom: 3rem; border-bottom: 2px solid var(--muted-border-color); padding-bottom: 0.5rem; }
-        .chart-section { display: flex; justify-content: center; padding: 2rem 0; }
-        .chart-wrapper { position: relative; width: 320px; height: 320px; }
-        .chart-wrapper::before { content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 280px; height: 280px; background: radial-gradient(circle, rgba(99, 102, 241, 0.1) 0%, transparent 70%); border-radius: 50%; z-index: 0; filter: blur(20px); }
-        .chart-wrapper canvas { position: relative; z-index: 1; }
-        table { margin-top: 1rem; }
-        .trending-badge { background: #10b981; color: white; font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 9999px; margin-left: 0.5rem; }
-        .stars { color: #f59e0b; font-weight: 600; }
-        /* Category badges and coloring*/
-        .category-badge { font-size: 0.75rem; padding: 0.25rem 0.5rem; border-radius: 4px; background: var(--muted-border-color); }
-        .category-badge.infrastructure { background: #dbeafe; color: #1e40af; }
-        .category-badge.core-methods { background: #dcfce7; color: #166534; }
-        .category-badge.applications { background: #fef3c7; color: #92400e; }
-        footer { margin-top: 4rem; padding: 2rem 0; text-align: center; color: var(--muted-color); border-top: 1px solid var(--muted-border-color); }
-        .last-updated { font-size: 0.8125rem; color: #c7c7cc; }
+
+        /* Section title — confident, lighter weight, generous space */
+        .section-title {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-size: 1.625rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            color: var(--ink);
+            margin: 4.5rem 0 1.5rem;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        /* Chart section — donut with depth and ambient halo */
+        .chart-section { display: flex; justify-content: center; padding: 2rem 0 3rem; }
+        .chart-wrapper {
+            position: relative;
+            width: 360px;
+            height: 400px;  /* extra room for legend below */
+        }
+        /* Soft ambient halo — multi-color glow behind donut, matches segment palette */
+        .chart-wrapper::before {
+            content: '';
+            position: absolute;
+            top: 130px; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 280px; height: 280px;
+            background:
+                radial-gradient(circle at 30% 30%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),    /* blue */
+                radial-gradient(circle at 70% 30%, rgba(22, 163, 74, 0.08) 0%, transparent 50%),    /* green */
+                radial-gradient(circle at 50% 80%, rgba(249, 115, 22, 0.08) 0%, transparent 55%);   /* orange */
+            border-radius: 50%;
+            z-index: 0;
+            filter: blur(36px);
+            pointer-events: none;
+        }
+        .chart-wrapper canvas {
+            position: relative;
+            z-index: 1;
+            filter: drop-shadow(0 8px 24px rgba(0,0,0,0.08));
+        }
+
+        /* ───────────────────────────────────────────────
+           Tables — soft elevated surface
+           ─────────────────────────────────────────────── */
+        figure {
+            margin: 0 0 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02), 0 8px 24px rgba(0,0,0,0.03);
+            overflow: hidden;
+        }
+        table[role="grid"] {
+            margin: 0;
+            font-size: 0.9375rem;
+            line-height: 1.45;
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            background: transparent;
+            font-feature-settings: "tnum" 1, "ss01" 1;
+        }
+        table[role="grid"] thead th {
+            font-size: 0.6875rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--ink-mute);
+            text-align: left;
+            padding: 1.125rem 1.25rem 1rem;
+            border-bottom: 1px solid var(--line-strong);
+            background: transparent;
+        }
+        table[role="grid"] tbody td {
+            padding: 1.05rem 1.25rem;
+            border-bottom: 1px solid var(--line);
+            vertical-align: baseline;
+            background: transparent;
+            color: var(--ink-soft);
+        }
+        table[role="grid"] tbody tr:last-child td { border-bottom: none; }
+        table[role="grid"] tbody tr { transition: background-color 120ms ease; }
+        table[role="grid"] tbody tr:hover { background: var(--surface-tint); }
+
+        /* Tool-name cell — primary content */
+        table[role="grid"] tbody td:first-child {
+            font-weight: 500;
+            color: var(--ink);
+            letter-spacing: -0.005em;
+        }
+        table[role="grid"] tbody td:first-child a {
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 120ms ease;
+        }
+        table[role="grid"] tbody td:first-child a:hover {
+            border-bottom-color: var(--ink);
+        }
+
+        /* Trending — small mark, no pill */
+        .trending-badge {
+            display: inline-block;
+            margin-left: 0.45rem;
+            padding: 0;
+            background: none;
+            color: var(--accent);
+            font-size: 0.65rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            border-radius: 0;
+            vertical-align: 0.08em;
+        }
+        .trending-badge::before {
+            content: "↗ ";
+            color: var(--accent);
+            font-weight: 400;
+        }
+
+        /* Stars — black tabular with subtle glyph */
+        .stars {
+            color: var(--ink);
+            font-weight: 500;
+            font-variant-numeric: tabular-nums;
+        }
+        .stars::after {
+            content: " ★";
+            color: var(--ink-faint);
+            font-size: 0.8em;
+            font-weight: 400;
+        }
+
+        /* Category — dot + small-caps (matches /tools page) */
+        .category-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.6875rem;
+            font-weight: 500;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ink-mute);
+            padding: 0;
+            background: none;
+            border: none;
+            border-radius: 0;
+            white-space: nowrap;
+        }
+        .category-badge::before {
+            content: "";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--ink-faint);
+        }
+        .category-badge.infrastructure::before { background: #2563eb; }
+        .category-badge.core-methods::before   { background: #16a34a; }
+        .category-badge.applications::before   { background: #f97316; }
+
+        /* License & age — supporting metadata */
+        #top-table th:nth-child(4), #top-table td:nth-child(4) {
+            font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+            font-size: 0.8125rem;
+            color: var(--ink-mute);
+        }
+        #top-table th:nth-child(5), #top-table td:nth-child(5) {
+            color: var(--ink-mute);
+            font-size: 0.8125rem;
+            white-space: nowrap;
+            font-variant-numeric: tabular-nums;
+        }
+        #top-table th:nth-child(3), #top-table td:nth-child(3) {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+
+        /* Trending table 7-day velocity */
+        #trending-table th:nth-child(3), #trending-table td:nth-child(3) {
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+            color: var(--ink);
+            font-weight: 500;
+        }
+
+        /* Nav — calm it down */
+        nav.container { padding: 1.25rem 0; }
+        nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.9375rem; }
+        nav a:hover { color: var(--ink); text-decoration: none; }
+        nav strong { color: var(--ink); letter-spacing: -0.01em; }
+
+        /* Footer */
+        footer {
+            margin-top: 5rem;
+            padding: 2.5rem 0;
+            text-align: center;
+            color: var(--ink-mute);
+            border-top: 1px solid var(--line);
+            font-size: 0.8125rem;
+            font-weight: 300;
+        }
+        footer strong { color: var(--ink); font-weight: 500; }
+        footer a { color: var(--ink-soft); border-bottom: 1px solid var(--line-strong); }
+        footer a:hover { color: var(--ink); border-bottom-color: var(--ink); }
+
+        /* Global link reset */
         a { text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        a:hover { text-decoration: none; }
     </style>
 </head>
 <body>

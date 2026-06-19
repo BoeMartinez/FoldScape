@@ -3,12 +3,12 @@
  * Loads repos.json and renders the dashboard
  */
 
-// Category colors for chart
+// Category colors — semantic / "what kids would pick"
 const CATEGORY_COLORS = {
-    'Infrastructure': '#3b82f6',
-    'Core Methods': '#22c55e',
-    'Applications': '#f59e0b',
-    'Uncategorized': '#94a3b8'
+    'Infrastructure': '#2563eb',   // blueprint blue — pipes, structure, foundations
+    'Core Methods':   '#16a34a',   // engine green — core, alive, running
+    'Applications':   '#f97316',   // product orange — user-facing, polished output
+    'Uncategorized':  '#94a3b8'    // neutral slate — the misc folder
 };
 
 // Load and render data
@@ -60,8 +60,8 @@ function renderStats(repos) {
 }
 
 function renderCategoryChart(repos) {
+    // Premium donut — radial gradients that follow the arc, depth, center anchor
     const categoryCounts = {};
-
     repos.forEach(repo => {
         const category = repo.classification?.category || 'Uncategorized';
         categoryCounts[category] = (categoryCounts[category] || 0) + 1;
@@ -69,9 +69,111 @@ function renderCategoryChart(repos) {
 
     const labels = Object.keys(categoryCounts);
     const data = Object.values(categoryCounts);
+    const total = data.reduce((a, b) => a + b, 0);
     const colors = labels.map(label => CATEGORY_COLORS[label] || '#94a3b8');
 
-    const ctx = document.getElementById('category-chart').getContext('2d');
+    const canvas = document.getElementById('category-chart');
+    const ctx = canvas.getContext('2d');
+
+    function mixHex(a, b, t) {
+        const pa = parseInt(a.slice(1), 16), pb = parseInt(b.slice(1), 16);
+        const ar = (pa >> 16) & 255, ag = (pa >> 8) & 255, ab = pa & 255;
+        const br = (pb >> 16) & 255, bg = (pb >> 8) & 255, bb = pb & 255;
+        const r = Math.round(ar + (br - ar) * t);
+        const g = Math.round(ag + (bg - ag) * t);
+        const c = Math.round(ab + (bb - ab) * t);
+        return `rgb(${r}, ${g}, ${c})`;
+    }
+
+    // Shift lightness in HSL space — keeps hue and saturation intact (no muddying).
+    // delta is in [-1, 1]; negative = darker, positive = lighter.
+    function shadeHex(hex, delta) {
+        const r = parseInt(hex.slice(1, 3), 16) / 255;
+        const g = parseInt(hex.slice(3, 5), 16) / 255;
+        const b = parseInt(hex.slice(5, 7), 16) / 255;
+        const max = Math.max(r, g, b), min = Math.min(r, g, b);
+        let h = 0, s, l = (max + min) / 2;
+        if (max !== min) {
+            const d = max - min;
+            s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+            switch (max) {
+                case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+                case g: h = (b - r) / d + 2; break;
+                case b: h = (r - g) / d + 4; break;
+            }
+            h /= 6;
+        } else { s = 0; }
+        l = Math.max(0, Math.min(1, l + delta));
+        const hue2rgb = (p, q, t) => {
+            if (t < 0) t += 1;
+            if (t > 1) t -= 1;
+            if (t < 1/6) return p + (q - p) * 6 * t;
+            if (t < 1/2) return q;
+            if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+            return p;
+        };
+        let r2, g2, b2;
+        if (s === 0) { r2 = g2 = b2 = l; }
+        else {
+            const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+            const p = 2 * l - q;
+            r2 = hue2rgb(p, q, h + 1/3);
+            g2 = hue2rgb(p, q, h);
+            b2 = hue2rgb(p, q, h - 1/3);
+        }
+        return `rgb(${Math.round(r2*255)}, ${Math.round(g2*255)}, ${Math.round(b2*255)})`;
+    }
+
+    // Plugin: assign radial gradient per arc just before drawing.
+    // Gradient sweeps from darker (inner) → richer (mid) → lighter (outer),
+    // so every segment shows depth on its inner edge and shine on its outer edge.
+    const radialFills = {
+        id: 'radialFills',
+        beforeDatasetsDraw(chart) {
+            const meta = chart.getDatasetMeta(0);
+            const arcs = meta.data;
+            if (!arcs || !arcs.length) return;
+            const first = arcs[0];
+            if (!first.innerRadius || !first.outerRadius) return;
+            const cx = first.x;
+            const cy = first.y;
+            const innerR = first.innerRadius;
+            const outerR = first.outerRadius;
+            const ctx = chart.ctx;
+
+            arcs.forEach((arc, i) => {
+                const hex = colors[i] || '#94a3b8';
+                const g = ctx.createRadialGradient(cx, cy, innerR * 0.92, cx, cy, outerR * 1.04);
+                g.addColorStop(0.00, hex);                    // brand hue at inner edge — no darkening
+                g.addColorStop(1.00, shadeHex(hex, +0.10));   // gentle highlight toward outer edge
+                arc.options.backgroundColor = g;
+            });
+        }
+    };
+
+    // Center-text plugin: total count + label in donut hole
+    const centerText = {
+        id: 'centerText',
+        afterDraw(chart) {
+            const { ctx, chartArea } = chart;
+            if (!chartArea) return;
+            const meta = chart.getDatasetMeta(0);
+            const arcs = meta.data;
+            if (!arcs.length) return;
+            const cx = arcs[0].x;
+            const cy = arcs[0].y;
+            ctx.save();
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = '#0a0a0a';
+            ctx.font = '300 2.4rem "Inter", system-ui, sans-serif';
+            ctx.fillText(total, cx, cy - 8);
+            ctx.fillStyle = '#9ca3af';
+            ctx.font = '500 0.65rem "Inter", system-ui, sans-serif';
+            ctx.fillText('TOTAL TOOLS', cx, cy + 22);
+            ctx.restore();
+        }
+    };
 
     new Chart(ctx, {
         type: 'doughnut',
@@ -79,38 +181,53 @@ function renderCategoryChart(repos) {
             labels: labels,
             datasets: [{
                 data: data,
-                backgroundColor: colors,
-                borderWidth: 3,
-                borderColor: '#ffffff',
-                hoverBorderWidth: 3,
-                hoverOffset: 8
+                backgroundColor: colors, // overwritten by radialFills plugin after layout
+                borderWidth: 0,
+                hoverBorderWidth: 0,
+                hoverOffset: 14,
+                borderRadius: 8,
+                spacing: 4
             }]
         },
         options: {
             responsive: true,
             maintainAspectRatio: true,
-            cutout: '65%',
+            cutout: '68%',
             plugins: {
                 legend: {
                     position: 'bottom',
                     labels: {
-                        padding: 24,
+                        padding: 18,
                         usePointStyle: true,
                         pointStyle: 'circle',
+                        boxWidth: 8,
+                        boxHeight: 8,
                         font: {
                             family: "'Inter', sans-serif",
-                            size: 13,
+                            size: 11,
                             weight: 500
                         },
-                        color: '#86868b'
+                        color: '#52525b'
                     }
+                },
+                tooltip: {
+                    backgroundColor: 'rgba(10,10,10,0.92)',
+                    titleFont: { family: "'Inter', sans-serif", size: 12, weight: 600 },
+                    bodyFont:  { family: "'Inter', sans-serif", size: 12 },
+                    padding: 12,
+                    cornerRadius: 10,
+                    displayColors: true,
+                    boxPadding: 4
                 }
             },
             animation: {
                 animateRotate: true,
-                animateScale: true
+                animateScale: true,
+                duration: 1100,
+                easing: 'easeOutQuart'
             }
-        }
+        },
+        plugins: [radialFills, centerText]
     });
 }
 
