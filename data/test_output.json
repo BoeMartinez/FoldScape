@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14683,
-      "forks": 2629,
+      "stars": 14686,
+      "forks": 2628,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-24T13:56:20.989956",
+      "first_tracked": "2026-06-25T13:52:24.670134",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8253,
-      "forks": 1279,
-      "last_updated": "2026-06-24T10:55:59+00:00",
+      "stars": 8259,
+      "forks": 1281,
+      "last_updated": "2026-06-25T09:57:47+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Apache License 2.0",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-24T13:56:22.743361",
+      "first_tracked": "2026-06-25T13:52:26.477123",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -72,7 +72,7 @@
       "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
       "url": "https://github.com/aqlaboratory/openfold",
       "stars": 3388,
-      "forks": 686,
+      "forks": 687,
       "last_updated": "2025-12-16T09:41:53+00:00",
       "created_at": "2021-09-14T23:59:02+00:00",
       "language": "Python",
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-24T13:56:24.396830",
+      "first_tracked": "2026-06-25T13:52:28.244223",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -108,7 +108,7 @@
       "name": "alphafold3-pytorch",
       "description": "Implementation of Alphafold 3 from Google Deepmind in Pytorch",
       "url": "https://github.com/lucidrains/alphafold3-pytorch",
-      "stars": 1671,
+      "stars": 1672,
       "forks": 227,
       "last_updated": "2025-09-18T23:30:40+00:00",
       "created_at": "2024-05-08T15:26:29+00:00",
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-24T13:56:26.034008",
+      "first_tracked": "2026-06-25T13:52:30.162349",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,7 +148,7 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1167,
+      "stars": 1168,
       "forks": 89,
       "last_updated": "2026-06-23T15:32:26+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-06-24T13:56:27.704343",
+      "first_tracked": "2026-06-25T13:52:31.996134",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
