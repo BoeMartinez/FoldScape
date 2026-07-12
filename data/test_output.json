@@ -6,7 +6,7 @@
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
       "stars": 14717,
-      "forks": 2643,
+      "forks": 2644,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-11T08:00:57.268721",
+      "first_tracked": "2026-07-12T08:22:29.186069",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,7 +38,7 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8304,
+      "stars": 8307,
       "forks": 1301,
       "last_updated": "2026-07-09T13:21:12+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-11T08:00:58.886535",
+      "first_tracked": "2026-07-12T08:22:30.811435",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-11T08:01:00.509952",
+      "first_tracked": "2026-07-12T08:22:32.598121",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -109,7 +109,7 @@
       "description": "Implementation of Alphafold 3 from Google Deepmind in Pytorch",
       "url": "https://github.com/lucidrains/alphafold3-pytorch",
       "stars": 1674,
-      "forks": 226,
+      "forks": 227,
       "last_updated": "2025-09-18T23:30:40+00:00",
       "created_at": "2024-05-08T15:26:29+00:00",
       "language": "Python",
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-11T08:01:02.131649",
+      "first_tracked": "2026-07-12T08:22:34.445879",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-11T08:01:03.759199",
+      "first_tracked": "2026-07-12T08:22:36.090338",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
