@@ -5,7 +5,7 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14739,
+      "stars": 14745,
       "forks": 2860,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-21T08:33:49.833129",
+      "first_tracked": "2026-07-22T08:33:33.950420",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8330,
-      "forks": 1308,
-      "last_updated": "2026-07-21T07:06:07+00:00",
+      "stars": 8333,
+      "forks": 1307,
+      "last_updated": "2026-07-21T17:16:09+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Apache License 2.0",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-21T08:33:51.443601",
+      "first_tracked": "2026-07-22T08:33:35.598464",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -71,8 +71,8 @@
       "name": "openfold",
       "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
       "url": "https://github.com/aqlaboratory/openfold",
-      "stars": 3398,
-      "forks": 683,
+      "stars": 3399,
+      "forks": 684,
       "last_updated": "2025-12-16T09:41:53+00:00",
       "created_at": "2021-09-14T23:59:02+00:00",
       "language": "Python",
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-21T08:33:53.027105",
+      "first_tracked": "2026-07-22T08:33:37.218407",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-21T08:33:54.619516",
+      "first_tracked": "2026-07-22T08:33:38.829784",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,9 +148,9 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1178,
+      "stars": 1179,
       "forks": 91,
-      "last_updated": "2026-07-20T18:49:15+00:00",
+      "last_updated": "2026-07-22T02:52:29+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-21T08:33:56.195906",
+      "first_tracked": "2026-07-22T08:33:40.481643",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
