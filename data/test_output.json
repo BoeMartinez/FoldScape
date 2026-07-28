@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14758,
-      "forks": 2862,
+      "stars": 14760,
+      "forks": 2863,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-27T09:56:56.238592",
+      "first_tracked": "2026-07-28T08:39:01.192734",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8346,
+      "stars": 8351,
       "forks": 1310,
-      "last_updated": "2026-07-23T16:34:09+00:00",
+      "last_updated": "2026-07-27T12:57:31+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Apache License 2.0",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-27T09:56:58.057960",
+      "first_tracked": "2026-07-28T08:39:02.881847",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-27T09:56:59.645105",
+      "first_tracked": "2026-07-28T08:39:04.578804",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-27T09:57:01.257301",
+      "first_tracked": "2026-07-28T08:39:06.245550",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,9 +148,9 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1179,
+      "stars": 1180,
       "forks": 91,
-      "last_updated": "2026-07-23T18:04:41+00:00",
+      "last_updated": "2026-07-27T18:11:00+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-07-27T09:57:03.020066",
+      "first_tracked": "2026-07-28T08:39:07.944993",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
