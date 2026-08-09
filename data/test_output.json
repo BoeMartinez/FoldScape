@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14782,
-      "forks": 2893,
+      "stars": 14783,
+      "forks": 2892,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-08T06:57:56.031851",
+      "first_tracked": "2026-08-09T07:00:43.807957",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,7 +38,7 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8429,
+      "stars": 8432,
       "forks": 1325,
       "last_updated": "2026-08-07T19:54:33+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-08T06:57:57.825495",
+      "first_tracked": "2026-08-09T07:00:45.755623",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-08T06:57:59.650118",
+      "first_tracked": "2026-08-09T07:00:47.493802",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -108,7 +108,7 @@
       "name": "alphafold3-pytorch",
       "description": "Implementation of Alphafold 3 from Google Deepmind in Pytorch",
       "url": "https://github.com/lucidrains/alphafold3-pytorch",
-      "stars": 1687,
+      "stars": 1688,
       "forks": 228,
       "last_updated": "2026-08-02T20:17:14+00:00",
       "created_at": "2024-05-08T15:26:29+00:00",
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-08T06:58:01.392442",
+      "first_tracked": "2026-08-09T07:00:49.354680",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,7 +148,7 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1183,
+      "stars": 1184,
       "forks": 92,
       "last_updated": "2026-08-08T01:49:57+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-08T06:58:03.218960",
+      "first_tracked": "2026-08-09T07:00:51.194335",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
