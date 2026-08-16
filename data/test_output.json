@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-15T06:42:18.317266",
+      "first_tracked": "2026-08-16T06:43:28.234857",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,8 +38,8 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8457,
-      "forks": 1330,
+      "stars": 8461,
+      "forks": 1331,
       "last_updated": "2026-08-14T10:33:29+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-15T06:42:19.883651",
+      "first_tracked": "2026-08-16T06:43:29.953761",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-15T06:42:21.488778",
+      "first_tracked": "2026-08-16T06:43:31.630372",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-15T06:42:23.119574",
+      "first_tracked": "2026-08-16T06:43:33.331058",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-15T06:42:24.747307",
+      "first_tracked": "2026-08-16T06:43:35.007927",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
