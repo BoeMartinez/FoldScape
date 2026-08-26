@@ -5,7 +5,7 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14807,
+      "stars": 14809,
       "forks": 2901,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-25T06:52:16.631410",
+      "first_tracked": "2026-08-26T06:53:55.683963",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,7 +38,7 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8490,
+      "stars": 8491,
       "forks": 1341,
       "last_updated": "2026-08-19T15:43:52+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-25T06:52:18.424782",
+      "first_tracked": "2026-08-26T06:53:57.301275",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-25T06:52:20.123931",
+      "first_tracked": "2026-08-26T06:53:58.891640",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-25T06:52:21.838197",
+      "first_tracked": "2026-08-26T06:54:00.497552",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,7 +148,7 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1189,
+      "stars": 1190,
       "forks": 93,
       "last_updated": "2026-08-24T17:58:51+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-08-25T06:52:23.647482",
+      "first_tracked": "2026-08-26T06:54:02.154351",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
