@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14860,
-      "forks": 2951,
+      "stars": 14862,
+      "forks": 2952,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-09-22T11:11:44.476920",
+      "first_tracked": "2026-09-23T11:02:57.685826",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,8 +38,8 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8577,
-      "forks": 1365,
+      "stars": 8579,
+      "forks": 1366,
       "last_updated": "2026-09-21T16:13:35+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
@@ -59,7 +59,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-09-22T11:11:46.133532",
+      "first_tracked": "2026-09-23T11:02:59.361708",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-09-22T11:11:47.775322",
+      "first_tracked": "2026-09-23T11:03:01.042242",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-09-22T11:11:49.369096",
+      "first_tracked": "2026-09-23T11:03:02.681527",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-09-22T11:11:51.042924",
+      "first_tracked": "2026-09-23T11:03:04.383086",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
