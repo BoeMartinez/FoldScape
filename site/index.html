@@ -272,9 +272,11 @@
            of this system asks for.
            ───────────────────────────────────────────────────────────── */
         .topbar {
-            position: sticky;
-            top: 0;
-            z-index: 100;
+            /* Not sticky. Apple's bar stays, but it earns that with
+               translucency and a backdrop blur — the effect only reads
+               when content slides under it. A bar that scrolls away has
+               nothing to blur, so it wants an opaque surface and a
+               defined edge instead, which is what this is. */
             background: linear-gradient(180deg,
                 #ffffff  0%,
                 #fcfcfb 62%,
