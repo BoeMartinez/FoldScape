@@ -263,17 +263,77 @@
         /* Global link reset */
         a { text-decoration: none; }
         a:hover { text-decoration: none; }
+
+        /* ─────────────────────────────────────────────────────────────
+           Top bar — hairline with a hint of tone
+           The landing view read as floaty because the nav had no ground
+           under it. A soft wash and a single hairline supply that ground
+           without adding an object to the page, which is what the rest
+           of this system asks for.
+           ───────────────────────────────────────────────────────────── */
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: linear-gradient(180deg,
+                #ffffff  0%,
+                #fcfcfb 62%,
+                #f7f6f4 100%);
+            border-bottom: 1px solid rgba(0,0,0,0.09);
+            box-shadow:
+                inset 0 1px 0 rgba(255,255,255,0.9),
+                0 6px 16px -14px rgba(0,0,0,0.30);
+        }
+
+        /* Lay the nav out explicitly rather than inheriting Pico's
+           cascade — the wrapper div changed which rules win, and the
+           bar must not depend on that. This reproduces the original
+           layout: wordmark left, links right, one row. */
+        .topbar nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-block: 0.15rem;
+        }
+        .topbar nav ul {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .topbar nav li { list-style: none; margin: 0; }
+        .topbar nav li::before { content: none; }
+
+        .topbar nav ul:first-child strong {
+            color: var(--ink);
+            letter-spacing: 0.005em;
+        }
+
+        .topbar nav a {
+            color: var(--ink-soft);
+            padding: 0.35rem 0.6rem;
+            border-radius: 6px;
+            transition: background 140ms ease, color 140ms ease;
+        }
+        .topbar nav a:hover {
+            color: var(--ink);
+            background: rgba(0,0,0,0.04);
+        }
     </style>
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="container">
-        <ul><li><strong>FoldScape</strong></li></ul>
-        <ul>
-            <li><a href="index.html" class="contrast">Home</a></li>
-            <li><a href="tools.html" class="secondary">Browse All</a></li>
-        </ul>
-    </nav>
+    <div class="topbar">
+        <nav class="container">
+            <ul><li><strong>FoldScape</strong></li></ul>
+            <ul>
+                <li><a href="index.html" class="contrast">Home</a></li>
+                <li><a href="tools.html" class="secondary">Browse All</a></li>
+            </ul>
+        </nav>
+    </div>
     <!-- Main Content -->
     <main class="container">
         <section class="hero">
