@@ -285,7 +285,26 @@
                 0 6px 16px -14px rgba(0,0,0,0.30);
         }
 
-        .topbar nav { padding-block: 0.15rem; }
+        /* Lay the nav out explicitly rather than inheriting Pico's
+           cascade — the wrapper div changed which rules win, and the
+           bar must not depend on that. This reproduces the original
+           layout: wordmark left, links right, one row. */
+        .topbar nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-block: 0.15rem;
+        }
+        .topbar nav ul {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .topbar nav li { list-style: none; margin: 0; }
+        .topbar nav li::before { content: none; }
 
         .topbar nav ul:first-child strong {
             color: var(--ink);
