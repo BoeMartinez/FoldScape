@@ -23,3 +23,7 @@ A curated, daily-updated landscape of computational protein design and machine l
 ## Data
 
 Tool metadata is collected from GitHub and stored in `data/repos.json`. The site auto-deploys on every push.
+
+## License
+
+Code is released under the [MIT License](LICENSE). The FoldScape name and emblem are not covered by this license. All rights reserved.
