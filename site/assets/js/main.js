@@ -60,175 +60,51 @@ function renderStats(repos) {
     document.getElementById('total-stars').textContent = formatNumber(totalStars);
 }
 
+// What each category holds, from taxonomy/categories.yaml
+const CATEGORY_NOTES = {
+    'Core Methods':   'Foundation models and algorithms',
+    'Applications':   'Domain-specific implementations',
+    'Infrastructure': 'Computation, data handling and orchestration',
+    'Uncategorized':  'Not yet placed by the classifier'
+};
+const CATEGORY_ORDER = ['Core Methods', 'Applications', 'Infrastructure', 'Uncategorized'];
+
 function renderCategoryChart(repos) {
-    // Premium donut — radial gradients that follow the arc, depth, center anchor
-    const categoryCounts = {};
+    const counts = {};
     repos.forEach(repo => {
-        const category = repo.classification?.category || 'Uncategorized';
-        categoryCounts[category] = (categoryCounts[category] || 0) + 1;
+        const c = repo.classification?.category || 'Uncategorized';
+        counts[c] = (counts[c] || 0) + 1;
     });
+    const total = repos.length;
+    // fixed order, uncategorized last, so colours never move between days
+    const cats = CATEGORY_ORDER.filter(c => counts[c])
+        .concat(Object.keys(counts).filter(c => !CATEGORY_ORDER.includes(c)));
 
-    const labels = Object.keys(categoryCounts);
-    const data = Object.values(categoryCounts);
-    const total = data.reduce((a, b) => a + b, 0);
-    const colors = labels.map(label => CATEGORY_COLORS[label] || '#94a3b8');
+    const href = c => `tools.html?category=${encodeURIComponent(c)}`;
+    const pct = n => `${Math.round(n / total * 100)}%`;
+    const colour = c => CATEGORY_COLORS[c] || '#a0a0a5';
 
-    const canvas = document.getElementById('category-chart');
-    const ctx = canvas.getContext('2d');
+    const bar = cats.map(c =>
+        `<a class="cat-seg" data-cat="${c}" href="${href(c)}" style="flex:${counts[c]};--c:${colour(c)}"
+            title="${c} · ${counts[c]} tools (${pct(counts[c])})" aria-label="${c}, ${counts[c]} tools"></a>`
+    ).join('');
+    const grid = cats.map(c => `
+        <a class="cat-item" data-cat="${c}" href="${href(c)}" style="--c:${colour(c)}">
+            <span class="cat-name"><i></i>${c}</span>
+            <span class="cat-figs"><span class="cat-count">${counts[c]}</span><span class="cat-pct">${pct(counts[c])}</span></span>
+            <span class="cat-desc">${CATEGORY_NOTES[c] || ''}</span>
+            <span class="cat-go">Browse &rarr;</span>
+        </a>`).join('');
 
-    function mixHex(a, b, t) {
-        const pa = parseInt(a.slice(1), 16), pb = parseInt(b.slice(1), 16);
-        const ar = (pa >> 16) & 255, ag = (pa >> 8) & 255, ab = pa & 255;
-        const br = (pb >> 16) & 255, bg = (pb >> 8) & 255, bb = pb & 255;
-        const r = Math.round(ar + (br - ar) * t);
-        const g = Math.round(ag + (bg - ag) * t);
-        const c = Math.round(ab + (bb - ab) * t);
-        return `rgb(${r}, ${g}, ${c})`;
-    }
+    const root = document.getElementById('categories');
+    root.innerHTML = `<div class="cat-bar" role="img" aria-label="${cats.map(c => `${c} ${counts[c]}`).join(', ')}">${bar}</div>
+                      <div class="cat-grid">${grid}</div>`;
 
-    // Shift lightness in HSL space — keeps hue and saturation intact (no muddying).
-    // delta is in [-1, 1]; negative = darker, positive = lighter.
-    function shadeHex(hex, delta) {
-        const r = parseInt(hex.slice(1, 3), 16) / 255;
-        const g = parseInt(hex.slice(3, 5), 16) / 255;
-        const b = parseInt(hex.slice(5, 7), 16) / 255;
-        const max = Math.max(r, g, b), min = Math.min(r, g, b);
-        let h = 0, s, l = (max + min) / 2;
-        if (max !== min) {
-            const d = max - min;
-            s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-            switch (max) {
-                case r: h = (g - b) / d + (g < b ? 6 : 0); break;
-                case g: h = (b - r) / d + 2; break;
-                case b: h = (r - g) / d + 4; break;
-            }
-            h /= 6;
-        } else { s = 0; }
-        l = Math.max(0, Math.min(1, l + delta));
-        const hue2rgb = (p, q, t) => {
-            if (t < 0) t += 1;
-            if (t > 1) t -= 1;
-            if (t < 1/6) return p + (q - p) * 6 * t;
-            if (t < 1/2) return q;
-            if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
-            return p;
-        };
-        let r2, g2, b2;
-        if (s === 0) { r2 = g2 = b2 = l; }
-        else {
-            const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
-            const p = 2 * l - q;
-            r2 = hue2rgb(p, q, h + 1/3);
-            g2 = hue2rgb(p, q, h);
-            b2 = hue2rgb(p, q, h - 1/3);
-        }
-        return `rgb(${Math.round(r2*255)}, ${Math.round(g2*255)}, ${Math.round(b2*255)})`;
-    }
-
-    // Plugin: assign radial gradient per arc just before drawing.
-    // Gradient sweeps from darker (inner) → richer (mid) → lighter (outer),
-    // so every segment shows depth on its inner edge and shine on its outer edge.
-    const radialFills = {
-        id: 'radialFills',
-        beforeDatasetsDraw(chart) {
-            const meta = chart.getDatasetMeta(0);
-            const arcs = meta.data;
-            if (!arcs || !arcs.length) return;
-            const first = arcs[0];
-            if (!first.innerRadius || !first.outerRadius) return;
-            const cx = first.x;
-            const cy = first.y;
-            const innerR = first.innerRadius;
-            const outerR = first.outerRadius;
-            const ctx = chart.ctx;
-
-            arcs.forEach((arc, i) => {
-                const hex = colors[i] || '#94a3b8';
-                const g = ctx.createRadialGradient(cx, cy, innerR * 0.92, cx, cy, outerR * 1.04);
-                g.addColorStop(0.00, hex);                    // brand hue at inner edge — no darkening
-                g.addColorStop(1.00, shadeHex(hex, +0.10));   // gentle highlight toward outer edge
-                arc.options.backgroundColor = g;
-            });
-        }
-    };
-
-    // Center-text plugin: total count + label in donut hole
-    const centerText = {
-        id: 'centerText',
-        afterDraw(chart) {
-            const { ctx, chartArea } = chart;
-            if (!chartArea) return;
-            const meta = chart.getDatasetMeta(0);
-            const arcs = meta.data;
-            if (!arcs.length) return;
-            const cx = arcs[0].x;
-            const cy = arcs[0].y;
-            ctx.save();
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-            ctx.fillStyle = '#0a0a0a';
-            ctx.font = '300 2.4rem "Inter", system-ui, sans-serif';
-            ctx.fillText(total, cx, cy - 8);
-            ctx.fillStyle = '#9ca3af';
-            ctx.font = '500 0.65rem "Inter", system-ui, sans-serif';
-            ctx.fillText('TOTAL TOOLS', cx, cy + 22);
-            ctx.restore();
-        }
-    };
-
-    new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-            labels: labels,
-            datasets: [{
-                data: data,
-                backgroundColor: colors, // overwritten by radialFills plugin after layout
-                borderWidth: 0,
-                hoverBorderWidth: 0,
-                hoverOffset: 14,
-                borderRadius: 8,
-                spacing: 4
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: true,
-            cutout: '68%',
-            plugins: {
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        padding: 18,
-                        usePointStyle: true,
-                        pointStyle: 'circle',
-                        boxWidth: 8,
-                        boxHeight: 8,
-                        font: {
-                            family: "'Inter', sans-serif",
-                            size: 11,
-                            weight: 500
-                        },
-                        color: '#52525b'
-                    }
-                },
-                tooltip: {
-                    backgroundColor: 'rgba(10,10,10,0.92)',
-                    titleFont: { family: "'Inter', sans-serif", size: 12, weight: 600 },
-                    bodyFont:  { family: "'Inter', sans-serif", size: 12 },
-                    padding: 12,
-                    cornerRadius: 10,
-                    displayColors: true,
-                    boxPadding: 4
-                }
-            },
-            animation: {
-                animateRotate: true,
-                animateScale: true,
-                duration: 1100,
-                easing: 'easeOutQuart'
-            }
-        },
-        plugins: [radialFills, centerText]
+    // hovering a cell lights its slice of the bar
+    root.querySelectorAll('.cat-item').forEach(item => {
+        const seg = root.querySelector(`.cat-seg[data-cat="${item.dataset.cat}"]`);
+        item.addEventListener('mouseenter', () => { root.classList.add('focus'); seg.classList.add('on'); });
+        item.addEventListener('mouseleave', () => { root.classList.remove('focus'); seg.classList.remove('on'); });
     });
 }
 

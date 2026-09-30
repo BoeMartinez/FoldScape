@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         /* ─────────────────────────────────────────────────────────────
            FoldScape — Apple-direction system (sandbox)
@@ -89,33 +88,49 @@
             padding-bottom: 0;
         }
 
-        /* Chart section — donut with depth and ambient halo */
-        .chart-section { display: flex; justify-content: center; padding: 2rem 0 3rem; }
-        .chart-wrapper {
-            position: relative;
-            width: 360px;
-            height: 400px;  /* extra room for legend below */
+        /* Categories — one proportional bar and a labelled row beneath it.
+           Part-to-whole reads straighter as a bar than a ring, and the row
+           carries the numbers the donut hid behind hover. Flat fills, 2px
+           surface gaps, the stat row's hairlines; each cell opens Browse All
+           filtered to that category. */
+        .categories { margin: 1.75rem 0 4.5rem; }
+        .cat-bar {
+            display: flex; gap: 2px; height: 12px;
+            border-radius: 6px; overflow: hidden; margin-bottom: 1.75rem;
         }
-        /* Soft ambient halo — multi-color glow behind donut, matches segment palette */
-        .chart-wrapper::before {
-            content: '';
-            position: absolute;
-            top: 130px; left: 50%;
-            transform: translate(-50%, -50%);
-            width: 280px; height: 280px;
-            background:
-                radial-gradient(circle at 30% 30%, rgba(37, 99, 235, 0.08) 0%, transparent 50%),    /* blue */
-                radial-gradient(circle at 70% 30%, rgba(22, 163, 74, 0.08) 0%, transparent 50%),    /* green */
-                radial-gradient(circle at 50% 80%, rgba(249, 115, 22, 0.08) 0%, transparent 55%);   /* orange */
-            border-radius: 50%;
-            z-index: 0;
-            filter: blur(36px);
-            pointer-events: none;
+        .cat-seg { display: block; background: var(--c); min-width: 6px;
+                   transition: opacity 160ms ease; }
+        .cat-bar:hover .cat-seg, .categories.focus .cat-seg { opacity: 0.35; }
+        .cat-bar .cat-seg:hover, .categories.focus .cat-seg.on { opacity: 1; }
+        .cat-grid {
+            display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+            border-top: 1px solid var(--line-strong); border-bottom: 1px solid var(--line-strong);
         }
-        .chart-wrapper canvas {
-            position: relative;
-            z-index: 1;
-            filter: drop-shadow(0 8px 24px rgba(0,0,0,0.08));
+        .cat-item {
+            display: flex; flex-direction: column; padding: 1.25rem 1.1rem 1.2rem; text-decoration: none; color: inherit;
+            transition: background 160ms ease;
+        }
+        .cat-item + .cat-item { border-left: 1px solid var(--line); }
+        .cat-item:hover { background: var(--surface-tint); text-decoration: none; }
+        .cat-name {
+            display: flex; align-items: center; gap: 0.5rem;
+            font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.12em;
+            text-transform: uppercase; color: var(--ink-mute);
+        }
+        .cat-name i { width: 8px; height: 8px; border-radius: 50%; background: var(--c); flex: none; }
+        .cat-figs { display: flex; align-items: baseline; gap: 0.5rem; margin: 0.55rem 0 0.35rem; }
+        .cat-count { font-family: 'Inter', system-ui, sans-serif; font-size: 2rem; font-weight: 600;
+                     letter-spacing: -0.03em; color: var(--ink); line-height: 1;
+                     font-variant-numeric: tabular-nums; }
+        .cat-pct { font-size: 0.8125rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+        .cat-desc { display: block; font-size: 0.8125rem; font-weight: 300; color: var(--ink-mute); line-height: 1.4; min-height: 2.3em; }
+        .cat-go { align-self: flex-start; margin-top: auto; padding-top: 0.75rem; font-size: 0.75rem; color: var(--ink-faint);
+                  transition: color 160ms ease, transform 160ms ease; }
+        .cat-item:hover .cat-go { color: #0a9aa6; transform: translateX(2px); }
+        @media (max-width: 760px) {
+            .cat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .cat-item:nth-child(3) { border-left: none; }
+            .cat-item:nth-child(n+3) { border-top: 1px solid var(--line); }
         }
 
         /* ───────────────────────────────────────────────
@@ -497,7 +512,7 @@
         </section>
         <!-- Category Chart -->
         <h2 class="section-title">Tools by Category</h2>
-        <section class="chart-section"><div class="chart-wrapper"><canvas id="category-chart"></canvas></div></section>
+        <section class="categories" id="categories"></section>
         <h2 class="section-title">Top Tools by Stars</h2>
         <figure>
             <!-- Top Tools Table -->

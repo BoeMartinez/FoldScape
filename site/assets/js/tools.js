@@ -11,6 +11,10 @@ function init() {
     if (window.REPOS_DATA && window.REPOS_DATA.length > 0) {
         allRepos = window.REPOS_DATA;
         populateLanguageFilter();
+        // arriving from a home-page category: start filtered to it
+        const wanted = new URLSearchParams(location.search).get('category');
+        const select = document.getElementById('category-filter');
+        if (wanted && [...select.options].some(o => o.value === wanted)) select.value = wanted;
         applyFilters();
         setupEventListeners();
     } else {
