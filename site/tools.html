@@ -305,6 +305,103 @@
         .tool-cell { display: inline-flex; align-items: center; min-width: 10rem; }
         .tool-cell .owner-logo { flex: none; }
         .tool-cell a { overflow-wrap: break-word; }
+
+        /* ─────────────────────────────────────────────────────────────
+           Harmony — the top bar's material, carried to every surface.
+           One recipe: a barely-there white-to-warm wash, a single
+           hairline edge, a lit top edge, and a shadow you feel more
+           than see. Surfaces that already exist get it; nothing new is
+           added to the page. The footer is the
+           header's counterpart, not its copy.
+           ───────────────────────────────────────────────────────────── */
+        :root {
+            --wash:      linear-gradient(180deg, #ffffff 0%, #fcfcfb 62%, #f7f6f4 100%);
+            --wash-up:   linear-gradient(0deg,   #ffffff 0%, #fcfcfb 62%, #f7f6f4 100%);
+            --hairline:  rgba(0,0,0,0.09);
+            --lift:      inset 0 1px 0 rgba(255,255,255,0.9), 0 6px 16px -14px rgba(0,0,0,0.30);
+            --focus:     0 0 0 3px rgba(10,154,166,0.16);
+        }
+
+        /* Controls */
+        .filters input[type="search"],
+        .filters select {
+            background: var(--wash);
+            border: 1px solid var(--hairline);
+            box-shadow: var(--lift);
+        }
+        .filters input[type="search"]:focus,
+        .filters select:focus {
+            border-color: #0a9aa6;
+            box-shadow: var(--focus), var(--lift);
+        }
+
+        /* Tables: the existing surface, in the bar's material */
+        figure {
+            background: #ffffff;
+            border: 1px solid var(--hairline);
+            border-radius: 14px;
+            box-shadow: var(--lift);
+            overflow-x: auto;
+        }
+        table[role="grid"] thead th,
+        table[role="grid"] thead th:nth-child(n) {
+            background: var(--wash);
+            border-bottom: 1px solid var(--hairline);
+            /* one voice for every column head, same as the stat labels */
+            font-family: inherit; font-size: 0.6875rem; font-weight: 500;
+            letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-mute);
+        }
+        table[role="grid"] tbody td { vertical-align: middle; }
+
+        /* Footer — reads as the end of the page, not a second header.
+           The header is lit and raised; the footer is the opposite: a flat,
+           slightly deeper tone the page settles onto, no lift, no shine.
+           Small muted type, left-aligned in two columns like a colophon,
+           with the fine print below its own hairline. */
+        .footbar {
+            margin-top: 5rem;
+            background: #f4f2ee;
+            border-top: 1px solid var(--hairline);
+            box-shadow: inset 0 1px 3px rgba(30,20,10,0.04);
+        }
+        .footbar footer {
+            margin: 0 auto; padding: 2rem 0 1.5rem; border: none; background: none;
+            max-width: 1080px;
+            text-align: left; color: var(--ink-mute); font-size: 0.75rem; font-weight: 400;
+        }
+        .footbar .foot-row {
+            display: flex; justify-content: space-between; align-items: baseline;
+            gap: 1.5rem; flex-wrap: wrap;
+        }
+        .footbar .foot-row p { margin: 0; }
+        .footbar footer strong { color: var(--ink-soft); font-weight: 600; }
+        .footbar .fine {
+            margin-top: 1.25rem; padding-top: 1rem;
+            border-top: 1px solid var(--line); color: var(--ink-faint); font-size: 0.6875rem;
+        }
+
+        /* Warmth — below conscious notice. Every neutral leans a few
+           degrees toward paper: surfaces a hair off white, greys with a
+           trace of umber, hairlines and shadows tinted brown instead of
+           black. Nothing reads as "beige"; the page just feels lit by
+           daylight rather than a monitor. */
+        :root {
+            --ink-soft:   #2a2a29;
+            --ink-mute:   #6f6d6d;
+            --ink-faint:  #a1a0a0;
+            --line:       rgba(30,20,8,0.06);
+            --line-strong:rgba(30,20,8,0.12);
+            --surface:    #fffefd;
+            --surface-tint: #faf9f6;
+            --wash:      linear-gradient(180deg, #fffffe 0%, #fcfbf8 62%, #f7f5f1 100%);
+            --wash-up:   linear-gradient(0deg,   #fffffe 0%, #fcfbf8 62%, #f7f5f1 100%);
+            --hairline:  rgba(30,20,8,0.095);
+            --lift:      inset 0 1px 0 rgba(255,254,252,0.9), 0 6px 16px -14px rgba(30,20,10,0.31);
+        }
+        body { background: #fbfaf8; }
+        html { background: #f4f2ee; }  /* past the footer, the footer tone continues */
+        .topbar { background: var(--wash); border-bottom-color: var(--hairline); box-shadow: var(--lift); }
+        figure { background: var(--surface); }
     </style>
 </head>
 <body>
@@ -362,11 +459,15 @@
         </figure>
     </main>
 
-    <footer class="container">
-        <p><strong>FoldScape</strong> &mdash; tracking the protein ML ecosystem<br>
-        <small>Data from GitHub and Hugging Face. Updated daily.</small><br>
-        <small style="color: var(--ink-faint)">&copy; 2026 Boe Martinez &middot; FoldScape&trade;</small></p>
-    </footer>
+    <div class="footbar">
+        <footer class="container">
+            <div class="foot-row">
+                <p><strong>FoldScape</strong> &mdash; tracking the protein ML ecosystem</p>
+                <p>Data from GitHub and Hugging Face &middot; Updated daily</p>
+            </div>
+            <p class="fine">&copy; 2026 Boe Martinez &middot; FoldScape&trade;</p>
+        </footer>
+    </div>
 
     <script>
         // Data will be embedded here by build script
