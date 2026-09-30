@@ -124,7 +124,7 @@ function renderTable() {
         const stars = repo.metadata?.stars || 0;
         const category = repo.classification?.category || 'Uncategorized';
         const categoryClass = category.toLowerCase().replace(' ', '-');
-        const language = repo.metadata?.language || '-';
+        const language = (repo.metadata?.language || '-').replace(/^Jupyter Notebook$/, 'Jupyter');
         const updated = formatDate(repo.metadata?.last_updated);
 
         return `

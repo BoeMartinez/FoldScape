@@ -34,23 +34,24 @@
         nav strong { color: var(--ink); letter-spacing: -0.01em; }
 
         /* Page header — confident but lighter */
-        .page-header {
-            margin: 2rem 0 2.5rem;
-        }
+        /* Page title — the same title as the home page: same face, weight,
+           size, tracking and centring, so both pages open the same way.
+           (It asked for Inter 500, which isn't loaded, so it fell back to 300.) */
+        .page-header { text-align: center; padding: 3.5rem 0 2.5rem; margin: 0; }
         .page-header h1 {
             font-family: 'Inter', system-ui, sans-serif;
-            font-size: 2.25rem;
-            font-weight: 500;
-            letter-spacing: -0.025em;
-            margin-bottom: 0.4rem;
+            font-size: 3rem;
+            font-weight: 600;
+            letter-spacing: -0.035em;
+            margin-bottom: 0.5rem;
             color: var(--ink);
         }
         .page-header p {
             color: var(--ink-mute);
-            font-size: 1rem;
+            font-size: 1.0625rem;
             font-weight: 300;
-            margin: 0;
-            max-width: 560px;
+            max-width: 540px;
+            margin: 0 auto 0.5rem;
         }
 
         /* Filters row — clean inputs, hairline borders, no fill, focus on intent */
@@ -222,11 +223,14 @@
         .repo-name a:hover { color: #0a0a0a; border-bottom-color: #0a0a0a; }
         /* --- end premium-minimal table --- */
         footer { margin-top: 3rem; padding: 1.5rem 0; text-align: center; color: var(--muted-color); border-top: 1px solid var(--muted-border-color); font-size: 0.85rem; }
+        /* Sortable heads: the arrow rides on the same line as the word,
+           in the head's own grey — present, never louder than the label. */
+        table[role="grid"] thead th { white-space: nowrap; }
         .sort-btn { cursor: pointer; user-select: none; }
-        .sort-btn:hover { color: var(--primary); }
-        .sort-btn::after { content: ' ↕'; opacity: 0.3; }
-        .sort-btn.asc::after { content: ' ↑'; opacity: 1; }
-        .sort-btn.desc::after { content: ' ↓'; opacity: 1; }
+        .sort-btn:hover { color: var(--ink); }
+        .sort-btn::after { content: '↕'; margin-left: 0.4em; opacity: 0.35; }
+        .sort-btn.asc::after { content: '↑'; opacity: 0.85; }
+        .sort-btn.desc::after { content: '↓'; opacity: 0.85; }
 
         /* ─────────────────────────────────────────────────────────────
            Top bar — hairline with a hint of tone
@@ -407,6 +411,50 @@
         html { background: #f4f2ee; }  /* past the footer, the footer tone continues */
         .topbar { background: var(--wash); border-bottom-color: var(--hairline); box-shadow: var(--lift); }
         figure { background: var(--surface); }
+
+        /* Fit — the table always fits its column, never scrolls sideways.
+           Fixed layout with set widths: Description takes whatever is left and
+           truncates with an ellipsis; everything else holds a width sized to
+           its longest label. On narrower screens the least essential columns
+           step out rather than squeezing the rest. */
+        #tools-table { table-layout: fixed; width: 100%; }
+        #tools-table th:nth-child(1) { width: 22%; }
+        #tools-table th:nth-child(3) { width: 6.5rem; }
+        #tools-table th:nth-child(4) { width: 10rem; }
+        #tools-table th:nth-child(5) { width: 6.5rem; }
+        #tools-table th:nth-child(6) { width: 6.75rem; }
+        #tools-table td { overflow: hidden; }
+        #tools-table .repo-desc { max-width: 100%; }
+        #tools-table td:nth-child(5) { overflow: hidden; text-overflow: ellipsis; }
+        figure { overflow-x: visible; }
+        @media (max-width: 1140px) {
+            .container { padding-inline: 1.25rem; }
+        }
+        /* Below desktop the table keeps every column and swipes sideways
+           inside its card; the tool name stays pinned on the left so you
+           always know which row you're reading. The page itself never
+           scrolls sideways. */
+        @media (max-width: 900px) {
+            figure { overflow-x: auto; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+            #tools-table { table-layout: auto; min-width: 860px; }
+            #tools-table th:nth-child(1), #tools-table td:nth-child(1) {
+                position: sticky; left: 0; z-index: 1; width: 12rem;
+                background: var(--surface);
+                box-shadow: 1px 0 0 var(--line);
+            }
+            #tools-table thead th:nth-child(1) { background: #fcfbf8; z-index: 2; }
+            #tools-table .repo-desc { max-width: 220px; }
+        }
+        @media (max-width: 760px) {
+            .filters { grid-template-columns: 1fr 1fr; }
+            .filters input[type="search"] { grid-column: 1 / -1; }
+            .filters select { min-width: 0; width: 100%; }
+            .page-header h1 { font-size: 2.25rem; }
+        }
+        @media (max-width: 520px) {
+            .container { padding-inline: 1rem; }
+            .topbar nav a { padding: 0.35rem 0.4rem; }
+        }
     </style>
 </head>
 <body>
@@ -446,7 +494,7 @@
         </div>
 
         <figure>
-            <table role="grid">
+            <table role="grid" id="tools-table">
                 <thead>
                     <tr>
                         <th class="sort-btn" data-sort="name">Tool</th>
