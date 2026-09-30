@@ -170,7 +170,7 @@
         .repo-desc {
             color: #666;
             font-size: 0.8125rem;
-            max-width: 280px;
+            max-width: 220px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -201,9 +201,9 @@
             border-radius: 50%;
             background: #999;
         }
-        .category-badge.infrastructure::before { background: #2563eb; }   /* blueprint blue */
-        .category-badge.core-methods::before   { background: #16a34a; }   /* engine green */
-        .category-badge.applications::before   { background: #f97316; }   /* product orange */
+        .category-badge.infrastructure::before { background: #34508f; }   /* deep navy */
+        .category-badge.core-methods::before   { background: #0a9aa6; }   /* brand teal */
+        .category-badge.applications::before   { background: #b07a2e; }   /* brand gold */
 
         .lang-badge {
             font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
@@ -287,12 +287,30 @@
             color: var(--ink);
             background: rgba(0,0,0,0.04);
         }
+
+        .topbar nav a.brand {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            padding: 0.35rem 0.2rem; background: none;
+        }
+        .topbar nav a.brand:hover { background: none; }
+        .topbar nav a.brand img { display: block; }
+
+        /* Owner logos: quiet at rest, full colour when the row is in focus */
+        .owner-logo {
+            width: 20px; height: 20px; border-radius: 5px; vertical-align: -4px;
+            margin-right: 0.6rem; filter: grayscale(1); opacity: 0.55;
+            transition: filter 160ms ease, opacity 160ms ease;
+        }
+        tr:hover .owner-logo { filter: none; opacity: 1; }
+        .tool-cell { display: inline-flex; align-items: center; min-width: 10rem; }
+        .tool-cell .owner-logo { flex: none; }
+        .tool-cell a { overflow-wrap: break-word; }
     </style>
 </head>
 <body>
     <div class="topbar">
         <nav class="container">
-            <ul><li><strong>FoldScape</strong></li></ul>
+            <ul><li><a href="index.html" class="brand"><img src="assets/brand/mark.png" alt="" width="30" height="21"><strong>FoldScape</strong></a></li></ul>
             <ul>
                 <li><a href="index.html" class="secondary">Home</a></li>
                 <li><a href="tools.html" class="contrast">Browse All</a></li>

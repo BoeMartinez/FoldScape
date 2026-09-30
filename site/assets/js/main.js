@@ -5,10 +5,11 @@
 
 // Category colors — semantic / "what kids would pick"
 const CATEGORY_COLORS = {
-    'Infrastructure': '#2563eb',   // blueprint blue — pipes, structure, foundations
-    'Core Methods':   '#16a34a',   // engine green — core, alive, running
-    'Applications':   '#f97316',   // product orange — user-facing, polished output
-    'Uncategorized':  '#94a3b8'    // neutral slate — the misc folder
+    'Infrastructure': '#34508f',   // deep navy — pipes, structure, foundations
+    'Core Methods':   '#0a9aa6',   // brand teal — the core of the landscape
+    'Applications':   '#b07a2e',   // brand gold — user-facing output
+    'Uncategorized':  '#a0a0a5'    // neutral — the misc folder
+    // teal/gold/navy checked for colour-blind separation (dataviz validator, all pairs)
 };
 
 // Load and render data
@@ -252,7 +253,7 @@ function renderTopRepos(repos) {
         return `
             <tr>
                 <td>
-                    <a href="${url}" target="_blank">${name}</a>
+                    <span class="tool-cell"><img class="owner-logo" src="https://github.com/${(repo.repo_id || '').split('/')[0]}.png?size=40" alt="" loading="lazy"><a href="${url}" target="_blank">${String(name).replace(/([_-])/g, '$1<wbr>')}</a></span>
                     ${trending ? '<span class="trending-badge">TRENDING</span>' : ''}
                 </td>
                 <td><span class="category-badge ${categoryClass}">${category}</span></td>
@@ -286,7 +287,7 @@ function renderTrendingRepos(repos) {
 
         return `
             <tr>
-                <td><a href="${url}" target="_blank">${name}</a></td>
+                <td><span class="tool-cell"><img class="owner-logo" src="https://github.com/${(repo.repo_id || '').split('/')[0]}.png?size=40" alt="" loading="lazy"><a href="${url}" target="_blank">${String(name).replace(/([_-])/g, '$1<wbr>')}</a></span></td>
                 <td><span class="category-badge ${categoryClass}">${category}</span></td>
                 <td class="stars">+${velocity} stars</td>
             </tr>

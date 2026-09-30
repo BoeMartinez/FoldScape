@@ -51,11 +51,31 @@
         .hero p { color: var(--ink-mute); font-size: 1.0625rem; font-weight: 300; max-width: 540px; margin: 0 auto 0.5rem; }
         .last-updated { font-size: 0.75rem; color: var(--ink-faint); letter-spacing: 0.01em; }
 
-        /* Stats Cards — original gradient cards preserved per user preference */
-        .stats-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 3rem auto 4rem; max-width: 800px; }
-        .stat-card { background: #ffffff; border-radius: 12px; padding: 1.5rem 1rem; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border: none; }
-        .stat-card h2 { font-size: 2.618rem; margin: 0; background: linear-gradient(90deg, #3b82f6, #8b5cf6, #d946ef, #fb923c); background-attachment: fixed; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-        .stat-card p { margin: 0.5rem 0 0; color: #afafb2; font-size: 0.8125rem; }
+        /* Stats — one gradient sweep across all three numbers (his favourite detail),
+           now in the emblem's own teal. Each number shows its third of a single
+           gradient, so the eye reads one continuous band left to right.
+           Flat and hairline-divided to match the tables: no boxes, no shadows. */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+            max-width: 760px; margin: 2.5rem auto 4.5rem;
+            border-top: 1px solid var(--line-strong); border-bottom: 1px solid var(--line-strong);
+        }
+        .stat-card { background: none; box-shadow: none; border: none; border-radius: 0;
+                     margin: 0; padding: 1.9rem 1rem 1.6rem; text-align: center; }
+        .stat-card + .stat-card { border-left: 1px solid var(--line); }
+        .stat-card h2 {
+            font-size: 3.25rem; margin: 0; font-weight: 600; letter-spacing: -0.035em;
+            font-variant-numeric: tabular-nums; line-height: 1.05;
+            background: linear-gradient(90deg, #22C9C4 0%, #00A0AE 40%, #00708F 72%, #034A68 100%);
+            background-size: 300% 100%;
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
+        }
+        .stat-card:nth-child(1) h2 { background-position: 0% 0; }
+        .stat-card:nth-child(2) h2 { background-position: 50% 0; }
+        .stat-card:nth-child(3) h2 { background-position: 100% 0; }
+        .stat-card p { margin: 0.6rem 0 0; color: var(--ink-mute); font-size: 0.6875rem;
+                       letter-spacing: 0.12em; text-transform: uppercase; }
 
         /* Section title — confident, lighter weight, generous space */
         .section-title {
@@ -214,9 +234,9 @@
             border-radius: 50%;
             background: var(--ink-faint);
         }
-        .category-badge.infrastructure::before { background: #2563eb; }
-        .category-badge.core-methods::before   { background: #16a34a; }
-        .category-badge.applications::before   { background: #f97316; }
+        .category-badge.infrastructure::before { background: #34508f; }   /* deep navy */
+        .category-badge.core-methods::before   { background: #0a9aa6; }   /* brand teal */
+        .category-badge.applications::before   { background: #b07a2e; }   /* brand gold */
 
         /* License & age — supporting metadata */
         #top-table th:nth-child(4), #top-table td:nth-child(4) {
@@ -328,13 +348,31 @@
             color: var(--ink);
             background: rgba(0,0,0,0.04);
         }
+
+        .topbar nav a.brand {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            padding: 0.35rem 0.2rem; background: none;
+        }
+        .topbar nav a.brand:hover { background: none; }
+        .topbar nav a.brand img { display: block; }
+
+        /* Owner logos: quiet at rest, full colour when the row is in focus */
+        .owner-logo {
+            width: 20px; height: 20px; border-radius: 5px; vertical-align: -4px;
+            margin-right: 0.6rem; filter: grayscale(1); opacity: 0.55;
+            transition: filter 160ms ease, opacity 160ms ease;
+        }
+        tr:hover .owner-logo { filter: none; opacity: 1; }
+        .tool-cell { display: inline-flex; align-items: center; min-width: 10rem; }
+        .tool-cell .owner-logo { flex: none; }
+        .tool-cell a { overflow-wrap: break-word; }
     </style>
 </head>
 <body>
     <!-- Navigation Bar -->
     <div class="topbar">
         <nav class="container">
-            <ul><li><strong>FoldScape</strong></li></ul>
+            <ul><li><a href="index.html" class="brand"><img src="assets/brand/mark.png" alt="" width="30" height="21"><strong>FoldScape</strong></a></li></ul>
             <ul>
                 <li><a href="index.html" class="contrast">Home</a></li>
                 <li><a href="tools.html" class="secondary">Browse All</a></li>

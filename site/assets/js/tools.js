@@ -130,7 +130,7 @@ function renderTable() {
         return `
             <tr>
                 <td>
-                    <a href="${url}" target="_blank" class="repo-name">${escapeHtml(name)}</a>
+                    <span class="tool-cell"><img class="owner-logo" src="https://github.com/${(repo.repo_id || '').split('/')[0]}.png?size=40" alt="" loading="lazy"><a href="${url}" target="_blank" class="repo-name">${escapeHtml(name).replace(/([_-])/g, '$1<wbr>')}</a></span>
                 </td>
                 <td>
                     <div class="repo-desc" title="${escapeHtml(desc)}">${escapeHtml(desc)}</div>

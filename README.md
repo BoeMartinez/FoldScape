@@ -1,10 +1,17 @@
-# FoldScape
+<div align="center">
 
-A curated, daily-updated landscape of computational protein design and machine learning tools.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme-banner-dark.png">
+  <img src="assets/readme-banner.png" alt="FoldScape" width="560">
+</picture>
 
-[![FoldScape Dashboard](assets/screenshot.png?v=3)](https://boemartinez.github.io/FoldScape/)
+**A curated, daily-updated landscape of computational protein design and machine learning tools.**
 
-**[View Live Site](https://boemartinez.github.io/FoldScape/)**
+[![Live site](https://img.shields.io/badge/live%20site-boemartinez.github.io%2FFoldScape-0a9aa6)](https://boemartinez.github.io/FoldScape/) [![Daily collection](https://github.com/BoeMartinez/FoldScape/actions/workflows/daily-collect.yml/badge.svg)](https://github.com/BoeMartinez/FoldScape/actions/workflows/daily-collect.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-b07a2e)](LICENSE)
+
+[![FoldScape dashboard](assets/screenshot.png)](https://boemartinez.github.io/FoldScape/)
+
+</div>
 
 ## What's Tracked
 
@@ -15,7 +22,7 @@ A curated, daily-updated landscape of computational protein design and machine l
 
 ## Features
 
-- Browse 60+ protein ML tools
+- Browse 70 protein ML tools
 - Filter by category and language
 - Sort by stars or recent activity
 - Track trending repositories
