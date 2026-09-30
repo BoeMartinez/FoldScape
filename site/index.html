@@ -469,6 +469,11 @@
         html { background: #f4f2ee; }  /* past the footer, the footer tone continues */
         .topbar { background: var(--wash); border-bottom-color: var(--hairline); box-shadow: var(--lift); }
         figure { background: var(--surface); }
+
+        /* Hero emblem — the Concept Emblem (structured tier). Big moments get the
+           structured mark; the top bar keeps the simple Mark. */
+        .hero-emblem { display: block; width: 160px; height: auto; margin: 0 auto 1rem;
+                       filter: drop-shadow(0 14px 22px rgba(10, 60, 72, 0.16)); }
     </style>
 </head>
 <body>
@@ -485,6 +490,8 @@
     <!-- Main Content -->
     <main class="container">
         <section class="hero">
+            <img class="hero-emblem" src="assets/brand/emblem-512.webp" srcset="assets/brand/emblem-512.webp 1x, assets/brand/emblem-1024.webp 2x"
+                 width="160" height="111" alt="FoldScape emblem">
             <h1>FoldScape</h1>
             <p>Daily-updated landscape of computational protein design & ML tools</p>
             <p class="last-updated">Last updated: <span id="last-updated">Loading...</span></p>
