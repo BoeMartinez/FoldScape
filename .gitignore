@@ -43,3 +43,9 @@ test_output/
 
 # Logs
 logs/*.log
+
+# Scratch and prototypes (kept out of the public repo)
+data/test_output.json
+*.bak
+site/*prototype*
+site/sandbox*
