@@ -22,7 +22,7 @@
 
 ## Features
 
-- Browse 70 protein ML tools
+- Browse 70+ protein ML tools
 - Filter by category and language
 - Sort by stars or recent activity
 - Track trending repositories
