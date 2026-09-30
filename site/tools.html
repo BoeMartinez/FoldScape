@@ -272,9 +272,14 @@
         .topbar nav li { list-style: none; margin: 0; }
         .topbar nav li::before { content: none; }
 
+        /* The wordmark: same Inter semibold, same tight tracking as the hero,
+           the README banner and the share card — one name, one face. */
         .topbar nav ul:first-child strong {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-weight: 600;
+            font-size: 1.0625rem;
+            letter-spacing: -0.025em;
             color: var(--ink);
-            letter-spacing: 0.005em;
         }
 
         .topbar nav a {
