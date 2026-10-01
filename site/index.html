@@ -303,6 +303,16 @@ body { background: #fbfaf8; }
 figure { background: var(--surface); }
 .hero-emblem { display: block; width: 160px; height: auto; margin: 0 auto 1rem;
                        filter: drop-shadow(-9px 12px 18px rgba(10, 60, 72, 0.16)); }
+
+        /* Phone: the stat row is index-only, so its card rules live here,
+           after the base sizes they adjust. */
+        @media (max-width: 680px) {
+            /* a stat must never break mid-number */
+            .stats-grid { gap: 8px; }
+            .stat-card { padding: 1.15rem 0.5rem 1rem; border-radius: 18px; }
+            .stat-card h2 { font-size: 1.75rem; white-space: nowrap; letter-spacing: -0.04em; }
+            .stat-card p { font-size: 0.5625rem; letter-spacing: 0.06em; margin-top: 0.45rem; }
+        }
     </style>
 </head>
 <body>
