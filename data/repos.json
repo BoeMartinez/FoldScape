@@ -26,7 +26,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:27.673450",
+      "first_tracked": "2026-10-01T12:43:17.283819",
       "star_velocity_7d": 6,
       "star_velocity_30d": 0,
       "trending": false
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8598,
+      "stars": 8597,
       "forks": 1365,
-      "last_updated": "2026-09-30T15:09:25+00:00",
+      "last_updated": "2026-10-01T11:34:36+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Apache License 2.0",
@@ -59,8 +59,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:29.365926",
-      "star_velocity_7d": 15,
+      "first_tracked": "2026-10-01T12:43:19.023878",
+      "star_velocity_7d": 14,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -96,7 +96,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:31.049396",
+      "first_tracked": "2026-10-01T12:43:20.755544",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:32.754418",
+      "first_tracked": "2026-10-01T12:43:22.510016",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -148,9 +148,9 @@
       "name": "gget",
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
-      "stars": 1202,
+      "stars": 1203,
       "forks": 97,
-      "last_updated": "2026-09-30T22:46:04+00:00",
+      "last_updated": "2026-10-01T12:32:46+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -187,8 +187,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:34.464053",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-10-01T12:43:24.274199",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -238,7 +238,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:36.169801",
+      "first_tracked": "2026-10-01T12:43:26.027615",
       "star_velocity_7d": -2,
       "star_velocity_30d": 0,
       "trending": false
@@ -280,7 +280,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:37.861153",
+      "first_tracked": "2026-10-01T12:43:27.825643",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -313,7 +313,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:39.514671",
+      "first_tracked": "2026-10-01T12:43:29.495767",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -346,7 +346,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:41.169879",
+      "first_tracked": "2026-10-01T12:43:31.187814",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -379,7 +379,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:42.827961",
+      "first_tracked": "2026-10-01T12:43:32.919368",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -412,7 +412,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:44.484036",
+      "first_tracked": "2026-10-01T12:43:34.636553",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -445,7 +445,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:46.154848",
+      "first_tracked": "2026-10-01T12:43:36.358231",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -478,7 +478,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:47.807385",
+      "first_tracked": "2026-10-01T12:43:38.082004",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -519,7 +519,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:49.486152",
+      "first_tracked": "2026-10-01T12:43:39.795634",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -552,7 +552,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:51.156018",
+      "first_tracked": "2026-10-01T12:43:41.524159",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -585,7 +585,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:52.807563",
+      "first_tracked": "2026-10-01T12:43:43.177274",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -618,7 +618,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:55.495357",
+      "first_tracked": "2026-10-01T12:43:46.003588",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -651,7 +651,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:57.164390",
+      "first_tracked": "2026-10-01T12:43:47.694618",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -684,7 +684,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:18:58.810564",
+      "first_tracked": "2026-10-01T12:43:49.570423",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -722,7 +722,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:02.564845",
+      "first_tracked": "2026-10-01T12:43:53.316087",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -761,7 +761,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:04.391913",
+      "first_tracked": "2026-10-01T12:43:55.012603",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -804,7 +804,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:07.927243",
+      "first_tracked": "2026-10-01T12:43:59.774817",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -849,7 +849,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:09.621679",
+      "first_tracked": "2026-10-01T12:44:01.505514",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -895,7 +895,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:12.539832",
+      "first_tracked": "2026-10-01T12:44:04.574822",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -928,7 +928,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:14.206874",
+      "first_tracked": "2026-10-01T12:44:06.270106",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -982,7 +982,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:15.978216",
+      "first_tracked": "2026-10-01T12:44:08.015081",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1015,7 +1015,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:17.609533",
+      "first_tracked": "2026-10-01T12:44:09.708529",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1056,7 +1056,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:19.345705",
+      "first_tracked": "2026-10-01T12:44:11.449538",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1089,7 +1089,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:20.991318",
+      "first_tracked": "2026-10-01T12:44:13.137335",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1122,7 +1122,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:22.675524",
+      "first_tracked": "2026-10-01T12:44:15.889875",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1155,7 +1155,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:24.312057",
+      "first_tracked": "2026-10-01T12:44:17.645469",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1188,7 +1188,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:25.989909",
+      "first_tracked": "2026-10-01T12:44:19.345914",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1202,7 +1202,7 @@
       "url": "https://github.com/moritztng/tt-bio",
       "stars": 121,
       "forks": 13,
-      "last_updated": "2026-10-01T02:01:07+00:00",
+      "last_updated": "2026-10-01T12:43:48+00:00",
       "created_at": "2025-03-23T21:08:48+00:00",
       "language": "Python",
       "license": "MIT License",
@@ -1228,7 +1228,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:27.683282",
+      "first_tracked": "2026-10-01T12:44:21.057482",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1264,7 +1264,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:31.053234",
+      "first_tracked": "2026-10-01T12:44:24.590280",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1303,7 +1303,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:32.742621",
+      "first_tracked": "2026-10-01T12:44:26.287556",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1336,7 +1336,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:34.423743",
+      "first_tracked": "2026-10-01T12:44:27.990800",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1369,7 +1369,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:36.112340",
+      "first_tracked": "2026-10-01T12:44:29.710411",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1402,7 +1402,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:37.804325",
+      "first_tracked": "2026-10-01T12:44:31.393953",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1439,7 +1439,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:39.553448",
+      "first_tracked": "2026-10-01T12:44:33.098684",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1451,7 +1451,7 @@
       "name": "awesome-bio-agent-skills",
       "description": "A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.",
       "url": "https://github.com/BioTender-max/awesome-bio-agent-skills",
-      "stars": 193,
+      "stars": 194,
       "forks": 33,
       "last_updated": "2026-07-01T21:21:45+00:00",
       "created_at": "2026-05-25T15:23:19+00:00",
@@ -1493,8 +1493,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:41.296821",
-      "star_velocity_7d": 7,
+      "first_tracked": "2026-10-01T12:44:34.816617",
+      "star_velocity_7d": 8,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1531,7 +1531,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:43.009865",
+      "first_tracked": "2026-10-01T12:44:36.509893",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1569,7 +1569,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:44.729939",
+      "first_tracked": "2026-10-01T12:44:38.270400",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1581,7 +1581,7 @@
       "name": "raygun",
       "description": "Template-based protein design with Raygun ",
       "url": "https://github.com/rohitsinghlab/raygun",
-      "stars": 157,
+      "stars": 158,
       "forks": 17,
       "last_updated": "2026-09-23T19:15:50+00:00",
       "created_at": "2024-08-14T04:14:51+00:00",
@@ -1602,8 +1602,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:46.464139",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-10-01T12:44:39.942858",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1635,7 +1635,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:48.108800",
+      "first_tracked": "2026-10-01T12:44:41.667800",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1668,7 +1668,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:49.746535",
+      "first_tracked": "2026-10-01T12:44:43.360648",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1708,7 +1708,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:51.420022",
+      "first_tracked": "2026-10-01T12:44:45.062862",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1745,7 +1745,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:53.083771",
+      "first_tracked": "2026-10-01T12:44:46.813796",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1778,7 +1778,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:54.715893",
+      "first_tracked": "2026-10-01T12:44:48.494110",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1811,7 +1811,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:56.603334",
+      "first_tracked": "2026-10-01T12:44:50.248429",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1846,7 +1846,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:58.241593",
+      "first_tracked": "2026-10-01T12:44:51.965860",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1879,7 +1879,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:19:59.900266",
+      "first_tracked": "2026-10-01T12:44:53.655773",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1912,7 +1912,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:01.577022",
+      "first_tracked": "2026-10-01T12:44:55.370799",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1945,7 +1945,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:04.283587",
+      "first_tracked": "2026-10-01T12:44:58.132777",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1981,7 +1981,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:05.981696",
+      "first_tracked": "2026-10-01T12:44:59.860955",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2014,7 +2014,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:09.135648",
+      "first_tracked": "2026-10-01T12:45:03.027099",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -2060,7 +2060,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:10.835317",
+      "first_tracked": "2026-10-01T12:45:04.787953",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -2106,7 +2106,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:12.584801",
+      "first_tracked": "2026-10-01T12:45:06.510555",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2141,7 +2141,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:14.488761",
+      "first_tracked": "2026-10-01T12:45:08.387969",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2174,7 +2174,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:16.204255",
+      "first_tracked": "2026-10-01T12:45:10.358734",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -2186,7 +2186,7 @@
       "name": "InterPLM",
       "description": "Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders",
       "url": "https://github.com/ElanaPearl/InterPLM",
-      "stars": 306,
+      "stars": 307,
       "forks": 47,
       "last_updated": "2025-10-31T05:55:58+00:00",
       "created_at": "2024-11-10T01:07:58+00:00",
@@ -2207,8 +2207,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:17.853578",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-10-01T12:45:12.132714",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -2240,7 +2240,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:19.545824",
+      "first_tracked": "2026-10-01T12:45:13.897380",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2273,7 +2273,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:21.275748",
+      "first_tracked": "2026-10-01T12:45:15.608332",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2320,7 +2320,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:22.998843",
+      "first_tracked": "2026-10-01T12:45:17.381847",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2353,7 +2353,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:24.668068",
+      "first_tracked": "2026-10-01T12:45:19.146414",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2399,7 +2399,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:26.373042",
+      "first_tracked": "2026-10-01T12:45:20.916331",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2436,7 +2436,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:28.108627",
+      "first_tracked": "2026-10-01T12:45:22.736415",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2475,7 +2475,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:29.801895",
+      "first_tracked": "2026-10-01T12:45:24.480985",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2508,7 +2508,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:31.467172",
+      "first_tracked": "2026-10-01T12:45:26.220268",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2541,7 +2541,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:33.154326",
+      "first_tracked": "2026-10-01T12:45:27.934686",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2578,7 +2578,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-01T02:20:34.844755",
+      "first_tracked": "2026-10-01T12:45:29.648018",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
