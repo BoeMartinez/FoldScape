@@ -1,0 +1,162 @@
+/* FoldScape — shared stylesheet.
+   Everything both pages use lives here, so a design change is made once.
+   Page-specific rules stay in that page's <style>, which loads after this
+   file and can therefore still override it.
+   Generated once from the two inline blocks; edit this file directly now. */
+
+/* ─────────────────────────────────────────────────────────────
+           FoldScape — Apple-direction system (sandbox)
+           Restrained. Natural neutrals. Confidence through typography
+           and whitespace, not chrome or color.
+           ───────────────────────────────────────────────────────────── */
+main.container { max-width: 1080px; }
+/* Hero */
+/* Stats — one gradient sweep across all three numbers (his favourite detail),
+           now in the emblem's own teal. Each number shows its third of a single
+           gradient, so the eye reads one continuous band left to right.
+           The row is three low plaster tiles of the page's own colour, shaped only by
+           light. Light comes from the upper right (as on the emblem): top/right edges
+           catch it, shadows fall to the lower left. */
+/* Tile shading, light from the upper right: lit rim top/right, shaded rim
+           bottom/left, cast shadow lower left, light spilling off the upper right. */
+/* Section title — confident, lighter weight, generous space */
+/* Chart section — donut with depth and ambient halo */
+/* Soft ambient halo — multi-color glow behind donut, matches segment palette */
+/* ───────────────────────────────────────────────
+           Tables — soft elevated surface
+           ─────────────────────────────────────────────── */
+table[role="grid"] tbody tr:last-child td { border-bottom: none; }
+/* Tool-name cell — primary content */
+/* Trending — small mark, no pill */
+/* Stars — black tabular with subtle glyph */
+/* Category — dot + small-caps (matches /tools page) */
+.category-badge.infrastructure::before { background: #34508f; }
+/* deep navy */
+.category-badge.core-methods::before   { background: #0a9aa6; }
+/* brand teal */
+.category-badge.applications::before   { background: #b07a2e; }
+/* brand gold */
+/* License & age — supporting metadata */
+/* Trending table 7-day velocity */
+/* Nav — calm it down */
+nav.container { padding: 1.25rem 0; }
+nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.9375rem; }
+nav a:hover { color: var(--ink); text-decoration: none; }
+nav strong { color: var(--ink); letter-spacing: -0.01em; }
+/* Footer */
+/* Global link reset */
+/* ─────────────────────────────────────────────────────────────
+           Top bar — hairline with a hint of tone
+           The landing view read as floaty because the nav had no ground
+           under it. A soft wash and a single hairline supply that ground
+           without adding an object to the page, which is what the rest
+           of this system asks for.
+           ───────────────────────────────────────────────────────────── */
+/* Lay the nav out explicitly rather than inheriting Pico's
+           cascade — the wrapper div changed which rules win, and the
+           bar must not depend on that. This reproduces the original
+           layout: wordmark left, links right, one row. */
+.topbar nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-block: 0.15rem;
+        }
+.topbar nav ul {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+.topbar nav li { list-style: none; margin: 0; }
+.topbar nav li::before { content: none; }
+/* The wordmark: same Inter semibold, same tight tracking as the hero,
+           the README banner and the share card — one name, one face. */
+.topbar nav ul:first-child strong {
+            font-family: 'Inter', system-ui, sans-serif;
+            font-weight: 600;
+            font-size: 1.0625rem;
+            letter-spacing: -0.025em;
+            color: var(--ink);
+        }
+.topbar nav a {
+            color: var(--ink-soft);
+            padding: 0.35rem 0.6rem;
+            border-radius: 6px;
+            transition: background 140ms ease, color 140ms ease;
+        }
+.topbar nav a:hover {
+            color: var(--ink);
+            background: rgba(0,0,0,0.04);
+        }
+.topbar nav a.brand {
+            display: inline-flex; align-items: center; gap: 0.5rem;
+            padding: 0.35rem 0.2rem; background: none;
+        }
+.topbar nav a.brand:hover { background: none; }
+.topbar nav a.brand img { display: block; }
+/* Owner logos: quiet at rest, full colour when the row is in focus */
+.owner-logo {
+            width: 20px; height: 20px; border-radius: 5px; vertical-align: -4px;
+            margin-right: 0.6rem; filter: grayscale(1); opacity: 0.55;
+            transition: filter 160ms ease, opacity 160ms ease;
+        }
+tr:hover .owner-logo { filter: none; opacity: 1; }
+.tool-cell .owner-logo { flex: none; }
+.tool-cell a { overflow-wrap: break-word; }
+/* ─────────────────────────────────────────────────────────────
+           Harmony — the top bar's material, carried to every surface.
+           One recipe: a barely-there white-to-warm wash, a single
+           hairline edge, a lit top edge, and a shadow you feel more
+           than see. Surfaces that already exist get it; nothing new is
+           added to the page. The footer is the
+           header's counterpart, not its copy.
+           ───────────────────────────────────────────────────────────── */
+/* Controls */
+/* Tables: the existing surface, in the bar's material */
+table[role="grid"] thead th,
+        table[role="grid"] thead th:nth-child(n) {
+            background: var(--wash);
+            border-bottom: 1px solid var(--hairline);
+            /* one voice for every column head, same as the stat labels */
+            font-family: inherit; font-size: 0.6875rem; font-weight: 500;
+            letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-mute);
+        }
+/* Footer — reads as the end of the page, not a second header.
+           The header is lit and raised; the footer is the opposite: a flat,
+           slightly deeper tone the page settles onto, no lift, no shine.
+           Small muted type, left-aligned in two columns like a colophon,
+           with the fine print below its own hairline. */
+.footbar {
+            margin-top: 5rem;
+            background: #f4f2ee;
+            border-top: 1px solid var(--hairline);
+            box-shadow: inset 0 1px 3px rgba(30,20,10,0.04);
+        }
+.footbar footer {
+            margin: 0 auto; padding: 2rem 0 1.5rem; border: none; background: none;
+            max-width: 1080px;
+            text-align: left; color: var(--ink-mute); font-size: 0.75rem; font-weight: 400;
+        }
+.footbar .foot-row {
+            display: flex; justify-content: space-between; align-items: baseline;
+            gap: 1.5rem; flex-wrap: wrap;
+        }
+.footbar .foot-row p { margin: 0; }
+.footbar footer strong { color: var(--ink-soft); font-weight: 600; }
+.footbar .fine {
+            margin-top: 1.25rem; padding-top: 1rem;
+            border-top: 1px solid var(--line); color: var(--ink-faint); font-size: 0.6875rem;
+        }
+/* Warmth — below conscious notice. Every neutral leans a few
+           degrees toward paper: surfaces a hair off white, greys with a
+           trace of umber, hairlines and shadows tinted brown instead of
+           black. Nothing reads as "beige"; the page just feels lit by
+           daylight rather than a monitor. */
+html { background: #f4f2ee; }
+/* past the footer, the footer tone continues */
+/* Hero emblem — the Concept Emblem (structured tier). Big moments get the
+           structured mark; the top bar keeps the simple Mark. */
+/* the emblem is lit from the upper right, so its shadow falls lower left */

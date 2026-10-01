@@ -14,9 +14,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/foldscape.css">
     <style>
-        /* --- Premium-minimal header + filters + stats (sandbox) --- */
-        :root {
+:root {
             --ink:        #0a0a0a;
             --ink-soft:   #2a2a2a;
             --ink-mute:   #6e6e72;
@@ -26,19 +26,9 @@
             --surface:    #ffffff;
             --primary:    #0a0a0a;  /* override pico's indigo for any inherited focus rings */
         }
-        body { background: #fbfbfa; }
-        main.container { max-width: 1080px; }
-        nav.container { padding: 1.25rem 0; }
-        nav a { color: var(--ink-soft); text-decoration: none; font-size: 0.9375rem; }
-        nav a:hover { color: var(--ink); text-decoration: none; }
-        nav strong { color: var(--ink); letter-spacing: -0.01em; }
-
-        /* Page header — confident but lighter */
-        /* Page title — the same title as the home page: same face, weight,
-           size, tracking and centring, so both pages open the same way.
-           (It asked for Inter 500, which isn't loaded, so it fell back to 300.) */
-        .page-header { text-align: center; padding: 3.5rem 0 2.5rem; margin: 0; }
-        .page-header h1 {
+body { background: #fbfbfa; }
+.page-header { text-align: center; padding: 3.5rem 0 2.5rem; margin: 0; }
+.page-header h1 {
             font-family: 'Inter', system-ui, sans-serif;
             font-size: 3rem;
             font-weight: 600;
@@ -46,23 +36,21 @@
             margin-bottom: 0.5rem;
             color: var(--ink);
         }
-        .page-header p {
+.page-header p {
             color: var(--ink-mute);
             font-size: 1.0625rem;
             font-weight: 300;
             max-width: 540px;
             margin: 0 auto 0.5rem;
         }
-
-        /* Filters row — clean inputs, hairline borders, no fill, focus on intent */
-        .filters {
+.filters {
             margin: 1.5rem 0 1.25rem;
             display: grid;
             grid-template-columns: minmax(220px, 1fr) auto auto;
             gap: 0.75rem;
             align-items: center;
         }
-        .filters input[type="search"],
+.filters input[type="search"],
         .filters select {
             font-size: 0.9rem;
             font-family: inherit;
@@ -76,21 +64,19 @@
             box-shadow: 0 1px 2px rgba(0,0,0,0.02);
             transition: border-color 150ms ease, box-shadow 150ms ease;
         }
-        .filters input[type="search"]::placeholder {
+.filters input[type="search"]::placeholder {
             color: var(--ink-faint);
         }
-        .filters input[type="search"]:focus,
+.filters input[type="search"]:focus,
         .filters select:focus {
             outline: none;
             border-color: var(--ink);
             box-shadow: 0 0 0 3px rgba(0,0,0,0.04);
         }
-        .filters select {
+.filters select {
             min-width: 180px;
         }
-
-        /* Stats — editorial subhead, no background tint, no indigo */
-        .stats-bar {
+.stats-bar {
             background: none;
             padding: 0.5rem 0 1.25rem;
             border-radius: 0;
@@ -102,19 +88,18 @@
             margin-top: 0.5rem;
             padding-top: 1rem;
         }
-        .stats-bar span {
+.stats-bar span {
             color: var(--ink-mute);
             font-size: 0.8125rem;
             letter-spacing: 0.02em;
         }
-        .stats-bar strong {
+.stats-bar strong {
             color: var(--ink);
             font-weight: 500;
             font-variant-numeric: tabular-nums;
         }
-        /* --- Premium-minimal table (sandbox) --- */
-        figure { margin: 0; overflow-x: auto; }
-        table[role="grid"] {
+figure { margin: 0; overflow-x: auto; }
+table[role="grid"] {
             font-size: 0.9375rem;
             line-height: 1.45;
             border-collapse: separate;
@@ -124,8 +109,7 @@
             background: transparent;
             font-feature-settings: "tnum" 1, "ss01" 1;
         }
-        /* Updated column (6th): right-align, nowrap, tabular */
-        table[role="grid"] th:nth-child(6),
+table[role="grid"] th:nth-child(6),
         table[role="grid"] td:nth-child(6) {
             white-space: nowrap;
             text-align: right;
@@ -133,13 +117,11 @@
             color: #555;
             font-size: 0.8125rem;
         }
-        /* Language column (5th): nowrap */
-        table[role="grid"] th:nth-child(5),
+table[role="grid"] th:nth-child(5),
         table[role="grid"] td:nth-child(5) { white-space: nowrap; }
-        /* Category column (4th): nowrap */
-        table[role="grid"] th:nth-child(4),
+table[role="grid"] th:nth-child(4),
         table[role="grid"] td:nth-child(4) { white-space: nowrap; }
-        table[role="grid"] thead th {
+table[role="grid"] thead th {
             font-size: 0.6875rem;
             font-weight: 500;
             letter-spacing: 0.09em;
@@ -150,25 +132,22 @@
             border-bottom: 1px solid #1a1a1a;
             background: transparent;
         }
-        table[role="grid"] tbody td {
+table[role="grid"] tbody td {
             padding: 0.9rem 1rem;
             border-bottom: 1px solid rgba(0,0,0,0.06);
             vertical-align: baseline;
             background: transparent;
             color: #1a1a1a;
         }
-        table[role="grid"] tbody tr:last-child td { border-bottom: none; }
-        table[role="grid"] tbody tr { transition: background-color 90ms linear; }
-        table[role="grid"] tbody tr:hover { background: #fafaf8; }
-
-        table[role="grid"] th:nth-child(3),
+table[role="grid"] tbody tr { transition: background-color 90ms linear; }
+table[role="grid"] tbody tr:hover { background: #fafaf8; }
+table[role="grid"] th:nth-child(3),
         table[role="grid"] td:nth-child(3) {
             text-align: right;
             font-variant-numeric: tabular-nums;
         }
-
-        .repo-name { font-weight: 600; color: #0a0a0a; letter-spacing: -0.011em; }
-        .repo-desc {
+.repo-name { font-weight: 600; color: #0a0a0a; letter-spacing: -0.011em; }
+.repo-desc {
             color: #666;
             font-size: 0.8125rem;
             max-width: 220px;
@@ -177,9 +156,8 @@
             white-space: nowrap;
             margin-top: 0.15rem;
         }
-        .stars { color: #0a0a0a; font-weight: 500; font-variant-numeric: tabular-nums; }
-
-        .category-badge {
+.stars { color: #0a0a0a; font-weight: 500; font-variant-numeric: tabular-nums; }
+.category-badge {
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
@@ -194,7 +172,7 @@
             border-radius: 0;
             white-space: nowrap;
         }
-        .category-badge::before {
+.category-badge::before {
             content: "";
             display: inline-block;
             width: 6px;
@@ -202,11 +180,7 @@
             border-radius: 50%;
             background: #999;
         }
-        .category-badge.infrastructure::before { background: #34508f; }   /* deep navy */
-        .category-badge.core-methods::before   { background: #0a9aa6; }   /* brand teal */
-        .category-badge.applications::before   { background: #b07a2e; }   /* brand gold */
-
-        .lang-badge {
+.lang-badge {
             font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
             font-size: 0.7rem;
             font-weight: 400;
@@ -217,29 +191,17 @@
             text-transform: lowercase;
             letter-spacing: 0;
         }
-
-        a { text-decoration: none; color: inherit; }
-        .repo-name a { border-bottom: 1px solid transparent; transition: border-color 120ms ease; }
-        .repo-name a:hover { color: #0a0a0a; border-bottom-color: #0a0a0a; }
-        /* --- end premium-minimal table --- */
-        footer { margin-top: 3rem; padding: 1.5rem 0; text-align: center; color: var(--muted-color); border-top: 1px solid var(--muted-border-color); font-size: 0.85rem; }
-        /* Sortable heads: the arrow rides on the same line as the word,
-           in the head's own grey — present, never louder than the label. */
-        table[role="grid"] thead th { white-space: nowrap; }
-        .sort-btn { cursor: pointer; user-select: none; }
-        .sort-btn:hover { color: var(--ink); }
-        .sort-btn::after { content: '↕'; margin-left: 0.4em; opacity: 0.35; }
-        .sort-btn.asc::after { content: '↑'; opacity: 0.85; }
-        .sort-btn.desc::after { content: '↓'; opacity: 0.85; }
-
-        /* ─────────────────────────────────────────────────────────────
-           Top bar — hairline with a hint of tone
-           The landing view read as floaty because the nav had no ground
-           under it. A soft wash and a single hairline supply that ground
-           without adding an object to the page, which is what the rest
-           of this system asks for.
-           ───────────────────────────────────────────────────────────── */
-        .topbar {
+a { text-decoration: none; color: inherit; }
+.repo-name a { border-bottom: 1px solid transparent; transition: border-color 120ms ease; }
+.repo-name a:hover { color: #0a0a0a; border-bottom-color: #0a0a0a; }
+footer { margin-top: 3rem; padding: 1.5rem 0; text-align: center; color: var(--muted-color); border-top: 1px solid var(--muted-border-color); font-size: 0.85rem; }
+table[role="grid"] thead th { white-space: nowrap; }
+.sort-btn { cursor: pointer; user-select: none; }
+.sort-btn:hover { color: var(--ink); }
+.sort-btn::after { content: '↕'; margin-left: 0.4em; opacity: 0.35; }
+.sort-btn.asc::after { content: '↑'; opacity: 0.85; }
+.sort-btn.desc::after { content: '↓'; opacity: 0.85; }
+.topbar {
             /* Not sticky. Apple's bar stays, but it earns that with
                translucency and a backdrop blur — the effect only reads
                when content slides under it. A bar that scrolls away has
@@ -254,147 +216,34 @@
                 inset 0 1px 0 rgba(255,255,255,0.9),
                 0 6px 16px -14px rgba(0,0,0,0.30);
         }
-
-        /* Lay the nav out explicitly rather than inheriting Pico's
-           cascade — the wrapper div changed which rules win, and the
-           bar must not depend on that. This reproduces the original
-           layout: wordmark left, links right, one row. */
-        .topbar nav {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding-block: 0.15rem;
-        }
-        .topbar nav ul {
-            display: flex;
-            align-items: center;
-            gap: 0.25rem;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        .topbar nav li { list-style: none; margin: 0; }
-        .topbar nav li::before { content: none; }
-
-        /* The wordmark: same Inter semibold, same tight tracking as the hero,
-           the README banner and the share card — one name, one face. */
-        .topbar nav ul:first-child strong {
-            font-family: 'Inter', system-ui, sans-serif;
-            font-weight: 600;
-            font-size: 1.0625rem;
-            letter-spacing: -0.025em;
-            color: var(--ink);
-        }
-
-        .topbar nav a {
-            color: var(--ink-soft);
-            padding: 0.35rem 0.6rem;
-            border-radius: 6px;
-            transition: background 140ms ease, color 140ms ease;
-        }
-        .topbar nav a:hover {
-            color: var(--ink);
-            background: rgba(0,0,0,0.04);
-        }
-
-        .topbar nav a.brand {
-            display: inline-flex; align-items: center; gap: 0.5rem;
-            padding: 0.35rem 0.2rem; background: none;
-        }
-        .topbar nav a.brand:hover { background: none; }
-        .topbar nav a.brand img { display: block; }
-
-        /* Owner logos: quiet at rest, full colour when the row is in focus */
-        .owner-logo {
-            width: 20px; height: 20px; border-radius: 5px; vertical-align: -4px;
-            margin-right: 0.6rem; filter: grayscale(1); opacity: 0.55;
-            transition: filter 160ms ease, opacity 160ms ease;
-        }
-        tr:hover .owner-logo { filter: none; opacity: 1; }
-        .tool-cell { display: inline-flex; align-items: center; min-width: 10rem; }
-        .tool-cell .owner-logo { flex: none; }
-        .tool-cell a { overflow-wrap: break-word; }
-
-        /* ─────────────────────────────────────────────────────────────
-           Harmony — the top bar's material, carried to every surface.
-           One recipe: a barely-there white-to-warm wash, a single
-           hairline edge, a lit top edge, and a shadow you feel more
-           than see. Surfaces that already exist get it; nothing new is
-           added to the page. The footer is the
-           header's counterpart, not its copy.
-           ───────────────────────────────────────────────────────────── */
-        :root {
+.tool-cell { display: inline-flex; align-items: center; min-width: 10rem; }
+:root {
             --wash:      linear-gradient(180deg, #ffffff 0%, #fcfcfb 62%, #f7f6f4 100%);
             --wash-up:   linear-gradient(0deg,   #ffffff 0%, #fcfcfb 62%, #f7f6f4 100%);
             --hairline:  rgba(0,0,0,0.09);
             --lift:      inset 0 1px 0 rgba(255,255,255,0.9), 0 6px 16px -14px rgba(0,0,0,0.30);
             --focus:     0 0 0 3px rgba(10,154,166,0.16);
         }
-
-        /* Controls */
-        .filters input[type="search"],
+.filters input[type="search"],
         .filters select {
             background: var(--wash);
             border: 1px solid var(--hairline);
             box-shadow: var(--lift);
         }
-        .filters input[type="search"]:focus,
+.filters input[type="search"]:focus,
         .filters select:focus {
             border-color: #0a9aa6;
             box-shadow: var(--focus), var(--lift);
         }
-
-        /* Tables: the existing surface, in the bar's material */
-        figure {
+figure {
             background: #ffffff;
             border: 1px solid var(--hairline);
             border-radius: 14px;
             box-shadow: var(--lift);
             overflow-x: auto;
         }
-        table[role="grid"] thead th,
-        table[role="grid"] thead th:nth-child(n) {
-            background: var(--wash);
-            border-bottom: 1px solid var(--hairline);
-            /* one voice for every column head, same as the stat labels */
-            font-family: inherit; font-size: 0.6875rem; font-weight: 500;
-            letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-mute);
-        }
-        table[role="grid"] tbody td { vertical-align: middle; }
-
-        /* Footer — reads as the end of the page, not a second header.
-           The header is lit and raised; the footer is the opposite: a flat,
-           slightly deeper tone the page settles onto, no lift, no shine.
-           Small muted type, left-aligned in two columns like a colophon,
-           with the fine print below its own hairline. */
-        .footbar {
-            margin-top: 5rem;
-            background: #f4f2ee;
-            border-top: 1px solid var(--hairline);
-            box-shadow: inset 0 1px 3px rgba(30,20,10,0.04);
-        }
-        .footbar footer {
-            margin: 0 auto; padding: 2rem 0 1.5rem; border: none; background: none;
-            max-width: 1080px;
-            text-align: left; color: var(--ink-mute); font-size: 0.75rem; font-weight: 400;
-        }
-        .footbar .foot-row {
-            display: flex; justify-content: space-between; align-items: baseline;
-            gap: 1.5rem; flex-wrap: wrap;
-        }
-        .footbar .foot-row p { margin: 0; }
-        .footbar footer strong { color: var(--ink-soft); font-weight: 600; }
-        .footbar .fine {
-            margin-top: 1.25rem; padding-top: 1rem;
-            border-top: 1px solid var(--line); color: var(--ink-faint); font-size: 0.6875rem;
-        }
-
-        /* Warmth — below conscious notice. Every neutral leans a few
-           degrees toward paper: surfaces a hair off white, greys with a
-           trace of umber, hairlines and shadows tinted brown instead of
-           black. Nothing reads as "beige"; the page just feels lit by
-           daylight rather than a monitor. */
-        :root {
+table[role="grid"] tbody td { vertical-align: middle; }
+:root {
             --ink-soft:   #2a2a29;
             --ink-mute:   #6f6d6d;
             --ink-faint:  #a1a0a0;
@@ -407,54 +256,43 @@
             --hairline:  rgba(30,20,8,0.095);
             --lift:      inset 0 1px 0 rgba(255,254,252,0.9), 0 6px 16px -14px rgba(30,20,10,0.31);
         }
-        body { background: #fbfaf8; }
-        html { background: #f4f2ee; }  /* past the footer, the footer tone continues */
-        .topbar { background: var(--wash); border-bottom-color: var(--hairline); box-shadow: var(--lift); }
-        figure { background: var(--surface); }
-
-        /* Fit — the table always fits its column, never scrolls sideways.
-           Fixed layout with set widths: Description takes whatever is left and
-           truncates with an ellipsis; everything else holds a width sized to
-           its longest label. On narrower screens the least essential columns
-           step out rather than squeezing the rest. */
-        #tools-table { table-layout: fixed; width: 100%; }
-        #tools-table th:nth-child(1) { width: 22%; }
-        #tools-table th:nth-child(3) { width: 6.5rem; }
-        #tools-table th:nth-child(4) { width: 10rem; }
-        #tools-table th:nth-child(5) { width: 6.5rem; }
-        #tools-table th:nth-child(6) { width: 6.75rem; }
-        #tools-table td { overflow: hidden; }
-        #tools-table .repo-desc { max-width: 100%; }
-        #tools-table td:nth-child(5) { overflow: hidden; text-overflow: ellipsis; }
-        figure { overflow-x: visible; }
-        @media (max-width: 1140px) {
-            .container { padding-inline: 1.25rem; }
-        }
-        /* Below desktop the table keeps every column and swipes sideways
-           inside its card; the tool name stays pinned on the left so you
-           always know which row you're reading. The page itself never
-           scrolls sideways. */
-        @media (max-width: 900px) {
-            figure { overflow-x: auto; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
-            #tools-table { table-layout: auto; min-width: 860px; }
-            #tools-table th:nth-child(1), #tools-table td:nth-child(1) {
+body { background: #fbfaf8; }
+.topbar { background: var(--wash); border-bottom-color: var(--hairline); box-shadow: var(--lift); }
+figure { background: var(--surface); }
+#tools-table { table-layout: fixed; width: 100%; }
+#tools-table th:nth-child(1) { width: 22%; }
+#tools-table th:nth-child(3) { width: 6.5rem; }
+#tools-table th:nth-child(4) { width: 10rem; }
+#tools-table th:nth-child(5) { width: 6.5rem; }
+#tools-table th:nth-child(6) { width: 6.75rem; }
+#tools-table td { overflow: hidden; }
+#tools-table .repo-desc { max-width: 100%; }
+#tools-table td:nth-child(5) { overflow: hidden; text-overflow: ellipsis; }
+figure { overflow-x: visible; }
+@media (max-width: 1140px) {
+.container { padding-inline: 1.25rem; }
+}
+@media (max-width: 900px) {
+figure { overflow-x: auto; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+#tools-table { table-layout: auto; min-width: 860px; }
+#tools-table th:nth-child(1), #tools-table td:nth-child(1) {
                 position: sticky; left: 0; z-index: 1; width: 12rem;
                 background: var(--surface);
                 box-shadow: 1px 0 0 var(--line);
             }
-            #tools-table thead th:nth-child(1) { background: #fcfbf8; z-index: 2; }
-            #tools-table .repo-desc { max-width: 220px; }
-        }
-        @media (max-width: 760px) {
-            .filters { grid-template-columns: 1fr 1fr; }
-            .filters input[type="search"] { grid-column: 1 / -1; }
-            .filters select { min-width: 0; width: 100%; }
-            .page-header h1 { font-size: 2.25rem; }
-        }
-        @media (max-width: 520px) {
-            .container { padding-inline: 1rem; }
-            .topbar nav a { padding: 0.35rem 0.4rem; }
-        }
+#tools-table thead th:nth-child(1) { background: #fcfbf8; z-index: 2; }
+#tools-table .repo-desc { max-width: 220px; }
+}
+@media (max-width: 760px) {
+.filters { grid-template-columns: 1fr 1fr; }
+.filters input[type="search"] { grid-column: 1 / -1; }
+.filters select { min-width: 0; width: 100%; }
+.page-header h1 { font-size: 2.25rem; }
+}
+@media (max-width: 520px) {
+.container { padding-inline: 1rem; }
+.topbar nav a { padding: 0.35rem 0.4rem; }
+}
     </style>
 </head>
 <body>
