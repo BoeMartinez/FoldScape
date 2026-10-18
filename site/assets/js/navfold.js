@@ -47,7 +47,7 @@
             var b = box(links[i]);
             var d = (b.x + b.w / 2) - centre;
             var sigma = Math.max(b.w * 0.6, 26);
-            var lift = 1.8 * Math.exp(-(d * d) / (2 * sigma * sigma));
+            var lift = 2.8 * Math.exp(-(d * d) / (2 * sigma * sigma));
             links[i].style.transform = 'translateY(' + (-lift).toFixed(2) + 'px)';
         }
     }

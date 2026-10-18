@@ -312,29 +312,41 @@ html > body::before {
     opacity: 0;
 }
 
+/* The bar runs #ffffff to #f7f6f4, so white light on it is close to
+   saturated and raising its alpha buys almost nothing. The form has to be
+   carried by the cast shadow, which has the whole range to move in, and by
+   the gap between the mound and that shadow — the same detached-shadow rule
+   the paper-fold imagery works by. Shading the flanks was tried and dropped:
+   it gives the mound side edges, which turns it back into the pill this
+   replaces. */
 .nav-mound {
     top: 0;
     bottom: 0;
     z-index: 0;
     transform-origin: 50% 100%;
     background:
+        /* crest: a thin bright line along the top */
         linear-gradient(to right,
             transparent 4%,
-            rgba(255, 255, 255, 0.55) 26%,
-            rgba(255, 255, 255, 0.55) 74%,
+            rgba(255, 255, 255, 0.85) 26%,
+            rgba(255, 255, 255, 0.85) 74%,
             transparent 96%) top / 100% 1px no-repeat,
+        /* the lit dome itself */
         radial-gradient(ellipse 66% 128% at 56% 114%,
             rgba(255, 255, 255, 0.95) 0%,
             rgba(255, 255, 255, 0.52) 44%,
             rgba(255, 255, 255, 0) 80%);
 }
 
+/* Darker core than before, same spread. Tightening the blur raised the peak
+   but shrank the footprint, which reads as sitting closer to the bar — the
+   opposite of lift. Depth comes from the dark, size comes from the blur. */
 .nav-mound-shadow {
     bottom: -9px;
-    height: 14px;
+    height: 16px;
     z-index: 0;
-    background: radial-gradient(48% 100% at 44% 0%, rgba(30, 20, 10, 0.18), transparent 80%);
-    filter: blur(8px);
+    background: radial-gradient(48% 100% at 44% 0%, rgba(30, 20, 10, 0.38), transparent 80%);
+    filter: blur(9px);
 }
 
 @media (prefers-reduced-motion: reduce) {
