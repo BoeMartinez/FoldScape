@@ -157,6 +157,50 @@ table[role="grid"] thead th,
            daylight rather than a monitor. */
 html { background: #f4f2ee; }
 /* past the footer, the footer tone continues */
+
+/* Paper grain — felt more than seen.
+   Brief: "ever so subtle, like the user is between 'is there a textured
+   background, or is my home screen / protector doing that?'"
+
+   The texture is original: synthesised from the measured grain spectrum of
+   a reference paper, without that paper's horizontal laid lines, so it has
+   no direction and tiles seamlessly. (The generator is kept with the brand
+   source files, outside this repo.) Alpha is quantised to 8 levels, 67 KB as
+   WebP -- invisible at this strength.
+
+   FIXED to the viewport on purpose. A screen protector's texture does not
+   move when you scroll, so a grain that stays still while the page slides
+   over it is genuinely ambiguous -- the effect he asked for. It also makes
+   the cards read as sitting above a still surface.
+
+   Layering: the grain must sit ABOVE the body's colour but BELOW every card.
+   `position: relative; z-index: 0` makes the body its own stacking context;
+   inside one, the root's background paints first, then z-index:-1 children,
+   then content. So ::before lands exactly between the colour and the page.
+   (`html > body` outranks each page's inline `body {}` rule, which loads
+   after this file.)
+
+   Tuning: one number, the opacity. 0.55 of the file's baked ceiling is about
+   0.09 of the original sample's strength -- just under the 0.09-0.17 range he
+   chose on his phone. background-size matches what he saw there (~215px). */
+html > body {
+    position: relative;
+    z-index: 0;
+}
+html > body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: url("../img/paper-grain.webp");
+    background-size: 215px 215px;
+    background-repeat: repeat;
+    opacity: 0.55;
+}
+
+/* Grain prints as a grey haze and wastes ink. */
+@media print { html > body::before { display: none; } }
 /* Hero emblem — the Concept Emblem (structured tier). Big moments get the
            structured mark; the top bar keeps the simple Mark. */
 /* the emblem is lit from the upper right, so its shadow falls lower left */
