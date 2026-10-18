@@ -279,3 +279,64 @@ html > body::before {
     #trending-table td:nth-child(2) { order: 3; flex: 1 1 100%; }
 
 }
+
+/* ─────────────────────────────────────────────────────────────
+   Travelling fold under the nav links.
+
+   The mound has no fill and no edges of its own. It is a dome of light on
+   the bar's own surface, fading to nothing at both sides, so it reads as the
+   paper swelling rather than a shape placed on top. Give it a border or a
+   solid background and it becomes a pill, which is the thing this replaces.
+
+   Light from the upper right, as everywhere else: the highlight sits right of
+   centre and the cast shadow falls to the lower left. Behaviour is in
+   assets/js/navfold.js — the mound travels on click and the browser navigates
+   when it arrives, so the crossing is the page transition.
+   ───────────────────────────────────────────────────────────── */
+.topbar .nav-fold { position: relative; }
+
+.topbar .nav-fold a {
+    position: relative;
+    z-index: 1;
+    transition: color 140ms ease, transform 200ms ease;
+}
+
+/* The mound is the indicator now; a hover pill underneath it would be two. */
+.topbar .nav-fold a:hover { background: none; }
+
+.nav-mound,
+.nav-mound-shadow {
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.nav-mound {
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    transform-origin: 50% 100%;
+    background:
+        linear-gradient(to right,
+            transparent 4%,
+            rgba(255, 255, 255, 0.55) 26%,
+            rgba(255, 255, 255, 0.55) 74%,
+            transparent 96%) top / 100% 1px no-repeat,
+        radial-gradient(ellipse 66% 128% at 56% 114%,
+            rgba(255, 255, 255, 0.95) 0%,
+            rgba(255, 255, 255, 0.52) 44%,
+            rgba(255, 255, 255, 0) 80%);
+}
+
+.nav-mound-shadow {
+    bottom: -9px;
+    height: 14px;
+    z-index: 0;
+    background: radial-gradient(48% 100% at 44% 0%, rgba(30, 20, 10, 0.18), transparent 80%);
+    filter: blur(8px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .topbar .nav-fold a { transform: none !important; }
+}
