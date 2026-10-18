@@ -5,7 +5,7 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14893,
+      "stars": 14895,
       "forks": 2956,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
@@ -26,8 +26,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:49.613836",
-      "star_velocity_7d": 16,
+      "first_tracked": "2026-10-18T10:36:39.263337",
+      "star_velocity_7d": 17,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -38,7 +38,7 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8650,
+      "stars": 8652,
       "forks": 1380,
       "last_updated": "2026-10-15T15:33:02+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
@@ -59,8 +59,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:51.225907",
-      "star_velocity_7d": 28,
+      "first_tracked": "2026-10-18T10:36:40.913450",
+      "star_velocity_7d": 25,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -96,8 +96,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:52.870747",
-      "star_velocity_7d": 4,
+      "first_tracked": "2026-10-18T10:36:42.501326",
+      "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:54.477254",
+      "first_tracked": "2026-10-18T10:36:44.099061",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:56.155821",
+      "first_tracked": "2026-10-18T10:36:45.707803",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -238,8 +238,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:57.812140",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-10-18T10:36:47.284388",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -280,7 +280,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:20:59.460952",
+      "first_tracked": "2026-10-18T10:36:48.874442",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -313,7 +313,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:01.094251",
+      "first_tracked": "2026-10-18T10:36:50.456092",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -346,7 +346,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:02.709227",
+      "first_tracked": "2026-10-18T10:36:52.006222",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -379,7 +379,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:04.344762",
+      "first_tracked": "2026-10-18T10:36:53.561524",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -412,7 +412,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:05.981969",
+      "first_tracked": "2026-10-18T10:36:55.141104",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -445,7 +445,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:07.701112",
+      "first_tracked": "2026-10-18T10:36:56.716344",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -478,7 +478,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:09.312294",
+      "first_tracked": "2026-10-18T10:36:58.274202",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -519,7 +519,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:10.958407",
+      "first_tracked": "2026-10-18T10:36:59.850879",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -552,7 +552,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:12.583351",
+      "first_tracked": "2026-10-18T10:37:01.483549",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -585,7 +585,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:14.176345",
+      "first_tracked": "2026-10-18T10:37:03.049402",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -618,7 +618,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:16.818589",
+      "first_tracked": "2026-10-18T10:37:05.646476",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -651,7 +651,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:18.401035",
+      "first_tracked": "2026-10-18T10:37:07.217214",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -689,7 +689,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:21.985810",
+      "first_tracked": "2026-10-18T10:37:10.691073",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -728,8 +728,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:23.685926",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-10-18T10:37:12.278511",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -771,7 +771,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:27.071990",
+      "first_tracked": "2026-10-18T10:37:15.662771",
       "star_velocity_7d": -192,
       "star_velocity_30d": 0,
       "trending": false
@@ -816,7 +816,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:28.701428",
+      "first_tracked": "2026-10-18T10:37:17.256136",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -862,7 +862,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:31.608489",
+      "first_tracked": "2026-10-18T10:37:19.942887",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -895,7 +895,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:33.215830",
+      "first_tracked": "2026-10-18T10:37:21.527233",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -949,7 +949,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:34.868213",
+      "first_tracked": "2026-10-18T10:37:23.140542",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -982,7 +982,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:36.458186",
+      "first_tracked": "2026-10-18T10:37:24.707671",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1023,7 +1023,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:38.110462",
+      "first_tracked": "2026-10-18T10:37:26.364939",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1056,7 +1056,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:39.700971",
+      "first_tracked": "2026-10-18T10:37:27.875300",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1068,7 +1068,7 @@
       "name": "GALBA",
       "description": "GALBA is a pipeline for fully automated prediction of protein coding gene structures with AUGUSTUS in novel eukaryotic genomes for the scenario where high quality proteins from one or several closely related species are available.",
       "url": "https://github.com/Gaius-Augustus/GALBA",
-      "stars": 149,
+      "stars": 150,
       "forks": 7,
       "last_updated": "2026-04-13T19:02:06+00:00",
       "created_at": "2022-10-27T08:27:49+00:00",
@@ -1089,8 +1089,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:41.293864",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-10-18T10:37:29.543452",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1122,7 +1122,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:43.016028",
+      "first_tracked": "2026-10-18T10:37:31.124188",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1136,7 +1136,7 @@
       "url": "https://github.com/moritztng/tt-bio",
       "stars": 125,
       "forks": 12,
-      "last_updated": "2026-10-17T10:19:42+00:00",
+      "last_updated": "2026-10-18T10:34:12+00:00",
       "created_at": "2025-03-23T21:08:48+00:00",
       "language": "Python",
       "license": "MIT License",
@@ -1163,7 +1163,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:44.656061",
+      "first_tracked": "2026-10-18T10:37:32.721188",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1196,7 +1196,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:46.243965",
+      "first_tracked": "2026-10-18T10:37:34.292853",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1208,7 +1208,7 @@
       "name": "papers_for_protein_design_using_DL",
       "description": "List of papers about Proteins Design using Deep Learning",
       "url": "https://github.com/Peldom/papers_for_protein_design_using_DL",
-      "stars": 1982,
+      "stars": 1983,
       "forks": 220,
       "last_updated": "2026-08-15T05:58:26+00:00",
       "created_at": "2021-11-25T15:01:27+00:00",
@@ -1232,8 +1232,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:49.749473",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-10-18T10:37:37.552072",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1271,8 +1271,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:51.357788",
-      "star_velocity_7d": 7,
+      "first_tracked": "2026-10-18T10:37:39.124053",
+      "star_velocity_7d": 6,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1304,7 +1304,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:52.983751",
+      "first_tracked": "2026-10-18T10:37:40.655034",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1337,7 +1337,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:54.615267",
+      "first_tracked": "2026-10-18T10:37:42.211196",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1349,7 +1349,7 @@
       "name": "Proteina-Complexa",
       "description": "Generative model for protein binder design for protein and small molecule targets. Combines a pretrained flow-based generative model (built on La-Proteina) with inference-time optimization.",
       "url": "https://github.com/NVIDIA-BioNeMo/Proteina-Complexa",
-      "stars": 454,
+      "stars": 456,
       "forks": 83,
       "last_updated": "2026-10-13T23:27:31+00:00",
       "created_at": "2026-03-09T23:20:20+00:00",
@@ -1370,8 +1370,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:56.229866",
-      "star_velocity_7d": 6,
+      "first_tracked": "2026-10-18T10:37:43.777763",
+      "star_velocity_7d": 7,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1403,7 +1403,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:57.799987",
+      "first_tracked": "2026-10-18T10:37:45.369974",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1440,7 +1440,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:21:59.448420",
+      "first_tracked": "2026-10-18T10:37:46.970712",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1473,7 +1473,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:01.050649",
+      "first_tracked": "2026-10-18T10:37:48.529900",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1527,7 +1527,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:02.664055",
+      "first_tracked": "2026-10-18T10:37:50.145453",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1565,7 +1565,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:04.304201",
+      "first_tracked": "2026-10-18T10:37:51.798441",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1603,7 +1603,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:05.964474",
+      "first_tracked": "2026-10-18T10:37:53.404822",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -1636,7 +1636,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:07.568352",
+      "first_tracked": "2026-10-18T10:37:54.950229",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1669,7 +1669,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:09.181952",
+      "first_tracked": "2026-10-18T10:37:56.542644",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1706,7 +1706,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:10.847646",
+      "first_tracked": "2026-10-18T10:37:58.152976",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1746,7 +1746,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:12.480739",
+      "first_tracked": "2026-10-18T10:37:59.790426",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1779,7 +1779,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:14.235644",
+      "first_tracked": "2026-10-18T10:38:01.334889",
       "star_velocity_7d": -2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1812,7 +1812,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:15.981584",
+      "first_tracked": "2026-10-18T10:38:02.912277",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1845,7 +1845,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:17.688486",
+      "first_tracked": "2026-10-18T10:38:04.580284",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1880,7 +1880,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:19.333093",
+      "first_tracked": "2026-10-18T10:38:06.160359",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1913,7 +1913,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:20.953972",
+      "first_tracked": "2026-10-18T10:38:07.779375",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1946,7 +1946,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:23.518150",
+      "first_tracked": "2026-10-18T10:38:10.293105",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1982,7 +1982,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:25.182223",
+      "first_tracked": "2026-10-18T10:38:11.891997",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2015,7 +2015,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:28.310253",
+      "first_tracked": "2026-10-18T10:38:14.858497",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2061,7 +2061,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:29.913905",
+      "first_tracked": "2026-10-18T10:38:16.466163",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2107,7 +2107,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:31.546923",
+      "first_tracked": "2026-10-18T10:38:18.117142",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2142,7 +2142,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:33.196668",
+      "first_tracked": "2026-10-18T10:38:19.716516",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -2175,7 +2175,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:34.778908",
+      "first_tracked": "2026-10-18T10:38:21.254204",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2208,7 +2208,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:36.384721",
+      "first_tracked": "2026-10-18T10:38:22.793065",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2241,7 +2241,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:37.998768",
+      "first_tracked": "2026-10-18T10:38:24.366330",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2274,7 +2274,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:39.603630",
+      "first_tracked": "2026-10-18T10:38:25.890813",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2321,7 +2321,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:41.254908",
+      "first_tracked": "2026-10-18T10:38:27.489376",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2354,7 +2354,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:42.874750",
+      "first_tracked": "2026-10-18T10:38:29.065276",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2400,7 +2400,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:44.474423",
+      "first_tracked": "2026-10-18T10:38:30.633897",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2437,7 +2437,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:46.102245",
+      "first_tracked": "2026-10-18T10:38:32.210423",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2476,7 +2476,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:47.733051",
+      "first_tracked": "2026-10-18T10:38:33.801933",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2509,7 +2509,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:49.469005",
+      "first_tracked": "2026-10-18T10:38:35.360206",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2542,7 +2542,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:51.087145",
+      "first_tracked": "2026-10-18T10:38:36.945001",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2575,7 +2575,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:52.689409",
+      "first_tracked": "2026-10-18T10:38:38.582486",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2608,7 +2608,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:54.305143",
+      "first_tracked": "2026-10-18T10:38:40.222378",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2645,8 +2645,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-10-17T10:22:55.897616",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-10-18T10:38:41.876299",
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }

@@ -1,47 +1,5 @@
 [
   {
-    "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758296v1?rss=1",
-    "title": "The (implicit) force is with you: an application of the implicit function theorem for automatic protein force fields reparametrization",
-    "source": "bioRxiv Bioinformatics",
-    "summary": "Molecular dynamics simulations are powerful tools for studying protein behavior, yet their accuracy remains limited by the approximations of molecular force fields and the difficulty of determining their parameters. Moreover, existing force fields are largely optimized for globular proteins and can perform poorly on structurally distinct systems. Developing a universal force field that accurately describes all existing protein structures may be beyond reach with current physical models. Instead, we propose shifting generality from the force field itself to the method used to assign its paramet",
-    "published": "2026-10-16T07:00:00+00:00",
-    "matched": [
-      "molecular dynamics",
-      "protein",
-      "protein structure"
-    ],
-    "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
-  },
-  {
-    "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758284v1?rss=1",
-    "title": "Mechanism-guided Discovery of Fluoroacetate Dehalogenase (FAcD) Variants for Enzymatic PFAS Defluorination",
-    "source": "bioRxiv Bioinformatics",
-    "summary": "Per- and polyfluoroalkyl substances (PFAS) are persistent anthropogenic \"forever chemicals\" whose strong C-F bonds (~460-533 kJ mol-1) resist defluorination, and the recast EU Drinking Water Directive sets parametric values of 0.10 ug L-1 for the sum of 20 specified PFAS and 0.50 ug L-1 for total PFAS. Here, we present DeFluorX, a mechanism-first pipeline that uses Boltz-2 to co-fold 2,150 bacterial fluoroacetate dehalogenase (FAcD) variants with 26 PFAS and fluoroacetate, generating uniformly high model confidence (rho = +0.08) but poorly tracked catalytic competence. Thus, the complexes were",
-    "published": "2026-10-16T07:00:00+00:00",
-    "matched": [
-      "boltz",
-      "catalytic",
-      "enzyme"
-    ],
-    "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
-  },
-  {
-    "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758138v1?rss=1",
-    "title": "CucurbitAgent: An AI agent for exploring cucurbit multi-omics resources",
-    "source": "bioRxiv Bioinformatics",
-    "summary": "Functional genomics in crops increasingly depends on integrating information from an extensive literature and heterogeneous multi-omics datasets. Large language models (LLMs) offer a powerful approach to synthesizing these resources and revealing hidden connections across datasets; however, they frequently hallucinate, producing plausible but unsupported claims, when responding to gene-specific queries. Here, we present CucurbitAgent, an AI research agent for functional genomics in the Cucurbitaceae, a major family of horticultural crops. CucurbitAgent integrates multi-omics resources from nin",
-    "published": "2026-10-16T07:00:00+00:00",
-    "matched": [
-      "protein",
-      "protein structure",
-      "residue"
-    ],
-    "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
-  },
-  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759041v1?rss=1",
     "title": "HighFold-Lasso: Topology-Guided Prediction of Lasso Peptide Structures Using AlphaFold3",
     "source": "bioRxiv Bioinformatics",
@@ -57,11 +15,53 @@
     "last_seen": "2026-10-17T22:30:33.355311+00:00"
   },
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758296v1?rss=1",
+    "title": "The (implicit) force is with you: an application of the implicit function theorem for automatic protein force fields reparametrization",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Molecular dynamics simulations are powerful tools for studying protein behavior, yet their accuracy remains limited by the approximations of molecular force fields and the difficulty of determining their parameters. Moreover, existing force fields are largely optimized for globular proteins and can perform poorly on structurally distinct systems. Developing a universal force field that accurately describes all existing protein structures may be beyond reach with current physical models. Instead, we propose shifting generality from the force field itself to the method used to assign its paramet",
+    "published": "2026-10-16T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-10-17T22:30:22.075748+00:00",
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.11.758284v1?rss=1",
+    "title": "Mechanism-guided Discovery of Fluoroacetate Dehalogenase (FAcD) Variants for Enzymatic PFAS Defluorination",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Per- and polyfluoroalkyl substances (PFAS) are persistent anthropogenic \"forever chemicals\" whose strong C-F bonds (~460-533 kJ mol-1) resist defluorination, and the recast EU Drinking Water Directive sets parametric values of 0.10 ug L-1 for the sum of 20 specified PFAS and 0.50 ug L-1 for total PFAS. Here, we present DeFluorX, a mechanism-first pipeline that uses Boltz-2 to co-fold 2,150 bacterial fluoroacetate dehalogenase (FAcD) variants with 26 PFAS and fluoroacetate, generating uniformly high model confidence (rho = +0.08) but poorly tracked catalytic competence. Thus, the complexes were",
+    "published": "2026-10-16T00:00:00+00:00",
+    "matched": [
+      "boltz",
+      "catalytic",
+      "enzyme"
+    ],
+    "first_seen": "2026-10-17T22:30:22.075748+00:00",
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.758138v1?rss=1",
+    "title": "CucurbitAgent: An AI agent for exploring cucurbit multi-omics resources",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Functional genomics in crops increasingly depends on integrating information from an extensive literature and heterogeneous multi-omics datasets. Large language models (LLMs) offer a powerful approach to synthesizing these resources and revealing hidden connections across datasets; however, they frequently hallucinate, producing plausible but unsupported claims, when responding to gene-specific queries. Here, we present CucurbitAgent, an AI research agent for functional genomics in the Cucurbitaceae, a major family of horticultural crops. CucurbitAgent integrates multi-omics resources from nin",
+    "published": "2026-10-16T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein structure",
+      "residue"
+    ],
+    "first_seen": "2026-10-17T22:30:22.075748+00:00",
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.758618v1?rss=1",
     "title": "MYC targeted de novo binders impair tumor growth",
     "source": "bioRxiv Biochemistry",
     "summary": "MYC is one of the most frequently dysregulated oncogenic drivers across many cancers, yet direct therapeutic targeting has remained difficult because its function is mediated by disordered regions and transient protein-protein interactions. Here we design proteins that bind epitopes within regions of MYC whose sequence is conserved between human and mouse, including intrinsically disordered motifs required for oncogenic activity. In vitro, the designs bind MYC with nanomolar affinity and in cells they engage MYC, disrupt interactions with MAX, and remodel MYC-associated protein complexes. Expr",
-    "published": "2026-10-16T07:00:00+00:00",
+    "published": "2026-10-16T00:00:00+00:00",
     "matched": [
       "binder",
       "de novo protein",
@@ -71,14 +71,14 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758213v1?rss=1",
     "title": "Binding of a Macrocyclic Nonapeptide Inhibitor to Histone Deacetylase 6",
     "source": "bioRxiv Biochemistry",
     "summary": "Histone deacetylase 6 (HDAC6) plays an essential role in the regulation of post-translational lysine acetylation. Myriad biological processes depend on the precise regulation of lysine acetylation-deacetylation cycles, and their dysregulation is linked to human pathologies such as cancer and neurodegeneration. Broad-specificity HDAC inhibitors are efficacious in treating disease, but the inhibitors currently approved for clinical use often cause deleterious side effects due to inhibition of multiple HDAC isozymes as well as other zinc enzymes. Cyclic peptides comprise novel platforms that, in ",
-    "published": "2026-10-16T07:00:00+00:00",
+    "published": "2026-10-16T00:00:00+00:00",
     "matched": [
       "amino acid",
       "crystal structure",
@@ -87,28 +87,28 @@
       "peptide design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759412v1?rss=1",
     "title": "Nucleotide State Regulates Asymmetric Substrate-Binding Protein Docking in a Type II ABC Importer",
     "source": "bioRxiv Biochemistry",
     "summary": "Type II ABC importers rely on substrate-binding proteins (SBP) to capture nutrients and deliver them to membrane-embedded transporters, but how ATP binding and hydrolysis regulate their interactions remains poorly understood. To address these questions, we determined structures of the Type II small-substrate molybdate importer MolBC-A from H. influenzae in distinct nucleotide-bound states, complemented by molecular dynamics (MD) simulations and functional assays. In a nucleotide-free state, the MolA-MolBC interface is remodeled into a more open conformation, whereas ATP and AMP-PNP binding ind",
-    "published": "2026-10-16T07:00:00+00:00",
+    "published": "2026-10-16T00:00:00+00:00",
     "matched": [
       "docking",
       "molecular dynamics",
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758331v1?rss=1",
     "title": "Identification and targeting of a novel drug pocket in the tumour angiogenesis regulator RhoJ",
     "source": "bioRxiv Biochemistry",
     "summary": "The Rho GTPase RhoJ is a key regulator of tumour angiogenesis and has been identified as a target for anti-angiogenic drug design. Its high sequence conservation with the related Rho GTPase Cdc42 complicates selective drug discovery. RhoJ has a unique N-terminal extension (Asn2-Lys19) that is absent in Cdc42 and other Rho GTPases. Here, we use molecular dynamics simulations to identify a novel allosteric pocket formed by the RhoJ N-terminus and show that this pocket contributes to interactions with key downstream signalling partners. Structure-based virtual screening of small molecules targeti",
-    "published": "2026-10-16T07:00:00+00:00",
+    "published": "2026-10-16T00:00:00+00:00",
     "matched": [
       "binder",
       "docking",
@@ -116,28 +116,28 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758245v1?rss=1",
     "title": "Allosteric covalent inhibition of cereblon through cryptic cysteine targeting",
     "source": "bioRxiv Biochemistry",
     "summary": "Thalidomide-derived cereblon (CRBN) modulators are among the most clinically impactful targeted protein degradation therapeutics, redirecting the CRL4-CRBN E3 ubiquitin ligase to degrade disease-driving neosubstrates. All current CRBN-targeting IMiDs and CELMoDs engage a single orthosteric pocket, leaving CRBN's conformational landscape largely unexploited pharmacologically. Using cysteine-directed chemoproteomic screening, we identified covalent ligands that engage Cys287, a cryptic allosteric pocket distal to the orthosteric site. Our lead compound, VVD-105917, acts as a pan-inhibitor of IMi",
-    "published": "2026-10-15T07:00:00+00:00",
+    "published": "2026-10-15T00:00:00+00:00",
     "matched": [
       "cryo-em structure",
       "ligand",
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758952v1?rss=1",
     "title": "A potent macrocyclic peptide binder enables effector-free crystallization of the GTPase RAB27A",
     "source": "bioRxiv Biochemistry",
     "summary": "RAB27A is a member of a highly conserved family of small GTPases that regulate intracellular vesicle trafficking. Multiple studies have linked RAB27A cellular activity to exosome-mediated modulation of the tumour microenvironment and inflammatory signalling, highlighting it as an attractive target for drug discovery. However, identifying structurally validated and selective inhibitors of the RAB27A-effector interaction has proven challenging, partly because wild-type RAB27A crystallizes only in complex with effector proteins such as Slp2a. Using mRNA display, we identified macrocyclic peptide ",
-    "published": "2026-10-15T07:00:00+00:00",
+    "published": "2026-10-15T00:00:00+00:00",
     "matched": [
       "binder",
       "ligand",
@@ -145,14 +145,14 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.759008v1?rss=1",
     "title": "Unfolding of the disease-linked bank vole prion protein E200K in the context of PrPSc propagation",
     "source": "bioRxiv Biochemistry",
     "summary": "The elucidation of the atomistic structure of PrPSc has, disappointingly, not revealed the mechanism underlying prion propagation. This is because PrPSc has been shown to be a standard amyloid, and as such, it can only template a polypeptide chain that is unfolded. Therefore, while PrPSc can easily template the disordered ~90-120 domain of an incoming PrPC molecule, it does not have any obvious capacity to template its ~121-231 folded domain (FD). The FD needs to accommodate into the ~121-230 PrPSc surface, an inert \"Procrustean bed\". We have recently proposed that unfolding of the FD is a pre",
-    "published": "2026-10-14T07:00:00+00:00",
+    "published": "2026-10-14T00:00:00+00:00",
     "matched": [
       "folding",
       "peptide",
@@ -160,14 +160,14 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758789v1?rss=1",
     "title": "Affinity maturation of a single-domain antibody via rational mutagenesis informed by artificial intelligence",
     "source": "bioRxiv Biochemistry",
     "summary": "Antibodies can originate from various sources such as animal immunizations, patient material, DNA/RNA libraries and (AI-based) de novo design. Pre-made (e.g. synthetic) DNA libraries have substantial advantages over traditional immunization campaigns in terms of speed, cost, animal welfare, amount of required antigen and the possibility to select against otherwise problematic (e.g. toxic, unstable or expensive) antigens. The main downside is that selections from these non-immune libraries often result in binders with relatively low affinity due to the absence of in vivo affinity maturation. No",
-    "published": "2026-10-14T07:00:00+00:00",
+    "published": "2026-10-14T00:00:00+00:00",
     "matched": [
       "antibody",
       "binder",
@@ -177,7 +177,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/09/new-seattle-based-coalition-emerges-to-learn-and-codify-natures-design-rules/",
@@ -190,7 +190,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -203,7 +203,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -216,7 +216,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -229,7 +229,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -243,7 +243,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -258,7 +258,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -271,7 +271,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -284,7 +284,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -297,7 +297,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -311,7 +311,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -324,6 +324,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-17T22:30:33.355311+00:00"
+    "last_seen": "2026-10-18T10:38:53.416035+00:00"
   }
 ]
