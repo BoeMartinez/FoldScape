@@ -1,5 +1,94 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.23108",
+    "title": "Multiscale Quantum-Classical Simulation of Protein Autoproteolysis in a Million-Atom Membrane Environment",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.23108v1 Announce Type: new Abstract: Predicting chemical reactions in biomolecules is challenging because reactive centers are embedded within complex environments that strongly influence their energetics and mechanisms. Here, we present a hybrid quantum-classical workflow that combines molecular dynamics, density functional theory, and correlated wavefunction methods, tightly integrating CPUs, GPUs, and quantum processing units (QPUs) to enable simulations across multiple length and accuracy scales. We apply this approach to ADGRG1 autoproteolysis, a maturation reaction in an adhes",
+    "published": "2026-10-19T04:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-10-19T12:35:50.922405+00:00",
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2507.20130",
+    "title": "Generative molecule evolution using 3D pharmacophore for efficient Structure-Based Drug Design",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2507.20130v2 Announce Type: replace-cross Abstract: Recent breakthroughs in generative models have shown great promise for drug discovery, yet Structure-Based Drug Design (SBDD) faces two critical challenges: the scarcity of high-quality protein-ligand complex data and the practical synthesizability of generated molecules. While ligand-based approaches benefit from billion-scale small molecule datasets, they often lack the structural context of the target protein. To address these dual challenges of data scarcity and synthetic inaccessibility, we propose MEVO, a generative molecular evol",
+    "published": "2026-10-19T04:00:00+00:00",
+    "matched": [
+      "binder",
+      "binding affinity",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-10-19T12:35:50.922405+00:00",
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759831v1?rss=1",
+    "title": "Network organization of protein binding-site landscapes across scales",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Studying protein binding sites helps explain ligand recognition and selectivity, informing drug development and repurposing. Here, we combine protein language model embeddings with network analysis to investigate how local recognition environments organize across scales. We represented 121,673 non-redundant, experimentally identified binding sites using ProtT5 embeddings of ligand-contacting residues and constructed a mutual nearest-neighbor network. Embedding proximity was associated with local structural similarity, supporting the structural relevance of network relationships. Globally, the ",
+    "published": "2026-10-19T00:00:00+00:00",
+    "matched": [
+      "ligand",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-10-19T12:35:50.922405+00:00",
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759232v1?rss=1",
+    "title": "Distance-AF Multimer: A Multi-Step Approach for Protein Complex Structure Modeling with User-Defined Distance Constraints",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "The three-dimensional structure of proteins provides essential insight into the molecular mechanisms underlying their function. Many biological activities are mediated through protein interactions, making accurate structural determination of protein complexes important. Despite significant advances in computational protein structure prediction, there are still many cases where protein complexes are not correctly assembled. In particular, there are cases where experimental data, such as distances between residue pairs in interacting proteins are available, yet existing prediction methods fail t",
+    "published": "2026-10-18T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "docking",
+      "protein",
+      "protein structure",
+      "residue",
+      "structure prediction"
+    ],
+    "first_seen": "2026-10-19T12:35:50.922405+00:00",
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759394v1?rss=1",
+    "title": "RiboBridge couples RNA backbone generation to sequence design through a learned interaction topology",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Designing ribonucleic acid (RNA) molecules with prescribed structures and functions is central to RNA engineering. Backbone-first approaches generate three-dimensional geometry before assigning a nucleotide sequence, yet leave open how that geometry should be represented for downstream sequence design. Here we introduce RiboBridge, which infers a probabilistic residue-pair state from backbone geometry, recycles binary pair probabilities through a second pass and transfers binary and typed signals as soft attention biases for sequence decoding. On 550 generated backbones, pair-type decoding ach",
+    "published": "2026-10-18T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-10-19T12:35:50.922405+00:00",
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.12.758406v1?rss=1",
+    "title": "CAPO: Compute-Aware Automated Protein-Model Optimization",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein models such as Evolutionary Scale Modeling (ESM), AlphaFold and Boltz have transformed computational protein science, yet a pretrained model rarely transfers to a particular laboratory's assay without adaptation to its data and experimental setting, and that adaptation is technically demanding and spends real compute budget. Existing agentic systems can automate model training, yet typically treat fine-tuning as a reliable tool call: feasibility and cost are estimated rather than measured, and infeasibility is discovered only after compute has been spent. We formulate protein-model ada",
+    "published": "2026-10-18T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "boltz",
+      "protein"
+    ],
+    "first_seen": "2026-10-19T12:35:50.922405+00:00",
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759041v1?rss=1",
     "title": "HighFold-Lasso: Topology-Guided Prediction of Lasso Peptide Structures Using AlphaFold3",
     "source": "bioRxiv Bioinformatics",
@@ -71,7 +160,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758213v1?rss=1",
@@ -87,7 +176,7 @@
       "peptide design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759412v1?rss=1",
@@ -101,7 +190,7 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758331v1?rss=1",
@@ -116,7 +205,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758245v1?rss=1",
@@ -130,7 +219,7 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758952v1?rss=1",
@@ -145,7 +234,7 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.759008v1?rss=1",
@@ -160,7 +249,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758789v1?rss=1",
@@ -177,7 +266,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/09/new-seattle-based-coalition-emerges-to-learn-and-codify-natures-design-rules/",
@@ -190,7 +279,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -203,7 +292,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -216,7 +305,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -229,7 +318,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -243,7 +332,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -258,7 +347,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -271,7 +360,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -284,7 +373,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -297,7 +386,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -311,7 +400,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -324,6 +413,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-18T10:38:53.416035+00:00"
+    "last_seen": "2026-10-19T12:35:50.922405+00:00"
   }
 ]
