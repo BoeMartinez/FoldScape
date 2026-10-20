@@ -1,5 +1,47 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.24144",
+    "title": "LiveCoMS Roundtable: Discussing Markov state models after two decades of development v1.0",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.24144v1 Announce Type: new Abstract: Markov state models (MSMs) play a central role in the analysis of molecular dynamics (MD) simulations for biomolecules, and MSM methodologies have been under continual development since their introduction to the field in the early 2000s. MSMs take MD trajectory data as input and produce a more compact, i.e., coarse-grained, and interpretable representation of the system in terms of conformational states and quantitative observables such as the equilibrium populations of states and the timescales of interconverting between states. Numerous strateg",
+    "published": "2026-10-20T04:00:00+00:00",
+    "matched": [
+      "molecular dynamics"
+    ],
+    "first_seen": "2026-10-20T11:10:37.864155+00:00",
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.24806",
+    "title": "Aptamers as a sandbox for lab-in-the-loop agentic molecular discovery",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.24806v1 Announce Type: new Abstract: Despite breakthroughs in AI-driven molecular generation, existing discovery pipelines operate largely in silico, with wet-lab feedback reserved for validation rather than iterative improvement. Whether large language model (LLM)-based reasoning agents can accelerate de novo discovery by iterating with lab data remains unproven. Here we use protein-binding aptamer design as a sandbox (1-2 week cycles, \\$1-\\$3 per candidate) to demonstrate a wet lab in a closed loop with AI systems. We tasked agentic pipelines with developing aptamer binders agains",
+    "published": "2026-10-20T04:00:00+00:00",
+    "matched": [
+      "binder",
+      "protein"
+    ],
+    "first_seen": "2026-10-20T11:10:37.864155+00:00",
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.760018v1?rss=1",
+    "title": "Mechanistic Insights into Adaptive Binding of Vitamins and Hormones at Hotspot-Enriched Interfaces of the Synaptotagmin 1 C2AB Domain",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "The present in silico study provided the adaptive binding of seven physiologically active molecules, including four non-peptide hormones (cortisol, estradiol, triiodothyronine, melatonin) and three vitamins (methyltetrahydrofolate, pyridoxal phosphate, thiamine), alongside argireline as a benchmark, at hotspot-enriched interfaces of full C2AB-domain of Synaptotagmin 1 (Syt1), using molecular docking study and molecular dynamics (MD) simulations. Linear correlations of MD-features and nonlinear KPCA-IG-based ranking of features and ligands yielded deeper mechanistic insights. All ligands exhibi",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "docking",
+      "ligand",
+      "molecular dynamics",
+      "peptide",
+      "protein"
+    ],
+    "first_seen": "2026-10-20T11:10:37.864155+00:00",
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.23108",
     "title": "Multiscale Quantum-Classical Simulation of Protein Autoproteolysis in a Million-Atom Membrane Environment",
     "source": "arXiv q-bio.BM",
@@ -42,6 +84,52 @@
     ],
     "first_seen": "2026-10-19T12:35:50.922405+00:00",
     "last_seen": "2026-10-19T12:35:50.922405+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.757941v1?rss=1",
+    "title": "Proteome scale drug prioritization from AlphaFold 3 interaction confidence",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "AlphaFold 3 (AF3) predicts protein ligand complexes, but the utility of its confidence scores for drug prioritization remains unclear. We benchmarked AF3 interaction scores against BANDOCK+, an experimentally informed approach, using approved drugs and human protein libraries. AF3 ipTM achieved similar aggregate disease ranking performance to BANDOCK+, with differences among individual indications. These results support the evaluation of AF3 interaction confidence as a source of information for proteome scale drug prioritization.",
+    "published": "2026-10-19T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "ligand",
+      "protein",
+      "proteome"
+    ],
+    "first_seen": "2026-10-20T11:10:37.864155+00:00",
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759720v1?rss=1",
+    "title": "Holistic Design of Selective Photoenzymes with Genetically Programmed Sensitizers",
+    "source": "bioRxiv Biochemistry",
+    "summary": "The ability to genetically program new catalytic elements into proteins greatly expands the range of chemistry accessible with engineered enzymes, as exemplified by the recent development of energy-transfer photoenzymes featuring organic photosensitizers. However, to date, the development of artificial photocatalytic sites has relied on extensive reengineering of natural proteins using directed evolution, limiting structural diversity and control. Here, we use the deep learning design methods RFdiffusion-AA and LigandMPNN to generate de novo photoenzymes that precisely position a benzophenone ",
+    "published": "2026-10-19T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "catalytic",
+      "crystal structure",
+      "enzyme",
+      "folding",
+      "ligand"
+    ],
+    "first_seen": "2026-10-20T11:10:37.864155+00:00",
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759644v1?rss=1",
+    "title": "Adenosine Deamination by HPAMPD Reveals Structural Constraints on Adenosine Accessibility in RNA",
+    "source": "bioRxiv Biochemistry",
+    "summary": "RNA modifying enzymes identify their intended target through recognition of sequence and structural context. Here, we identified the mollusk-derived AMP deaminase HPAMPD unexpectedly deaminates adenosines in RNA in vitro, even though it has no known role in RNA metabolism. We therefore asked whether sequence and structural context influence HPAMPD-mediated RNA deamination. Using a combination of next generation sequencing and LC-MS, we assessed HPAMPD deamination of adenosines in diverse RNA contexts comprising oligonucleotides, transcriptome-derived RNA, a library of tetraloops, and RNAs of k",
+    "published": "2026-10-19T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-10-20T11:10:37.864155+00:00",
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759232v1?rss=1",
@@ -160,7 +248,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758213v1?rss=1",
@@ -176,7 +264,7 @@
       "peptide design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759412v1?rss=1",
@@ -190,7 +278,7 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.758331v1?rss=1",
@@ -205,7 +293,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758245v1?rss=1",
@@ -219,7 +307,7 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758952v1?rss=1",
@@ -234,7 +322,7 @@
       "protein"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.759008v1?rss=1",
@@ -249,7 +337,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.13.758789v1?rss=1",
@@ -279,7 +367,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -292,7 +380,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -305,7 +393,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -318,7 +406,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -332,7 +420,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -347,7 +435,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -360,7 +448,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -373,7 +461,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -386,7 +474,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -400,7 +488,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -413,6 +501,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-19T12:35:50.922405+00:00"
+    "last_seen": "2026-10-20T11:10:37.864155+00:00"
   }
 ]
