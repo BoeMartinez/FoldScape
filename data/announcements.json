@@ -1,5 +1,20 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.27230",
+    "title": "Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.27230v1 Announce Type: cross Abstract: Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. Increasing automation within the chemical sciences leads to a more digital and precision chemistry. Dedicated scientific agents are becoming central to guiding the chemist through an ever-increasing amount of data and findings, including negative ones. Here, we introduce Magnolia, a persistent-memory artificial intelligence agent framework that integrates computational protocols, from docking to",
+    "published": "2026-10-21T04:00:00+00:00",
+    "matched": [
+      "docking",
+      "molecular dynamics",
+      "peptide",
+      "protein"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.24144",
     "title": "LiveCoMS Roundtable: Discussing Markov state models after two decades of development v1.0",
     "source": "arXiv q-bio.BM",
@@ -39,7 +54,128 @@
       "protein"
     ],
     "first_seen": "2026-10-20T11:10:37.864155+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759233v1?rss=1",
+    "title": "Bypassing Current Biosecurity Screens with AI Designed Proteins and Closing the Gap with Edge-AI Functional Screening",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "DNA synthesis machines are vital tools in medicine and research, but they can be misused to produce sequences which are transcribed and translated to produce toxic proteins. Synthesis providers may screen orders for dangerous sequences, but most screening software performs sequence-based alignment, which is vulnerable to AI redesign attacks. Additionally, software-only synthesis screening requires the operator of the machine to be trusted. We present Capiti, an edge-deployed screening system that runs with no internet connection, listens directly to a synthesizer's valve control signals, and a",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "proteinmpnn",
+      "sequence"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.756639v1?rss=1",
+    "title": "PHANES: an integrated resource of protein features for the human proteome",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein analysis and machine-learning workflows increasingly rely on large-scale numerical representations of proteins. While protein language models provide powerful embeddings, their limited interpretability and high computational cost hinder their use in many biological applications. We present PHANES, a human proteome database and web server providing a comprehensive, biologically interpretable set of features for 20335 proteins. PHANES integrates sequence-derived physicochemical descriptors, structure-based and graph-theoretical features computed from AlphaFold predictions, thermostabilit",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "protein language model",
+      "protein structure",
+      "proteome",
+      "sequence"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759026v1?rss=1",
+    "title": "Integrating Multisource Target Evidence with Machine-Learning Potency Prediction for Alzheimer's Disease Drug Discovery",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Alzheimer's disease (AD) target evidence is distributed across biological, chemical, structural, regulatory, and trial-registry sources, complicating reproducible target evaluation and modeling. We developed a traceable data-to-model platform that integrates AGORA-centered evidence through Target Explorer, Drug-Target Lookup, and Model Portfolio workspaces. The resource contains 967 targets, 452,249 compounds, and 1,430,260 measurements. On a curated PIK3CA dataset, target-specific fine-tuning of the Boltz-2 affinity head increased Pearson r from 0.248 to 0.560 and reduced mean absolute error ",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "boltz"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.759896v1?rss=1",
+    "title": "Reliable and Efficient Agentic Protein Design with Toolset Harnessing",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Computational protein design workflows require the orchestration of multiple tools, data formats, and analysis steps that are often fragmented. Here, we introduce Chaperone, a lightweight and customizable framework that enables seamless integration of RFdiffusion3 (RFD3) with downstream sequence design, structure prediction, and evaluation tools, including ProteinMPNN, AlphaFold3 (AF3), and more than 50 other protein design tools. By combining a programmable agent-friendly interface with parallelized execution on high-performance computing systems, Chaperone as a harness enables rapid iteratio",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "protein",
+      "protein design",
+      "proteinmpnn",
+      "rfdiffusion"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759982v1?rss=1",
+    "title": "Evolution-Guided Engineering of Non-conserved N-Glycosylation Sites Improves Heterologous Production of Sulfotransferases",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Escherichia coli features low cost, mature fermentation technology and high recombinant protein output, but the expression of glycosylation-dependent eukaryotic proteins therein is severely limited. Many glycosylated proteins are key tool enzymes for the biosynthesis of various pharmaceutical molecules, such as glycosaminoglycan-related synthases, but there is a lack of universal protein engineering methods to enable the adaptive evolution of these enzymes in E. coli. We established an evolution-guided optimization strategy that targets non-conserved N-glycosylation sites (EGO-NGly). The core ",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "molecular dynamics",
+      "protein",
+      "protein engineering",
+      "residue"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760176v1?rss=1",
+    "title": "IRE1α undergoes a dynamic filament assembly cycle governed by unfolded proteins and BiP.",
+    "source": "bioRxiv Biochemistry",
+    "summary": "The endoplasmic reticulum is a major hub of protein synthesis, modification and trafficking that relies on the Unfolded Protein Response (UPR) to balance its folding capacity. IRE1, the most conserved of the UPR sensors, undergoes a change in oligomeric state upon activation that propagates the stress signal from the ER lumen to its cytoplasmic kinase/RNase domains. Here we show that opposing inputs from unfolded proteins and the ER chaperone machinery govern a dynamic cycle of IRE1 assembly. A bona fide unfolded ER client directly binds the IRE1 lumenal domain (LD) and promotes higher-order o",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand",
+      "peptide",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760048v1?rss=1",
+    "title": "Heimdall SNAREs reveal an ancestral architecture of eukaryotic SNARE complexes",
+    "source": "bioRxiv Biochemistry",
+    "summary": "SNARE proteins are central to eukaryotic cell biology, where they drive membrane fusion by assembling into four-helix bundles that bring opposing membranes into close proximity. Their ubiquitous role in intracellular membrane trafficking raises fundamental questions about their evolutionary origin and the emergence of eukaryotic cellular complexity. Here, we characterize SNARE-like proteins from Heimdallarchaeota, a lineage within the Asgard archaea that is closely related to eukaryotes. We show that a Heimdall SNARE forms a stable homotetrameric four-helix bundle in solution and determine its",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760170v1?rss=1",
+    "title": "Dual-portal ligand transport in human cytochrome P450 17A1",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Human cytochrome P450 17A1 (CYP17A1) is the qualitative regulator of steroidogenesis, catalyzing both 17-hydroxylation and 17,20-lyase cleavage at a single active site, and is the target of the prostate cancer drug abiraterone. Crystal structures show an almost fully enclosed site and do not reveal how lipophilic steroids reach it from the endoplasmic reticulum membrane or how the more polar products leave. We therefore asked which routes connect the CYP17A1 active site to the protein surface, and which of them are required. Molecular dynamics of the CYP17A1 enzyme followed by CAVER tunnel clu",
+    "published": "2026-10-20T00:00:00+00:00",
+    "matched": [
+      "crystal structure",
+      "enzyme",
+      "ligand",
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-10-21T11:26:55.709376+00:00",
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.23108",
@@ -98,7 +234,7 @@
       "proteome"
     ],
     "first_seen": "2026-10-20T11:10:37.864155+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759720v1?rss=1",
@@ -115,7 +251,7 @@
       "ligand"
     ],
     "first_seen": "2026-10-20T11:10:37.864155+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759644v1?rss=1",
@@ -129,7 +265,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-20T11:10:37.864155+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.14.759232v1?rss=1",
@@ -248,7 +384,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.10.758213v1?rss=1",
@@ -264,7 +400,7 @@
       "peptide design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759412v1?rss=1",
@@ -367,7 +503,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -380,7 +516,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -393,7 +529,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -406,7 +542,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -420,7 +556,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -435,7 +571,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -448,7 +584,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -461,7 +597,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -474,7 +610,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -488,7 +624,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -501,6 +637,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-20T11:10:37.864155+00:00"
+    "last_seen": "2026-10-21T11:26:55.709376+00:00"
   }
 ]
