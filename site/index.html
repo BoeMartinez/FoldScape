@@ -75,28 +75,29 @@ article.stat-card { box-shadow: var(--tile-shadow); }
             border-bottom: none;
             padding-bottom: 0;
         }
-        /* ── Section tabs: the travelling mound, where it pays off ──
-           The bar is tinted and inset, not white. That is the whole reason
-           the mound reads here and barely reads in the top bar: a dome of
-           white light needs a surface below white to rise out of. The tabs
-           switch panels in place, so the crossing is not cut short by a
-           page load. */
+        /* ── Section tabs: a strip of the page that lifts ──
+           No panel, border or ring. The bar is the page itself, and the
+           selected tab is the one place the paper stands off it. The strip
+           is drawn on a canvas behind the labels (sectiontabs.js), clear
+           where flat, so the grain shows through it like the rest. */
         .sectabs {
             position: relative;
             isolation: isolate;
             display: flex;
             gap: 2px;
             margin: 4.5rem 0 1.5rem;
-            padding: 8px;
-            border-radius: 14px;
-            background: var(--surface-tint);
-            border: 1px solid var(--line-strong);
-            box-shadow: inset 0 1px 2px rgba(30,20,8,0.05);
-            overflow: hidden;
+            padding: 0;
+        }
+        .sectabs-paper {
+            position: absolute; z-index: -1;
+            pointer-events: none;
         }
         .sectab {
             position: relative;
             flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border: 0;
             background: none;
             cursor: pointer;
@@ -104,39 +105,21 @@ article.stat-card { box-shadow: var(--tile-shadow); }
             font-size: 0.9375rem;
             font-weight: 400;
             color: var(--ink-mute);
-            padding: 0.6rem 0.6rem;
-            border-radius: 9px;
+            padding: 0.7rem 0.6rem;
+            margin: 0;
             white-space: nowrap;
             transition: color 200ms ease;
+            -webkit-tap-highlight-color: transparent;
         }
-        .sectab.on { color: var(--ink); font-weight: 500; }
         .sectab span { display: inline-block; will-change: transform; }
-        .sectab:focus-visible { outline: 2px solid #0a9aa6; outline-offset: 2px; }
-        .sectabs-mound {
-            position: absolute; z-index: -1; top: 8px; left: 0;
-            height: calc(100% - 16px);
-            pointer-events: none; transform-origin: 50% 100%;
-            background:
-                linear-gradient(to right, transparent 4%,
-                    rgba(255,255,255,0.9) 26%, rgba(255,255,255,0.9) 74%,
-                    transparent 96%) top / 100% 1px no-repeat,
-                radial-gradient(ellipse 66% 128% at 56% 114%,
-                    rgba(255,255,255,1) 0%,
-                    rgba(255,255,255,0.62) 44%,
-                    rgba(255,255,255,0) 80%);
-        }
-        .sectabs-shadow {
-            position: absolute; z-index: -2; top: 0; height: 15px;
-            pointer-events: none;
-            background: radial-gradient(48% 100% at 44% 0%, rgba(30,20,10,0.30), transparent 80%);
-            filter: blur(9px);
-        }
+        /* The lift is the only mark of selection. Arrow keys select as they
+           move focus, so a focused tab is always the lifted one. */
+        .sectab:focus, .sectab:focus-visible { outline: none; box-shadow: none; }
         @media (max-width: 680px) {
-            .sectab { font-size: 0.8125rem; padding: 0.55rem 0.3rem; }
+            .sectab { font-size: 0.8125rem; padding: 0.65rem 0.3rem; }
         }
-        /* The bar hides its overflow so the mound stays inside it, which means
-           a label that outgrows its tab would be clipped rather than wrapped.
-           The count is the first thing to go. */
+        /* Three labels share a phone's width. The count is the first thing
+           to go so the names stay whole. */
         @media (max-width: 520px) {
             .sectabs .section-count { display: none; }
         }
@@ -473,8 +456,8 @@ figure { background: var(--surface); }
         <!-- Category Chart -->
         <h2 class="section-title">Tools by Category</h2>
         <section class="chart-section"><div class="chart-wrapper"><canvas id="category-chart"></canvas></div></section>
-        <!-- One mound travels under these three. They switch in place, so the
-             crossing is the whole transition and no page load interrupts it. -->
+        <!-- One strip of paper travels under these three. They switch in place,
+             so the crossing is the whole transition. -->
         <nav class="sectabs" id="sectabs" role="tablist" aria-label="Sections">
             <button type="button" class="sectab on" role="tab" id="tab-top"
                     aria-controls="panel-top" aria-selected="true"><span>Top Tools</span></button>
