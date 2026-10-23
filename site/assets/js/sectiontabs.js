@@ -24,9 +24,9 @@ function startSectionTabs() {
     var labels = tabs.map(function (t) { return t.querySelector('span'); });
     var still = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-    var LIFT = 3;      // px the strip rises at full height
+    var LIFT = 1.6;    // px the strip rises at full height
     var PAD = 22;      // paper either side of a label
-    var SHOULDER = 9;  // half-width of the strip's edge at rest
+    var SHOULDER = 18; // half-width of the strip's edge at rest; wide, so the ends ramp rather than wall
     var BLEED = 18;    // canvas reaches past the bar so the shadow isn't cut
 
     var cv = document.createElement('canvas');
@@ -94,7 +94,7 @@ function startSectionTabs() {
         var down = smooth(((s.c + half + eR) - x) / (2 * eR));
         if (up === 0 || down === 0) return 0;
         var u = (x - s.c) / half;
-        var arch = 1 - 0.18 * Math.min(1, u * u);
+        var arch = 1 - 0.35 * Math.min(1, u * u);
         var lean = 1 + 0.35 * s.wave * s.dir * Math.max(-1.6, Math.min(1, u));
         return up * down * arch * lean;
     }
@@ -125,8 +125,8 @@ function startSectionTabs() {
             ctx.clip();
 
             var OFF = 10000;
-            ctx.shadowColor = 'rgba(30, 20, 10, 0.30)';
-            ctx.shadowBlur = 7 * dpr;
+            ctx.shadowColor = 'rgba(30, 20, 10, 0.18)';
+            ctx.shadowBlur = 8 * dpr;
             ctx.shadowOffsetX = OFF * dpr;
             ctx.shadowOffsetY = 0;
             ctx.fillStyle = '#000';
@@ -135,7 +135,7 @@ function startSectionTabs() {
             ctx.moveTo(-OFF, bot - 2);
             for (i = 0; i < n; i++) {
                 x = i * step - hs[i] * 1.5;
-                ctx.lineTo(x - OFF, bot - 2 + hs[i] * 7.5);
+                ctx.lineTo(x - OFF, bot - 2 + hs[i] * 4.5);
             }
             ctx.lineTo(W - OFF, bot - 2);
             ctx.closePath();
@@ -154,20 +154,20 @@ function startSectionTabs() {
                 var slope = i > 0 && i < n - 1 ? (hs[i + 1] - hs[i - 1]) / (2 * step) * LIFT : 0;
                 x = i * step;
 
-                ctx.fillStyle = 'rgba(255, 255, 255,' + (0.28 * hn).toFixed(3) + ')';
+                ctx.fillStyle = 'rgba(255, 255, 255,' + (0.16 * hn).toFixed(3) + ')';
                 ctx.fillRect(x, y0, step, y1 - y0);
 
                 var lit = -slope;
                 if (lit > 0) {
-                    ctx.fillStyle = 'rgba(255, 255, 255,' + Math.min(0.6, lit * 1.4).toFixed(3) + ')';
+                    ctx.fillStyle = 'rgba(255, 255, 255,' + Math.min(0.35, lit * 1.2).toFixed(3) + ')';
                 } else {
-                    ctx.fillStyle = 'rgba(30, 20, 10,' + Math.min(0.12, -lit * 0.3).toFixed(3) + ')';
+                    ctx.fillStyle = 'rgba(30, 20, 10,' + Math.min(0.06, -lit * 0.25).toFixed(3) + ')';
                 }
                 ctx.fillRect(x, y0, step, y1 - y0);
 
-                ctx.fillStyle = 'rgba(255, 255, 255,' + (0.85 * hn).toFixed(3) + ')';
+                ctx.fillStyle = 'rgba(255, 255, 255,' + (0.6 * hn).toFixed(3) + ')';
                 ctx.fillRect(x, y0, step, 1);
-                ctx.fillStyle = 'rgba(30, 20, 10,' + (0.10 * hn).toFixed(3) + ')';
+                ctx.fillStyle = 'rgba(30, 20, 10,' + (0.06 * hn).toFixed(3) + ')';
                 ctx.fillRect(x, y1 - 1, step, 1);
             }
         }
