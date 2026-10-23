@@ -48,7 +48,7 @@ function renderAnnouncements() {
         return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     }
 
-    items.slice(0, SHOWN).forEach(function (item) {
+    function draw(item) {
         var card = document.createElement('article');
         card.className = 'announce';
 
@@ -79,7 +79,23 @@ function renderAnnouncements() {
 
         card.appendChild(meta);
         list.appendChild(card);
-    });
+    }
+
+    items.slice(0, SHOWN).forEach(draw);
+
+    // The tab counts every entry, so the rest are one tap away rather than
+    // missing. They open in place, under the ones already shown.
+    if (items.length > SHOWN) {
+        var more = document.createElement('button');
+        more.type = 'button';
+        more.className = 'announce-more';
+        more.textContent = 'Show all ' + items.length;
+        more.addEventListener('click', function () {
+            list.removeChild(more);
+            items.slice(SHOWN).forEach(draw);
+        });
+        list.appendChild(more);
+    }
 }
 
 /* The data tag is written into the page by embed_data.py, which decides its
