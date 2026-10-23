@@ -1,5 +1,64 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.30668",
+    "title": "RiboBridge: protein-conditioned de novo RNA binder structure design",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.30668v1 Announce Type: cross Abstract: Designing RNA molecules that bind to target protein structures requires generating both an RNA conformation and its bound complex geometry, without assuming a predefined binding site. Existing approaches generally model these coupled processes within a unified representation, entangling RNA conformation generation with protein-relative placement. In this work, we introduce RiboBridge, a structure-first framework that separates RNA conformational generation from protein--RNA assembly through cross-frame interaction geometry. RiboBridge first pro",
+    "published": "2026-10-23T04:00:00+00:00",
+    "matched": [
+      "binder",
+      "ligand",
+      "protein",
+      "protein structure",
+      "sequence"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.03046",
+    "title": "Advances in Machine Learning for Directed Evolution: A Five-Year Retrospective",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.03046v2 Announce Type: replace Abstract: The last five-plus years have seen many protein engineering disciplines transformed by advances in machine learning (ML), but the same cannot be said for directed evolution. Reflecting on a previously co-authored perspective, I discuss why I believe this to be the case, arguing that a disconnect between the goals of machine-learning-assisted directed evolution (MLDE) researchers--\"identify an optimal protein\"--and the goals of directed evolution more broadly--\"identify a sufficient protein given time and resource constraints\"--is a principal ",
+    "published": "2026-10-23T04:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein engineering"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760844v1?rss=1",
+    "title": "Conformational Reorganization of a Processive Cellulase on Crystalline Cellulose",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Enzymes that degrade insoluble polymers must couple catalytic chemistry to productive engagement with heterogeneous substrate interfaces, yet direct structural information on these interfacial states remains limited. We investigated the conformational organization of the processive cellulase Trichoderma reesei Cel7A both free in solution and bound to an insoluble cellulose substrate using small-angle neutron scattering (SANS). Use of biosynthetically deuterated bacterial cellulose allowed the scattering contribution of the cellulose-associated Cel7A holoenzyme to be selectively highlighted usi",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "molecular dynamics"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1?rss=1",
+    "title": "Tuning inhibitor susceptibility of human 4-hydroxyphenylpyruvate dioxygenase to rescue tyrosine catabolism in the presence of β-triketones",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Human 4-hydroxyphenylpyruvate dioxygenase (HPD) catalyses a key step in tyrosine degradation via homogentisate in liver and kidney cells. Pharmacological inhibition of HPD with nitisinone (NTBC) is standard treatment for tyrosinemia type 1 (HT1) and alkaptonuria (AKU). Although life-changing, continuous NTBC treatment limits metabolic flexibility and complicates emerging gene- and cell-based therapeutic approaches. Engineering HPD variants that retain catalytic activity during NTBC exposure could facilitate restoration of tyrosine metabolism, yet the molecular determinants of inhibitor toleran",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "catalytic",
+      "enzyme",
+      "peptide",
+      "residue"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2605.08659",
     "title": "Pushing Biomolecular Utility-Diversity Frontiers with Supergroup Relative Policy Optimization",
     "source": "arXiv q-bio.BM",
@@ -28,7 +87,101 @@
       "protein"
     ],
     "first_seen": "2026-10-22T11:26:36.029487+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759787v1?rss=1",
+    "title": "Active Learning framework for Antibody Binding Affinity Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Antibody engineering campaigns must prioritise variants from large combinatorial libraries under limited assay budgets. We present a Gaussian process (GP) active-learning benchmark for antibody-antigen binding affinity prediction across eight public AbBiBench assays spanning influenza hemagglutinin antibodies CR6261 and CR9114 and AAYL-series scFv libraries against the SARS-CoV-2 Spike HR2 peptide. The framework embeds variable heavy and light (VH/VL) sequences with ESM-2 650M, trains GP surrogates over compressed protein-language-model representations, and evaluates kernel, acquisition, repre",
+    "published": "2026-10-22T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "binder",
+      "binding affinity",
+      "peptide",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759794v1?rss=1",
+    "title": "Computational Profiling and Pathogenicity Assessment of VHL Missense Mutations",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Mutations in the VHL tumor suppressor gene promote tumorigenesis by stabilizing HIF-1. In this study, we investigated the functional impact of VHL missense mutations using AlphaMissense pathogenicity scores, protein stability simulations, and molecular dynamics. AlphaMissense identified high pathogenicity scores for residues 60-200, including the {beta}-domain and HIF-binding domain, suggesting these regions are critical for VHL's tumor suppressor function. We categorized the mutations into two groups: those that primarily destabilize protein folding and those that likely disrupt VHL-HIF-1 bin",
+    "published": "2026-10-22T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "folding",
+      "molecular dynamics",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760837v1?rss=1",
+    "title": "MutaStruct: Revisiting Benchmarks for Single-Site Mutation-Induced Structural Change Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Predicting the structural consequences of single-site mutations is fundamental to understanding protein function, disease mechanisms, and protein engineering. However, existing benchmarks for mutation-induced structural change prediction are often affected by duplicate mutation events, highly similar structural pairs, and experimental-state confounders, which can inflate reported performance. We introduce MutaStruct, a curated benchmark of experimentally observed single-mutation protein structure pairs designed for rigorous evaluation of mutation-induced structural changes. MutaStruct combines",
+    "published": "2026-10-22T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein engineering",
+      "protein structure",
+      "residue",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1",
+    "title": "NuFold RNA Structure Database: Large-Scale RNA Tertiary Structure Prediction with Confidence Metrics",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Summary: To bridge the gap between rapid RNA sequence discovery and slow experimental characterization, we present the NuFold RNA Structure Database (https://nufold.kiharalab.org/), a resource providing large-scale, precomputed full-atom RNA tertiary structures. By removing the computational barriers associated with running the method locally, this database makes high-accuracy RNA structure models readily accessible to the biological research community for a wide range of applications. Availability and implementation: All predicted structures and corresponding data are available at https://nuf",
+    "published": "2026-10-22T00:00:00+00:00",
+    "matched": [
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759664v1?rss=1",
+    "title": "Benchmarking Molecular Methods of Protein Engineering and Surveying Protein Search Space to Bolster Artificial Intelligence-Based Designs",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Proteins are complex macromolecules that drive functionality in cells across all life on Earth. Protein engineering and AI-based designs facilitate exploration of the vast search space. Herein, we explore and compare mutagenic methodologies in combination with fast and efficient phenotypic evaluation of a pink fluorophore (Magenta) to map protein search space and inform AI-based designer algorithms. We binned mutated variants as neutral, deleterious, or catastrophic based on the observed phenotype and fitness measurement (relative fluorescent units, RFUs). Importantly, we found that for a give",
+    "published": "2026-10-22T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein engineering",
+      "sequence"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.758783v1?rss=1",
+    "title": "AgamOBP4-targeted drug repurposing identifies novel mosquito repellent scaffolds",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Odorant-binding proteins (OBPs) play central roles in insect chemoreception and represent attractive molecular targets for the discovery of novel behavior-modifying compounds. We report two crystal structures of Anopheles gambiae OBP4: one complexed with the fluorescent probe N-phenyl-1-naphthylamine and a second containing two indole molecules simultaneously bound within the ligand-binding cavity. Structural comparison revealed two binding subsites accommodating the aromatic moieties of 1-NPN or two indole molecules, while identifying Thr58 and Thr70 as key residues in ligand recognition. A s",
+    "published": "2026-10-22T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "binding affinity",
+      "crystal structure",
+      "ligand",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-10-23T11:16:28.408801+00:00",
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27230",
@@ -60,7 +213,7 @@
       "protein"
     ],
     "first_seen": "2026-10-22T11:26:36.029487+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760466v1?rss=1",
@@ -75,7 +228,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-22T11:26:36.029487+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.15.759389v1?rss=1",
@@ -105,7 +258,7 @@
       "cryo-em structure"
     ],
     "first_seen": "2026-10-22T11:26:36.029487+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.24144",
@@ -207,7 +360,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-21T11:26:55.709376+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.18.759982v1?rss=1",
@@ -223,7 +376,7 @@
       "residue"
     ],
     "first_seen": "2026-10-21T11:26:55.709376+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760176v1?rss=1",
@@ -239,7 +392,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-21T11:26:55.709376+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760048v1?rss=1",
@@ -596,7 +749,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -609,7 +762,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -622,7 +775,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -635,7 +788,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -649,7 +802,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -664,7 +817,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -677,7 +830,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -690,7 +843,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -703,7 +856,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -717,7 +870,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -730,6 +883,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-22T11:26:36.029487+00:00"
+    "last_seen": "2026-10-23T11:16:28.408801+00:00"
   }
 ]

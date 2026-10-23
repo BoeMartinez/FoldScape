@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-10-23T11:16:43.258775+00:00",
+  "source": "announcements",
+  "feeds": {
+    "bioRxiv Bioinformatics": {
+      "entries": 30,
+      "kept": 8
+    },
+    "bioRxiv Biochemistry": {
+      "entries": 30,
+      "kept": 7
+    },
+    "Hugging Face Blog": {
+      "entries": 889,
+      "kept": 1
+    },
+    "Google AI Blog": {
+      "entries": 20,
+      "kept": 0
+    },
+    "UW Institute for Protein Design": {
+      "entries": 10,
+      "kept": 10
+    },
+    "arXiv q-bio.BM": {
+      "entries": 6,
+      "kept": 2
+    }
+  },
+  "relevant_this_run": 28,
+  "new": 10,
+  "total_after": 60,
+  "failed_feeds": {}
+}
