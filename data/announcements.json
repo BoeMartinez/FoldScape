@@ -40,7 +40,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1?rss=1",
@@ -56,7 +56,125 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1?rss=1",
+    "title": "BUDDY: An interactive web platform to accelerate the functional modeling of human missense variants using Saccharomyces cerevisiae orthologs",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "The advent of next-generation sequencing has transformed clinical genetics, accelerating the identification of human genetic variants. However, the labor-intensive process of functional validation of Variants of Uncertain Significance (VUS) remains a significant diagnostic barrier. While expressing humanized genes in Saccharomyces cerevisiae is a common approach for modeling missense variants with functional assays, using native yeast orthologs provides a more streamlined approach that preserves species-specific interactions within multisubunit complexes. However, taking this approach relies o",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760047v1?rss=1",
+    "title": "Astrolabe: Programmable all-atom biomolecular design through cross-context coordination and structural intervention",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Designing complex biomolecular functions requires coordination across molecular states, interaction partners, and assembly contexts. Whereas current approaches rely on task-specialized generative models or large-scale generation and filtering, we introduce Astrolabe, a programmable closed-loop framework that coordinates independently evaluated molecular contexts. Astrolabe combines structure-conditioned sequence proposals with user-defined objectives, synchronizes updates across residues, chains or complexes, and intervenes when predicted structures miss intended geometries. Among evaluated me",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "ligand",
+      "peptide",
+      "protein",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760851v1?rss=1",
+    "title": "AI-guided discovery of natural pocket proteins for portable small-molecule sensing",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Recognition-element development remains an important practical challenge in small-molecule biosensing. Here, we present DWCLASS, an AI-guided workflow that combines screening of natural pocket proteins, molecular dynamics simulations, experimental binding assessment, and portable metasurface plasmonic sensing. Using thiamine (vitamin B1, thiamine) and 25-hydroxyvitamin D3 [25(OH)D3] as model analytes, the workflow identified binding responses in 7 of 16 tested analyte-protein pairs (43.8%). Selected proteins were incorporated into a competitive MetaSPR assay with gold nanoparticle amplificatio",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761295v1?rss=1",
+    "title": "RiboDFM: Robust RNA sequence design using backbone-conditioned discrete flow matching",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Designing RNA sequences that fold into predefined 3D structures is central to RNA engineering, yet it remains challenging due to the scarcity of experimentally determined structures and the complex sequence-structure relationships. Here, we present RiboDFM, a backbone-conditioned discrete flow-matching framework for RNA sequence design. RiboDFM progressively resolves fully masked sequences by integrating a geometric backbone encoder, an auxiliary base-pairing prediction head, and language model representations into a discrete flow sampler. To expand our training data, we supplemented experimen",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "rosetta",
+      "sequence"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760576v1?rss=1",
+    "title": "CAI-Vax: Computational Design of Personalized mRNA Cancer Vaccine Constructs After Antigen Selection",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "CAI-Vax (Cancer Antigen Individualized Vaccine Design) arranges selected antigens and generates synonymous coding sequences for personalized mRNA vaccine constructs. We evaluated 357 vaccine-candidate peptides from 31 patients across four published cohorts. At the primary cumulative MHCflurry percentile-rank threshold of [&le;]2%, HLA-aware search reduced predicted junction-spanning peptide-allele binder occurrences by 3.49 per junction relative to amino-acid-pattern optimization (paired Hodges-Lehmann estimate; nominal 95% interval 2.75-4.48; Holm-adjusted P = 7.45 x 10-). All 31 primary pair",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "peptide",
+      "sequence"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760329v1?rss=1",
+    "title": "UnibindMD: An Integrated AI and Molecular Dynamics Platform for De Novo Peptide Binder Design",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "UnibindMD is an integrated computational platform that turns a protein target into validated de novo peptide-binder leads by chaining five orthogonal stages: deep-learning binder design (BindCraft), independent structure prediction and confidence assessment (AlphaFold3-class / Boltz-2), binding-affinity prediction (PRODIGY), developability profiling (ADMET-AI), and all-atom molecular-dynamics validation (GROMACS/CHARMM36m). The platform targets a persistent weakness of single-method design, namely that confidence metrics such as ipTM and pLDDT are self-consistent but not independent, so a desi",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "boltz",
+      "molecular dynamics",
+      "peptide",
+      "protein"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760942v1?rss=1",
+    "title": "Projected Gradient Descent for Hallucination-Based Protein Binder Design",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Gradient-based hallucination is a popular approach to protein binder design that backpropagates a loss defined on a structure predictor's output to guide optimisation in a continuous relaxation of sequence space, yet the choice of optimiser for this task has received little systematic evaluation. In this work we evaluate simplex-projected gradient descent (PGD) as an alternative to the commonly used gradient descent on softmax-reparameterised sequence logits. By updating amino-acid probabilities directly, PGD avoids softmax-induced gradient attenuation and allows amino acids suppressed early i",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "binder",
+      "esmfold",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760646v1?rss=1",
+    "title": "Rapid Production and Cryo-EM Structure Determination of GPCR-Nanodisc Complexes via Cell-Free Synthesis",
+    "source": "bioRxiv Biochemistry",
+    "summary": "G protein-coupled receptors (GPCRs) represent major therapeutic targets, yet cryo-EM structure determination of unliganded or antagonist-bound GPCRs remains severely bottlenecked by small receptor mass, detergent-induced instability, and multi-week cell-based production pipelines. Here, we combine intracellular loop 3 (ICL3) rigid fiducial engineering with a high-throughput, cell-free protein synthesis workflow to rapidly generate cryo-EM-ready GPCR-nanodisc assemblies. Using the eProtein Discovery(TM) digital microfluidics system, we performed automated nanoliter-scale screening of construct ",
+    "published": "2026-10-23T00:00:00+00:00",
+    "matched": [
+      "cryo-em structure",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-10-24T10:35:16.209726+00:00",
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2605.08659",
@@ -104,7 +222,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.17.759794v1?rss=1",
@@ -120,7 +238,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760837v1?rss=1",
@@ -137,7 +255,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760778v1?rss=1",
@@ -150,7 +268,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.16.759664v1?rss=1",
@@ -181,7 +299,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27230",
@@ -258,7 +376,7 @@
       "cryo-em structure"
     ],
     "first_seen": "2026-10-22T11:26:36.029487+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.24144",
@@ -749,7 +867,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -762,7 +880,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -775,7 +893,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -788,7 +906,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -802,7 +920,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -817,7 +935,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -830,7 +948,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -843,7 +961,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -856,7 +974,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -870,7 +988,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -883,6 +1001,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-23T11:16:28.408801+00:00"
+    "last_seen": "2026-10-24T10:35:16.209726+00:00"
   }
 ]
