@@ -1,5 +1,37 @@
 [
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760314v1?rss=1",
+    "title": "Sequence-only antigen context improves modeling of antibody hypervariable regions",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "The complementarity-determining regions (CDRs) of antibodies govern antigen specificity; consequently, CDR design should be performed conditional on the target antigen. Most published approaches depend on the availability of the antigen's three-dimensional (3D) structure, which is often difficult to obtain experimentally. In contrast, sequence-only models circumvent this requirement but are typically trained on antibodies without incorporating antigen context; exposure to antigen sequences alone does not necessarily entail learning the underlying interaction determinants. Here, we introduce La",
+    "published": "2026-10-24T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "docking",
+      "epitope",
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-10-25T11:00:28.390660+00:00",
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760131v1?rss=1",
+    "title": "Targeting PRMT5 Across Cancers and AI-Driven Discovery of Candidate Compounds",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein arginine methyltransferase 5 (PRMT5) is a promising anticancer target, yet existing inhibitors shown limited clinical efficacy. Here, we paired multi-omics pan-cancer profiling with a machine learning virtual screening pipeline. Bioinformatics analyses with TIMER3, GEPIA2, UALCAN/CPTAC, the Human Protein Atlas, cBioPortal, STRING and Enrichr revealed widespread of PRMT5 mRNA expression, protein abundance, survival, genetic alteration, immune infiltration and co-expression networks with tumor-specific prognostic impact in GBM, LGG and KIRC. A deep neural network screened about 1.5 milli",
+    "published": "2026-10-24T00:00:00+00:00",
+    "matched": [
+      "binding affinity",
+      "docking",
+      "ligand",
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-10-25T11:00:28.390660+00:00",
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.30668",
     "title": "RiboBridge: protein-conditioned de novo RNA binder structure design",
     "source": "arXiv q-bio.BM",
@@ -40,7 +72,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1?rss=1",
@@ -56,7 +88,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1?rss=1",
@@ -70,7 +102,7 @@
       "protein structure"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760047v1?rss=1",
@@ -87,7 +119,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760851v1?rss=1",
@@ -100,7 +132,7 @@
       "protein"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.761295v1?rss=1",
@@ -113,7 +145,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760576v1?rss=1",
@@ -127,7 +159,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760329v1?rss=1",
@@ -174,7 +206,7 @@
       "protein"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2605.08659",
@@ -299,7 +331,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27230",
@@ -376,7 +408,7 @@
       "cryo-em structure"
     ],
     "first_seen": "2026-10-22T11:26:36.029487+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.24144",
@@ -867,7 +899,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -880,7 +912,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -893,7 +925,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -906,7 +938,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -920,7 +952,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -935,7 +967,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -948,7 +980,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -961,7 +993,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -974,7 +1006,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -988,7 +1020,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1001,6 +1033,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-24T10:35:16.209726+00:00"
+    "last_seen": "2026-10-25T11:00:28.390660+00:00"
   }
 ]

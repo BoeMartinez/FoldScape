@@ -1,0 +1,2659 @@
+[
+  {
+    "repo_id": "google-deepmind/alphafold",
+    "metadata": {
+      "name": "alphafold",
+      "description": "Open source code for AlphaFold 2.",
+      "url": "https://github.com/google-deepmind/alphafold",
+      "stars": 14910,
+      "forks": 2958,
+      "last_updated": "2026-04-22T17:58:21+00:00",
+      "created_at": "2021-06-17T14:06:06+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:13.168887",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "google-deepmind/alphafold3",
+    "metadata": {
+      "name": "alphafold3",
+      "description": "AlphaFold 3 inference pipeline.",
+      "url": "https://github.com/google-deepmind/alphafold3",
+      "stars": 8678,
+      "forks": 1385,
+      "last_updated": "2026-10-23T13:17:30+00:00",
+      "created_at": "2024-11-11T10:38:11+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:14.791658",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "aqlaboratory/openfold",
+    "metadata": {
+      "name": "openfold",
+      "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
+      "url": "https://github.com/aqlaboratory/openfold",
+      "stars": 3442,
+      "forks": 694,
+      "last_updated": "2025-12-16T09:41:53+00:00",
+      "created_at": "2021-09-14T23:59:02+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "pytorch",
+        "protein-structure",
+        "alphafold2"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:16.468166",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "lucidrains/alphafold3-pytorch",
+    "metadata": {
+      "name": "alphafold3-pytorch",
+      "description": "Implementation of Alphafold 3 from Google Deepmind in Pytorch",
+      "url": "https://github.com/lucidrains/alphafold3-pytorch",
+      "stars": 1700,
+      "forks": 234,
+      "last_updated": "2026-08-10T02:16:28+00:00",
+      "created_at": "2024-05-08T15:26:29+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "artificial-intelligence",
+        "deep-learning",
+        "attention-mechanisms",
+        "denoising-diffusion",
+        "transformers",
+        "protein-structure-prediction"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:18.049173",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "scverse/gget",
+    "metadata": {
+      "name": "gget",
+      "description": "🧬 gget enables efficient querying of genomic reference databases",
+      "url": "https://github.com/scverse/gget",
+      "stars": 1208,
+      "forks": 99,
+      "last_updated": "2026-10-22T20:45:57+00:00",
+      "created_at": "2022-05-04T17:31:31+00:00",
+      "language": "Python",
+      "license": "BSD 2-Clause \"Simplified\" License",
+      "topics": [
+        "alphafold2",
+        "databases",
+        "enrichment-analysis",
+        "ensembl",
+        "gget",
+        "ncbi",
+        "reference",
+        "uniprot",
+        "alphafold",
+        "archs4",
+        "blast",
+        "enrichr",
+        "genomics",
+        "proteomics",
+        "rna-seq",
+        "transcriptomics",
+        "cellxgene"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:19.761709",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "shyamsaktawat/OpenAlpha_Evolve",
+    "metadata": {
+      "name": "OpenAlpha_Evolve",
+      "description": "OpenAlpha_Evolve is an open-source Python framework inspired by the groundbreaking research on autonomous coding agents like DeepMind's AlphaEvolve.",
+      "url": "https://github.com/shyamsaktawat/OpenAlpha_Evolve",
+      "stars": 1056,
+      "forks": 157,
+      "last_updated": "2025-05-31T16:34:33+00:00",
+      "created_at": "2025-05-17T21:04:30+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "alphafold",
+        "evolutionary-algorithms",
+        "google",
+        "discovery",
+        "evolution-computing",
+        "evolutionary-algorithm",
+        "genetic-algorithm",
+        "iterative-methods",
+        "optimize",
+        "alphacode",
+        "coding-agent",
+        "distributed-evolutionary-algorithms",
+        "iterative-refinement",
+        "llm-engineering",
+        "llm-ensemble",
+        "llm-inference",
+        "openevolve"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:21.366201",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "kyegomez/Open-AF3",
+    "metadata": {
+      "name": "Open-AF3",
+      "description": "Implementation of Alpha Fold 3 from the paper: \"Accurate structure prediction of biomolecular interactions with AlphaFold3\" in PyTorch",
+      "url": "https://github.com/kyegomez/Open-AF3",
+      "stars": 808,
+      "forks": 104,
+      "last_updated": "2026-10-12T22:00:41+00:00",
+      "created_at": "2024-05-08T16:54:21+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "ai",
+        "alphafold",
+        "bio",
+        "ml",
+        "geneml",
+        "artificial-intelligence",
+        "biology",
+        "biology-ai"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:23.002964",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "bjing2016/alphaflow",
+    "metadata": {
+      "name": "alphaflow",
+      "description": "AlphaFold Meets Flow Matching for Generating Protein Ensembles",
+      "url": "https://github.com/bjing2016/alphaflow",
+      "stars": 548,
+      "forks": 84,
+      "last_updated": "2026-03-22T21:00:27+00:00",
+      "created_at": "2024-02-05T20:32:19+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:24.552086",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "patrickbryant1/EvoBind",
+    "metadata": {
+      "name": "EvoBind",
+      "description": "In silico directed evolution of peptide binders with AlphaFold",
+      "url": "https://github.com/patrickbryant1/EvoBind",
+      "stars": 282,
+      "forks": 56,
+      "last_updated": "2026-09-25T09:48:57+00:00",
+      "created_at": "2022-07-15T09:38:04+00:00",
+      "language": "Jupyter Notebook",
+      "license": null,
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:26.140411",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "shenyichong/alphafold3-architecture-walkthrough",
+    "metadata": {
+      "name": "alphafold3-architecture-walkthrough",
+      "description": "alphafold3 architecture step by step walkthrough.",
+      "url": "https://github.com/shenyichong/alphafold3-architecture-walkthrough",
+      "stars": 241,
+      "forks": 10,
+      "last_updated": "2026-07-31T05:02:14+00:00",
+      "created_at": "2025-06-09T08:57:09+00:00",
+      "language": null,
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:27.717832",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Hanziwww/AlphaFold3-GUI",
+    "metadata": {
+      "name": "AlphaFold3-GUI",
+      "description": "AFusion: AlphaFold 3 GUI & Toolkit with Visualization",
+      "url": "https://github.com/Hanziwww/AlphaFold3-GUI",
+      "stars": 175,
+      "forks": 19,
+      "last_updated": "2025-09-21T03:58:28+00:00",
+      "created_at": "2024-11-14T12:16:14+00:00",
+      "language": "Python",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:29.273673",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "manifoldbio/mber-open",
+    "metadata": {
+      "name": "mber-open",
+      "description": "mBER - Manifold Binder Engineering and Refinement. mBER enables antibody binder design by leveraging structure templates and sequence conditioning in backprop design through AlphaFold-Multimer. Preprint: https://www.biorxiv.org/content/10.1101/2025.09.26.678877v1",
+      "url": "https://github.com/manifoldbio/mber-open",
+      "stars": 149,
+      "forks": 33,
+      "last_updated": "2026-10-21T22:37:41+00:00",
+      "created_at": "2025-09-26T01:18:03+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:30.852503",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "kilianmandon/alphafold-decoded",
+    "metadata": {
+      "name": "alphafold-decoded",
+      "description": "Hands-on AlphaFold implementation for educational purposes.",
+      "url": "https://github.com/kilianmandon/alphafold-decoded",
+      "stars": 136,
+      "forks": 33,
+      "last_updated": "2026-08-26T17:43:39+00:00",
+      "created_at": "2024-04-06T10:51:30+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:32.550245",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "ml4bio/Dense-Homolog-Retrieval",
+    "metadata": {
+      "name": "Dense-Homolog-Retrieval",
+      "description": "Nature Biotechnology: Ultra-fast, sensitive detection of protein remote homologs using deep dense retrieval ",
+      "url": "https://github.com/ml4bio/Dense-Homolog-Retrieval",
+      "stars": 127,
+      "forks": 11,
+      "last_updated": "2026-06-28T06:00:37+00:00",
+      "created_at": "2022-10-16T09:52:48+00:00",
+      "language": "Python",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "topics": [
+        "alphafold",
+        "dense-retrieval",
+        "homology-search",
+        "msa-construction",
+        "protein",
+        "protein-language-model",
+        "protein-structure-prediction"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:34.178108",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "PDB-REDO/alphafill",
+    "metadata": {
+      "name": "alphafill",
+      "description": "AlphaFill is an algorithm based on sequence and structure similarity that “transplants” missing compounds to the AlphaFold models. By adding the molecular context to the protein structures, the models can be more easily appreciated in terms of function and structure integrity.",
+      "url": "https://github.com/PDB-REDO/alphafill",
+      "stars": 126,
+      "forks": 22,
+      "last_updated": "2026-10-12T08:15:07+00:00",
+      "created_at": "2021-11-24T10:57:46+00:00",
+      "language": "C++",
+      "license": "BSD 2-Clause \"Simplified\" License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:35.780784",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "cddlab/alphafold3_tools",
+    "metadata": {
+      "name": "alphafold3_tools",
+      "description": "Toolkit for alphafold3 input and output files",
+      "url": "https://github.com/cddlab/alphafold3_tools",
+      "stars": 111,
+      "forks": 13,
+      "last_updated": "2026-10-23T14:56:33+00:00",
+      "created_at": "2024-11-22T05:24:37+00:00",
+      "language": "Python",
+      "license": "BSD 2-Clause \"Simplified\" License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:37.355295",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "baker-laboratory/RoseTTAFold-All-Atom",
+    "metadata": {
+      "name": "RoseTTAFold-All-Atom",
+      "description": null,
+      "url": "https://github.com/baker-laboratory/RoseTTAFold-All-Atom",
+      "stars": 826,
+      "forks": 145,
+      "last_updated": "2026-05-18T23:44:19+00:00",
+      "created_at": "2023-12-19T20:32:32+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:39.939208",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "CongLabCode/RoseTTAFold2-PPI",
+    "metadata": {
+      "name": "RoseTTAFold2-PPI",
+      "description": "Fast deep learning methods for large-scale protein-protein interaction screening ",
+      "url": "https://github.com/CongLabCode/RoseTTAFold2-PPI",
+      "stars": 136,
+      "forks": 24,
+      "last_updated": "2025-08-03T04:49:32+00:00",
+      "created_at": "2024-08-03T21:51:27+00:00",
+      "language": "Python",
+      "license": "GNU General Public License v3.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:41.534190",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "PapenfussLab/proteindj",
+    "metadata": {
+      "name": "proteindj",
+      "description": "Official repository for the ProteinDJ protein design pipeline",
+      "url": "https://github.com/PapenfussLab/proteindj",
+      "stars": 150,
+      "forks": 32,
+      "last_updated": "2026-09-29T04:07:28+00:00",
+      "created_at": "2025-09-26T21:39:38+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": [
+        "binder",
+        "protein-design",
+        "protein-structure-prediction",
+        "rfdiffusion"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:44.936547",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "MSDLLCpapers/ovo",
+    "metadata": {
+      "name": "ovo",
+      "description": "OVO, an open-source ecosystem for de novo protein design",
+      "url": "https://github.com/MSDLLCpapers/ovo",
+      "stars": 143,
+      "forks": 26,
+      "last_updated": "2026-10-25T09:29:25+00:00",
+      "created_at": "2025-11-14T15:36:39+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "bindcraft",
+        "de-novo",
+        "nextflow",
+        "protein-design",
+        "rfdiffusion"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:46.556907",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "qinheming/BIoClaw",
+    "metadata": {
+      "name": "BIoClaw",
+      "description": null,
+      "url": "https://github.com/qinheming/BIoClaw",
+      "stars": 186,
+      "forks": 1,
+      "last_updated": "2026-10-16T11:01:04+00:00",
+      "created_at": "2026-03-25T07:20:57+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "ai4science",
+        "aidd",
+        "bioinformatics",
+        "cheminformatics",
+        "computational-biology",
+        "drug-discovery",
+        "esmfold",
+        "python-sandbox",
+        "rdkit"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:49.913343",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "nf-core/proteinfold",
+    "metadata": {
+      "name": "proteinfold",
+      "description": "Protein 3D structure prediction pipeline",
+      "url": "https://github.com/nf-core/proteinfold",
+      "stars": 116,
+      "forks": 75,
+      "last_updated": "2026-10-25T05:18:41+00:00",
+      "created_at": "2022-03-03T10:41:35+00:00",
+      "language": "HTML",
+      "license": "MIT License",
+      "topics": [
+        "workflow",
+        "protein-structure",
+        "protein-sequences",
+        "protein-folding",
+        "protein-fold-prediction",
+        "alphafold2",
+        "pipeline",
+        "nextflow",
+        "nf-core",
+        "colabfold",
+        "esmfold"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:51.549899",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Graylab/DL4Proteins-notebooks",
+    "metadata": {
+      "name": "DL4Proteins-notebooks",
+      "description": "Colab Notebooks covering deep learning tools for biomolecular structure prediction and design",
+      "url": "https://github.com/Graylab/DL4Proteins-notebooks",
+      "stars": 731,
+      "forks": 129,
+      "last_updated": "2026-04-17T16:37:05+00:00",
+      "created_at": "2024-09-04T12:24:24+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": [
+        "convolutional-neural-networks",
+        "deep-learning",
+        "diffusion-models",
+        "graph-neural-networks",
+        "jupyter-notebooks",
+        "language-model",
+        "neural-networks",
+        "protein-design",
+        "protein-docking",
+        "protein-structure-prediction",
+        "rna-design",
+        "small-molecules"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:54.338321",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "rdk/p2rank",
+    "metadata": {
+      "name": "p2rank",
+      "description": "P2Rank: Protein-ligand binding site prediction from protein structure based on machine learning.",
+      "url": "https://github.com/rdk/p2rank",
+      "stars": 469,
+      "forks": 63,
+      "last_updated": "2026-09-11T01:33:51+00:00",
+      "created_at": "2016-09-25T23:46:28+00:00",
+      "language": "Groovy",
+      "license": "MIT License",
+      "topics": [
+        "bioinformatics",
+        "machine-learning",
+        "protein-structure",
+        "pdb",
+        "binding-sites",
+        "proteins",
+        "structural-bioinformatics",
+        "java",
+        "mmcif",
+        "pymol",
+        "groovy",
+        "protein-ligand-docking",
+        "molecular-structures",
+        "drug-discovery",
+        "virtual-screening",
+        "p2rank",
+        "chimerax",
+        "protein-ligand-interactions",
+        "docking",
+        "ligand"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:55.929091",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Gaius-Augustus/BRAKER",
+    "metadata": {
+      "name": "BRAKER",
+      "description": "BRAKER is a pipeline for fully automated prediction of protein coding gene structures with GeneMark-ES/ET/EP/ETP and AUGUSTUS in novel eukaryotic genomes",
+      "url": "https://github.com/Gaius-Augustus/BRAKER",
+      "stars": 469,
+      "forks": 91,
+      "last_updated": "2026-06-17T12:40:59+00:00",
+      "created_at": "2018-08-21T13:53:18+00:00",
+      "language": "Perl",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:57.551982",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "zrqiao/NeuralPLexer",
+    "metadata": {
+      "name": "NeuralPLexer",
+      "description": "NeuralPLexer:  State-specific protein-ligand complex structure prediction with a multi-scale deep generative model",
+      "url": "https://github.com/zrqiao/NeuralPLexer",
+      "stars": 337,
+      "forks": 72,
+      "last_updated": "2025-10-06T17:50:59+00:00",
+      "created_at": "2024-02-05T20:19:01+00:00",
+      "language": "Jupyter Notebook",
+      "license": "BSD 3-Clause Clear License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:58:59.111257",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "BioinfoMachineLearning/PoseBench",
+    "metadata": {
+      "name": "PoseBench",
+      "description": "Comprehensive benchmarking of protein-ligand structure prediction methods. (Nature Machine Intelligence)",
+      "url": "https://github.com/BioinfoMachineLearning/PoseBench",
+      "stars": 251,
+      "forks": 17,
+      "last_updated": "2026-09-01T14:40:01+00:00",
+      "created_at": "2024-05-23T02:35:35+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": [
+        "benchmark",
+        "computational-biology",
+        "computational-chemistry",
+        "deep-learning",
+        "machine-learning",
+        "molecular-docking",
+        "structure-prediction"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:00.789205",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "patrickbryant1/Umol",
+    "metadata": {
+      "name": "Umol",
+      "description": "Protein-ligand structure prediction",
+      "url": "https://github.com/patrickbryant1/Umol",
+      "stars": 242,
+      "forks": 20,
+      "last_updated": "2025-07-31T07:14:05+00:00",
+      "created_at": "2023-10-27T14:06:43+00:00",
+      "language": "Jupyter Notebook",
+      "license": null,
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:02.361331",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Gaius-Augustus/GALBA",
+    "metadata": {
+      "name": "GALBA",
+      "description": "GALBA is a pipeline for fully automated prediction of protein coding gene structures with AUGUSTUS in novel eukaryotic genomes for the scenario where high quality proteins from one or several closely related species are available.",
+      "url": "https://github.com/Gaius-Augustus/GALBA",
+      "stars": 150,
+      "forks": 7,
+      "last_updated": "2026-04-13T19:02:06+00:00",
+      "created_at": "2022-10-27T08:27:49+00:00",
+      "language": "Perl",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:03.915489",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "patrickbryant1/RareFold",
+    "metadata": {
+      "name": "RareFold",
+      "description": "Structure prediction and design of proteins with noncanonical amino acids",
+      "url": "https://github.com/patrickbryant1/RareFold",
+      "stars": 149,
+      "forks": 18,
+      "last_updated": "2026-02-01T16:15:16+00:00",
+      "created_at": "2025-05-15T06:57:45+00:00",
+      "language": "Python",
+      "license": null,
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:05.485007",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "moritztng/tt-bio",
+    "metadata": {
+      "name": "tt-bio",
+      "description": "Protein structure prediction, binding affinity, protein design and protein language models on Tenstorrent Blackhole and Wormhole hardware, from one card to a Galaxy server.",
+      "url": "https://github.com/moritztng/tt-bio",
+      "stars": 126,
+      "forks": 13,
+      "last_updated": "2026-10-25T10:06:16+00:00",
+      "created_at": "2025-03-23T21:08:48+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "computational-biology",
+        "drug-discovery",
+        "protein-design",
+        "protein-language-models",
+        "protein-structure-prediction",
+        "tenstorrent",
+        "binding-affinity"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:07.133406",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "samsledje/D-SCRIPT",
+    "metadata": {
+      "name": "D-SCRIPT",
+      "description": " A structure-aware interpretable deep learning model for sequence-based prediction of protein-protein interactions",
+      "url": "https://github.com/samsledje/D-SCRIPT",
+      "stars": 121,
+      "forks": 28,
+      "last_updated": "2026-02-19T20:05:22+00:00",
+      "created_at": "2020-10-29T22:24:29+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:08.737131",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Peldom/papers_for_protein_design_using_DL",
+    "metadata": {
+      "name": "papers_for_protein_design_using_DL",
+      "description": "List of papers about Proteins Design using Deep Learning",
+      "url": "https://github.com/Peldom/papers_for_protein_design_using_DL",
+      "stars": 1981,
+      "forks": 220,
+      "last_updated": "2026-08-15T05:58:26+00:00",
+      "created_at": "2021-11-25T15:01:27+00:00",
+      "language": null,
+      "license": "GNU General Public License v3.0",
+      "topics": [
+        "deep-learning",
+        "protein-design"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:12.106187",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "martinpacesa/BindCraft",
+    "metadata": {
+      "name": "BindCraft",
+      "description": "User friendly and accurate binder design pipeline",
+      "url": "https://github.com/martinpacesa/BindCraft",
+      "stars": 1257,
+      "forks": 283,
+      "last_updated": "2026-09-21T09:13:05+00:00",
+      "created_at": "2024-09-18T10:45:09+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": [
+        "alphafold2",
+        "binder",
+        "design",
+        "protein",
+        "pyrosetta"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:13.716848",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "sokrypton/ColabDesign",
+    "metadata": {
+      "name": "ColabDesign",
+      "description": "Making Protein Design accessible to all via Google Colab! ",
+      "url": "https://github.com/sokrypton/ColabDesign",
+      "stars": 949,
+      "forks": 234,
+      "last_updated": "2026-10-14T02:57:57+00:00",
+      "created_at": "2022-02-02T03:43:06+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:15.341967",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "generatebio/chroma",
+    "metadata": {
+      "name": "chroma",
+      "description": "A generative model for programmable protein design",
+      "url": "https://github.com/generatebio/chroma",
+      "stars": 836,
+      "forks": 113,
+      "last_updated": "2026-10-13T02:54:12+00:00",
+      "created_at": "2023-08-11T14:04:51+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:16.914596",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "NVIDIA-BioNeMo/Proteina-Complexa",
+    "metadata": {
+      "name": "Proteina-Complexa",
+      "description": "Generative model for protein binder design for protein and small molecule targets. Combines a pretrained flow-based generative model (built on La-Proteina) with inference-time optimization.",
+      "url": "https://github.com/NVIDIA-BioNeMo/Proteina-Complexa",
+      "stars": 462,
+      "forks": 83,
+      "last_updated": "2026-10-22T23:16:37+00:00",
+      "created_at": "2026-03-09T23:20:20+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:18.468171",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "RosettaCommons/RFD4-Proteina",
+    "metadata": {
+      "name": "RFD4-Proteina",
+      "description": "Generative protein design with rich conditioning. ",
+      "url": "https://github.com/RosettaCommons/RFD4-Proteina",
+      "stars": 430,
+      "forks": 46,
+      "last_updated": "2026-10-22T16:46:00+00:00",
+      "created_at": "2026-09-25T20:54:32+00:00",
+      "language": "Python",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:20.072648",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "escalante-bio/mosaic",
+    "metadata": {
+      "name": "mosaic",
+      "description": "composite-objective protein design",
+      "url": "https://github.com/escalante-bio/mosaic",
+      "stars": 379,
+      "forks": 60,
+      "last_updated": "2026-10-25T07:35:49+00:00",
+      "created_at": "2025-01-12T22:56:59+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:21.708564",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "DISCO-design/DISCO",
+    "metadata": {
+      "name": "DISCO",
+      "description": "Code for the DISCO model: General Multimodal Protein Design Enables DNA-Encoding of Chemistry",
+      "url": "https://github.com/DISCO-design/DISCO",
+      "stars": 223,
+      "forks": 27,
+      "last_updated": "2026-05-13T21:40:09+00:00",
+      "created_at": "2026-04-07T23:33:43+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "diffusion-models",
+        "enzyme-design",
+        "protein-design"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:23.318224",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "A4Bio/ProteinInvBench",
+    "metadata": {
+      "name": "ProteinInvBench",
+      "description": "The official implementation of the NeurIPS'23 paper ProteinInvBench: Benchmarking Protein Design on Diverse Tasks, Models, and Metrics",
+      "url": "https://github.com/A4Bio/ProteinInvBench",
+      "stars": 207,
+      "forks": 11,
+      "last_updated": "2026-10-14T12:45:05+00:00",
+      "created_at": "2023-03-13T11:32:26+00:00",
+      "language": "Python",
+      "license": null,
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:24.934911",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "BioTender-max/awesome-bio-agent-skills",
+    "metadata": {
+      "name": "awesome-bio-agent-skills",
+      "description": "A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.",
+      "url": "https://github.com/BioTender-max/awesome-bio-agent-skills",
+      "stars": 206,
+      "forks": 37,
+      "last_updated": "2026-07-01T21:21:45+00:00",
+      "created_at": "2026-05-25T15:23:19+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": [
+        "ai-agent",
+        "awesome",
+        "awesome-list",
+        "bioinformatics",
+        "biomedical",
+        "genomics",
+        "llm",
+        "protein-design",
+        "single-cell",
+        "skills",
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "computational-biology",
+        "drug-discovery",
+        "mcp",
+        "proteomics",
+        "transcriptomics"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:26.576299",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "LPDI-EPFL/masif-neosurf",
+    "metadata": {
+      "name": "masif-neosurf",
+      "description": "MaSIF-neosurf: surface-based protein design for ternary complexes.",
+      "url": "https://github.com/LPDI-EPFL/masif-neosurf",
+      "stars": 182,
+      "forks": 35,
+      "last_updated": "2026-06-25T17:03:02+00:00",
+      "created_at": "2024-02-16T10:26:47+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "drug-design",
+        "geometric-deep-learning",
+        "molecular-surface",
+        "protein-design"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:28.148966",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "adaptyvbio/protein-design-skills",
+    "metadata": {
+      "name": "protein-design-skills",
+      "description": "Claude Code skills for protein design",
+      "url": "https://github.com/adaptyvbio/protein-design-skills",
+      "stars": 170,
+      "forks": 24,
+      "last_updated": "2026-06-11T20:17:33+00:00",
+      "created_at": "2026-01-15T19:56:25+00:00",
+      "language": null,
+      "license": "MIT License",
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "protein-design",
+        "protein-engineering"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:29.726499",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "rohitsinghlab/raygun",
+    "metadata": {
+      "name": "raygun",
+      "description": "Template-based protein design with Raygun ",
+      "url": "https://github.com/rohitsinghlab/raygun",
+      "stars": 158,
+      "forks": 19,
+      "last_updated": "2026-10-07T16:18:07+00:00",
+      "created_at": "2024-08-14T04:14:51+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:31.329424",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "richardshuai/fampnn",
+    "metadata": {
+      "name": "fampnn",
+      "description": "Sidechain conditioning and modeling for full-atom protein sequence design",
+      "url": "https://github.com/richardshuai/fampnn",
+      "stars": 151,
+      "forks": 26,
+      "last_updated": "2025-11-11T13:08:41+00:00",
+      "created_at": "2025-02-06T20:31:54+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:32.913619",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "westlake-repl/Denovo-Pinal",
+    "metadata": {
+      "name": "Denovo-Pinal",
+      "description": "Programmable Design of Functional Proteins from Natural Language",
+      "url": "https://github.com/westlake-repl/Denovo-Pinal",
+      "stars": 146,
+      "forks": 14,
+      "last_updated": "2026-10-22T08:21:19+00:00",
+      "created_at": "2025-01-08T03:19:14+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "denovo-design",
+        "protein-design",
+        "text-protein",
+        "denovo-design-text"
+      ]
+    },
+    "classification": {
+      "category": null,
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:34.516250",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "J-SNACKKB/FLIP",
+    "metadata": {
+      "name": "FLIP",
+      "description": "A collection of tasks to probe the effectiveness of protein sequence representations in modeling aspects of protein design",
+      "url": "https://github.com/J-SNACKKB/FLIP",
+      "stars": 142,
+      "forks": 18,
+      "last_updated": "2026-04-23T17:29:32+00:00",
+      "created_at": "2021-05-13T17:50:29+00:00",
+      "language": "Jupyter Notebook",
+      "license": "Academic Free License v3.0",
+      "topics": [
+        "protein",
+        "protein-sequences",
+        "protein-design",
+        "representation-learning",
+        "protein-fitness-prediction",
+        "protein-function-prediction"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:36.113834",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "bytedance/PXDesignBench",
+    "metadata": {
+      "name": "PXDesignBench",
+      "description": "A Unified Evaluation Suite for Protein Design",
+      "url": "https://github.com/bytedance/PXDesignBench",
+      "stars": 141,
+      "forks": 16,
+      "last_updated": "2026-01-27T04:22:34+00:00",
+      "created_at": "2025-08-04T05:22:15+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "ai4science",
+        "protein-design",
+        "research"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:37.719905",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "AISciLab/FoldBack",
+    "metadata": {
+      "name": "FoldBack",
+      "description": "Code for the paper \"FoldBack: Protein Folding Code-guided Specific Peptide Design through 3D Dynamic Feedback\".",
+      "url": "https://github.com/AISciLab/FoldBack",
+      "stars": 139,
+      "forks": 26,
+      "last_updated": "2026-03-21T01:34:23+00:00",
+      "created_at": "2026-03-11T11:42:24+00:00",
+      "language": "Jupyter Notebook",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:39.276197",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "aqlaboratory/genie3",
+    "metadata": {
+      "name": "genie3",
+      "description": "Genie 3 is a fast, all-atom SE(3)-equivariant diffusion model for protein design. It achieves state-of-the-art performance on unconditional generation, motif scaffolding, and binder design while retaining the computational efficiency of equivariant architectures.",
+      "url": "https://github.com/aqlaboratory/genie3",
+      "stars": 138,
+      "forks": 18,
+      "last_updated": "2026-10-12T15:50:55+00:00",
+      "created_at": "2026-05-06T20:43:08+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:40.873134",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "OATML-Markslab/ProteinNPT",
+    "metadata": {
+      "name": "ProteinNPT",
+      "description": "Official code repository for the paper \"ProteinNPT: Improving Protein Property Prediction and Design with Non-Parametric Transformers\"",
+      "url": "https://github.com/OATML-Markslab/ProteinNPT",
+      "stars": 137,
+      "forks": 19,
+      "last_updated": "2025-11-19T03:51:44+00:00",
+      "created_at": "2023-10-28T11:41:05+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "protein-design"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:42.478210",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "ScorpioLea/AiCE",
+    "metadata": {
+      "name": "AiCE",
+      "description": "Predicting high-fitness mutations based on protein inverse folding models",
+      "url": "https://github.com/ScorpioLea/AiCE",
+      "stars": 1149,
+      "forks": 186,
+      "last_updated": "2025-09-30T03:16:29+00:00",
+      "created_at": "2025-01-30T12:38:57+00:00",
+      "language": "Jupyter Notebook",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:44.993188",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "oxpig/AntiFold",
+    "metadata": {
+      "name": "AntiFold",
+      "description": "Improved antibody structure-based design using inverse folding",
+      "url": "https://github.com/oxpig/AntiFold",
+      "stars": 177,
+      "forks": 35,
+      "last_updated": "2026-09-27T20:10:16+00:00",
+      "created_at": "2024-04-29T13:18:44+00:00",
+      "language": "Python",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "topics": [
+        "antibody",
+        "antibody-design"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:46.565726",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "agemagician/ProtTrans",
+    "metadata": {
+      "name": "ProtTrans",
+      "description": "ProtTrans is providing state of the art pretrained language models for proteins. ProtTrans was trained on thousands of GPUs from Summit and hundreds of Google TPUs using Transformers Models.",
+      "url": "https://github.com/agemagician/ProtTrans",
+      "stars": 1324,
+      "forks": 169,
+      "last_updated": "2025-05-22T08:47:16+00:00",
+      "created_at": "2020-05-11T11:55:08+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:49.648081",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "westlake-repl/SaProt",
+    "metadata": {
+      "name": "SaProt",
+      "description": "Saprot: Protein Language Model with Structural Alphabet (AA+3Di)",
+      "url": "https://github.com/westlake-repl/SaProt",
+      "stars": 640,
+      "forks": 75,
+      "last_updated": "2026-03-08T13:25:39+00:00",
+      "created_at": "2023-10-02T03:02:54+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "alphafold2",
+        "foldseek",
+        "predicted-structures",
+        "pretraining",
+        "protein",
+        "protein-language-model",
+        "protein-sequence",
+        "protein-structure",
+        "representation-learning",
+        "structure-aware",
+        "protein-llm",
+        "structural-alphbet"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:51.286233",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "HICAI-ZJU/Scientific-LLM-Survey",
+    "metadata": {
+      "name": "Scientific-LLM-Survey",
+      "description": "Scientific Large Language Models: A Survey on Biological & Chemical Domains ",
+      "url": "https://github.com/HICAI-ZJU/Scientific-LLM-Survey",
+      "stars": 361,
+      "forks": 34,
+      "last_updated": "2025-09-07T02:38:42+00:00",
+      "created_at": "2023-10-12T02:49:48+00:00",
+      "language": null,
+      "license": null,
+      "topics": [
+        "genome",
+        "llms",
+        "molecule",
+        "multimodal",
+        "protein",
+        "science-research",
+        "text",
+        "sci-llm",
+        "cell",
+        "scientific-languages",
+        "survey",
+        "large-language-models"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:52.900551",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "bytedance/dplm",
+    "metadata": {
+      "name": "dplm",
+      "description": "The Family of Diffusion Protein Language Models (DPLM)",
+      "url": "https://github.com/bytedance/dplm",
+      "stars": 350,
+      "forks": 51,
+      "last_updated": "2025-07-25T06:18:34+00:00",
+      "created_at": "2024-07-19T07:48:17+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "research"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:54.496921",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "mheinzinger/ProstT5",
+    "metadata": {
+      "name": "ProstT5",
+      "description": "Bilingual Language Model for Protein Sequence and Structure",
+      "url": "https://github.com/mheinzinger/ProstT5",
+      "stars": 326,
+      "forks": 38,
+      "last_updated": "2026-03-06T08:01:04+00:00",
+      "created_at": "2023-07-21T14:03:42+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:56.096571",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "ElanaPearl/InterPLM",
+    "metadata": {
+      "name": "InterPLM",
+      "description": "Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders",
+      "url": "https://github.com/ElanaPearl/InterPLM",
+      "stars": 312,
+      "forks": 49,
+      "last_updated": "2025-10-31T05:55:58+00:00",
+      "created_at": "2024-11-10T01:07:58+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:57.678827",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "agemagician/Ankh",
+    "metadata": {
+      "name": "Ankh",
+      "description": "Ankh: Optimized Protein Language Model",
+      "url": "https://github.com/agemagician/Ankh",
+      "stars": 250,
+      "forks": 22,
+      "last_updated": "2025-06-16T14:19:35+00:00",
+      "created_at": "2022-10-27T18:35:27+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T10:59:59.240714",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "westlake-repl/ProTrek",
+    "metadata": {
+      "name": "ProTrek",
+      "description": "ProTrek: illuminating the Protein Universe through Trimodal Protein Language Model (Connecting text and protein)",
+      "url": "https://github.com/westlake-repl/ProTrek",
+      "stars": 220,
+      "forks": 26,
+      "last_updated": "2026-05-15T01:12:25+00:00",
+      "created_at": "2024-05-21T12:27:51+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "contrastive-learning",
+        "protein-alignment",
+        "protein-annotation",
+        "protein-language-model",
+        "sequence-structure",
+        "protein-clip",
+        "protein-natural-language-search",
+        "protein-text",
+        "protein-text-search",
+        "protein-function-prediction",
+        "protein-text-alignment",
+        "protein-text-retrieval",
+        "text-protein-search"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:00.911740",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "PKU-YuanGroup/ProLLaMA",
+    "metadata": {
+      "name": "ProLLaMA",
+      "description": "A Protein Large Language Model for Multi-Task Protein Language Processing",
+      "url": "https://github.com/PKU-YuanGroup/ProLLaMA",
+      "stars": 208,
+      "forks": 26,
+      "last_updated": "2025-09-30T07:15:30+00:00",
+      "created_at": "2024-02-24T06:50:29+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:02.560950",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "westlake-repl/SaprotHub",
+    "metadata": {
+      "name": "SaprotHub",
+      "description": "Making Protein Language Modeling Accessible to All Biologists",
+      "url": "https://github.com/westlake-repl/SaprotHub",
+      "stars": 170,
+      "forks": 21,
+      "last_updated": "2026-10-22T03:10:07+00:00",
+      "created_at": "2024-05-02T08:27:21+00:00",
+      "language": "Jupyter Notebook",
+      "license": "MIT License",
+      "topics": [
+        "foundation-models",
+        "protein-fitness",
+        "protein-function-prediction",
+        "protein-language-model",
+        "fine-tuning-protein-language-model",
+        "protein-language-model-finetuning",
+        "colab-esm1b",
+        "colab-protein-language-model",
+        "colabesm",
+        "colabplm",
+        "colabprotbert",
+        "multimodal-protein"
+      ]
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:04.163749",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "pengzhangzhi/faplm",
+    "metadata": {
+      "name": "faplm",
+      "description": "FAPLM: A Drop-in Efficient Pytorch Implementation of Protein Language Models",
+      "url": "https://github.com/pengzhangzhi/faplm",
+      "stars": 167,
+      "forks": 14,
+      "last_updated": "2026-03-28T12:10:56+00:00",
+      "created_at": "2024-11-29T14:35:25+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": [
+        "protein-language-model",
+        "protein-sequences",
+        "pytorch"
+      ]
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:05.794078",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "ai4protein/ProSST",
+    "metadata": {
+      "name": "ProSST",
+      "description": "🧬 Advanced hybrid language model for directed protein evolution. (NeurIPS 2024)",
+      "url": "https://github.com/ai4protein/ProSST",
+      "stars": 165,
+      "forks": 20,
+      "last_updated": "2026-09-29T17:29:55+00:00",
+      "created_at": "2024-05-14T02:53:12+00:00",
+      "language": "Python",
+      "license": "Other",
+      "topics": [
+        "direct-evolution",
+        "language-model",
+        "mutation-prediction",
+        "protein",
+        "protein-structure"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:07.416430",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "samsledje/ConPLex",
+    "metadata": {
+      "name": "ConPLex",
+      "description": "Adapting protein language models and contrastive learning for highly-accurate drug-target interaction prediction.",
+      "url": "https://github.com/samsledje/ConPLex",
+      "stars": 157,
+      "forks": 40,
+      "last_updated": "2025-05-21T16:22:37+00:00",
+      "created_at": "2023-03-11T17:13:34+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Applications",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:09.034015",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "GENTEL-lab/Fold2Reason",
+    "metadata": {
+      "name": "Fold2Reason",
+      "description": "Official code for Fold2Reason: Enhancing general reasoning in language models through protein-structure post-training.",
+      "url": "https://github.com/GENTEL-lab/Fold2Reason",
+      "stars": 109,
+      "forks": 8,
+      "last_updated": "2026-10-16T07:41:53+00:00",
+      "created_at": "2026-09-28T04:57:15+00:00",
+      "language": "Python",
+      "license": null,
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:10.729940",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "zhouyflab/R-Predictor",
+    "metadata": {
+      "name": "R-Predictor",
+      "description": "The pipeline of annotating plant disease resistance genes based on deep protein language and machine learning models",
+      "url": "https://github.com/zhouyflab/R-Predictor",
+      "stars": 108,
+      "forks": 15,
+      "last_updated": "2026-05-28T06:49:06+00:00",
+      "created_at": "2024-09-26T08:36:29+00:00",
+      "language": "Python",
+      "license": null,
+      "topics": []
+    },
+    "classification": {
+      "category": "Infrastructure",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:12.330435",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "brianhie/evolocity",
+    "metadata": {
+      "name": "evolocity",
+      "description": "Evolutionary velocity with protein language models",
+      "url": "https://github.com/brianhie/evolocity",
+      "stars": 103,
+      "forks": 24,
+      "last_updated": "2025-12-09T00:38:48+00:00",
+      "created_at": "2020-12-24T00:20:37+00:00",
+      "language": "Python",
+      "license": "MIT License",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:14.004789",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "Eikor/InstructPLM",
+    "metadata": {
+      "name": "InstructPLM",
+      "description": "The first large protein language model trained follows structure instructions.",
+      "url": "https://github.com/Eikor/InstructPLM",
+      "stars": 103,
+      "forks": 6,
+      "last_updated": "2025-05-20T05:10:33+00:00",
+      "created_at": "2024-03-31T14:13:33+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": [
+        "huggingface",
+        "protein-design",
+        "pytorch"
+      ]
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:15.609631",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  },
+  {
+    "repo_id": "NVIDIA-BioNeMo/CodonFM",
+    "metadata": {
+      "name": "CodonFM",
+      "description": "A family of codon-resolution language models trained on 130 million protein-coding sequences from over 20,000 species.",
+      "url": "https://github.com/NVIDIA-BioNeMo/CodonFM",
+      "stars": 101,
+      "forks": 17,
+      "last_updated": "2026-10-19T19:48:27+00:00",
+      "created_at": "2025-10-13T20:10:40+00:00",
+      "language": "Python",
+      "license": "Apache License 2.0",
+      "topics": []
+    },
+    "classification": {
+      "category": "Core Methods",
+      "subcategory": null,
+      "layer": null
+    },
+    "domain_specific": {
+      "experimental_validation": null,
+      "expression_systems": [],
+      "gpu_requirement": null,
+      "input_types": [],
+      "output_formats": []
+    },
+    "tracking": {
+      "first_tracked": "2026-10-25T11:00:17.278783",
+      "star_velocity_7d": 0,
+      "star_velocity_30d": 0,
+      "trending": false
+    }
+  }
+]
