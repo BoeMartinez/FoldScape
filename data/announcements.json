@@ -1,5 +1,64 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.32779",
+    "title": "Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.32779v1 Announce Type: new Abstract: Interleukin-23 (IL-23) drives T-helper-17 inflammation underlying inflammatory bowel disease and psoriasis; anti-p19 antibodies are clinically effective but large, costly, and injectable. De novo miniproteins are an attractive alternative, yet published designs target the IL-23 receptor; the IL-23 cytokine itself has not been addressed. A further obstacle is that the standard confidence score (ipTM) tracks construct length rather than interface quality. We computationally design miniprotein binders against the IL-23R-binding face of p19 (PDB 3DUH",
+    "published": "2026-10-26T04:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "protein",
+      "proteinmpnn",
+      "residue",
+      "rfdiffusion"
+    ],
+    "first_seen": "2026-10-26T12:32:50.308623+00:00",
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760417v1?rss=1",
+    "title": "Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Sulforaphane (SFN), a natural isothiocyanate from cruciferous vegetables, exerts neuroprotective effects through mechanisms extending beyond canonical Nrf2/ARE activation. Here, we developed a multi-dataset computational framework integrating transcriptomic analysis, multi-criteria target prioritization, and structural docking evaluation. R- and S-SFN were docked against 693 prioritized targets using AutoDock Vina, followed by cross-validation, brain expression profiling, and molecular dynamics simulations. Four genes (IGSF9, KCNQ5, KCTD12, and NFIX) were dysregulated across all four datasets.",
+    "published": "2026-10-25T00:00:00+00:00",
+    "matched": [
+      "docking",
+      "molecular dynamics"
+    ],
+    "first_seen": "2026-10-26T12:32:50.308623+00:00",
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760876v1?rss=1",
+    "title": "Protein Folding Interference Enables Selective Cyclin D1 Degradation",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Cyclin D1 is a central regulator of cell-cycle progression and a compelling therapeutic target in cancer, yet its non-enzymatic function, limited ligandability, and rapid turnover have hindered direct pharmacological intervention. Here we show that these limitations can be overcome by targeting a transient conformational state populated during protein folding. Computational reconstruction of the Cyclin D1 folding landscape enabled the identification of a ligandable folding intermediate that served as the basis for structure-guided discovery of small molecules inducing selective degradation of ",
+    "published": "2026-10-25T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand",
+      "protein",
+      "proteome"
+    ],
+    "first_seen": "2026-10-26T12:32:50.308623+00:00",
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.760823v1?rss=1",
+    "title": "Hsp10 Targets the C-Terminus of α-Synuclein to Inhibit Secondary Nucleation and Remodel Labile Fibrils",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Aggregation of a-synuclein is a central pathological feature of Parkinsons disease and related synucleinopathies. The co-chaperonin Hsp10, a component of the Hsp60/Hsp10 chaperonin system, has recently been proposed to possess independent chaperone activity and has been found to co-localize with a-synuclein aggregates in diseased brains, suggesting a role in regulating a-synuclein assembly. Here, we combine solution NMR spectroscopy, cryo-electron microscopy, and kinetic analyses to define a multistage mechanism by which Hsp10 modulates a-synuclein aggregation. Hsp10 transiently interacts with",
+    "published": "2026-10-25T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-10-26T12:32:50.308623+00:00",
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760314v1?rss=1",
     "title": "Sequence-only antigen context improves modeling of antibody hypervariable regions",
     "source": "bioRxiv Bioinformatics",
@@ -13,7 +72,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-25T11:00:28.390660+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760131v1?rss=1",
@@ -29,7 +88,7 @@
       "protein"
     ],
     "first_seen": "2026-10-25T11:00:28.390660+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.30668",
@@ -72,7 +131,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1?rss=1",
@@ -88,7 +147,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1?rss=1",
@@ -206,7 +265,7 @@
       "protein"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2605.08659",
@@ -331,7 +390,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27230",
@@ -899,7 +958,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -912,7 +971,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -925,7 +984,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -938,7 +997,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -952,7 +1011,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -967,7 +1026,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -980,7 +1039,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -993,7 +1052,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1006,7 +1065,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1020,7 +1079,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1033,6 +1092,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-25T11:00:28.390660+00:00"
+    "last_seen": "2026-10-26T12:32:50.308623+00:00"
   }
 ]
