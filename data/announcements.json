@@ -1,5 +1,35 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.33195",
+    "title": "Agent-guided epitope excision enables economical de novo binder design",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.33195v1 Announce Type: new Abstract: De novo protein design campaigns remain bottlenecked by the inference compute time required to generate and rank candidates, limiting wider functional exploration. Here, we introduce and evaluate an epitope excision approach that truncates targets to local interface windows to accelerate both backbone diffusion and structure prediction. Across 15 targets and 3,666 designs, excised windows closely reproduced full-target binding interfaces (median C\\alpha RMSD of 0.37 \\AA) and made it practical to design binders against the 719-residue extracellula",
+    "published": "2026-10-27T04:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "catalytic",
+      "de novo protein",
+      "epitope",
+      "folding"
+    ],
+    "first_seen": "2026-10-27T11:50:42.669223+00:00",
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.35204",
+    "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.35204v1 Announce Type: new Abstract: Learning molecular models of RNA requires simulation data that capture conformational variability and provide consistent physical training signals. Here, we introduce mdRNAcat, a curated dataset of all-atom molecular dynamics (MD) simulations of 48 RNA systems selected to promote sequence diversity. Each system is simulated using replica-exchange with solute scaling (REST2), with 32 Hamiltonian states and production lengths of 200-300 ns per state. The dataset provides atomic coordinates, instantaneous forces, and forces reevaluated under the uns",
+    "published": "2026-10-27T04:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "sequence"
+    ],
+    "first_seen": "2026-10-27T11:50:42.669223+00:00",
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.32779",
     "title": "Computational De Novo Design of Miniprotein Candidate Neutralizers Targeting the IL-23 Cytokine Subunit p19",
     "source": "arXiv q-bio.BM",
@@ -17,6 +47,38 @@
     "last_seen": "2026-10-26T12:32:50.308623+00:00"
   },
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760867v1?rss=1",
+    "title": "AntiOxiPred: Predicting Antioxidant Peptides using Machine Learning Techniques and BLAST",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Antioxidant peptides (AOPs) offer significant therapeutic potential in counteracting oxidative damage associated with chronic diseases. As AOPs gain market traction in cosmeceuticals, functional foods, and clinical trials for disease intervention, efficient computational methods are essential to accelerate their discovery. In this study, a systematic attempt has been made to develop a highly accurate and reliable method for predicting AOPs from their primary sequences. The dataset comprises 1,511 experimentally validated AOPs and 1,511 randomly generated non-AOPs, partitioned into 2,417 sequen",
+    "published": "2026-10-26T00:00:00+00:00",
+    "matched": [
+      "peptide",
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-10-27T11:50:42.669223+00:00",
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761513v1?rss=1",
+    "title": "Can Folding Models Tell Binders from Bluffers? Evidence from POISK: The Patent-Derived Antibody Dataset",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Structure prediction models are increasingly deployed as zero-shot digital screens in antibody design, operating under the assumption that high folding confidence implies true binding. However, rigorous validation of this premise has been limited by small test sets, narrow target diversity, and the risk of data leakage from training-adjacent structures. Here we introduce POISK: Patent-extracted Organization of Immunoglobulin Sequence Knowledge, a large-scale dataset derived from the US patent literature, comprising 89074 antibody-antigen records extracted from 10110 patents using an LLM-based ",
+    "published": "2026-10-26T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "antibody",
+      "antibody design",
+      "binder",
+      "boltz",
+      "epitope"
+    ],
+    "first_seen": "2026-10-27T11:50:42.669223+00:00",
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.20.760417v1?rss=1",
     "title": "Integrated Transcriptomic and Structural Prioritization of Sulforaphane Targets in Neurodegeneration: A Multi-Dataset In Silico Study",
     "source": "bioRxiv Bioinformatics",
@@ -27,7 +89,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-26T12:32:50.308623+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760876v1?rss=1",
@@ -42,7 +104,7 @@
       "proteome"
     ],
     "first_seen": "2026-10-26T12:32:50.308623+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.760823v1?rss=1",
@@ -56,7 +118,7 @@
       "residue"
     ],
     "first_seen": "2026-10-26T12:32:50.308623+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760314v1?rss=1",
@@ -131,7 +193,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1?rss=1",
@@ -147,7 +209,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1?rss=1",
@@ -265,7 +327,7 @@
       "protein"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2605.08659",
@@ -390,7 +452,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.27230",
@@ -958,7 +1020,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -971,7 +1033,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -984,7 +1046,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -997,7 +1059,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1011,7 +1073,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1026,7 +1088,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1039,7 +1101,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1052,7 +1114,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1065,7 +1127,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1079,7 +1141,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1092,6 +1154,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-26T12:32:50.308623+00:00"
+    "last_seen": "2026-10-27T11:50:42.669223+00:00"
   }
 ]
