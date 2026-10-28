@@ -1,5 +1,85 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.35204",
+    "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.35204v2 Announce Type: replace Abstract: Learning molecular models of RNA requires simulation data that capture conformational variability and provide consistent physical training signals. Here, we introduce mdRNAcat, a curated dataset of all-atom molecular dynamics (MD) simulations of 48 RNA systems selected to promote sequence diversity. Each system is simulated using replica-exchange with solute scaling (REST2), with 32 Hamiltonian states and production lengths of 200-300 ns per state. The dataset provides atomic coordinates, instantaneous forces, and forces reevaluated under the",
+    "published": "2026-10-28T04:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "sequence"
+    ],
+    "first_seen": "2026-10-27T11:50:42.669223+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37410",
+    "title": "Accurate structural modelling of protein-glycan recognition with GlycoWeave",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.37410v1 Announce Type: new Abstract: Protein-glycan recognition underlies diverse biological processes, yet accurate prediction of protein-glycan complex structures remains challenging owing to the chemical diversity, conformational flexibility and sparse experimental structural coverage of glycans. Here we present GlycoWeave, a glycan-specific diffusion framework that integrates chemically constrained conformational sampling, multiscale molecular representations and multi-source learning. By operating in internal-coordinate space, GlycoWeave preserves glycan connectivity and stereo",
+    "published": "2026-10-28T04:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein"
+    ],
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.37606",
+    "title": "A unified coarse-grained neural network potential for the dynamics of biomolecular complexes",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.37606v1 Announce Type: new Abstract: The behavior of biomolecular complexes is governed by chemically specific interactions and often involves rare events that atomistic molecular dynamics struggle to capture within accessible timescales. Here we introduce AMARO v2.0, a coarse-grained neural network potential that retains all heavy atoms and treats solvent implicitly. Hydrogen-aware bead types and total-charge conditioning provide a shared representation for proteins, drug-like molecules, and their complexes, including ternary protein-protein-ligand systems. The model preserves fold",
+    "published": "2026-10-28T04:00:00+00:00",
+    "matched": [
+      "ligand",
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.01132",
+    "title": "From static structures to dynamic landscapes: cryo-EM redefines RNA biology",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.01132v2 Announce Type: replace Abstract: RNA molecules perform diverse biological functions by dynamically exploring multiple conformational states rather than adopting a single static structure. Capturing these ensembles is a challenge in molecular biology. Recent advances in cryoEM are now transforming this landscape by enabling the visualization of RNA molecules across a broad spectrum of functionally relevant conformations at near atomic resolution. Here, we examine how cryoEM is reshaping RNA structural biology changing focus from the analysis of static structures to dynamic co",
+    "published": "2026-10-28T04:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand"
+    ],
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762132v1?rss=1",
+    "title": "From {triangleup}{triangleup}G Prediction to Mutation Prioritization with Conformal Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Selecting mutations for protein engineering and studies of protein function requires deciding which predicted stability changes warrant experimental follow-up. A point estimate alone does not show whether uncertainty leaves both stabilizing and destabilizing effects plausible. To address this limitation, we introduce ProbJanusDDG, which combines a protein-stability predictor with standard and adaptive conformal prediction intervals. Calibration assigns equal total weight to each protein, accounting for uneven numbers of measured mutations. For previously uncharacterized mutations, intervals ly",
+    "published": "2026-10-28T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein engineering"
+    ],
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761880v1?rss=1",
+    "title": "De novo design of light-controlled conformational protein switches",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Light-responsive proteins offer the ability to control biology at an unmatched resolution. Yet, optogenetics is limited to a relatively small number of natural and engineered photoreceptors. The design of light-responsive proteins with native-like complexity is challenging as they must incorporate a light-responsive chromophore, couple chemical changes in the chromophore to structural changes in the protein, and ultimately propagate these changes to downstream effectors. Here, we present the computational design of new light-responsive proteins entirely from the bottom-up. We design de novo pr",
+    "published": "2026-10-28T00:00:00+00:00",
+    "matched": [
+      "de novo protein",
+      "peptide",
+      "protein"
+    ],
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.33195",
     "title": "Agent-guided epitope excision enables economical de novo binder design",
     "source": "arXiv q-bio.BM",
@@ -17,17 +97,33 @@
     "last_seen": "2026-10-27T11:50:42.669223+00:00"
   },
   {
-    "url": "https://arxiv.org/abs/2610.35204",
-    "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
-    "source": "arXiv q-bio.BM",
-    "summary": "arXiv:2610.35204v1 Announce Type: new Abstract: Learning molecular models of RNA requires simulation data that capture conformational variability and provide consistent physical training signals. Here, we introduce mdRNAcat, a curated dataset of all-atom molecular dynamics (MD) simulations of 48 RNA systems selected to promote sequence diversity. Each system is simulated using replica-exchange with solute scaling (REST2), with 32 Hamiltonian states and production lengths of 200-300 ns per state. The dataset provides atomic coordinates, instantaneous forces, and forces reevaluated under the uns",
-    "published": "2026-10-27T04:00:00+00:00",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761425v1?rss=1",
+    "title": "AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein function prediction is increasingly important as the rapid growth of sequence databases outpaces the capacity of experimental pipelines to characterize protein function. Here we introduce AltereGO, a framework that combines molecular function predictions from three sequence representations, ESM2-3B, ProtT5 and Ankh, and a structure representation, ProstT5-3Di. Independent predictors are integrated through weighted score-level fusion. We evaluated the framework using 495,055 proteins spanning 8,446 Gene Ontology molecular function terms and a low-homology test set of 2,000 proteins with",
+    "published": "2026-10-27T00:00:00+00:00",
     "matched": [
-      "molecular dynamics",
+      "catalytic",
+      "protein",
+      "protein language model",
       "sequence"
     ],
-    "first_seen": "2026-10-27T11:50:42.669223+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760886v1?rss=1",
+    "title": "GLOM TGITO: multiscale protein modelling and multiview landscape-guided sequence discovery",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Motivation: Offline protein design can exploit surrogate-predictor errors, favouring high-scoring sequences lacking measured support. We test whether multiscale representations and local experimental evidence improve prediction and candidate prioritization. Results: GLOM-TGITO links a global-local fluorescence predictor to multiview landscape-guided optimization. Across 31,434 measured ppluGFP2 sequences, GLOM achieved random/depth-holdout RMSEs of 0.170/0.247 versus 0.247/0.324 for the strongest SaProt-650M controls. Averaged across three training seeds, 96.3%/97.3% of prediction-ranked Top 1",
+    "published": "2026-10-27T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein design",
+      "sequence"
+    ],
+    "first_seen": "2026-10-28T12:24:51.037989+00:00",
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.32779",
@@ -104,7 +200,7 @@
       "proteome"
     ],
     "first_seen": "2026-10-26T12:32:50.308623+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.760823v1?rss=1",
@@ -118,7 +214,7 @@
       "residue"
     ],
     "first_seen": "2026-10-26T12:32:50.308623+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760314v1?rss=1",
@@ -193,7 +289,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760921v1?rss=1",
@@ -209,7 +305,7 @@
       "residue"
     ],
     "first_seen": "2026-10-23T11:16:28.408801+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.19.760001v1?rss=1",
@@ -327,7 +423,7 @@
       "protein"
     ],
     "first_seen": "2026-10-24T10:35:16.209726+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2605.08659",
@@ -1020,7 +1116,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1033,7 +1129,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1046,7 +1142,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1059,7 +1155,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1073,7 +1169,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1088,7 +1184,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1101,7 +1197,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1114,7 +1210,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1127,7 +1223,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1141,7 +1237,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1154,6 +1250,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
+    "last_seen": "2026-10-28T12:24:51.037989+00:00"
   }
 ]
