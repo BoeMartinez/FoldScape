@@ -1,5 +1,45 @@
 [
   {
+    "url": "https://arxiv.org/abs/2509.26566",
+    "title": "Commutative Algebra Modeling of Mutation and Disease Association",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2509.26566v2 Announce Type: replace-cross Abstract: Genetic mutations can lead to disease by disrupting molecular interactions, altering protein stability, inducing misfolding, and promoting protein aggregation. Although existing predictive models have achieved promising performance, they often lack mechanistic interpretability and fail to fully incorporate the underlying physical and chemical principles governing mutation-induced effects. Moreover, current approaches typically address disease association, protein stability changes, and solubility alterations as separate prediction tasks",
+    "published": "2026-10-30T04:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein"
+    ],
+    "first_seen": "2026-10-30T12:25:46.645301+00:00",
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.01169",
+    "title": "Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2604.01169v2 Announce Type: replace-cross Abstract: A fundamental challenge in science and engineering is the simulation-to-experiment gap. While we often possess prior knowledge of physical laws, these physical laws can be too difficult to solve exactly for complex systems. Such systems are commonly modeled using simulators, which impose computational approximations. Meanwhile, experimental measurements more faithfully represent the real world, but experimental data typically consists of observations that only partially reflect the system's full underlying state. We propose a data-drive",
+    "published": "2026-10-30T04:00:00+00:00",
+    "matched": [
+      "boltz",
+      "protein"
+    ],
+    "first_seen": "2026-10-30T12:25:46.645301+00:00",
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762037v1?rss=1",
+    "title": "Optimization of the NFκB-DNA ensemble leads to high affinity binding of partial consensus sites",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Our ability to respond to a myriad of external stressors is dependent on the activity of specific transcription factors that precisely regulate gene expression. While some transcription factors have high specificity for their consensus DNA binding site, others such as NF{kappa}B (RelA/p50) readily bind to partial and nonconsensus sites. In fact, ChIP-Seq data shows that nearly half of the DNA-bound RelA occupies sequences that do not match the consensus. Here we explore how NF{kappa}B (RelA/p50) binds to alternative sequences that differ subtly from the consensus. The two subunits of the NF{ka",
+    "published": "2026-10-29T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-10-30T12:25:46.645301+00:00",
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.35204",
     "title": "mdRNAcat: A Molecular Dynamics RNA Catalog of REST2 Conformational Ensembles",
     "source": "arXiv q-bio.BM",
@@ -63,7 +103,7 @@
       "protein engineering"
     ],
     "first_seen": "2026-10-28T12:24:51.037989+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761880v1?rss=1",
@@ -77,7 +117,7 @@
       "protein"
     ],
     "first_seen": "2026-10-28T12:24:51.037989+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760799v1?rss=1",
@@ -94,7 +134,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-29T12:33:45.575585+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.761984v1?rss=1",
@@ -109,7 +149,7 @@
       "protein structure"
     ],
     "first_seen": "2026-10-29T12:33:45.575585+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.33195",
@@ -141,7 +181,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-28T12:24:51.037989+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.22.760886v1?rss=1",
@@ -1148,7 +1188,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1161,7 +1201,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1174,7 +1214,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1187,7 +1227,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1201,7 +1241,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1216,7 +1256,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1229,7 +1269,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1242,7 +1282,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1255,7 +1295,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1269,7 +1309,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1282,6 +1322,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-29T12:33:45.575585+00:00"
+    "last_seen": "2026-10-30T12:25:46.645301+00:00"
   }
 ]
