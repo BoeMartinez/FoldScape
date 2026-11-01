@@ -1,5 +1,55 @@
 [
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762100v1?rss=1",
+    "title": "Bioactivity foundation model for hit identification and hit-to-lead optimization from sequence data",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Learning from large-scale bioactivity archives is complicated by heterogeneous assay readouts and differences in data reliability. Here we show that a model that predicts probability distributions over binding affinities from sequence data opens model training to vast and diverse troves of heterogeneous bioactivity data. We develop PSICHIC+, a bioactivity foundation model trained on approximately 82 million protein-ligand records using a distributional objective that preserves quantitative resolution while incorporating variation in data reliability. Given a protein sequence and ligand SMILES,",
+    "published": "2026-10-31T00:00:00+00:00",
+    "matched": [
+      "binding affinity",
+      "boltz",
+      "ligand",
+      "protein",
+      "protein structure",
+      "sequence"
+    ],
+    "first_seen": "2026-11-01T12:55:18.347696+00:00",
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762091v1?rss=1",
+    "title": "EpiRank: partner-agnostic surface-patch retrieval for epitope prediction of protein binding interfaces",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Structure-based interface predictors are normally reported as a single pooled ROC AUC over a residue test set. For a protein designer the operative question is different and much harder: given one target chain, will the top-ranked surface patch be a real binding site? We built EpiRank, a partner-agnostic epitope predictor, on HumanPPI 29,246 predicted human dimers, 12,296 target chains, 4.18 M residues using only single-chain geometry and physicochemistry (170 features, no partner, no sequence search, no structural alphabet), and evaluated it as a retrieval problem with homology- and partner-g",
+    "published": "2026-10-31T00:00:00+00:00",
+    "matched": [
+      "epitope",
+      "protein",
+      "protein design",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-01T12:55:18.347696+00:00",
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762066v1?rss=1",
+    "title": "Structure-resolved fold annotation of the medicinal-leech salivary-EV cargo: a Ly-6/uPAR three-finger scaffold and a structurally dark fraction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Many proteins that medicinal leeches package into salivary extracellular vesicles (EVs) carry no interpretable sequence annotation, so the least-characterised part of a pharmacologically important secretome lacks even a fold assignment. A companion Astral-DIA study of Hirudinaria manillensis nominated 17 ultra-enriched candidate EV cargo proteins. Here we ask whether structure prediction and structural search can assign folds where sequence methods fail, and which candidates remain unresolved under prespecified criteria. With an offline pipeline (ESMFold, TM-align, Foldseek against AFDB-SwissP",
+    "published": "2026-10-31T00:00:00+00:00",
+    "matched": [
+      "boltz",
+      "catalytic",
+      "esmfold",
+      "protein",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-01T12:55:18.347696+00:00",
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2509.26566",
     "title": "Commutative Algebra Modeling of Mutation and Disease Association",
     "source": "arXiv q-bio.BM",
@@ -40,7 +90,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762908v1?rss=1",
@@ -52,7 +102,7 @@
       "cryo-em structure"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762730v1?rss=1",
@@ -68,7 +118,7 @@
       "residue"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.24.761502v1?rss=1",
@@ -98,7 +148,7 @@
       "residue"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762698v1?rss=1",
@@ -110,7 +160,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762037v1?rss=1",
@@ -124,7 +174,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-30T12:25:46.645301+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.35204",
@@ -236,7 +286,7 @@
       "protein structure"
     ],
     "first_seen": "2026-10-29T12:33:45.575585+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.33195",
@@ -1275,7 +1325,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1288,7 +1338,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1301,7 +1351,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1314,7 +1364,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1328,7 +1378,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1343,7 +1393,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1356,7 +1406,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1369,7 +1419,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1382,7 +1432,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1396,7 +1446,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1409,6 +1459,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-10-31T11:55:44.856698+00:00"
+    "last_seen": "2026-11-01T12:55:18.347696+00:00"
   }
 ]
