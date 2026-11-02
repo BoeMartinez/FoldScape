@@ -1,5 +1,90 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.41029",
+    "title": "Contribution of chromosome-na\\\"ive transposon-seeded network of DNA templates to intracellular pools of protein dimers of liquid-liquid phase-separated condensate-forming proteins",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.41029v1 Announce Type: new Abstract: Molecular mechanisms governing protein-protein interactions (PPI) contributing to the biogenesis of membraneless condensates remain poorly understood. Observations reported in this contribution demonstrate that liquid-liquid phase-separated (LLPS) condensate-forming proteins and their variants harboring condensate-disrupting human pathogenic mutations are significantly enriched among PPI cascade constituents of the Hybrid Assembly Pathway (HAP) of endogenous multiprotein complexes (EMC). In contrast, no structured or disordered proteins defined a",
+    "published": "2026-11-02T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein"
+    ],
+    "first_seen": "2026-11-02T15:08:42.289565+00:00",
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762916v1?rss=1",
+    "title": "Differentiable Spin-Center Diffusion Model Enables DEER-Guided Generative Pipeline of Weighted Protein Ensembles",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Biological function entails the interconversion of a protein between distinct conformations, an equilibrium modulated by ligands and other physicochemical conditions. Double electron-electron resonance (DEER) spectroscopy captures these ensembles as distance distributions, P(r), between spin label pairs. However, the width of P(r) convolves protein conformational heterogeneity with the rotameric flexibility of the label. Because current spin label models overestimate this contribution, translating P(r) into ensembles has remained indirect and predominantly qualitative. Here, we developed spin-",
+    "published": "2026-11-01T00:00:00+00:00",
+    "matched": [
+      "boltz",
+      "ligand",
+      "protein",
+      "protein structure",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-02T15:08:42.289565+00:00",
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762533v1?rss=1",
+    "title": "ScanFold3: a robust and rapid approach for identifying structured RNA targets in genomes and transcriptomes",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Background. The rapid expansion of high-throughput transcriptomic datasets has created a critical need for scalable tools to identify functional RNA secondary structures. While thermodynamics-based folding is a well-established method, most algorithms lack the scalability required for genomic-scale datasets due to O(n3) time complexity. Methods. We present ScanFold3, an enhanced version of the ScanFold pipeline that optimizes the \"Fold\" step for modern computing needs. This version models consensus structure generation as a minimum perfect weighted matching problem on a graph. To ensure maximu",
+    "published": "2026-11-01T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-02T15:08:42.289565+00:00",
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762659v1?rss=1",
+    "title": "Improving Molecular Docking Pose Recovery through Targeted Side-Chain Monte Carlo Sampling of an Apo Structure",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Receptor flexibility complicates molecular docking when only an unbound (apo) protein structure is available. Local side-chain rearrangements can alter binding-pocket accessibility and ligand complementarity, motivating approaches that sample these motions efficiently. Here, we evaluate a targeted Markov Chain Monte Carlo (MCMC) protocol that combines local and larger side-chain torsional proposals with periodic molecular dynamics (MD) relaxation under harmonic backbone restraints. Receptor ensembles generated from an apo structure were evaluated against 859 experimental complexes from the Ope",
+    "published": "2026-11-01T00:00:00+00:00",
+    "matched": [
+      "docking",
+      "ligand",
+      "molecular dynamics",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-02T15:08:42.289565+00:00",
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762670v1?rss=1",
+    "title": "LIMBER: A Hybrid RNA Foundation Model for Predicting and Understanding RNA Structure and Function",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "RNA foundation models offer a promising route to decoding the relationships between RNA sequence, structure and function, yet how model shapes the acquisition and organization of biological information remains poorly understood. Here we introduce Layer-Interleaved Mamba-Bidirectional Encoder for RNA (LIMBER), a hybrid foundation model integrating bidirectional self-attention with selective state-space modeling, pretrained on 40.5 million non-coding RNA sequences. Through task-specific fine-tuning, LIMBER achieves leading performance on secondary-structure prediction and non-coding RNA classifi",
+    "published": "2026-11-01T00:00:00+00:00",
+    "matched": [
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-02T15:08:42.289565+00:00",
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762175v1?rss=1",
+    "title": "The Quagmire of Immunogenicity-Guided Antibody Design: Labels Limit Progress",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Generative sequence-based antibody design is increasingly steered by learned property predictors, so a design objective is only as well specified as the labels behind its oracle. Immunogenicity is among the most clinically consequential properties to condition on, and among the least well specified: the supervisory signal is a single anti-drug-antibody percentage (ADA%) per molecule, aggregated from published trials. To analyze that signal, we first extended and corrected the widely used 217-entry dataset to 231 therapeutics with paired sequences, spanning formats from mouse to fully human. Th",
+    "published": "2026-11-01T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "antibody design",
+      "sequence"
+    ],
+    "first_seen": "2026-11-02T15:08:42.289565+00:00",
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762100v1?rss=1",
     "title": "Bioactivity foundation model for hit identification and hit-to-lead optimization from sequence data",
     "source": "bioRxiv Bioinformatics",
@@ -14,7 +99,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-01T12:55:18.347696+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762091v1?rss=1",
@@ -30,7 +115,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-01T12:55:18.347696+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762066v1?rss=1",
@@ -47,7 +132,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-01T12:55:18.347696+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2509.26566",
@@ -90,7 +175,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762908v1?rss=1",
@@ -102,7 +187,7 @@
       "cryo-em structure"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762730v1?rss=1",
@@ -148,7 +233,7 @@
       "residue"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762698v1?rss=1",
@@ -160,7 +245,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762037v1?rss=1",
@@ -174,7 +259,7 @@
       "sequence"
     ],
     "first_seen": "2026-10-30T12:25:46.645301+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.35204",
@@ -1325,7 +1410,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1338,7 +1423,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1351,7 +1436,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1364,7 +1449,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1378,7 +1463,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1393,7 +1478,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1406,7 +1491,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1419,7 +1504,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1432,7 +1517,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1446,7 +1531,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1459,6 +1544,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-01T12:55:18.347696+00:00"
+    "last_seen": "2026-11-02T15:08:42.289565+00:00"
   }
 ]
