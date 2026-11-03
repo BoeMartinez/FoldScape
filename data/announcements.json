@@ -1,5 +1,96 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.03379",
+    "title": "RangeFinder: Predicting Ligand Property Ranges from Protein Pockets",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.03379v1 Announce Type: cross Abstract: Identifying ligands for a protein target requires searching a vast chemical space for a comparatively small set of compatible molecules. Existing machine learning approaches primarily address this problem by generating candidate ligands or scoring individual protein-ligand pairs, but provide limited information about the broader chemical space compatible with a binding pocket. We introduce RangeFinder, an SE(3)-equivariant transformer pocket-level model, trained and evaluated on BioLiP2 data, that predicts ranges over nine physicochemical ligan",
+    "published": "2026-11-03T05:00:00+00:00",
+    "matched": [
+      "binder",
+      "docking",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.20585",
+    "title": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2607.20585v2 Announce Type: replace-cross Abstract: Sample-based quantum diagonalization (SQD), an extension of quantum selected configuration interaction (QSCI), is a promising hybrid quantum-classical paradigm for molecular ground-state energies. By replacing variational optimization with quantum sampling, QSCI avoids barren plateaus and directly reconstructs correlated wavefunctions. However, existing configuration recovery mainly enforces symmetry constraints without targeting the most physically relevant configurations, often yielding oversized subspaces and costly classical diagona",
+    "published": "2026-11-03T05:00:00+00:00",
+    "matched": [
+      "boltz",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763582v1?rss=1",
+    "title": "A validation approach for RNA structures based on deep-learning 3D-structure predictions",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Understanding the molecular mechanisms of life depends on accurate macromolecular structures. RNA, in particular, poses a particular challenge for structural biology due to its inherent flexibility and dynamic nature. The challenging nature of structure determination experiments and their interpretation have led to the development of validation approaches to prevent or fix errors in solved structures. Existing methods for RNA structure validation can, as with proteins, be broadly split into two types. Map-based validation tools seek to detect discrepancies between the experimental data and the",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763449v1?rss=1",
+    "title": "Res ipSAE adhuc loquuntur: What the directionality of predicted aligned error in cofolding models can tell us about scoring diverse molecular complexes",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "AlphaFold 3 (AF3) and Boltz-2 estimate confidence in predicted biomolecular complexes using the interface predicted template modeling (ipTM) score, which is derived from probability distributions of predicted aligned errors (PAEs) between molecular tokens. These errors are directional: the predicted position of tokens in one molecule is evaluated relative to coordinate frames defined by tokens in another. The PAE matrix is therefore asymmetric, but AF3 reports the maximum of the two directional pairwise ipTM scores, whereas Boltz-2 reports them separately. In both programs, the TM-score scalin",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "boltz",
+      "folding",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763304v1?rss=1",
+    "title": "FedEpitope: Parameter-Efficient Federated Protein Language Models for Linear B-Cell Epitope Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Linear B-cell epitopes are antigenic regions recognised by antibodies that play crucial roles in vaccine development, antibody production, and other therapeutic applications.Their prediction can support peptide-based vaccine candidate screening and diagnostic assay development, but the experimental data required for model development may be distributed across institutions that cannot freely pool their records. We present FedEpitope, a federated framework that adapts the ESM-2 protein language model for peptide-level linear B-cell epitope prediction using Low-Rank Adaptation (LoRA), keeping cli",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "epitope",
+      "peptide",
+      "protein",
+      "protein language model"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763384v1?rss=1",
+    "title": "Parameter-Efficient Adaptation of Protein Language Models for Dual-Target Antimicrobial Peptide Discovery Under Strict Homology Constraints",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "The worldwide escalation of antimicrobial resistance (AMR) poses a severe challenge to modern public health, necessitating novel classes of therapeutic agents. Antimicrobial peptides (AMPs) represent highly promising alternatives to small-molecule antibiotics due to their co-evolutionary resilience and rapid membrane disruption dynamics. However, translating computational AMP leads into clinical drug candidates remains bottlenecked by off-target cytotoxicity, predominantly hemolytic activity against mammalian erythrocytes. Although pretrained foundational protein language models (PLMs) have ra",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "peptide",
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.41029",
     "title": "Contribution of chromosome-na\\\"ive transposon-seeded network of DNA templates to intracellular pools of protein dimers of liquid-liquid phase-separated condensate-forming proteins",
     "source": "arXiv q-bio.BM",
@@ -11,6 +102,52 @@
     ],
     "first_seen": "2026-11-02T15:08:42.289565+00:00",
     "last_seen": "2026-11-02T15:08:42.289565+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762209v1?rss=1",
+    "title": "Peripheral Exercise Transcriptomes Do Not Converge on Glutamatergic or Neuroinflammatory Signatures: A Cross-Platform Meta-Analysis",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Executive dysfunction following physical overtraining has been linked to glutamatergic dysregulation in the lateral prefrontal cortex (LPFC), but whether this central mechanism is reflected in peripheral gene expression is unknown. This study tested whether peripheral transcriptomic responses to exercise converge on the glutamatergic or neuroinflammatory pathways implicated in LPFC dysfunction. Three publicly available GEO datasets spanning skeletal muscle, whole blood, and circulating neutrophils were analyzed across four exercise groups using limma, with a discovery threshold of nominal p < ",
+    "published": "2026-11-02T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.27.762231v1?rss=1",
+    "title": "ToxINsight: An Integrated Web Platform for Sequence, Structure, and Ligand Binding Analysis of Snake Venom Toxins",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Around 5.4 million people worldwide are bitten by snakes each year, with 1.8 to 2.7 million cases of envenomation, of which 81,410 to 137,880 people die from snake envenomation worldwide each year. It is categorized as a high-priority Category A Neglected Tropical Disease (NTD) by the World Health Organization (WHO). A molecular level understanding of snake venom toxins and their mechanisms of action is crucial for development of efficient therapeutics tackling snake envenomation. Snake venoms are complex mixtures of bioactive peptides and proteins that have also served as templates for drug d",
+    "published": "2026-11-02T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "esmfold",
+      "ligand",
+      "peptide",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763055v1?rss=1",
+    "title": "Selective binders of a cotranslational folding intermediate",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Drug discovery efforts typically target mature, folded proteins, primarily to inhibit their function or induce their degradation. An alternative strategy would be to target incompletely folded states that are transiently populated during protein biogenesis, but whether these states contain druggable pockets was unclear. Here, we used an mRNA display approach to discover cyclic peptides that recognize a nascent polypeptide at an intermediate point during its synthesis on the ribosome. We identified peptides that bind with low-nanomolar affinity to a model nascent protein, {beta}-galactosidase, ",
+    "published": "2026-11-02T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "folding",
+      "peptide",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-03T13:53:28.479809+00:00",
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762916v1?rss=1",
@@ -233,7 +370,7 @@
       "residue"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.28.762698v1?rss=1",
@@ -245,7 +382,7 @@
       "molecular dynamics"
     ],
     "first_seen": "2026-10-31T11:55:44.856698+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.26.762037v1?rss=1",
@@ -1410,7 +1547,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1423,7 +1560,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1436,7 +1573,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1449,7 +1586,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1463,7 +1600,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1478,7 +1615,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1491,7 +1628,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1504,7 +1641,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1517,7 +1654,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1531,7 +1668,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1544,6 +1681,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-02T15:08:42.289565+00:00"
+    "last_seen": "2026-11-03T13:53:28.479809+00:00"
   }
 ]
