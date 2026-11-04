@@ -1,5 +1,71 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.04287",
+    "title": "Predicting protein structures at any folding stage from sequence",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.04287v1 Announce Type: new Abstract: Protein structure predictors reliably identify native conformations, but do not describe the continuum connecting unfolded ensembles to folded states. Here we present FoldScape, a sequence-conditioned deep learning framework that generates C$\\alpha$ conformational ensembles at a specified folding fraction $Q$. FoldScape reconstructs three-dimensional chains through hierarchical, sliding-window regressions of one-dimensional inter-residue distances, followed by chain assembly and sampling with a rectified-flow decoder. It is trained on multi-scale",
+    "published": "2026-11-04T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "folding",
+      "protein",
+      "protein structure",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.05055",
+    "title": "Ablating Design Choices for Protein Ensemble Generators Across Structural Regimes",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.05055v1 Announce Type: new Abstract: Generative models of protein conformational ensembles inherit much of their design from structure prediction for folded proteins. Ordered and disordered proteins, however, occupy distinct structural regimes, and we investigate how design choices hold up across them. Using a minimal C$\\alpha$ flow-matching model, we ablate choices of architecture, sequence conditioning, rigid-body alignment and training source, and evaluate each variant against experimental SAXS and NMR chemical-shift data partitioned into ordered, disordered, multi-domain and tra",
+    "published": "2026-11-04T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.03963",
+    "title": "ProteoCraft: Protein Design as Proposal-Verification Search",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.03963v1 Announce Type: cross Abstract: Protein-protein interactions underpin nearly all biological processes. Yet, designing proteins with desired interactions remains challenging due to the structural complexity governing molecular recognition. This study views protein design as a search optimization problem over a combinatorial sequence space under expensive structural evaluation. Toward this goal, we introduce a novel tree-based search framework, ProteoCraft, that employs approximate structural gradients from diffusion-based structure predictors as effective proposal policies to ",
+    "published": "2026-11-04T05:00:00+00:00",
+    "matched": [
+      "binder",
+      "folding",
+      "protein",
+      "protein design",
+      "rosetta",
+      "sequence"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.04235",
+    "title": "A Comprehensive Benchmark of Computational Models for Antibody--Antigen Binding Affinity",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2506.04235v3 Announce Type: replace-cross Abstract: Computational antibody design requires benchmarks that measure functional binding rather than similarity to natural sequences. Here we present AbBiBench, which treats the antibody--antigen complex as the evaluation unit and harmonizes 216,560 experimental measurements spanning 13 antibodies and 9 antigens. We compare 20 computational approaches without task-specific training or fine-tuning. The analyses show that global structure-conditioned inverse folding yields the strongest and most consistent affinity rankings, whereas antibody-spe",
+    "published": "2026-11-04T05:00:00+00:00",
+    "matched": [
+      "antibody",
+      "antibody design",
+      "binding affinity",
+      "folding",
+      "inverse folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.03379",
     "title": "RangeFinder: Predicting Ligand Property Ranges from Protein Pockets",
     "source": "arXiv q-bio.BM",
@@ -91,6 +157,78 @@
     "last_seen": "2026-11-03T13:53:28.479809+00:00"
   },
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.30.763189v1?rss=1",
+    "title": "The Reasoning Paradox in Scientific Sandboxes: Why Extended Reasoning Fails in Autonomous Bioinformatics and How to Fix It.",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Frontier large language models (LLMs) trained with extended reasoning, such as DeepSeek-R1 and OpenAI o1, have established state-of-the-art benchmarks in formal logic, competitive programming, and mathematics. In interactive, empirical scientific sandboxes, however, their efficacy remains counter-intuitive. In the Bioinformatics Benchmark (BixBench), extended reasoning models paradoxically degraded in multi-turn environments, leading benchmark authors to exclude them from primary agentic evaluations. In this paper, we conduct the first systematic forensic audit of the internal cognitive monolo",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "folding"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763788v1?rss=1",
+    "title": "RNA accessibility sequencing reveals transcriptome-wide RBP binding and RNA structure",
+    "source": "bioRxiv Biochemistry",
+    "summary": "We introduce RAD-seq (RNA Accessibility via Deamination sequencing), a simple and scalable method that quantifies RNA accessibility by protein binding in vivo. RAD-seq uses TadA8.20-mediated adenosine deamination to report the local exposure of each adenosine to its molecular environment, integrating the combined effects of base pairing, RNA folding, and RNA-binding protein (RBP) occupancy in a single experiment. RAD-seq profiles recapitulate known structural signatures, reveal high-resolution RBP footprints, report on the influence of RNA modifications, and capture dynamic remodeling of RNA a",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763144v1?rss=1",
+    "title": "GNG2-MRAS interaction regulates SHOC2-dependent RAF activation and MAPK signaling",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Dysregulation of the mitogen-activated protein kinase (MAPK) signaling pathway is a hallmark of many human cancers and RASopathies. The SHOC2-MRAS-PP1C; (SMP) holophosphatase complex is a crucial regulatory node of this pathway. It activates the MAPK pathway by dephosphorylating the inhibitory phosphoserine on RAF kinases and thereby relieving RAF autoinhibition. Although GNG2, the {gamma}-subunit of heterotrimeric G proteins, has recently emerged as a negative modulator of MAPK signaling, its molecular mechanism of action remains incompletely understood. Here, we identify GNG2 and its truncat",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "peptide",
+      "protein",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.762883v1?rss=1",
+    "title": "Cryo-EM structures of Cereibacter sphaeroides ferrochelatase reveal an oligomeric state that occludes the substrate-binding site",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Protoporphyrin IX (PPIX) is the last shared intermediate of heme and (bacterio)chlorophyll ((B)Chl) biosynthesis. Insertion of iron into PPIX by the PPIX ferrochelatase (FeCh) PpfC produces heme, whereas magnesium insertion by magnesium chelatase (MgCh) initiates (B)Chl synthesis. Chlorophototrophic organisms must regulate this biosynthetic node to ensure the correct flux of PPIX to each of these crucial tetrapyrrole products, presenting a particularly acute problem for the facultative bacterium Cereibacter (previously Rhodobacter) sphaeroides, which can switch between chemotrophic (respirator",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "cryo-em structure",
+      "enzyme"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763619v1?rss=1",
+    "title": "Molecular insights into the regulation of coenzyme selection in NADP-specific glutamate dehydrogenase from Saccharomyces cerevisiae",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Coenzyme specificity is one of the crucial aspects of the functional regulations in enzymes. Understanding the molecular basis of coenzyme specificity in glutamate dehydrogenase (GDH) is highly essential as this is the only enzyme that fulfils various physiological demands in terms of energy production and/or nitrogen assimilation via its strict functional regulation by connecting carbon and nitrogen metabolic cycles in every living organism. We have studied S. cerevisiae GDH3 (ScGDH3), as a model system for NADP-specific fungal GDHs. K272R and S250E mutants of ScGDH3 exhibited remarkable alte",
+    "published": "2026-11-03T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "binding affinity",
+      "crystal structure",
+      "enzyme",
+      "molecular dynamics",
+      "residue"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.41029",
     "title": "Contribution of chromosome-na\\\"ive transposon-seeded network of DNA templates to intracellular pools of protein dimers of liquid-liquid phase-separated condensate-forming proteins",
     "source": "arXiv q-bio.BM",
@@ -147,7 +285,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-03T13:53:28.479809+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762916v1?rss=1",
@@ -1547,7 +1685,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1560,7 +1698,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1573,7 +1711,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1586,7 +1724,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1600,7 +1738,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1615,7 +1753,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1628,7 +1766,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1641,7 +1779,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1654,7 +1792,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1668,7 +1806,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1681,6 +1819,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-03T13:53:28.479809+00:00"
+    "last_seen": "2026-11-04T14:00:39.832518+00:00"
   }
 ]
