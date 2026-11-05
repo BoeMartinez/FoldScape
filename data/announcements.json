@@ -3,18 +3,95 @@
     "url": "https://arxiv.org/abs/2611.04287",
     "title": "Predicting protein structures at any folding stage from sequence",
     "source": "arXiv q-bio.BM",
-    "summary": "arXiv:2611.04287v1 Announce Type: new Abstract: Protein structure predictors reliably identify native conformations, but do not describe the continuum connecting unfolded ensembles to folded states. Here we present FoldScape, a sequence-conditioned deep learning framework that generates C$\\alpha$ conformational ensembles at a specified folding fraction $Q$. FoldScape reconstructs three-dimensional chains through hierarchical, sliding-window regressions of one-dimensional inter-residue distances, followed by chain assembly and sampling with a rectified-flow decoder. It is trained on multi-scale",
-    "published": "2026-11-04T05:00:00+00:00",
+    "summary": "arXiv:2611.04287v2 Announce Type: replace Abstract: Protein structure prediction has largely focused on native conformations, leaving the continuum of unfolded states, folding intermediates, and native structures difficult to access. We present FoldScape, a sequence-conditioned deep learning framework for generating protein conformational ensembles at specified folding fractions $Q$. Trained on approximately one million conformations from 10,000 protein sequences, FoldScape combines coarse-grained folding and all-atom mechanical-unfolding trajectories. It reconstructs three-dimensional $C_\\alp",
+    "published": "2026-11-05T05:00:00+00:00",
     "matched": [
       "alphafold",
       "folding",
+      "molecular dynamics",
       "protein",
       "protein structure",
+      "residue"
+    ],
+    "first_seen": "2026-11-04T14:00:39.832518+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.06363",
+    "title": "Discrete Backbone Elasticity and Curvature-Dependent Torsion Statistics in Proteins",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.06363v1 Announce Type: new Abstract: Coarse-grained models of protein conformational dynamics use $\\mathrm{C}_\\alpha$ geometry to describe the probabilities of regular helices, ordered turns and disordered conformations. To test how much of this order arises from local chain elasticity, we connect discrete Hasimoto frame transport to neighboring bending mismatch, deriving a curvature-product torsion interaction and a six-parameter generalized von Mises density. Fitted on 194 chains from the ATLAS molecular dynamics database and tested on 1744 sequence-nonredundant proteins, this bas",
+    "published": "2026-11-05T05:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "peptide",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764008v1?rss=1",
+    "title": "A protein language model for domain, functional site, and variant effect prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein sequence databases are growing far faster than experimentally curated annotations, limiting functional interpretation of newly identified proteins and coding variants. We developed PALM, a protein annotation language model that jointly predicts domain and functional-site occurrence, while preserving overlapping and nested annotations through a soft-target objective. PALM integrates ESM2 with low-rank adaptation (LoRA), learned layer aggregation, and a bidirectional long short-term memory (BiLSTM) encoder. PALM was trained on ~15 million InterPro-annotated UniRef50 sequences spanning 17",
+    "published": "2026-11-05T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
       "residue",
       "sequence"
     ],
-    "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763899v1?rss=1",
+    "title": "FoldAbS: Repurposing the Protein Folding Model as a Foundation Encoder for Antibody Screening",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Therapeutic antibody screening requires prioritizing antibody candidates across specificity, affinity, and developability. Current pipelines typically silo these objectives and underuse structural information that governs antibody-antigen recognition. To address these inefficacies, we introduce FoldAbS, a unified supervised screening framework that reconceptualizes protein folding models as frozen foundation encoders, exploiting their internal representations to capture rich sequence, geometric, and interaction dynamics well beyond basic structure prediction. By coupling the folding model with",
+    "published": "2026-11-05T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "folding",
+      "protein",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763860v1?rss=1",
+    "title": "PartiDesign: A structure-sequence co-design paradigm for practical all-to-all biomolecules design",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Engineering interactions among biomolecules offers a route to creating new biological functions. Although unified models have advanced biomolecular structure prediction and design, efficient and controllable generation across molecular modalities remains challenging. A key challenge is to couple three-dimensional structure generation with sequence or chemical-identity design across chemically diverse systems. Here, we introduce PartiDesign, a unified structure-sequence co-design model that extends the partially latent framework of La-Proteina to proteins, nucleic acids and small molecules. Par",
+    "published": "2026-11-05T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "antibody",
+      "antibody design",
+      "peptide",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763784v1?rss=1",
+    "title": "Structural basis for inefficient G protein coupling by Frizzled receptors",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Frizzleds (FZDs) are class F G protein-coupled receptors (GPCRs) that primarily signal through Dishevelled (DVL) to initiate Wnt signalling, with evidence for context-specific coupling to heterotrimeric G proteins. Every FZD-G protein structure to date has been determined without an agonist, implying that agonist binding is not required for stable complex formation in vitro and directly contradicting the difficulty of demonstrating G protein coupling in cells. All these structures contain unassigned density between the receptor and the heterotrimeric G protein. From structures generated by sin",
+    "published": "2026-11-05T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.05055",
@@ -64,6 +141,48 @@
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
     "last_seen": "2026-11-04T14:00:39.832518+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.763979v1?rss=1",
+    "title": "Autonomous generalizability auditing of scientific foundation models",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Determining where scientific foundation models generalize beyond their development data is essential for reliable use, but aggregate benchmarks obscure performance limits and rigorous audits are difficult to conduct routinely. Here, we introduce AutoSPECTRA, a coding-agent protocol for systematic generalizability auditing. To inform its design, we reviewed 38 studies across five biological domains and evaluated coding agents, which generated hypotheses and empirical analyses but applied inconsistent standards for judging evidence. We then structured AutoSPECTRA around measurable generalization",
+    "published": "2026-11-04T00:00:00+00:00",
+    "matched": [
+      "esmfold",
+      "protein",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764142v1?rss=1",
+    "title": "Error-Controlled Discovery of Protein Interactions via Conformal Calibration",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein language models (PLMs) are powerful predictors of protein interactions, but strong benchmark performance does not ensure reliable discoveries. We introduce PPI-Caliper, a model-agnostic framework that adapts conformal calibration to select interactions at user-specified false discovery rate (FDR) levels using held-out labels without retraining the predictor. Across five species, two PLM-based predictors, and two human training-data versions for each predictor, PPI-Caliper keeps empirical FDR at or below the target level under in-distribution calibration. Under distribution shift, trans",
+    "published": "2026-11-04T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.03.764110v1?rss=1",
+    "title": "Representation-aware calibration enables statistically reliable protein structure search",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Searching large databases of predicted protein structures can reveal remote homologs, but reliable discovery requires accurate significance estimates. We show that native E-values reported by protein structure search tools such as Foldseek and Reseek can be unreliable, leading to false discoveries or missed homologs. To address this problem, we introduce Struct-Caliper, which provides reliable query-specific p-values for protein structure search. The method uses representation-aware query randomization to generate background queries and compares observed alignment scores with the highest score",
+    "published": "2026-11-04T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-05T14:20:05.641408+00:00",
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.03379",
@@ -179,7 +298,7 @@
       "protein"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763144v1?rss=1",
@@ -195,7 +314,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.762883v1?rss=1",
@@ -209,7 +328,7 @@
       "enzyme"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763619v1?rss=1",
@@ -226,7 +345,7 @@
       "residue"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.41029",
@@ -285,7 +404,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-03T13:53:28.479809+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762916v1?rss=1",
@@ -1685,7 +1804,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1698,7 +1817,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1711,7 +1830,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1724,7 +1843,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1738,7 +1857,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1753,7 +1872,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1766,7 +1885,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1779,7 +1898,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1792,7 +1911,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1806,7 +1925,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1819,6 +1938,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-04T14:00:39.832518+00:00"
+    "last_seen": "2026-11-05T14:20:05.641408+00:00"
   }
 ]
