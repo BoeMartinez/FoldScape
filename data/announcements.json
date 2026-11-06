@@ -1,5 +1,52 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.07723",
+    "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.07723v1 Announce Type: cross Abstract: Protein motif scaffolding benchmarks assess whether generative models can build scaffolds around functionally important residues. Their conclusions depend on which motifs are tested and which criteria define success. Existing benchmarks typically use small hand-curated motif sets and static refolding criteria, but protein function often depends on conformational ensembles and transitions. Here, we address both benchmark scope and success criteria. We introduce BILBY-PRO, a systematically derived benchmark of structurally conserved functional mo",
+    "published": "2026-11-06T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "molecular dynamics",
+      "protein",
+      "residue",
+      "rfdiffusion"
+    ],
+    "first_seen": "2026-11-06T13:58:38.313575+00:00",
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.763508v1?rss=1",
+    "title": "Contrastive Learning Improves Generalization on M2OR Olfactory Binding Dataset",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Olfaction-based biosensors stand to have profound impacts in fields such as medical diagnostics, national security, and drug discovery. A promising mode of vapor phase biodetection mimics volatile organic compound-olfactory receptor (VOC-OR) interactions with target-specific protein or peptide probes; however, lack of experimental coverage remains a core bottleneck. Current computational approaches aim to improve prediction of VOC-OR binding to reduce experimental burden, and current machine learning approaches fail to demonstrate a level of generalization that addresses current engineering ch",
+    "published": "2026-11-06T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "peptide",
+      "protein"
+    ],
+    "first_seen": "2026-11-06T13:58:38.313575+00:00",
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764332v1?rss=1",
+    "title": "RPFace: From biased structural benchmarks to generalizable RNA-protein interface prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Modeling protein-RNA complexes with co-folding and docking methods is routine, yet these methods are evaluated on benchmarks whose composition mirrors the deposited structures on which they were trained or tuned, leaving open whether their reported performance reflects true generalization. Here, we focus the evaluation on the region that carries the biological signal: the binding interface. For the first time, we construct and release a fair benchmark that stratifies protein-RNA data into distinct structural and experimental groups, providing a more stringent test of generalization than aggreg",
+    "published": "2026-11-06T00:00:00+00:00",
+    "matched": [
+      "docking",
+      "folding",
+      "protein",
+      "residue",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-06T13:58:38.313575+00:00",
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.04287",
     "title": "Predicting protein structures at any folding stage from sequence",
     "source": "arXiv q-bio.BM",
@@ -91,7 +138,37 @@
       "protein structure"
     ],
     "first_seen": "2026-11-05T14:20:05.641408+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v1?rss=1",
+    "title": "Language-guided domain adaptation improves protein sequence rep-resentations for antimicrobial resistance analysis",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Antimicrobial resistance (AMR), particularly antibiotic resistance in bacterial pathogens, complicates infectious disease management. Because bacterial resistance is often mediated by protein functions, including antibiotic inactivation and efflux, protein sequence analysis provides a molecular basis for digital AMR surveillance and therapeutic intervention. We developed BacLLM, a language guided protein representation framework that integrates annotation-derived functional knowledge into protein language model representations for AMR analysis in WHO priority bacterial pathogens. Through seque",
+    "published": "2026-11-05T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-06T13:58:38.313575+00:00",
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764373v1?rss=1",
+    "title": "Protify: A Benchmarking Platform Revealing Task Dependence and Homology Leakage in Protein Language Model Evaluation",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein Language Models (pLMs) have become essential tools for computational protein analysis, and the rapid proliferation of architectures, training objectives, and pretraining corpora has produced a diverse and expanding model landscape. Evaluation practices, however, remain fragmented: studies use different datasets, preprocessing pipelines, and reporting conventions, so results rarely transfer between publications. Here we introduce Protify, an open-source platform that standardizes pLM benchmarking across zero-shot, supervised, and transferlearning settings through a unified, low-code int",
+    "published": "2026-11-05T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "protein",
+      "protein language model",
+      "residue"
+    ],
+    "first_seen": "2026-11-06T13:58:38.313575+00:00",
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.05055",
@@ -298,7 +375,7 @@
       "protein"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763144v1?rss=1",
@@ -314,7 +391,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.762883v1?rss=1",
@@ -328,7 +405,7 @@
       "enzyme"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763619v1?rss=1",
@@ -345,7 +422,7 @@
       "residue"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.41029",
@@ -1804,7 +1881,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1817,7 +1894,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1830,7 +1907,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1843,7 +1920,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -1857,7 +1934,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -1872,7 +1949,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -1885,7 +1962,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -1898,7 +1975,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -1911,7 +1988,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -1925,7 +2002,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -1938,6 +2015,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-05T14:20:05.641408+00:00"
+    "last_seen": "2026-11-06T13:58:38.313575+00:00"
   }
 ]
