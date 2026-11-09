@@ -1,5 +1,111 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.08696",
+    "title": "Hybrid Quantum-Classical Annealing for Protein Side-Chain Optimization: A Feasibility Study",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.08696v1 Announce Type: cross Abstract: Hybrid quantum-classical annealing solvers are moving from research laboratories toward industrial use, but their advantage over classical optimization appears to be confined to a narrow class of problems. A recent systematic benchmark of the D-Wave hybrid solver against industry-leading classical solvers, across several classes of optimization problems, found it to be most competitive on binary quadratic programs, while noting that few industrial problems take this form. Therefore, identifying real-world industrial problems that can be modeled",
+    "published": "2026-11-09T05:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "protein",
+      "protein design",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2603.17633",
+    "title": "Atomic Trajectory Modeling with State Space Models for Biomolecular Dynamics",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2603.17633v2 Announce Type: replace Abstract: Understanding the dynamic behavior of biomolecules is fundamental to elucidating biological function and facilitating drug discovery.While Molecular Dynamics (MD) simulations provide a rigorous physical basis for studying these dynamics, they remain computationally expensive for long timescales.Recent deep generative models accelerate conformation generation but often either discard temporal correlations entirely or struggle to condition on the extended history required for faithful kinetics, a consequence of the effectively non-Markovian nat",
+    "published": "2026-11-09T05:00:00+00:00",
+    "matched": [
+      "ligand",
+      "molecular dynamics",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764892v1?rss=1",
+    "title": "PyTorch Frustratometer: An Ultra-fast, Parallelized Tool for Proteome-Scale Local Energetic Frustration Analysis",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Most natural protein sequences fold into well-defined three-dimensional structural ensembles, satisfying interactions that have been shaped over evolutionary timescales. The principle of minimal frustration states that most native interactions are energetically more favorable than alternative non-native ones, resulting in a funnel-shaped folding energy landscape. The FrustratometeR tool measures how the energetics of a residue or contact compares to decoys with different amino acid identities or configurations. Contacts are classified as minimally frustrated when these are more stable than ran",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "folding",
+      "protein",
+      "proteome",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1",
+    "title": "PEEK: integrated primer design for silent-mutation and restriction-site engineering, validated in silico and by whole-plasmid sequencing",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Motivation: Silent introduction of restriction sites, direct site insertion, and verification of the result are routine operations in molecular cloning, yet they are typically distributed across separate tools built on inconsistent thermodynamics. Primer design is itself mature and heavily validated; the gap is not accuracy in principle but integration, together with the absence of any explicit account of why one synonymous edit should be preferred over another. Because melting temperature (Tm) gates which primers a tool will accept, any unified tool must first be shown to compute Tm correctly",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764889v1?rss=1",
+    "title": "Rapid generation of antibody conformational ensembles using machine learning",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "We introduce Cadense, a generative framework for antibody ensemble prediction that produces diverse Fv structures from sequence, informed by conformational dynamics. While a valuable resource, static structure prediction provides only a single snapshot of dynamic proteins, whose motions influence their binding and other properties. This is particularly relevant for antibodies, an important class of molecules for drug discovery, where flexible complementarity determining region (CDR) loops are difficult to model with static approaches. Cadense addresses this gap by generating ensembles that mat",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "antibody design",
+      "docking",
+      "molecular dynamics",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764809v1?rss=1",
+    "title": "LinearKnot: linear-time ensemble analysis of RNA density-2 pseudoknots under hierarchical folding",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Motivation: A pseudoknot is an arrangement of crossing base pairs. Pseudoknots complicate structure prediction and calculations over possible structures (an ensemble). CParty sums structure weights for hierarchical pseudoknots that keep a supplied pseudoknot-free structure (scaffold). Its time is cubic in sequence length. Results: LinearKnot approximates CParty with beam pruning. It combines at most two partial structures in each step and keeps the highest-ranked candidates. At fixed beam width, hairpin length limit, and scaffold search limit, partition functions, minimum-free-energy (MFE) pre",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764608v1?rss=1",
+    "title": "Modular assembly of mitochondrial complex III from a dynamic matrix domain pool",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Mitochondrial complex III is a central component of the cellular energy metabolism. It is an obligate dimer of catalytic and accessory subunits that are encoded by two genomes. How its large matrix domain, formed by the core proteins Qcr1 and Qcr2, is built and joined to the membrane part and during assembly is not known. Here we show that Qcr1 and Qcr2 preassemble independently of complex III into matrix domain modules. Cryo-EM structures from a cardiolipin-deficient yeast strain and of recombinant protein resolved single, double and triple matrix domains, which are linked by the C-terminal t",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "cryo-em structure",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-11-09T15:39:21.670559+00:00",
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.07723",
     "title": "Static Recovery Is Not Dynamic Stability: Dynamics-Aware Benchmarking of Protein Motif Scaffolding",
     "source": "arXiv q-bio.BM",
@@ -119,7 +225,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-07T12:42:40.403159+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.04287",
@@ -213,7 +319,7 @@
       "protein structure"
     ],
     "first_seen": "2026-11-05T14:20:05.641408+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v1?rss=1",
@@ -450,7 +556,7 @@
       "protein"
     ],
     "first_seen": "2026-11-04T14:00:39.832518+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.31.763144v1?rss=1",
@@ -1956,7 +2062,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -1969,7 +2075,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -1982,7 +2088,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -1995,7 +2101,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2009,7 +2115,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2024,7 +2130,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2037,7 +2143,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2050,7 +2156,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2063,7 +2169,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2077,7 +2183,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2090,6 +2196,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-08T12:59:53.099659+00:00"
+    "last_seen": "2026-11-09T15:39:21.670559+00:00"
   }
 ]
