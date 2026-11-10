@@ -1,5 +1,111 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.10424",
+    "title": "Efficient and Accurate Zero Shot Generation of Symmetric Protein Complexes",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.10424v1 Announce Type: new Abstract: Symmetric organization is a fundamental principle of biomolecular complex assembly. The same principle underlies engineered applications, from vaccine platforms to nanomaterials, making symmetric de novo generation a core capability for computational protein design. We establish a theoretical foundation equating generation of an assembly with underlying symmetry group $G$ to generation within a quotient space over $G$. This directly allows $\\mathrm{SE}(3)$-equivariant models to generate symmetric structures with minimal distribution shift. With t",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein design",
+      "residue",
+      "rfdiffusion"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11958",
+    "title": "OriDynamics: Towards a World Model for Biomolecular Dynamics",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.11958v1 Announce Type: new Abstract: Biomolecular recognition and regulation depend on atomic interactions that change as molecular partners fluctuate and adopt alternative conformations. Modeling these processes requires ensembles that capture both conformational diversity and coordinated atomic fluctuations between interacting molecules. Here we present OriDynamics, a unified framework for all-atom ensemble generation across protein monomers and complexes with small molecules or protein partners. OriDynamics introduces a latent ensemble decomposition that couples broad conformatio",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "ligand",
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.11997",
+    "title": "HyInv Technical Report",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.11997v1 Announce Type: cross Abstract: Inverse folding designs amino-acid sequences for a given protein backbone, and screening needs many candidates that are both diverse and well folded. We present HyInv, a 1.96-million-parameter backbone-conditioned graph network with an encoder-decoder architecture, trained by Hyra 2.0, the research agent developed by our team: pretrained with random-order autoregressive sequence modeling, followed by structure-reward reinforcement learning. At inference, a grouped draft-and-rewrite sampler that uses separate draft and rewrite temperatures impro",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "folding",
+      "inverse folding",
+      "protein",
+      "proteinmpnn"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.12000",
+    "title": "HyPLM Technical Report",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.12000v1 Announce Type: cross Abstract: Protein language models (PLMs) are standard tools for variant-effect prediction, protein annotation and design, but the compute needed to train and serve them keeps growing. We present HyPLM-Flash, an efficient and open PLM trained by Hyra 2.0, the research agent developed by our team. HyPLM-Flash is a 650-million-parameter masked language model trained on 726 billion tokens, 0.73 times the data of ESM-2 650M and a fifth to an eighth of the data of E1-600M and ESM C 600M. It runs on an inference engine with fused kernels and INT8 matrix multipl",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2510.01632",
+    "title": "BioBlobs: Unsupervised Discovery of Functional Substructures",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2510.01632v4 Announce Type: replace Abstract: Protein function is often localized to cohesive substructures, such as catalytic triads, binding pockets, and structural motifs, that occupy only a small fraction of a protein's residues. Yet existing predictive pipelines typically aggregate residue-level embeddings and do not explicitly model or infer these functional substructures, leaving the central biological question unanswered: which substructure of a protein is responsible for its function? We introduce BioBlobs, an encoder-agnostic, end-to-end differentiable framework that compresses",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.26192",
+    "title": "Co-folding model guided by structural proteomics",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2605.26192v2 Announce Type: replace-cross Abstract: Proximity-inducing drugs, including PROTACs, represent a promising therapeutic modality. Their activity is driven by the geometry of the assembled ternary complex, which determines whether the target is ubiquitinated. Co-folding models perform poorly in these cases due to scarcity of training data and the dynamic nature of such complexes. Structural proteomics can supply the missing geometric information and steer the model towards an accurate prediction. However, current models accept only positive signals, while a differential structu",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "antibody",
+      "boltz",
+      "folding"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.37675",
+    "title": "LEMON-ZEST: Evolution-Informed Tokenization for Efficient Protein Language Modeling",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.37675v2 Announce Type: replace-cross Abstract: Protein Language Models (PLMs) have made remarkable progress following scaling laws established in natural language processing across sequence- and structure-based tasks, yet the potential of tokenization remains underexploited. Unlike human language, proteins preserve structure despite extensive sequence variation, a property standard tokenization strategies fundamentally fail to capture. We introduce ZEST (Zoned Encoding of Sequence Traits), an evolution-informed vocabulary derived from conserved regions of multiple sequence alignment",
+    "published": "2026-11-10T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.08696",
     "title": "Hybrid Quantum-Classical Annealing for Protein Side-Chain Optimization: A Feasibility Study",
     "source": "arXiv q-bio.BM",
@@ -44,7 +150,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-09T15:39:21.670559+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.29.762953v1?rss=1",
@@ -57,7 +163,7 @@
       "protein"
     ],
     "first_seen": "2026-11-09T15:39:21.670559+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764889v1?rss=1",
@@ -74,7 +180,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-09T15:39:21.670559+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764809v1?rss=1",
@@ -103,7 +209,64 @@
       "residue"
     ],
     "first_seen": "2026-11-09T15:39:21.670559+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764763v1?rss=1",
+    "title": "Leave-One-Out-Cross-Validation Based Machine Learning Algorithms for Efficient, Scalable, and Robust Prediction of Artemisinin Resistance in Plasmodium falciparum Kelch13 mutants.",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Emerging Plasmodium falciparum resistance to frontline artemisinin (ART) derivatives threatens global malaria control efforts. Current protocols assigning ART-sensitive (ART-S) or -resistant (ART-R) phenotypes to parasite strains with Kelch13 (K13) mutations remain time-intensive for real-time surveillance. Ring-survival assay (RSA), an ex vivo gold standard mandates laboratory-adaptation under culture conditions and frequently does not replicate clinical ART-responsiveness, thereby limiting its utility for rapidly triaging newly emerging K13 variants. In contrast, advent of artificial intelli",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "folding"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764824v1?rss=1",
+    "title": "Realism and resolution: How AI-predicted protein structures differ from experimental structures",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein structure predictors can recover protein folds with remarkable accuracy, and their models are increasingly used as if they were experimental structures. Yet even for a confidently predicted fold, it remains difficult to judge how faithfully the model reproduces protein geometry. We introduce WhatRes, which assesses a structure from its coordinates on two complementary axes. Apparent resolution estimates the experimental resolution its local geometry most closely resembles. Realism measures how closely that geometry matches experimental structures at the same apparent resolution. Predic",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "crystal structure",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764545v1?rss=1",
+    "title": "Glycine-Proline driven flexibility and interface-dependent conservation of six-residue {Omega}-loops in protein complexes",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "{Omega}-loops are six- to sixteen-residue, non-regular structural motifs that occur in protein structures, connecting regular regions and forming a well-defined, ordered structural segment. They are functionally important because of their strategic location on the protein surface, where they are often associated with molecular recognition, ligand binding, and catalytic activity. Their non-regular nature enables them to adopt different conformations, which makes them important in protein dynamics and allosteric communication. In this work, we have curated six-residue {Omega}-loops from diverse ",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "folding",
+      "ligand",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.06.764924v1?rss=1",
+    "title": "Mapping the reactive cysteine landscape of the NOD-like receptor pyrin domain-containing 3 protein",
+    "source": "bioRxiv Biochemistry",
+    "summary": "NOD-like receptor pyring-containing protein 3 (NLRP3) is a cytosolic pattern recognition receptor that drives assembly of an oligomeric inflammasome complex to stimulate pro-inflammatory cytokine production and pyroptotic cell death. Extensive research has shown that NLRP3 activation is dependent on intracellular reactive oxygen species (ROS). Despite this, the precise targets of ROS in this process remain undefined. In this study, a combination of chemoproteomics, in vitro biochemical assays and molecular dynamics simulations were used to characterize reactive Cys and how they may impact NLRP",
+    "published": "2026-11-09T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-11-10T14:35:14.423950+00:00",
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.07723",
@@ -225,7 +388,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-07T12:42:40.403159+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.04287",
@@ -319,7 +482,7 @@
       "protein structure"
     ],
     "first_seen": "2026-11-05T14:20:05.641408+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v1?rss=1",
@@ -2062,7 +2225,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2075,7 +2238,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2088,7 +2251,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2101,7 +2264,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2115,7 +2278,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2130,7 +2293,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2143,7 +2306,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2156,7 +2319,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2169,7 +2332,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2183,7 +2346,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2196,6 +2359,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-09T15:39:21.670559+00:00"
+    "last_seen": "2026-11-10T14:35:14.423950+00:00"
   }
 ]
