@@ -1,5 +1,101 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.13348",
+    "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.13348v1 Announce Type: new Abstract: Protein engineering requires navigating rugged fitness landscapes, where small sequence changes can produce large functional differences, but experimental screening can only sample a small fraction of sequence space. Thus, a central challenge is to efficiently traverse the large combinatorial space of mutations in silico. We introduce ProTEUS, a mutation-resolved world model for closed-loop protein evolution. Pretrained on deep mutational scanning assays, ProTEUS learns a joint representation of sequence, evolutionary, and structural information ",
+    "published": "2026-11-11T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "protein engineering",
+      "sequence"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.14287",
+    "title": "ANTIOCH-VS: From Sequence to Hits with Modular, Open-Source Ensemble Virtual Screening",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.14287v1 Announce Type: cross Abstract: Structure-based virtual screening needs a receptor conformation that fits the ligand class, but for most targets no ligand-bound crystal is available -- and a single predicted model or an apo structure often misses the binding-competent state. We present ANTIOCH-VS, an open-source framework that runs an entire in silico screening campaign, from a protein sequence to a ranked shortlist of candidate binders, as one plug-and-play workflow. It first builds a conformational ensemble by reduced-MSA subsampling with ColabFold, then uses AlphaFold2-RAV",
+    "published": "2026-11-11T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "boltz",
+      "docking",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.14504",
+    "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.14504v1 Announce Type: cross Abstract: Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric disc",
+    "published": "2026-11-11T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand",
+      "protein",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765624v1?rss=1",
+    "title": "Leveraging state-of-the-art AI structure predictors to generate atomic resolution ensembles of intrinsically disordered proteins",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Intrinsically disordered proteins (IDPs) are central to many biological processes, but their function depends on dynamic conformational ensembles rather than a single structure. Despite the impact of artificial intelligence on protein structure prediction, determining these ensembles at atomistic resolution remains challenging. Recently, we introduced bAIes, a framework that leverages the structural information encoded in AlphaFold2 distograms to generate conformational ensembles of IDPs at atomistic resolution. Here, we extend this framework to six state-of-the-art structure prediction tools ",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "boltz",
+      "esmfold",
+      "protein",
+      "protein structure",
+      "residue"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1",
+    "title": "RNA Small-Molecule Binding-Site Prediction by Integrating RNA Language Models and Structural Geometry",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "RNAs are emerging as promising therapeutic targets, and small-molecule binding can modulate their structure and function, creating opportunities for therapeutic development. Accurate identification of RNA small-molecule binding sites is therefore important for understanding RNA-ligand interactions and facilitating RNA-targeted drug discovery. However, the structural complexity of RNA and the limited availability of experimentally characterized RNA-ligand complexes pose challenges for computational binding-site prediction. In this study, we propose RSMBind, a graph attention-based deep learning",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "ligand",
+      "molecular dynamics",
+      "sequence"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765178v1?rss=1",
+    "title": "Programmable amide bond formation using de novo ligases",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Amide bond formation is of central importance in the chemical industry, underpinning the synthesis of small bioactive molecules, macrocycles, peptides and their conjugates. Conventional methods of amide synthesis rely on stoichiometric coupling agents and costly protecting group manipulations. While biocatalysis can alleviate some of these challenges, enzymes typically operate across a narrow range of substrates and their adaptation to new coupling partners requires extensive engineering. Here we show that de novo amide ligases featuring a cysteine catalytic triad can be programmed computation",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "crystal structure",
+      "enzyme",
+      "enzyme design",
+      "peptide",
+      "residue"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.10424",
     "title": "Efficient and Accurate Zero Shot Generation of Symmetric Protein Complexes",
     "source": "arXiv q-bio.BM",
@@ -106,6 +202,64 @@
     "last_seen": "2026-11-10T14:35:14.423950+00:00"
   },
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.762986v1?rss=1",
+    "title": "DecoyOpt: A two-stage pipeline for decoy-aware enzyme discrimination and EC number prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Accurate and efficient EC number prediction is essential for elucidating the catalytic roles of enzymes. Although similarity-based and deep learning-based approaches have advanced this task, they often fail to distinguish active enzymes from closely related decoys inactivated by local functional-site mutations, leading to high false-positive rates (FPRs). We propose DecoyOpt, a two-stage pipeline for decoy-aware enzyme discrimination and EC number prediction. Specifically, we generated putatively inactive functional-site decoys using ESM3 and evaluated 16 protein language models across three s",
+    "published": "2026-11-10T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "protein",
+      "protein language model"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765390v1?rss=1",
+    "title": "Integrating evolutionary and protein language model representations for thermodynamically consistent stability prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "At fixed thermodynamic conditions, protein stability changes obey reversal antisymmetry and path independence, but learned predictors need not satisfy these properties. Explicit alignment-derived evolutionary information may also complement single-sequence protein language model representations, motivating their integration under clearly defined physical constraints. Here, we develop a training-free strategy that combines thermodynamic constraints with complementary sequence representations. We first introduce EvoPhi-DDG, a potential-based adaptation of the alignment-conditioned evolutionary p",
+    "published": "2026-11-10T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765245v1?rss=1",
+    "title": "Membrane Geometry Reveals Strengths and Limitations of AlphaFold-Predicted Transmembrane Protein Complexes",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "High-confidence protein complex predictions do not necessarily represent physically or biologically plausible assemblies. This limitation is particularly relevant for transmembrane (TM) proteins, whose interactions are constrained by the lipid bilayer. Here, we systematically evaluated membrane compatibility in the recently expanded AlphaFold Protein Structure Database, analysing 189,469 high-confidence AlphaFold-Multimer TM-TM complexes and additional TM-soluble assemblies. Most predictions exhibited plausible membrane geometry: among 125,657 evaluable complexes with TM proteins possessing mo",
+    "published": "2026-11-10T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765217v1?rss=1",
+    "title": "Structure-based discovery of new GPR119 ligands from on-demand tera-scale chemical space",
+    "source": "bioRxiv Biochemistry",
+    "summary": "The orphan G protein-coupled receptor GPR119 is involved in glucose homeostasis and is considered a promising target for the treatment of diabetes and other metabolic diseases. The recently solved structures of GPR119 in complex with potential endogenous lipid agonists, including oleoylethanolamide (OEA), provide a solid platform for 3D pharmacology analysis and structure-based ligand discovery. Here, we employed the V-SYNTHES2 approach to screen ~3 trillion on-demand compounds from Enamine xREAL chemical space to identify several new chemotypes of GPR119 agonists and antagonists. Structure-gu",
+    "published": "2026-11-10T00:00:00+00:00",
+    "matched": [
+      "cryo-em structure",
+      "docking",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-11T13:49:58.889909+00:00",
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.08696",
     "title": "Hybrid Quantum-Classical Annealing for Protein Side-Chain Optimization: A Feasibility Study",
     "source": "arXiv q-bio.BM",
@@ -209,7 +363,7 @@
       "residue"
     ],
     "first_seen": "2026-11-09T15:39:21.670559+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764763v1?rss=1",
@@ -266,7 +420,7 @@
       "residue"
     ],
     "first_seen": "2026-11-10T14:35:14.423950+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.07723",
@@ -388,7 +542,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-07T12:42:40.403159+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.04287",
@@ -482,7 +636,7 @@
       "protein structure"
     ],
     "first_seen": "2026-11-05T14:20:05.641408+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.04.764426v1?rss=1",
@@ -2225,7 +2379,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2238,7 +2392,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2251,7 +2405,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2264,7 +2418,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2278,7 +2432,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2293,7 +2447,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2306,7 +2460,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2319,7 +2473,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2332,7 +2486,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2346,7 +2500,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2359,6 +2513,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-10T14:35:14.423950+00:00"
+    "last_seen": "2026-11-11T13:49:58.889909+00:00"
   }
 ]
