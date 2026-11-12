@@ -62,7 +62,7 @@
       "residue"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1",
@@ -76,7 +76,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765178v1?rss=1",
@@ -93,7 +93,112 @@
       "residue"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763793v1?rss=1",
+    "title": "Comparative functional genomics reveals distributed SERPINE1 like characteristics among Drosophila serpins",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Serpins (serine protease inhibitors) regulate proteolytic activity through a suicide-substrate inhibitory mechanism, whereby the serpin covalently traps and inactivates their target protease. Serpins are broadly conserved across eukaryotes, but the evolutionary and functional relationships between human SERPINE1, and Drosophila Serpins in incompletely defined. To identify candidate Drosophila functional analogs of SERPINE1/PAI-1, a multi-omics framework was applied to thoroughly compare the serpins across species. The multi-level analysis integrated orthology prediction, protein sequence and s",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765362v1?rss=1",
+    "title": "Paired-unit activation steering for context-aware protein design",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Activation steering in protein language models enables controllable sequence generation without changing the model weights. However, existing methods typically construct steering vectors from global differences between property-positive and property-negative protein populations, overlooking how property-improving directions vary across different protein sequence backgrounds. To address this, we propose textit{Paired-Unit local steering of embeddings (PULSE)}, which matches positive- and negative-property proteins by maximizing their representation cosine similarity and constructs steering vect",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein design",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1",
+    "title": "The Confessions of a Protein Language Model: Steering, Activations, and What Predicted Confidence Cannot Certify",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein generate-and-screen pipelines use interventions and readouts to select candidates, but rarely test whether these track their intended targets. We audit published repetition steering, ESMFold confidence, and an activation readout. Steering preserves confidence at its operating point, but a fitted cliff follows at alpha_50 = 1.240x (sweep's own control: 64.0%). Direction matters at moderate matched-norm push, but not at saturation. Unsteered generator activations predict the confidence gate (ROC-AUC 0.786 +/- 0.004), supporting cost-aware, model-specific triage. We also replicate establi",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "esmfold",
+      "protein",
+      "protein language model"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765352v1?rss=1",
+    "title": "DiffTernary: a Diffusion Model for Molecular Glue Ternary Complex Docking",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Molecular glues (MGs) modulate protein function by inducing or stabilizing protein interactions. However, accurately modeling MG ternary complexes remains challenging. Here, we present DiffTernary, a diffusion-based docking method for the joint prediction of relative protein arrangement and MG binding pose. We introduce Ternary-PDB, a dataset of 76,702 experimentally determined ternary complexes curated from the Protein Data Bank using structural filters and a release cutoff aligned with AlphaFold 3 (AF3). When trained on this dataset, DiffTernary achieved acceptable protein-protein interactio",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "docking",
+      "esmfold",
+      "protein"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765431v1?rss=1",
+    "title": "Towards a best-in-class IgE disruptor for food allergy with Claude-enabled antibody design",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Food allergy affects an estimated 220-250 million people worldwide, for whom the constant risk of a severe reaction weighs heavily on quality of life. Allergic reactions are triggered by the cross-linking of allergen-specific IgE bound to its high-affinity receptor, Fc{epsilon}RI, on mast cells and basophils, causing degranulation, inflammation and, in severe cases, anaphylaxis. Omalizumab (Xolair), the sole FDA-approved biologic for food allergy, neutralizes circulating IgE; however, it does not effectively remove IgE from Fc{epsilon}RI, where it can persist for weeks and where even a small r",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "antibody design",
+      "epitope"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765515v1?rss=1",
+    "title": "Differential properties of gp120 from HIV-1 group M subtypes A and B",
+    "source": "bioRxiv Biochemistry",
+    "summary": "HIV-1 group M subtypes A and B differ substantially in their gp120 sequence. To determine whether these differences contribute to subtype-specific complications, particularly pulmonary arterial hypertension (PAH), rats were injected with gp120 from subtype A or B. Pulmonary artery (PA) remodeling was assessed after four weeks using hematoxylin and eosin (H&E) staining and the Vessel Morphometry Analysis tool by Autona (autona.org). Subtype A gp120 potently increased PA wall thickness and right ventricular hypertrophy. The CD4-binding region of subtype A lacks a stretch of 16 amino acids (V1 N-",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "enzyme",
+      "molecular dynamics",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765184v1?rss=1",
+    "title": "De novo design of ligases for programmable site-specific protein ubiquitylation",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Protein ubiquitylation regulates numerous cellular processes, but difficulties in generating site-specifically ubiquitylated proteins limit our understanding of individual modification events. In cells, ubiquitylation is mediated by an E1-E2-E3 enzyme cascade, with substrate recognition largely determined by more than 600 human E3 ligases, making it challenging to redirect ubiquitin transfer to a chosen lysine. Here we use RFdiffusion3 to design ubiquitin ligases from scratch that use a cysteine-based catalytic triad to conjugate an activated ubiquitin donor to a selected lysine in a chosen ta",
+    "published": "2026-11-11T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "enzyme design",
+      "peptide",
+      "protein",
+      "rfdiffusion"
+    ],
+    "first_seen": "2026-11-12T14:53:14.650323+00:00",
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.10424",
@@ -257,7 +362,7 @@
       "protein"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.08696",
@@ -363,7 +468,7 @@
       "residue"
     ],
     "first_seen": "2026-11-09T15:39:21.670559+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.05.764763v1?rss=1",
@@ -420,7 +525,7 @@
       "residue"
     ],
     "first_seen": "2026-11-10T14:35:14.423950+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.07723",
@@ -542,7 +647,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-07T12:42:40.403159+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.04287",
@@ -2379,7 +2484,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2392,7 +2497,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2405,7 +2510,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2418,7 +2523,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2432,7 +2537,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2447,7 +2552,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2460,7 +2565,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2473,7 +2578,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2486,7 +2591,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2500,7 +2605,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2513,6 +2618,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-11T13:49:58.889909+00:00"
+    "last_seen": "2026-11-12T14:53:14.650323+00:00"
   }
 ]

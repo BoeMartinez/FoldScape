@@ -5,7 +5,7 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14937,
+      "stars": 14939,
       "forks": 2962,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
@@ -26,10 +26,10 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:30.358262",
-      "star_velocity_7d": 9,
+      "first_tracked": "2026-11-12T14:50:41.744856",
+      "star_velocity_7d": 11,
       "star_velocity_30d": 0,
-      "trending": false
+      "trending": true
     }
   },
   {
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8760,
-      "forks": 1399,
-      "last_updated": "2026-11-11T12:50:23+00:00",
+      "stars": 8767,
+      "forks": 1402,
+      "last_updated": "2026-11-11T21:27:07+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Apache License 2.0",
@@ -59,8 +59,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:32.128718",
-      "star_velocity_7d": 36,
+      "first_tracked": "2026-11-12T14:50:43.650839",
+      "star_velocity_7d": 39,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -96,8 +96,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:33.923500",
-      "star_velocity_7d": 3,
+      "first_tracked": "2026-11-12T14:50:45.579664",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -136,8 +136,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:35.738393",
-      "star_velocity_7d": -1,
+      "first_tracked": "2026-11-12T14:50:47.388174",
+      "star_velocity_7d": -2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -150,7 +150,7 @@
       "url": "https://github.com/scverse/gget",
       "stars": 1212,
       "forks": 99,
-      "last_updated": "2026-11-10T01:06:57+00:00",
+      "last_updated": "2026-11-12T14:46:20+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -187,8 +187,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:37.555458",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-11-12T14:50:49.314813",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -199,7 +199,7 @@
       "name": "OpenAlpha_Evolve",
       "description": "OpenAlpha_Evolve is an open-source Python framework inspired by the groundbreaking research on autonomous coding agents like DeepMind's AlphaEvolve.",
       "url": "https://github.com/shyamsaktawat/OpenAlpha_Evolve",
-      "stars": 1057,
+      "stars": 1056,
       "forks": 159,
       "last_updated": "2025-05-31T16:34:33+00:00",
       "created_at": "2025-05-17T21:04:30+00:00",
@@ -238,8 +238,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:39.289368",
-      "star_velocity_7d": 3,
+      "first_tracked": "2026-11-12T14:50:51.292875",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -280,7 +280,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:41.061657",
+      "first_tracked": "2026-11-12T14:50:53.156262",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -313,7 +313,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:42.828529",
+      "first_tracked": "2026-11-12T14:50:54.998202",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -325,7 +325,7 @@
       "name": "EvoBind",
       "description": "In silico directed evolution of peptide binders with AlphaFold",
       "url": "https://github.com/patrickbryant1/EvoBind",
-      "stars": 281,
+      "stars": 282,
       "forks": 57,
       "last_updated": "2026-09-25T09:48:57+00:00",
       "created_at": "2022-07-15T09:38:04+00:00",
@@ -346,8 +346,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:44.530862",
-      "star_velocity_7d": -1,
+      "first_tracked": "2026-11-12T14:50:56.787499",
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -379,7 +379,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:46.277282",
+      "first_tracked": "2026-11-12T14:50:58.556332",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -391,7 +391,7 @@
       "name": "AlphaFold3-GUI",
       "description": "AFusion: AlphaFold 3 GUI & Toolkit with Visualization",
       "url": "https://github.com/Hanziwww/AlphaFold3-GUI",
-      "stars": 176,
+      "stars": 177,
       "forks": 19,
       "last_updated": "2025-09-21T03:58:28+00:00",
       "created_at": "2024-11-14T12:16:14+00:00",
@@ -412,7 +412,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:47.983172",
+      "first_tracked": "2026-11-12T14:51:00.365506",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -445,7 +445,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:49.678751",
+      "first_tracked": "2026-11-12T14:51:02.273291",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -478,7 +478,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:51.414109",
+      "first_tracked": "2026-11-12T14:51:04.114528",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -519,7 +519,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:53.275404",
+      "first_tracked": "2026-11-12T14:51:05.893612",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -552,7 +552,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:55.106588",
+      "first_tracked": "2026-11-12T14:51:07.743092",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -585,7 +585,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:56.944101",
+      "first_tracked": "2026-11-12T14:51:09.547006",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -618,7 +618,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:47:59.817097",
+      "first_tracked": "2026-11-12T14:51:12.667823",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -651,7 +651,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:01.550976",
+      "first_tracked": "2026-11-12T14:51:14.476760",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -663,7 +663,7 @@
       "name": "proteindj",
       "description": "Official repository for the ProteinDJ protein design pipeline",
       "url": "https://github.com/PapenfussLab/proteindj",
-      "stars": 151,
+      "stars": 152,
       "forks": 32,
       "last_updated": "2026-09-29T04:07:28+00:00",
       "created_at": "2025-09-26T21:39:38+00:00",
@@ -689,8 +689,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:05.740521",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-11-12T14:51:19.314571",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -728,7 +728,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:07.550357",
+      "first_tracked": "2026-11-12T14:51:21.170172",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -771,7 +771,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:11.557975",
+      "first_tracked": "2026-11-12T14:51:25.289683",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -816,7 +816,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:13.379881",
+      "first_tracked": "2026-11-12T14:51:27.208896",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -828,7 +828,7 @@
       "name": "DL4Proteins-notebooks",
       "description": "Colab Notebooks covering deep learning tools for biomolecular structure prediction and design",
       "url": "https://github.com/Graylab/DL4Proteins-notebooks",
-      "stars": 736,
+      "stars": 737,
       "forks": 131,
       "last_updated": "2026-04-17T16:37:05+00:00",
       "created_at": "2024-09-04T12:24:24+00:00",
@@ -862,8 +862,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:16.704195",
-      "star_velocity_7d": 3,
+      "first_tracked": "2026-11-12T14:51:30.760784",
+      "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -875,7 +875,7 @@
       "description": "P2Rank: Protein-ligand binding site prediction from protein structure based on machine learning.",
       "url": "https://github.com/rdk/p2rank",
       "stars": 475,
-      "forks": 65,
+      "forks": 66,
       "last_updated": "2026-09-11T01:33:51+00:00",
       "created_at": "2016-09-25T23:46:28+00:00",
       "language": "Groovy",
@@ -916,7 +916,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:18.527756",
+      "first_tracked": "2026-11-12T14:51:32.557172",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -949,7 +949,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:20.263466",
+      "first_tracked": "2026-11-12T14:51:34.412068",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -982,7 +982,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:21.958935",
+      "first_tracked": "2026-11-12T14:51:36.209120",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1023,7 +1023,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:23.787557",
+      "first_tracked": "2026-11-12T14:51:38.113173",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1056,7 +1056,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:25.493068",
+      "first_tracked": "2026-11-12T14:51:39.997904",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1089,7 +1089,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:27.244965",
+      "first_tracked": "2026-11-12T14:51:41.768685",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1122,7 +1122,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:28.987844",
+      "first_tracked": "2026-11-12T14:51:43.577340",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1134,9 +1134,9 @@
       "name": "tt-bio",
       "description": "Protein structure prediction, binding affinity, protein design and protein language models on Tenstorrent Blackhole and Wormhole hardware, from one card to a Galaxy server.",
       "url": "https://github.com/moritztng/tt-bio",
-      "stars": 127,
+      "stars": 128,
       "forks": 13,
-      "last_updated": "2026-11-11T13:46:53+00:00",
+      "last_updated": "2026-11-12T13:43:33+00:00",
       "created_at": "2025-03-23T21:08:48+00:00",
       "language": "Python",
       "license": "MIT License",
@@ -1163,7 +1163,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:30.816872",
+      "first_tracked": "2026-11-12T14:51:45.430144",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1196,8 +1196,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:32.551175",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-11-12T14:51:47.421889",
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1232,7 +1232,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:36.640291",
+      "first_tracked": "2026-11-12T14:51:51.759087",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1244,7 +1244,7 @@
       "name": "BindCraft",
       "description": "User friendly and accurate binder design pipeline",
       "url": "https://github.com/martinpacesa/BindCraft",
-      "stars": 1266,
+      "stars": 1267,
       "forks": 285,
       "last_updated": "2026-09-21T09:13:05+00:00",
       "created_at": "2024-09-18T10:45:09+00:00",
@@ -1271,7 +1271,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:38.344330",
+      "first_tracked": "2026-11-12T14:51:53.655025",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -1283,7 +1283,7 @@
       "name": "ColabDesign",
       "description": "Making Protein Design accessible to all via Google Colab! ",
       "url": "https://github.com/sokrypton/ColabDesign",
-      "stars": 949,
+      "stars": 950,
       "forks": 238,
       "last_updated": "2026-10-14T02:57:57+00:00",
       "created_at": "2022-02-02T03:43:06+00:00",
@@ -1304,8 +1304,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:40.051269",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-11-12T14:51:55.454557",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1337,7 +1337,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:41.878939",
+      "first_tracked": "2026-11-12T14:51:57.334002",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1349,9 +1349,9 @@
       "name": "RFD4-Proteina",
       "description": "Generative biopolymer design with rich conditioning. ",
       "url": "https://github.com/RosettaCommons/RFD4-Proteina",
-      "stars": 582,
-      "forks": 84,
-      "last_updated": "2026-11-10T23:11:54+00:00",
+      "stars": 586,
+      "forks": 86,
+      "last_updated": "2026-11-11T17:12:58+00:00",
       "created_at": "2026-09-25T20:54:32+00:00",
       "language": "Python",
       "license": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -1370,8 +1370,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:43.579285",
-      "star_velocity_7d": 41,
+      "first_tracked": "2026-11-12T14:51:59.140322",
+      "star_velocity_7d": 37,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -1382,9 +1382,9 @@
       "name": "Proteina-Complexa",
       "description": "Generative model for protein binder design for protein and small molecule targets. Combines a pretrained flow-based generative model (built on La-Proteina) with inference-time optimization.",
       "url": "https://github.com/NVIDIA-BioNeMo/Proteina-Complexa",
-      "stars": 469,
+      "stars": 470,
       "forks": 84,
-      "last_updated": "2026-11-10T19:27:36+00:00",
+      "last_updated": "2026-11-11T16:53:08+00:00",
       "created_at": "2026-03-09T23:20:20+00:00",
       "language": "Python",
       "license": "Other",
@@ -1403,8 +1403,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:45.327544",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-11-12T14:52:00.936463",
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1415,9 +1415,9 @@
       "name": "mosaic",
       "description": "composite-objective protein design",
       "url": "https://github.com/escalante-bio/mosaic",
-      "stars": 382,
+      "stars": 384,
       "forks": 62,
-      "last_updated": "2026-11-11T00:49:57+00:00",
+      "last_updated": "2026-11-12T00:29:06+00:00",
       "created_at": "2025-01-12T22:56:59+00:00",
       "language": "Python",
       "license": "MIT License",
@@ -1436,8 +1436,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:47.111549",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-11-12T14:52:02.714757",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1473,8 +1473,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:48.901122",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-11-12T14:52:04.561030",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1527,7 +1527,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:50.642009",
+      "first_tracked": "2026-11-12T14:52:06.449242",
       "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
@@ -1560,7 +1560,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:52.423857",
+      "first_tracked": "2026-11-12T14:52:08.263473",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1598,7 +1598,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:54.169434",
+      "first_tracked": "2026-11-12T14:52:10.074802",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1636,7 +1636,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:56.077440",
+      "first_tracked": "2026-11-12T14:52:11.949581",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1674,8 +1674,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:57.925550",
-      "star_velocity_7d": 3,
+      "first_tracked": "2026-11-12T14:52:13.803881",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1707,7 +1707,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:48:59.661417",
+      "first_tracked": "2026-11-12T14:52:15.662661",
       "star_velocity_7d": -1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1740,7 +1740,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:01.363425",
+      "first_tracked": "2026-11-12T14:52:17.536251",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1752,9 +1752,9 @@
       "name": "FLIP",
       "description": "A collection of tasks to probe the effectiveness of protein sequence representations in modeling aspects of protein design",
       "url": "https://github.com/J-SNACKKB/FLIP",
-      "stars": 144,
+      "stars": 145,
       "forks": 17,
-      "last_updated": "2026-11-10T14:04:56+00:00",
+      "last_updated": "2026-11-11T15:16:19+00:00",
       "created_at": "2021-05-13T17:50:29+00:00",
       "language": "Jupyter Notebook",
       "license": "Academic Free License v3.0",
@@ -1780,8 +1780,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:03.114510",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-11-12T14:52:19.492657",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1817,7 +1817,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:04.956019",
+      "first_tracked": "2026-11-12T14:52:21.399734",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1850,7 +1850,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:06.745296",
+      "first_tracked": "2026-11-12T14:52:23.223827",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1883,7 +1883,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:08.508307",
+      "first_tracked": "2026-11-12T14:52:25.150101",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1918,7 +1918,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:10.304569",
+      "first_tracked": "2026-11-12T14:52:27.020640",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1951,7 +1951,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:13.281331",
+      "first_tracked": "2026-11-12T14:52:30.071663",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1987,7 +1987,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:15.050809",
+      "first_tracked": "2026-11-12T14:52:31.857805",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2020,7 +2020,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:18.642848",
+      "first_tracked": "2026-11-12T14:52:35.724270",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2066,7 +2066,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:20.606498",
+      "first_tracked": "2026-11-12T14:52:37.575369",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2078,7 +2078,7 @@
       "name": "Scientific-LLM-Survey",
       "description": "Scientific Large Language Models: A Survey on Biological & Chemical Domains ",
       "url": "https://github.com/HICAI-ZJU/Scientific-LLM-Survey",
-      "stars": 362,
+      "stars": 363,
       "forks": 34,
       "last_updated": "2025-09-07T02:38:42+00:00",
       "created_at": "2023-10-12T02:49:48+00:00",
@@ -2112,8 +2112,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:22.393403",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-11-12T14:52:39.430179",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -2147,7 +2147,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:24.161687",
+      "first_tracked": "2026-11-12T14:52:41.253192",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2159,7 +2159,7 @@
       "name": "ProstT5",
       "description": "Bilingual Language Model for Protein Sequence and Structure",
       "url": "https://github.com/mheinzinger/ProstT5",
-      "stars": 329,
+      "stars": 331,
       "forks": 39,
       "last_updated": "2026-03-06T08:01:04+00:00",
       "created_at": "2023-07-21T14:03:42+00:00",
@@ -2180,8 +2180,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:25.993396",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-11-12T14:52:43.035886",
+      "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -2213,7 +2213,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:27.763530",
+      "first_tracked": "2026-11-12T14:52:44.908578",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2246,7 +2246,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:29.601825",
+      "first_tracked": "2026-11-12T14:52:46.717375",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2293,7 +2293,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:31.406655",
+      "first_tracked": "2026-11-12T14:52:48.544348",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2326,7 +2326,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:33.101626",
+      "first_tracked": "2026-11-12T14:52:50.347662",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2372,7 +2372,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:34.993462",
+      "first_tracked": "2026-11-12T14:52:52.223045",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2409,7 +2409,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:36.782169",
+      "first_tracked": "2026-11-12T14:52:54.248664",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2448,40 +2448,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:38.576461",
-      "star_velocity_7d": 0,
-      "star_velocity_30d": 0,
-      "trending": false
-    }
-  },
-  {
-    "repo_id": "samsledje/ConPLex",
-    "metadata": {
-      "name": "ConPLex",
-      "description": "Adapting protein language models and contrastive learning for highly-accurate drug-target interaction prediction.",
-      "url": "https://github.com/samsledje/ConPLex",
-      "stars": 157,
-      "forks": 40,
-      "last_updated": "2025-05-21T16:22:37+00:00",
-      "created_at": "2023-03-11T17:13:34+00:00",
-      "language": "Python",
-      "license": "MIT License",
-      "topics": []
-    },
-    "classification": {
-      "category": "Applications",
-      "subcategory": null,
-      "layer": null
-    },
-    "domain_specific": {
-      "experimental_validation": null,
-      "expression_systems": [],
-      "gpu_requirement": null,
-      "input_types": [],
-      "output_formats": []
-    },
-    "tracking": {
-      "first_tracked": "2026-11-11T13:49:40.383706",
+      "first_tracked": "2026-11-12T14:52:56.037246",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2514,7 +2481,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:42.125393",
+      "first_tracked": "2026-11-12T14:52:57.942560",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2547,7 +2514,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:44.012643",
+      "first_tracked": "2026-11-12T14:52:59.822266",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2580,7 +2547,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:45.713874",
+      "first_tracked": "2026-11-12T14:53:01.632336",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2613,7 +2580,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-11T13:49:47.397758",
+      "first_tracked": "2026-11-12T14:53:03.542527",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
