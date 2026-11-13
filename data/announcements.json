@@ -1,5 +1,108 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.16099",
+    "title": "CupOFMoCA: Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.16099v1 Announce Type: new Abstract: Molecular conjugates, including PROTACs and peptide-drug conjugates (PDCs), derive their function from the joint behavior of multiple coupled components, yet most generative approaches design these components independently and combine them only after generation. Such staged pipelines ignore cross-component dependencies and often produce conjugates that are chemically invalid, fall outside empirical conjugate distributions, or lose function upon assembly. In this work, we introduce Coupled Objective-Guided Discrete Flows for Molecular Conjugate As",
+    "published": "2026-11-13T05:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "peptide"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.17015",
+    "title": "AI for Biologists: The Knowledge Boundaries of Foundation Models in the Age of Agentic Systems",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.17015v1 Announce Type: new Abstract: Artificial intelligence (AI) is changing how biological research is done. Biological foundation models trained on millions of nucleotides, protein, and single-cell measurements predict protein structures, mutation effects, and cellular responses to genetic perturbations. Agentic systems, AI assistants built on large language models, can run multistep analyses from plain-language requests and increasingly call foundation models as tools. Yet it is often unclear when these models' outputs can be trusted. We frame this as a model's knowledge boundar",
+    "published": "2026-11-13T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.15109",
+    "title": "Expanding the Decision Space of Pretrained Models through Structured Re-Decoding",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.15109v1 Announce Type: cross Abstract: Native decoders limit how pretrained models combine local predictions under new structural constraints. We introduce Structured Re-Decoding (SRD), a training-free framework that constructs local candidates from model scores, samples, or external specifications, jointly optimizes their selection, and verifies reconstructed outputs. We show that candidate recombination expands feasible support and can improve attainable reward under a fixed KL divergence budget. Across molecular generation, protein design, RNA structure prediction, and antibody m",
+    "published": "2026-11-13T05:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "antibody",
+      "peptide",
+      "protein",
+      "protein design",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.17121",
+    "title": "Using an energy pixels approach to estimate the size a 2nd Generation DEL must be to train a high-resolution binding model",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.17121v1 Announce Type: cross Abstract: DNA-encoded libraries (DELs) are commonly used to find small-molecule binders to a target protein. But the hard part is no longer finding a hit. It is building a machine-learning model good enough to guide the medicinal chemistry that follows, one that can resolve the shift in affinity when a chemist changes a single atom. Such a model needs two things from its training data: dense sampling of the small patch of chemical space around the hit, and an adequate number of genuinely tight binders within it. A diverse naive DEL gives neither. It samp",
+    "published": "2026-11-13T05:00:00+00:00",
+    "matched": [
+      "binder",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765209v1?rss=1",
+    "title": "Pallatom2: Navigating the De Novo Protein Universe with Atom-to-Atom Modeling",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein binder design requires precise coordination of molecular structure, binding geometry, and experimentally measurable performance. We introduce Pallatom2, an efficient, precise Atom-to-Atom generative model that jointly models protein sequence, backbone conformation, side-chain geometry, and target-interface contacts. A unified Atom14 representation and residue-guided sparse all-atom attention enable bidirectional information exchange between residue-level and atom-level representations, coordinating global structure with local atomic detail in a compact model of just 65.9 million parame",
+    "published": "2026-11-12T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "de novo protein",
+      "nanobody",
+      "protein",
+      "protein design",
+      "residue"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765762v1?rss=1",
+    "title": "Multimodal protein representations across human brain cell types",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "The central nervous system (CNS) comprises diverse cell types whose molecular context shapes the roles of the proteins they express. Computational models offer a scalable way to study the roles of proteins across human brain cell types, with protein language models and interactome- or single-cell-based models capturing complementary information encoded in protein sequences and cellular network contexts. Human brain tissue is hard to access, so brain cell types make up a small fraction of the atlases single-cell models train on and of the benchmarks used for their evaluation. To capture these c",
+    "published": "2026-11-12T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765661v1?rss=1",
+    "title": "Receptor dynamics and kinetic discrimination contribute to selectivity of β1-adrenoceptor antagonists",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Human {beta}1-adrenoceptor (h[beta]1AR)-selective antagonists are widely used to suppress cardiac adrenergic signalling in cardiovascular disease with limited but still clinically relevant inhibition of h[beta]2AR functions in airway and vascular smooth muscle. However, achieving strong subtype selectivity remains challenging because the orthosteric binding sites (OBS) of h[beta]1AR and h[beta]2AR are highly conserved. Here we studied the molecular mechanisms for three highly subtype selective h[beta]1AR antagonists, CGP20712A, NDD713 and NDD825. Three cryo-EM structures were therefore determi",
+    "published": "2026-11-12T00:00:00+00:00",
+    "matched": [
+      "cryo-em structure",
+      "ligand",
+      "nanobody",
+      "residue"
+    ],
+    "first_seen": "2026-11-13T14:14:21.054758+00:00",
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.13348",
     "title": "ProTEUS: A mutation-resolved world model for closed-loop protein evolution",
     "source": "arXiv q-bio.BM",
@@ -62,7 +165,7 @@
       "residue"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765632v1?rss=1",
@@ -76,7 +179,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765178v1?rss=1",
@@ -93,7 +196,7 @@
       "residue"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763793v1?rss=1",
@@ -107,7 +210,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765362v1?rss=1",
@@ -122,7 +225,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765136v1?rss=1",
@@ -136,7 +239,7 @@
       "protein language model"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765352v1?rss=1",
@@ -151,7 +254,7 @@
       "protein"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765431v1?rss=1",
@@ -165,7 +268,7 @@
       "epitope"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765515v1?rss=1",
@@ -181,7 +284,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765184v1?rss=1",
@@ -198,7 +301,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.10424",
@@ -362,7 +465,7 @@
       "protein"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.08696",
@@ -525,7 +628,7 @@
       "residue"
     ],
     "first_seen": "2026-11-10T14:35:14.423950+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.07723",
@@ -2484,7 +2587,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2497,7 +2600,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2510,7 +2613,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2523,7 +2626,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2537,7 +2640,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2552,7 +2655,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2565,7 +2668,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2578,7 +2681,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2591,7 +2694,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2605,7 +2708,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2618,6 +2721,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-12T14:53:14.650323+00:00"
+    "last_seen": "2026-11-13T14:14:21.054758+00:00"
   }
 ]
