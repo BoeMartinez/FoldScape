@@ -57,6 +57,81 @@
     "last_seen": "2026-11-13T14:14:21.054758+00:00"
   },
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766036v1?rss=1",
+    "title": "Unsupervised Deep Learning for Cryo-EM/ET Particle Classification",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Cryogenic electron microscopy (cryo-EM) is widely used to determine protein structures from purified samples. With cryogenic electron tomography (cryo-ET), it is possible to image thin sections of cells and directly visualize diverse proteins in their native environment. However, separating the massive mixture of different types of proteins inside cells remains challenging, especially without human intervention. In this work, we present an unsupervised deep learning framework for classifying cryo-EM/ET particle images that jointly optimizes for pose and structure through an autoencoder-based m",
+    "published": "2026-11-13T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-14T13:13:32.357444+00:00",
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766127v1?rss=1",
+    "title": "HieraPTM: From PTM Site Recognition to Functional Phosphosite Prediction through Hierarchical Context and Protein Mechanics",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein post-translational modifications (PTMs) regulate cellular signaling and protein function, making accurate site identification essential for understanding protein regulation. However, PTM site recognition and functional phosphosite prediction are largely modeled independently, limiting the transfer of large-scale recognition knowledge to functional prioritization. Here, we introduce HieraPTM-HieraFuncPhos, a cross-task hierarchical framework that separately models and conditionally integrates transferable PTM recognition representations and function-specific mechanical evidence. HieraPT",
+    "published": "2026-11-13T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-14T13:13:32.357444+00:00",
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1?rss=1",
+    "title": "DynamicsPLM: A Dynamics-Enriched Small Protein Language Model for Protein Variant Effect Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Predicting how mutations impact protein function and stability remains a key challenge in computational biology. Current state-of-the-art protein language models (PLMs) primarily scale parameter size on sequence corpora to capture evolutionary constraints but remain blind to the explicit physical dynamics of folded proteins. Conversely, models trained strictly on physical dynamics neglect critical evolutionary sequence statistics. In this paper, we bridge this gap by introducing DynamicsPLM, a highly parameter-efficient 35-million-parameter model that unifies evolutionary and biophysical repre",
+    "published": "2026-11-13T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "molecular dynamics",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-14T13:13:32.357444+00:00",
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765408v1?rss=1",
+    "title": "Experimental and computational mapping reveals preferential nanobody targeting of the intracellular cavity of the amino acid transporter BasC",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Nanobodies are valuable tools for stabilizing and investigating membrane transporters, but the systematic characterization of large nanobody collections remains experimentally demanding. Here, we combined biochemical and transport assays, experimental structural data and AlphaFold3 modelling to characterize a repertoire of 29 nanobodies targeting the bacterial amino acid transporter BasC. By exploiting the random orientation and asymmetric apparent substrate affinities of BasC in proteoliposomes, comparison of nanobody-mediated influx and efflux inhibition enabled experimental assignment of bi",
+    "published": "2026-11-13T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "amino acid",
+      "binder",
+      "epitope",
+      "nanobody"
+    ],
+    "first_seen": "2026-11-14T13:13:32.357444+00:00",
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765923v1?rss=1",
+    "title": "A reversible YbbR-domain hinge switch senses extracellular pH to control bacterial cyclic-di-AMP signaling",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Acidification is a principal antimicrobial host defence: during infection, bacteria have to survive the stomach, the vaginal tract or the phagolysosome of immune cells, where the pH falls below 5. To persist, bacteria must sense and adapt to extracellular pH. In Gram-positive bacteria, the membrane protein CdaR, a regulator of the c-di-AMP-synthesizing enzyme CdaA, has been proposed as a pH sensor, but the molecular basis of this sensing remains unknown. Here we show, using the model organism Bacillus subtilis, that CdaR is essential for growth below pH 5. SEC-MALS, mass photometry and circula",
+    "published": "2026-11-13T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "molecular dynamics",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-11-14T13:13:32.357444+00:00",
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765209v1?rss=1",
     "title": "Pallatom2: Navigating the De Novo Protein Universe with Atom-to-Atom Modeling",
     "source": "bioRxiv Bioinformatics",
@@ -71,7 +146,7 @@
       "residue"
     ],
     "first_seen": "2026-11-13T14:14:21.054758+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765762v1?rss=1",
@@ -85,7 +160,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-13T14:14:21.054758+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765661v1?rss=1",
@@ -100,7 +175,7 @@
       "residue"
     ],
     "first_seen": "2026-11-13T14:14:21.054758+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.13348",
@@ -196,7 +271,7 @@
       "residue"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763793v1?rss=1",
@@ -284,7 +359,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765184v1?rss=1",
@@ -301,7 +376,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.10424",
@@ -465,7 +540,7 @@
       "protein"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.08696",
@@ -628,7 +703,7 @@
       "residue"
     ],
     "first_seen": "2026-11-10T14:35:14.423950+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.07723",
@@ -2587,7 +2662,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2600,7 +2675,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2613,7 +2688,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2626,7 +2701,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2640,7 +2715,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2655,7 +2730,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2668,7 +2743,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2681,7 +2756,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2694,7 +2769,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2708,7 +2783,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2721,6 +2796,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-13T14:14:21.054758+00:00"
+    "last_seen": "2026-11-14T13:13:32.357444+00:00"
   }
 ]
