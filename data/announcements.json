@@ -1,5 +1,111 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.17391",
+    "title": "Confident and Wrong: Structure Confidence Is a Poor Selection Filter for Protein Function",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.17391v1 Announce Type: new Abstract: Structure-guided protein design can generate plausible candidates, but structural confidence does not predict function. We trained a function-guided model on measured metal-binding affinity with protein sequence, ligand identity, and assay conditions, and used it to design rare earth element (REE) binding variants of lanmodulin, a lanthanide-binding protein with four EF-hand domains. We screened 297 designs from three strategies against terbium and dysprosium, adjacent lanthanides among the hardest REE pairs to separate. Selection on structural c",
+    "published": "2026-11-16T05:00:00+00:00",
+    "matched": [
+      "binder",
+      "binding affinity",
+      "ligand",
+      "protein",
+      "protein design",
+      "sequence"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.18236",
+    "title": "Deciphering multiple binding modes in large protein complexes via Enhanced Sampling and beta-VAE: the CYFIP1-eIF4E case",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.18236v1 Announce Type: new Abstract: Eukaryotic initiation factor 4E (eIF4E) drives cap-dependent translation, regulated by 4E-binding proteins (4E-BPs) competing for its dorsal and lateral surfaces. CYFIP1, a scaffold protein, is both a WAVE Regulatory Complex component and a non-canonical 4E-BP repressing translation via a short helical motif, linked to autism spectrum disorders and cancer. Prior work modeled only this isolated motif as a peptide, leaving the full interface uncharacterized. Starting from this preliminary evidence, we modeled the full-length proteins as flexible pa",
+    "published": "2026-11-16T05:00:00+00:00",
+    "matched": [
+      "docking",
+      "molecular dynamics",
+      "peptide",
+      "peptide design",
+      "protein"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.18259",
+    "title": "CARVE: A glycan-specific framework for assessing protein-glycan binding-pose quality",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.18259v1 Announce Type: new Abstract: Protein-glycan interactions depend on the precise three-dimensional arrangement of carbohydrates at protein-binding interfaces, yet reliable assessment of predicted complex structures remains challenging. Existing evaluations commonly rely on fixed root-mean-square deviation (RMSD) thresholds, which do not fully account for the structural diversity and conformational flexibility of glycans. Here we developed CARVE, a glycan-specific framework for evaluating protein-glycan structure predictions. Through topology-aware glycan parsing, CARVE integra",
+    "published": "2026-11-16T05:00:00+00:00",
+    "matched": [
+      "docking",
+      "folding",
+      "protein",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.00518",
+    "title": "Learning Task-Specific Antibody Representations via Function-Aware Masking",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.00518v2 Announce Type: replace-cross Abstract: Antibody-specific language models pretrained via masked language modeling (MLM) learn representations that are critical for downstream sequence design and property prediction tasks. Yet, the corruption process itself is rarely leveraged as a source of inductive bias during pretraining. While preferentially masking complementarity-determining regions (CDRs) improves binding-related predictions, antibodies possess diverse biological priors over a variety of functions. Herein, we introduce function-aware masking, a family of pretraining al",
+    "published": "2026-11-16T05:00:00+00:00",
+    "matched": [
+      "antibody",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766329v1?rss=1",
+    "title": "AptaRender: an interactive drawing and styling tool for 2D nucleic acid structures",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Two-dimensional (2D) diagrams are widely used to communicate nucleic acid secondary structure, yet the path from a sequence and pairing model to an editable publication figure often requires either specialized software or substantial cleanup in a general-purpose graphics editor. AptaRender (v2.3.1, available at https://yjhe99.github.io/aptarender/) is a browser-based editor that converts a set of user-supplied DNA or RNA sequences and their dot-bracket structures into an interactive 2D drawing. The software separates structure specification from visual composition: it does not predict folding,",
+    "published": "2026-11-16T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.760042v1?rss=1",
+    "title": "De novo design of antiviral monobody binders",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Monobodies (Mobs) are a class of immunoglobulin (Ig)-like proteins that have emerged as promising therapeutic scaffolds for applications ranging from antiviral therapy to cancer treatment. Unlike conventional monoclonal antibodies (mAbs), Mobs can be readily expressed in Escherichia coli at high yields, offering important advantages in overall developability. However, discovering antigen-specific Mobs with high binding affinity traditionally requires screening large, randomized in vitro libraries. To optimize Mob discovery, we developed MobGen, a computational pipeline for de novo design of Mo",
+    "published": "2026-11-16T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "binder",
+      "binding affinity",
+      "protein"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765513v1?rss=1",
+    "title": "Point mutations in the FimH lectin domain: predicted folding stability versus conformational dynamics for R60P, Q133K and Y137A",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Background. The adhesin FimH attaches uropathogenic Escherichia coli to the urinary epithelium through a force-regulated catch-bond that single lectin-domain substitutions can modulate. How such substitutions reshape the dynamics of the isolated lectin domain, and whether stability predictors anticipate them, is unclear. Methods. We compared the wild-type (WT) lectin domain (PDB 4XO8, apo) with R60P, Y137A and Q133K, using three 500 ns molecular dynamics (MD) replicates per system (6 microseconds total) and three folding-stability predictors (FoldX, a Cartesian-ddG-type Rosetta protocol, ERIS-",
+    "published": "2026-11-15T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "molecular dynamics",
+      "protein",
+      "residue",
+      "rosetta"
+    ],
+    "first_seen": "2026-11-16T15:14:37.656983+00:00",
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.16099",
     "title": "CupOFMoCA: Coupled Objective-Guided Discrete Flows for Molecular Conjugate Assembly",
     "source": "arXiv q-bio.BM",
@@ -67,7 +173,7 @@
       "protein structure"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766127v1?rss=1",
@@ -81,7 +187,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765945v1?rss=1",
@@ -98,7 +204,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765408v1?rss=1",
@@ -114,7 +220,7 @@
       "nanobody"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765923v1?rss=1",
@@ -129,7 +235,7 @@
       "residue"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765209v1?rss=1",
@@ -175,7 +281,7 @@
       "residue"
     ],
     "first_seen": "2026-11-13T14:14:21.054758+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.13348",
@@ -271,7 +377,7 @@
       "residue"
     ],
     "first_seen": "2026-11-11T13:49:58.889909+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.02.763793v1?rss=1",
@@ -359,7 +465,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.08.765184v1?rss=1",
@@ -376,7 +482,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-11-12T14:53:14.650323+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.10424",
@@ -2662,7 +2768,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2675,7 +2781,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2688,7 +2794,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2701,7 +2807,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2715,7 +2821,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2730,7 +2836,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2743,7 +2849,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2756,7 +2862,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2769,7 +2875,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2783,7 +2889,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2796,6 +2902,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-15T13:42:10.110413+00:00"
+    "last_seen": "2026-11-16T15:14:37.656983+00:00"
   }
 ]
