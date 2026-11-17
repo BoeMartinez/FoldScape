@@ -1,5 +1,130 @@
 [
   {
+    "url": "https://arxiv.org/abs/2610.33195",
+    "title": "Agent-guided epitope excision enables economical de novo binder design",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.33195v2 Announce Type: replace Abstract: De novo protein design campaigns remain bottlenecked by the inference compute time required to generate and rank candidates, limiting wider functional exploration. Here, we introduce and evaluate an epitope excision approach that truncates targets to local interface windows to accelerate both backbone diffusion and structure prediction. Across 15 targets and 3,666 designs, excised windows closely reproduced full-target binding interfaces (median C\\alpha RMSD of 0.37 \\AA) and made it practical to design binders against the 719-residue extracel",
+    "published": "2026-11-17T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "binder",
+      "catalytic",
+      "de novo protein",
+      "epitope",
+      "folding"
+    ],
+    "first_seen": "2026-10-27T11:50:42.669223+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.18846",
+    "title": "Multi-Assay Antibody Developability Prediction with Shared Structure-Language Representations",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.18846v1 Announce Type: new Abstract: Early assessment of antibody developability is critical in drug discovery, but computational approaches remain limited by the scarcity of experimental data. We explore two strategies for working within that limit. First, we designed per-residue physicochemical descriptors encoding the local structural environment, including new terms such as directional charge asymmetry and screened electrostatic potential. These feed a convolutional network, combined with protein language model (PLM) embeddings in a two-stream architecture: the two are encoded a",
+    "published": "2026-11-17T05:00:00+00:00",
+    "matched": [
+      "antibody",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.19321",
+    "title": "Generation of protein conformations using a simple inverted transformer",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.19321v1 Announce Type: cross Abstract: Molecular dynamics is an extremely powerful approach for studying protein behavior, but it requires enormous computational resources to obtain an adequate sampling of possible conformations. Recently, thanks to successes in predicting three-dimensional protein structures, there has been an explosion of research exploring the opportunities offered by deep learning to address the problem of protein conformational landscape. In this work, an artificial intelligence system based on a variant of the Transformer architecture is introduced and applied",
+    "published": "2026-11-17T05:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein",
+      "protein structure",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.19812",
+    "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.19812v1 Announce Type: cross Abstract: Lab-in-the-loop systems, in which a model proposes molecules, automated assays measure their properties and the results retrain the model, are a popular approach to antibody lead optimization. These systems optimize for a specification defined with metrics computed from instrument signals, so their success depends on how well those metrics serve as proxies for the properties a drug candidate needs. When a metric is a poor proxy, neither a better model nor more data will fix it, and identifying the problem usually requires expert review. We repo",
+    "published": "2026-11-17T05:00:00+00:00",
+    "matched": [
+      "antibody",
+      "nanobody",
+      "protein"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766718v1?rss=1",
+    "title": "Decompose and Recompose: Reference-Centered Multimodal Adaptation of Protein Language Models for Enzyme Turnover Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Predicting enzyme turnover numbers ($k_{mathrm{cat}}$) from protein sequences and reaction chemistry helps prioritize candidates in virtual screening. Reliable ranking requires distinguishing activity differences between enzyme--reaction pairs. Recent interaction models combine enzyme and chemical information, but two representation challenges remain. First, reactants and products have distinct roles in catalysis: reactants are recognized and transformed, whereas products are formed and released. Yet these models merge the two sides before enzyme interaction, leaving the enzyme's response to e",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766202v1?rss=1",
+    "title": "Mathematical genomics of hidden signatures in NCF1: implications for chronic granulomatous disease",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Inborn errors of immunity (IEIs), such as Chronic Granulomatous Disease (CGD), impose a disproportionately severe clinical burden in populations with high rates of consanguinity. CGD is caused by defects in the phagocyte NADPH oxidase complex, frequently due to mutations in the NCF1 gene encoding the p47phox protein. While the functional domains of NCF1 are well characterized, the quantitative architectural constraints governing its structural stability remain elusive. This study aimed to decipher the multidimensional quantitative signatures of NCF1, across diverse organisms in order to unders",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766417v1?rss=1",
+    "title": "IMPRESS: AI-coupled HPC workflows for protein design",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Protein design campaigns are often run as multi-stage pipelines with a generative backbone model, an inverse-folding model, and a structure predictor chained together in that order. The stages differ by one to two orders of magnitude in cost per candidate, and the allocation of sampling effort across them is fixed before a campaign begins. Such a filter cascade can only discard candidates. It cannot redirect sampling toward the regions of design space a model stack can reach, and for targets whose constraints are far from the generative model's training distribution it may return no solution a",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "enzyme",
+      "folding",
+      "protein",
+      "protein design",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766537v1?rss=1",
+    "title": "SMSTPred: Protein Language Model Embeddings Predict SAM-Methyltransferase Substrate Specificity and Reveal Metabolite Methyltransferasome Enrichment in Plants and Actinomycetota",
+    "source": "bioRxiv Biochemistry",
+    "summary": "S-adenosyl-methionine (SAM)-dependent methyltransferases (MTases) are one of the largest and most ancient enzyme superfamilies in biology, transferring a methyl group from SAM to substrates as different as DNA, RNA, proteins, and small-molecule metabolites. Most SAM-MTases share a Class I Rossmann-like SAM-binding core, with substrate specificity determined by variable inserts and accessory domains rather than the conserved fold; as a result, substrate type is unknown for most MTases in sequence databases, which are dominated by unreviewed entries. Here we present SMSTPred (SAM-Methyltransfera",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "protein",
+      "protein language model",
+      "proteome",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.17391",
     "title": "Confident and Wrong: Structure Confidence Is a Poor Selection Filter for Protein Function",
     "source": "arXiv q-bio.BM",
@@ -87,7 +212,65 @@
       "protein"
     ],
     "first_seen": "2026-11-16T15:14:37.656983+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766406v1?rss=1",
+    "title": "ProtCOVER: Family-Aware Conformal Prediction for Variant Effect Predictors on Unseen Protein Families",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein language models and related variant effect predictors (VEPs) increasingly classify missense variants in proteins evolutionarily distant from those used for calibration. Split conformal prediction over variants is valid for its own target, a random variant dominated by well-studied families, but deployment needs coverage for a variant of a new family. On ProteinGym clinical substitutions with five zero-shot predictors, Mondrian conformal comes within 0.005 of that target for four predictors, yet family-weighted pathogenic coverage is only 0.823-0.873 at a 0.90 target for all five, witho",
+    "published": "2026-11-16T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766391v1?rss=1",
+    "title": "ProtFlap: Structure-based Deep Learning Prediction of Protein Flexibility from Atomic Energy Networks",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein flexibility is a key determinant of molecular recognition, catalysis, and regulation, yet remains difficult to characterise at scale. Molecular dynamics (MD) simulations provide detailed descriptions of time-dependent dynamics but are computationally expensive. Although recent AI-based structure prediction methods have substantially improved access to high-quality static protein structures, they inherently lack information regarding the dynamic fluctuations essential for functional understanding. There is therefore a need for scalable, structure-based computational approaches that can ",
+    "published": "2026-11-16T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein",
+      "protein structure",
+      "residue",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766344v1?rss=1",
+    "title": "Know Thy Neighbour: Benchmarking Protein Language Model Embedding-Based Annotation Reveals Anisotropy Substantially Impacts Retrieval",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Functional annotation using protein language models (`pLMs') usually proceeds by transferring the function of a query's nearest neighbour in a reference database. A major drawback is that embedding-based annotation transfer has no null model, i.e. no accepted way to set a cosine-similarity threshold to control false positives. This contrasts with traditional bioinformatics methods, including sequence- and structure-based alignment tools, which rank hits with E-values derived from explicit null models. Here, we benchmark final-layer, mean-pooled embeddings from twelve models against MMseqs2 and",
+    "published": "2026-11-16T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766389v1?rss=1",
+    "title": "Thermodynamically Constrained Encoding Improves Reliability in DNA Data Storage",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Synthetic DNA has emerged as a promising storage medium thanks to its exceptional information density and long-term stability. However, sequence-dependent biochemical properties introduced during the encoding process can significantly affect downstream molecular processing and data recovery. Among these properties, the thermodynamic stability of DNA sequences, commonly quantified by the Folding Gibbs free energy ($Delta$G), can influence amplification efficiency, sequencing coverage, and ultimately decoding performance. In this work, we experimentally investigate the impact of $Delta$G constra",
+    "published": "2026-11-16T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-17T15:43:35.176708+00:00",
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765513v1?rss=1",
@@ -220,7 +403,7 @@
       "nanobody"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.11.765923v1?rss=1",
@@ -235,7 +418,7 @@
       "residue"
     ],
     "first_seen": "2026-11-14T13:13:32.357444+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.10.765209v1?rss=1",
@@ -281,7 +464,7 @@
       "residue"
     ],
     "first_seen": "2026-11-13T14:14:21.054758+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.13348",
@@ -1732,23 +1915,6 @@
     "last_seen": "2026-11-01T12:55:18.347696+00:00"
   },
   {
-    "url": "https://arxiv.org/abs/2610.33195",
-    "title": "Agent-guided epitope excision enables economical de novo binder design",
-    "source": "arXiv q-bio.BM",
-    "summary": "arXiv:2610.33195v1 Announce Type: new Abstract: De novo protein design campaigns remain bottlenecked by the inference compute time required to generate and rank candidates, limiting wider functional exploration. Here, we introduce and evaluate an epitope excision approach that truncates targets to local interface windows to accelerate both backbone diffusion and structure prediction. Across 15 targets and 3,666 designs, excised windows closely reproduced full-target binding interfaces (median C\\alpha RMSD of 0.37 \\AA) and made it practical to design binders against the 719-residue extracellula",
-    "published": "2026-10-27T04:00:00+00:00",
-    "matched": [
-      "alphafold",
-      "binder",
-      "catalytic",
-      "de novo protein",
-      "epitope",
-      "folding"
-    ],
-    "first_seen": "2026-10-27T11:50:42.669223+00:00",
-    "last_seen": "2026-10-27T11:50:42.669223+00:00"
-  },
-  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.10.23.761425v1?rss=1",
     "title": "AltereGO: Prediction of Protein Function by Multimodal Fusion of Protein Language Models.",
     "source": "bioRxiv Bioinformatics",
@@ -2768,7 +2934,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2781,7 +2947,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2794,7 +2960,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2807,7 +2973,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2821,7 +2987,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -2836,7 +3002,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -2849,7 +3015,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -2862,7 +3028,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -2875,7 +3041,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -2889,7 +3055,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -2902,6 +3068,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-16T15:14:37.656983+00:00"
+    "last_seen": "2026-11-17T15:43:35.176708+00:00"
   }
 ]
