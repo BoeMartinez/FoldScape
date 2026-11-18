@@ -5,8 +5,8 @@
       "name": "alphafold",
       "description": "Open source code for AlphaFold 2.",
       "url": "https://github.com/google-deepmind/alphafold",
-      "stars": 14944,
-      "forks": 2961,
+      "stars": 14947,
+      "forks": 2960,
       "last_updated": "2026-04-22T17:58:21+00:00",
       "created_at": "2021-06-17T14:06:06+00:00",
       "language": "Python",
@@ -26,10 +26,10 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:07.484596",
-      "star_velocity_7d": 6,
+      "first_tracked": "2026-11-18T15:20:24.920780",
+      "star_velocity_7d": 10,
       "star_velocity_30d": 0,
-      "trending": false
+      "trending": true
     }
   },
   {
@@ -38,9 +38,9 @@
       "name": "alphafold3",
       "description": "AlphaFold 3 inference pipeline.",
       "url": "https://github.com/google-deepmind/alphafold3",
-      "stars": 8785,
+      "stars": 8786,
       "forks": 1404,
-      "last_updated": "2026-11-17T14:53:21+00:00",
+      "last_updated": "2026-11-18T14:02:30+00:00",
       "created_at": "2024-11-11T10:38:11+00:00",
       "language": "Python",
       "license": "Apache License 2.0",
@@ -59,8 +59,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:09.368683",
-      "star_velocity_7d": 34,
+      "first_tracked": "2026-11-18T15:20:26.698653",
+      "star_velocity_7d": 26,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -71,7 +71,7 @@
       "name": "openfold",
       "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
       "url": "https://github.com/aqlaboratory/openfold",
-      "stars": 3456,
+      "stars": 3458,
       "forks": 702,
       "last_updated": "2025-12-16T09:41:53+00:00",
       "created_at": "2021-09-14T23:59:02+00:00",
@@ -96,8 +96,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:11.417702",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-11-18T15:20:28.529850",
+      "star_velocity_7d": 4,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -136,7 +136,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:13.149456",
+      "first_tracked": "2026-11-18T15:20:30.436604",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -149,8 +149,8 @@
       "description": "🧬 gget enables efficient querying of genomic reference databases",
       "url": "https://github.com/scverse/gget",
       "stars": 1213,
-      "forks": 99,
-      "last_updated": "2026-11-17T00:37:47+00:00",
+      "forks": 98,
+      "last_updated": "2026-11-17T23:14:05+00:00",
       "created_at": "2022-05-04T17:31:31+00:00",
       "language": "Python",
       "license": "BSD 2-Clause \"Simplified\" License",
@@ -187,7 +187,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:15.007933",
+      "first_tracked": "2026-11-18T15:20:32.227593",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -238,8 +238,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:16.800234",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-11-18T15:20:34.085487",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -280,7 +280,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:18.562793",
+      "first_tracked": "2026-11-18T15:20:35.916820",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -313,7 +313,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:20.338257",
+      "first_tracked": "2026-11-18T15:20:37.604292",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -346,7 +346,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:22.110173",
+      "first_tracked": "2026-11-18T15:20:39.320283",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -379,7 +379,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:24.292235",
+      "first_tracked": "2026-11-18T15:20:41.016304",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -412,7 +412,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:26.029416",
+      "first_tracked": "2026-11-18T15:20:42.760681",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -445,7 +445,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:29.273456",
+      "first_tracked": "2026-11-18T15:20:44.497450",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -478,7 +478,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:31.084197",
+      "first_tracked": "2026-11-18T15:20:46.303174",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -519,7 +519,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:32.878919",
+      "first_tracked": "2026-11-18T15:20:48.127850",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -552,7 +552,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:34.728587",
+      "first_tracked": "2026-11-18T15:20:49.909371",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -585,7 +585,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:36.501288",
+      "first_tracked": "2026-11-18T15:20:51.702218",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -618,7 +618,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:39.492944",
+      "first_tracked": "2026-11-18T15:20:54.859205",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -651,21 +651,21 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:41.266968",
+      "first_tracked": "2026-11-18T15:20:56.585465",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
   },
   {
-    "repo_id": "PapenfussLab/proteindj",
+    "repo_id": "HardyLaboratory/proteindj",
     "metadata": {
       "name": "proteindj",
       "description": "Official repository for the ProteinDJ protein design pipeline",
-      "url": "https://github.com/PapenfussLab/proteindj",
+      "url": "https://github.com/HardyLaboratory/proteindj",
       "stars": 152,
       "forks": 32,
-      "last_updated": "2026-11-17T06:24:06+00:00",
+      "last_updated": "2026-11-18T02:55:00+00:00",
       "created_at": "2025-09-26T21:39:38+00:00",
       "language": "Python",
       "license": "Other",
@@ -689,8 +689,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:45.210599",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-11-18T15:21:00.606365",
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -728,7 +728,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:46.903765",
+      "first_tracked": "2026-11-18T15:21:02.451873",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -771,7 +771,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:50.780166",
+      "first_tracked": "2026-11-18T15:21:06.370982",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -785,7 +785,7 @@
       "url": "https://github.com/nf-core/proteinfold",
       "stars": 116,
       "forks": 75,
-      "last_updated": "2026-11-11T13:42:15+00:00",
+      "last_updated": "2026-11-17T21:19:44+00:00",
       "created_at": "2022-03-03T10:41:35+00:00",
       "language": "HTML",
       "license": "MIT License",
@@ -816,7 +816,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:52.575658",
+      "first_tracked": "2026-11-18T15:21:08.263922",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -862,7 +862,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:56.169278",
+      "first_tracked": "2026-11-18T15:21:11.581944",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -874,7 +874,7 @@
       "name": "p2rank",
       "description": "P2Rank: Protein-ligand binding site prediction from protein structure based on machine learning.",
       "url": "https://github.com/rdk/p2rank",
-      "stars": 477,
+      "stars": 478,
       "forks": 68,
       "last_updated": "2026-09-11T01:33:51+00:00",
       "created_at": "2016-09-25T23:46:28+00:00",
@@ -916,8 +916,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:57.932606",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-11-18T15:21:13.349320",
+      "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -930,7 +930,7 @@
       "url": "https://github.com/Gaius-Augustus/BRAKER",
       "stars": 472,
       "forks": 90,
-      "last_updated": "2026-11-16T18:27:51+00:00",
+      "last_updated": "2026-11-18T08:38:21+00:00",
       "created_at": "2018-08-21T13:53:18+00:00",
       "language": "Perl",
       "license": "Other",
@@ -949,7 +949,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:41:59.936758",
+      "first_tracked": "2026-11-18T15:21:15.111293",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -982,7 +982,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:01.709810",
+      "first_tracked": "2026-11-18T15:21:16.818435",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1023,7 +1023,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:03.485281",
+      "first_tracked": "2026-11-18T15:21:18.622913",
       "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
@@ -1056,7 +1056,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:05.268915",
+      "first_tracked": "2026-11-18T15:21:20.369660",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1089,7 +1089,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:07.026624",
+      "first_tracked": "2026-11-18T15:21:22.091810",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1122,7 +1122,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:08.795475",
+      "first_tracked": "2026-11-18T15:21:23.788318",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1136,7 +1136,7 @@
       "url": "https://github.com/moritztng/tt-bio",
       "stars": 129,
       "forks": 13,
-      "last_updated": "2026-11-17T12:04:49+00:00",
+      "last_updated": "2026-11-18T10:46:57+00:00",
       "created_at": "2025-03-23T21:08:48+00:00",
       "language": "Python",
       "license": "MIT License",
@@ -1163,7 +1163,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:10.603372",
+      "first_tracked": "2026-11-18T15:21:25.506870",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1196,7 +1196,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:12.355185",
+      "first_tracked": "2026-11-18T15:21:27.472318",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1232,7 +1232,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:16.443831",
+      "first_tracked": "2026-11-18T15:21:31.844237",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1244,7 +1244,7 @@
       "name": "BindCraft",
       "description": "User friendly and accurate binder design pipeline",
       "url": "https://github.com/martinpacesa/BindCraft",
-      "stars": 1270,
+      "stars": 1271,
       "forks": 284,
       "last_updated": "2026-09-21T09:13:05+00:00",
       "created_at": "2024-09-18T10:45:09+00:00",
@@ -1271,8 +1271,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:18.182791",
-      "star_velocity_7d": 4,
+      "first_tracked": "2026-11-18T15:21:33.614562",
+      "star_velocity_7d": 5,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1304,7 +1304,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:19.900493",
+      "first_tracked": "2026-11-18T15:21:35.441042",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1337,7 +1337,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:21.712545",
+      "first_tracked": "2026-11-18T15:21:37.212463",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1349,9 +1349,9 @@
       "name": "RFD4-Proteina",
       "description": "Generative biopolymer design with rich conditioning. ",
       "url": "https://github.com/RosettaCommons/RFD4-Proteina",
-      "stars": 604,
-      "forks": 88,
-      "last_updated": "2026-11-16T04:03:40+00:00",
+      "stars": 614,
+      "forks": 89,
+      "last_updated": "2026-11-18T00:18:03+00:00",
       "created_at": "2026-09-25T20:54:32+00:00",
       "language": "Python",
       "license": "BSD 3-Clause \"New\" or \"Revised\" License",
@@ -1370,8 +1370,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:23.525598",
-      "star_velocity_7d": 28,
+      "first_tracked": "2026-11-18T15:21:39.093506",
+      "star_velocity_7d": 32,
       "star_velocity_30d": 0,
       "trending": true
     }
@@ -1403,7 +1403,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:25.355066",
+      "first_tracked": "2026-11-18T15:21:40.903067",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1415,9 +1415,9 @@
       "name": "mosaic",
       "description": "composite-objective protein design",
       "url": "https://github.com/escalante-bio/mosaic",
-      "stars": 384,
+      "stars": 385,
       "forks": 62,
-      "last_updated": "2026-11-15T15:53:49+00:00",
+      "last_updated": "2026-11-17T18:24:45+00:00",
       "created_at": "2025-01-12T22:56:59+00:00",
       "language": "Python",
       "license": "MIT License",
@@ -1436,8 +1436,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:27.126204",
-      "star_velocity_7d": 2,
+      "first_tracked": "2026-11-18T15:21:42.606465",
+      "star_velocity_7d": 3,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1473,7 +1473,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:28.871526",
+      "first_tracked": "2026-11-18T15:21:44.388574",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1485,8 +1485,8 @@
       "name": "awesome-bio-agent-skills",
       "description": "A curated collection of AI agent skills for biomedical research, covering genomics, proteomics, single-cell analysis, clinical AI, and protein design.",
       "url": "https://github.com/BioTender-max/awesome-bio-agent-skills",
-      "stars": 223,
-      "forks": 40,
+      "stars": 224,
+      "forks": 41,
       "last_updated": "2026-07-01T21:21:45+00:00",
       "created_at": "2026-05-25T15:23:19+00:00",
       "language": "Python",
@@ -1527,7 +1527,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:30.694917",
+      "first_tracked": "2026-11-18T15:21:46.209422",
       "star_velocity_7d": 5,
       "star_velocity_30d": 0,
       "trending": false
@@ -1560,7 +1560,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:32.466165",
+      "first_tracked": "2026-11-18T15:21:48.054990",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1598,7 +1598,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:34.278207",
+      "first_tracked": "2026-11-18T15:21:49.776598",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -1636,7 +1636,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:36.089632",
+      "first_tracked": "2026-11-18T15:21:51.570788",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1674,7 +1674,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:37.928829",
+      "first_tracked": "2026-11-18T15:21:53.302944",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1707,7 +1707,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:39.709622",
+      "first_tracked": "2026-11-18T15:21:55.031844",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1740,7 +1740,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:41.436653",
+      "first_tracked": "2026-11-18T15:21:56.734523",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1780,7 +1780,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:43.191621",
+      "first_tracked": "2026-11-18T15:21:58.456997",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -1817,8 +1817,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:44.996515",
-      "star_velocity_7d": 1,
+      "first_tracked": "2026-11-18T15:22:00.221273",
+      "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1850,7 +1850,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:46.795477",
+      "first_tracked": "2026-11-18T15:22:01.950452",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1883,7 +1883,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:48.545163",
+      "first_tracked": "2026-11-18T15:22:03.734449",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1918,7 +1918,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:50.411000",
+      "first_tracked": "2026-11-18T15:22:05.584953",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -1930,7 +1930,7 @@
       "name": "AiCE",
       "description": "Predicting high-fitness mutations based on protein inverse folding models",
       "url": "https://github.com/ScorpioLea/AiCE",
-      "stars": 1149,
+      "stars": 1150,
       "forks": 186,
       "last_updated": "2025-09-30T03:16:29+00:00",
       "created_at": "2025-01-30T12:38:57+00:00",
@@ -1951,8 +1951,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:53.257229",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-11-18T15:22:08.405943",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -1963,7 +1963,7 @@
       "name": "AntiFold",
       "description": "Improved antibody structure-based design using inverse folding",
       "url": "https://github.com/oxpig/AntiFold",
-      "stars": 177,
+      "stars": 178,
       "forks": 35,
       "last_updated": "2026-10-30T12:15:39+00:00",
       "created_at": "2024-04-29T13:18:44+00:00",
@@ -1987,8 +1987,8 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:55.065278",
-      "star_velocity_7d": 0,
+      "first_tracked": "2026-11-18T15:22:10.165646",
+      "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
     }
@@ -2033,7 +2033,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:42:58.619746",
+      "first_tracked": "2026-11-18T15:22:13.705752",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2079,7 +2079,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:00.405320",
+      "first_tracked": "2026-11-18T15:22:15.567737",
       "star_velocity_7d": 1,
       "star_velocity_30d": 0,
       "trending": false
@@ -2114,7 +2114,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:02.217777",
+      "first_tracked": "2026-11-18T15:22:17.328238",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2147,7 +2147,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:03.954780",
+      "first_tracked": "2026-11-18T15:22:19.055809",
       "star_velocity_7d": 2,
       "star_velocity_30d": 0,
       "trending": false
@@ -2180,7 +2180,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:05.737487",
+      "first_tracked": "2026-11-18T15:22:20.737974",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2213,7 +2213,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:07.522009",
+      "first_tracked": "2026-11-18T15:22:22.447968",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2260,7 +2260,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:09.289100",
+      "first_tracked": "2026-11-18T15:22:24.231934",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2293,7 +2293,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:11.048199",
+      "first_tracked": "2026-11-18T15:22:25.981516",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2339,7 +2339,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:13.011698",
+      "first_tracked": "2026-11-18T15:22:27.777369",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2376,7 +2376,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:14.798030",
+      "first_tracked": "2026-11-18T15:22:29.511145",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2415,7 +2415,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:16.608834",
+      "first_tracked": "2026-11-18T15:22:31.316410",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2448,7 +2448,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:18.372750",
+      "first_tracked": "2026-11-18T15:22:33.052469",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2481,7 +2481,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:20.126379",
+      "first_tracked": "2026-11-18T15:22:34.780005",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2514,7 +2514,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:21.881680",
+      "first_tracked": "2026-11-18T15:22:36.506252",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false
@@ -2547,7 +2547,7 @@
       "output_formats": []
     },
     "tracking": {
-      "first_tracked": "2026-11-17T15:43:23.714000",
+      "first_tracked": "2026-11-18T15:22:38.284848",
       "star_velocity_7d": 0,
       "star_velocity_30d": 0,
       "trending": false

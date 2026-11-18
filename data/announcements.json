@@ -1,5 +1,62 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.22230",
+    "title": "Discovery of new antiviral agents through artificial intelligence: in vitro and in vivo results",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.22230v1 Announce Type: new Abstract: In this research, we employed a deep reinforcement learning (RL)-based molecule design platform to generate a diverse set of compounds targeting the neuraminidase (NA) of influenza A and B viruses. A total of 60291 compounds were generated, of which 86.5% displayed superior physicochemical properties compared to oseltamivir. After narrowing down the selection through computational filters, nine compounds with non-sialic acid-like structures were selected for in vitro experiments. We identified two compounds, DS-22-inf-009 and DS-22-inf-021 that e",
+    "published": "2026-11-18T05:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "molecular dynamics",
+      "residue"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767325v1?rss=1",
+    "title": "Accurate and interpretable protein complex stoichiometry prediction through agentic AI with StoiAgent",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Accurate protein complex structure modeling requires knowledge of complex stoichiometry, yet the copy numbers of individual subunits are often unknown. Consequently, predicting protein complex stoichiometry has emerged as a major challenge in recent years. Here, we present StoiAgent, a large language model (LLM)-powered AI agent that automates the retrieval and integration of sequence, structural, and literature evidence to predict stoichiometry while preserving interpretable reasoning traces (chain of thoughts) of its evidence assessment and ranking decision. An open-weight LLM model, Qwen3.6",
+    "published": "2026-11-18T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766359v1?rss=1",
+    "title": "De Novo Design of Miniprotein Binders Targeting the Leptin-Binding Site of the Leptin Receptor",
+    "source": "bioRxiv Biochemistry",
+    "summary": "The leptin receptor (LEPR) regulates appetite, energy balance, glucose homeostasis, and neuroendocrine function and is closely associated with obesity, diabetes, and neurological disorders. Activation of LEPR signaling suppresses appetite and promotes energy expenditure, whereas impaired LEPR signaling and leptin resistance are commonly associated with obesity. Accordingly, modulation of LEPR signaling is a potential therapeutic strategy for obesity and related metabolic disorders. In this study, we report the de novo computational design of miniprotein binders targeting the leptin-binding sit",
+    "published": "2026-11-18T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "protein"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766959v1?rss=1",
+    "title": "Wilson disease mechanisms manipulate ATP7B activity",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Copper is an essential cofactor for enzymes involved in diverse processes including mitochondrial respiration and the metabolism of neurotransmitters, collagen and melanin. However, its redox activity requires tight homeostatic control. The P-type ATPases ATP7A and ATP7B help deliver copper to cuproenzymes, and ATP7B mediates the excretion of excess copper into bile. Pathogenic ATP7B variants cause Wilson disease (WD), leading to copper accumulation in organs including the liver, kidney, and brain, and to disruption of copper-dependent processes. Current treatments primarily reduce systemic co",
+    "published": "2026-11-18T00:00:00+00:00",
+    "matched": [
+      "cryo-em structure",
+      "enzyme",
+      "molecular dynamics",
+      "sequence"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2610.33195",
     "title": "Agent-guided epitope excision enables economical de novo binder design",
     "source": "arXiv q-bio.BM",
@@ -106,7 +163,7 @@
       "protein structure"
     ],
     "first_seen": "2026-11-17T15:43:35.176708+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766537v1?rss=1",
@@ -122,7 +179,86 @@
       "sequence"
     ],
     "first_seen": "2026-11-17T15:43:35.176708+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767046v1?rss=1",
+    "title": "S-PLM-TM enables fast and accurate sequence-based search for remote homologs",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein structures and functions can remain conserved after extensive sequence divergence, but detecting these distant relationships across large databases remains challenging. Here we present S-PLM-TM, a sequence-only remote homology search tool based on a structure-aware protein language model. Cross-modal flow matching and contrastive learning incorporate structural information into sequence representations. A lightweight calibration head enables structural-similarity search with the frozen encoder, while a residue-level alignment head generates structural alignments directly from sequence.",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "protein",
+      "protein language model",
+      "protein structure",
+      "residue"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766879v1?rss=1",
+    "title": "FoldMapper: Protein Inverse Folding Model with Structure-Derived Evolutionary Profiles and a Multiscale Graph Encoder",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein inverse folding designs amino-acid sequences that fold into a target backbone structure. Existing deep-learning methods exploit backbone geometry but not evolutionary statistics. Those statistics come from a multiple sequence alignment, which must be built from a query sequence. That query is the sequence to be designed, so the dependency is circular. We present FoldMapper, an inverse folding model that breaks this circularity. It retrieves structural homologues by shape alone, then aggregates their amino-acid identities into a per-residue structural position-specific frequency (SPSF) ",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "folding",
+      "inverse folding",
+      "peptide",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766968v1?rss=1",
+    "title": "The crystal structure of the human SIPA1L2 PDZ domain reveals an atypically short, metazoan-conserved β2 β3 loop",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Signal - induced proliferation-associated 1-like protein 2 (SIPA1L2) is a large neuronal Rap GTPase-activating protein implicated in dynein-dependent retrograde transport of BDNF-TrkB signaling endosomes and genetically linked to Parkinson's disease. It consists of a RapGAP domain, a PDZ domain, and a coiled-coil domain separated by intrinsically disordered regions. Its compact PDZ domain mediates protein-protein interaction by binding short PDZ-binding motifs (PBM) in target proteins. Here, the human SIPA1L2 PDZ domain (residues 943-1027) was crystallized and its structure determined by molec",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "crystal structure",
+      "protein",
+      "proteome",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767027v1?rss=1",
+    "title": "Cryo-EM structure of plant ABCC1 reveals mode of arsenic transport",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Plant ATP-binding cassette transporter C1 (ABCC1) mediates the vacuolar sequestration of heavy metal-phytochelatin (PC) complexes for cytosolic detoxification, yet the structural mechanisms of substrate recognition and metal coordination remain uncharacterized. Here, we report functional assays and single-particle cryo-EM structures of maize ABCC1 (ZmABCC1) in its apo state and bound to an PC2-As(III) complex. Functional assays demonstrate that ZmABCC1 ATPase activity is sequentially increased by glutathione, PC2, and PC3 in the presence of , supporting that longer PC chain lengths increase tr",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "cryo-em structure",
+      "ligand"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766507v1?rss=1",
+    "title": "How a Disease-Associated Mutation Destabilizes the Sliding Clamp PCNA",
+    "source": "bioRxiv Biochemistry",
+    "summary": "The eukaryotic sliding clamp, Proliferating Cell Nuclear Antigen (PCNA), is a homo-trimeric ring-shaped protein complex that encircles DNA and serves as a scaffold for enzymes during DNA replication and the DNA damage response. Patients harboring the homozygous point mutation C148S in PCNA have the genetic disease PCNA Associated DNA Repair Disorder (PARD). Our lab showed that this PCNA variant has a drastic 10 {degrees}C thermostability defect. However, the crystal structure of the C148S variant displays a nearly identical conformation as WT PCNA, so it remained unclear how this point mutatio",
+    "published": "2026-11-17T00:00:00+00:00",
+    "matched": [
+      "crystal structure",
+      "enzyme",
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-11-18T15:22:49.647645+00:00",
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.17391",
@@ -212,7 +348,7 @@
       "protein"
     ],
     "first_seen": "2026-11-16T15:14:37.656983+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766406v1?rss=1",
@@ -2934,7 +3070,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -2947,7 +3083,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -2960,7 +3096,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -2973,7 +3109,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -2987,7 +3123,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3002,7 +3138,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3015,7 +3151,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3028,7 +3164,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3041,7 +3177,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3055,7 +3191,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -3068,6 +3204,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-17T15:43:35.176708+00:00"
+    "last_seen": "2026-11-18T15:22:49.647645+00:00"
   }
 ]
