@@ -1,5 +1,82 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.24546",
+    "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.24546v1 Announce Type: new Abstract: AlphaFold has transformed protein structure prediction, making structural models accessible across the life sciences. We explore experimentally validated cases of non-globular proteins to uncover where predictions diverge from biologically relevant structural states and how molecular context shapes these discrepancies, guiding a more informed interpretation of AlphaFold models.",
+    "published": "2026-11-19T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "protein structure",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.26829",
+    "title": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2610.26829v2 Announce Type: replace-cross Abstract: ProteinGeoBench is a set of 131 tasks that give an agent protein structure files and ask it to look up recorded facts, check sequences, calculate geometry from atom coordinates or reason about structures. We ran four frontier models on every task several times (4,249 runs) and 26 models on a subset. A single overall score hides two different skills. Three of the four frontier models are best at looking up facts and worst at calculating from coordinates: Claude Opus 5 scores 0.907 on lookup and 0.716 on calculation. Gemini 3.1 Pro is the",
+    "published": "2026-11-19T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein structure",
+      "sequence"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767212v1?rss=1",
+    "title": "Breadth over Depth: Predictor-Agnostic Consensus for Improved Antibody--Antigen Structure Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Antibody-antigen structure prediction commonly relies on sampling a single co-folding predictor deeply and selecting its highest-confidence output using model-specific confidence scores. We introduce AbPoolRank, a predictor-agnostic structural selector that ranks mixed pools using cross-pose agreement, within-source reproducibility and interface geometry, without native confidence, predictor identities or predictor-specific parameters. On 103 cluster-disjoint, post-2021 antibody-antigen complexes from SAbDab2, three structures each from Boltz-2, Promera, Protenix-v2, ESMFold2-Fast and OpenDDE ",
+    "published": "2026-11-19T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "boltz",
+      "esmfold",
+      "folding",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.765674v1?rss=1",
+    "title": "New llama-derived nanobodies enable selective detection and capture of Z-DNA",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Z-DNA is a left-handed DNA conformation that forms transiently at susceptible genomic sequences during processes such as negative supercoiling and active transcription. In the cytoplasm, the innate immune receptor ZBP1 senses Z-form nucleic acids (Z-NAs, which could be DNA or RNA), triggering type I interferon production and programmed cell death. Viral infections, endogenous repetitive-element-derived RNAs, and oxidized mitochondrial DNA can generate Z-NAs, nominating them as ZBP1 agonists. Conversely, ADAR1 is proposed to recognize and edit endogenous Z-RNAs, thereby muting inappropriate inn",
+    "published": "2026-11-19T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "binder",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767279v1?rss=1",
+    "title": "Crystal structure of the first de novo designed phosphotriesterase ZAPP-1",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Designing a de novo phosphotriesterase requires scaffolding a dinuclear metal center bound by six catalytic residues, including a post-translationally carbamylated lysine, in a pocket that must also bind a small, flexible organophosphate and orient it for hydrolysis. We recently met this challenge using RFdiffusion3 to design the first de novo phosphotriesterases, and biochemically characterized our first hit, ZAPP-1 [1]. Here we report two crystal structures of ZAPP-1 at 1.42 and 2.28 [A] resolution. The crystal structures are nearly identical to the design model scaffold (C RMSD = 0.69, 0.71",
+    "published": "2026-11-19T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "catalytic",
+      "crystal structure",
+      "enzyme",
+      "folding",
+      "residue"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.22230",
     "title": "Discovery of new antiviral agents through artificial intelligence: in vitro and in vivo results",
     "source": "arXiv q-bio.BM",
@@ -26,7 +103,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766359v1?rss=1",
@@ -39,7 +116,7 @@
       "protein"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766959v1?rss=1",
@@ -54,7 +131,51 @@
       "sequence"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766334v1?rss=1",
+    "title": "The C-terminal region of interferon-γ mediates evolutionarily tunable membrane interaction",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Interferon-{gamma} (IFN-{gamma}) is a key cytokine orchestrating innate and adaptive immunity, yet the functional significance of its highly basic C-terminal region remains poorly understood. Here, we combine evolutionary, biophysical, cellular, and computational approaches to uncover the membrane-interacting properties of this region across vertebrate IFN-{gamma} orthologs. We show that the previously described conserved KRKR motif is embedded within a broader cationic region that is highly diverse in fish but progressively reduced in terrestrial tetrapods. Molecular dynamics simulations and ",
+    "published": "2026-11-18T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "peptide",
+      "protein"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766675v1?rss=1",
+    "title": "Parametric and AI-Assisted Design of Right-Handed Four-Helix Coiled Coils",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Right-handed, antiparallel -helical coiled coils are rare in nature and remain challenging targets for de novo protein design. Here, we combined parametric backbone generation with deep-learning-based sequence design and structure prediction to systematically explore this underrepresented region of coiled-coil structural space. We compared three ProteinMPNN design strategies: repeat-constrained homotetramer design, unconstrained homotetramer design, and unconstrained heterotetramer design. Removing strict sequence repeat constraints increased the fraction of designs satisfying structural confi",
+    "published": "2026-11-18T00:00:00+00:00",
+    "matched": [
+      "crystal structure",
+      "de novo protein",
+      "molecular dynamics",
+      "peptide",
+      "protein",
+      "protein design"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766698v1?rss=1",
+    "title": "Doublecortin compacts the microtubule lattice through a DC1-dependent mechanism",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Doublecortin (DCX) is a microtubule-associated protein essential for neuronal migration during brain development, yet the molecular mechanisms underlying its function on the microtubule remain incompletely understood. Here we show that DCX compacts the microtubule lattice, with the DC1 domain serving as the main driver of lattice compaction. Using in vitro reconstitution, optical trapping, and molecular dynamics simulations, we demonstrate that although DCX preferentially binds compacted microtubule lattices, it can also bind expanded lattices and remodel them by inducing ~2-3 [A] compaction a",
+    "published": "2026-11-18T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.33195",
@@ -230,7 +351,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767027v1?rss=1",
@@ -243,7 +364,7 @@
       "ligand"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766507v1?rss=1",
@@ -258,7 +379,7 @@
       "protein"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.17391",
@@ -3070,7 +3191,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3083,7 +3204,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3096,7 +3217,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3109,7 +3230,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3123,7 +3244,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3138,7 +3259,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3151,7 +3272,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3164,7 +3285,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3177,7 +3298,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3191,7 +3312,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   },
   {
     "url": "https://huggingface.co/blog/intel-protein-language-model-protst",
@@ -3204,6 +3325,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-18T15:22:49.647645+00:00"
+    "last_seen": "2026-11-19T15:29:13.422344+00:00"
   }
 ]
