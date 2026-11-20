@@ -1,5 +1,74 @@
 [
   {
+    "url": "https://arxiv.org/abs/2606.07562",
+    "title": "The Montparnasse Algorithm for RNA Design",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2606.07562v2 Announce Type: replace Abstract: Inverse RNA Folding consists of finding a nucleotide sequence that folds into a predefined secondary structure. It is useful for synthetic biology, medicine, and nanotechnology. We propose Montparnasse, a Monte Carlo search framework based on Generalized Nested Rollout Policy Adaptation, augmented with a structural prior derived from the energy model, slow and long adaptation at level 1, a lexicographic multicriteria evaluation, a local repair of the pairs the predicted folding gets wrong, and a fleet of parallel workers coupled through a sha",
+    "published": "2026-11-20T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767884v1?rss=1",
+    "title": "Curated annotations locate biological concepts in protein language models from layers to neurons",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Interpretability methods describe what a network has learned, yet their claims are rarely tested against model-independent ground truth. We argue that proteins are an ideal modality for interpretability since curators annotate functional sites residue by residue. Across three ESMC protein language models (300M-6B parameters), we show that conclusions depend on where models are read, how concepts are decoded, which units are examined, and how they are scored. Concepts become linearly readable along depth long before erasure impairs masked-token prediction, and 20-fold scaling shifts concept dep",
+    "published": "2026-11-20T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein language model",
+      "residue"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767946v1?rss=1",
+    "title": "PhageLysClass: Evidence-aware classification of phage lytic proteins using protein language models",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Phage lytic proteins are promising antibacterial and biotechnological candidates, yet uncertain annotations, modular architectures, and class imbalance complicate sequence-based classification. We developed PhageLysClass, an evidence-aware framework for recognizing lytic proteins and distinguishing Endolysins, Depolymerases, and virion-associated lytic enzymes. From 442,329 unique phage sequences, including 11,867 evidence-supported positives, we defined distinct candidate non-target, unlabeled, and challenge populations. Seven supervised and two positive-unlabeled tasks were evaluated across ",
+    "published": "2026-11-20T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "protein",
+      "protein language model",
+      "sequence"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767577v1?rss=1",
+    "title": "Learning RNA secondary structure from chemical probing with MXfold2",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Training RNA secondary structure predictors is limited by scarce reference annotations, even as chemical probing produces abundant nucleotide-level measurements. These measurements inform pairing states without identifying base-pairing partners. Here we extend MXfold2, which combines neural and thermodynamic folding scores, to learn from probing profiles and predict RNA secondary structures from sequence alone. We introduce three training objectives. One learns from probing-assisted target structures. The other two use implicit maximum-likelihood estimation to pass surrogate gradients from rea",
+    "published": "2026-11-20T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
+    "url": "https://www.ipd.uw.edu/2026/11/the-communal-brain-behind-rfd4-proteina/",
+    "title": "The Communal Brain Behind RFD4-Proteina",
+    "source": "UW Institute for Protein Design",
+    "summary": "At the Institute for Protein Design, scientific breakthroughs rarely belong to a single person, a single experiment, or even a single discipline. They emerge from something our director, David Baker, often describes as the &#8220;communal brain&#8221;: a culture where computational scientists, experimental researchers, software engineers, and protein designers work side by side, sharing ideas, challenging [&#8230;] The post The Communal Brain Behind RFD4-Proteina first appeared on Institute for Protein Design .",
+    "published": "2026-11-19T21:58:31+00:00",
+    "matched": [
+      "protein",
+      "protein design"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.24546",
     "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
     "source": "arXiv q-bio.BM",
@@ -42,7 +111,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.765674v1?rss=1",
@@ -57,7 +126,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767279v1?rss=1",
@@ -74,7 +143,39 @@
       "residue"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767614v1?rss=1",
+    "title": "Proteome-scale inference of transcription factor binding motifs from predicted protein-DNA structures",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Transcription factors (TFs) control development and cell identity by binding sequence-specific DNA motifs, yet the binding specificities of most TFs remain unknown because experimental binding assays do not scale. In zebrafish, only one-third of TFs have assigned motifs, nearly all inferred by homology from human or mouse experimental data. Here we present a proteome-scale computational screen that infers DNA-binding specificity from predicted protein-DNA structures. We use AlphaFold3 to model zebrafish TFs with candidate motif sequences derived from accessible chromatin, then use NA-MPNN to i",
+    "published": "2026-11-19T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "proteome",
+      "sequence"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767551v1?rss=1",
+    "title": "Prediction and Dissection of Nitrogenase Activity Based on Protein Sequences using Dual Descriptor",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Nitrogenase reduces N2 to ammonia at ambient temperature and pressure, but its activity differs markedly among natural sequences, and conventional wet-laboratory screening suffers from low throughput and long turnaround times. Existing computational methods have partially alleviated this bottleneck, yet most of them rely on protein embeddings obtained from protein language models together with features such as gene expression, and their interpretability analyses mostly stop at the level of feature contribution. Here we present CarmnaDD, a purely sequence-driven framework built on the dual desc",
+    "published": "2026-11-19T00:00:00+00:00",
+    "matched": [
+      "docking",
+      "protein",
+      "protein language model",
+      "protein structure",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-20T15:06:01.743168+00:00",
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.22230",
@@ -116,7 +217,7 @@
       "protein"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.766959v1?rss=1",
@@ -131,7 +232,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766334v1?rss=1",
@@ -145,7 +246,7 @@
       "protein"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766675v1?rss=1",
@@ -162,7 +263,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766698v1?rss=1",
@@ -175,7 +276,7 @@
       "protein"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.33195",
@@ -351,7 +452,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.16.767027v1?rss=1",
@@ -364,7 +465,7 @@
       "ligand"
     ],
     "first_seen": "2026-11-18T15:22:49.647645+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.15.766507v1?rss=1",
@@ -3191,7 +3292,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3204,7 +3305,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3217,7 +3318,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3230,7 +3331,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3244,7 +3345,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3259,7 +3360,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3272,7 +3373,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3285,7 +3386,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3298,7 +3399,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3325,6 +3426,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-20T15:06:01.743168+00:00"
   }
 ]
