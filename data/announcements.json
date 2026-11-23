@@ -1,5 +1,85 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.24546",
+    "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.24546v2 Announce Type: replace Abstract: AlphaFold has transformed protein structure prediction, making structural models accessible across the life sciences. We explore experimentally validated cases of non-globular proteins to uncover where predictions diverge from biologically relevant structural states and how molecular context shapes these discrepancies, guiding a more informed interpretation of AlphaFold models.",
+    "published": "2026-11-23T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "protein structure",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-19T15:29:13.422344+00:00",
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.27058",
+    "title": "Structural Agreement Indicates Prediction Accuracy For Protein-Ligand Co-Folding",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.27058v1 Announce Type: cross Abstract: Co-folding models predict the structures of proteins and their bound ligands, but their accuracy varies across targets. Their usefulness therefore depends on knowing which predictions a user can trust. Confidence scores are intended to guide that choice. However, across seven co-folding models, we show that confidence-based selection offers little improvement over choosing a prediction at random. For approximately three-quarters of structures, predictions are either exclusively correct or incorrect, leaving no opportunity for ranking to change ",
+    "published": "2026-11-23T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-23T17:43:06.760064+00:00",
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.27924",
+    "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.27924v1 Announce Type: cross Abstract: Despite major advances in structure prediction, modelling the motions and interactions that drive biomolecular function at scale remains a central challenge. We introduce BioEmu2, a generative model for atomically resolved biomolecular structures combining static structure prediction, equilibrium sampling and time evolution, that samples orders of magnitude faster than molecular dynamics (MD). Trained on experimental and synthetic structures and extensive MD data, it supports multi-component systems containing proteins, nucleic acids, modified ",
+    "published": "2026-11-23T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand",
+      "molecular dynamics",
+      "protein",
+      "residue",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-23T17:43:06.760064+00:00",
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768033v1?rss=1",
+    "title": "A2Holo: Dual-Stream Flow Matching of 3D Structure and a Protein Language Model for Conformational Transition Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Modelling a ligand-bound holo conformation from a ligand-free apo conformation is essential in structure-based drug discovery. We present A2Holo, which casts apo-to-holo prediction as flow matching between two experimental structures rather than generation from noise. It transplants the dual-stream joint attention of in-context image generation to residue-aligned protein language model embeddings and structure. Without ligand conditioning or stochastic sampling, A2Holo's single deterministic trajectory reaches a median C RMSD of 0.809 [A] on the D3PM benchmark, the lowest among existing method",
+    "published": "2026-11-23T00:00:00+00:00",
+    "matched": [
+      "ligand",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-23T17:43:06.760064+00:00",
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768078v1?rss=1",
+    "title": "Predicted templates improve the prediction of antibody-antigen structures by AlphaFold 3 and Boltz-2",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Motivation: In spite of the much improved protein structure prediction methods, the success rate remains low for antibody-antigen complexes. While this can be improved by computationally demanding massive sampling, results are still much poorer than for most other types of protein-protein interactions. In principle, improvement can be achieved by using templates that are close enough to the native structure of the complex, but these are generally not available for antibody-antigen complexes. Results: We explore the use of templates, generated by the computationally inexpensive rigid body docki",
+    "published": "2026-11-23T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "antibody",
+      "boltz",
+      "docking",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-23T17:43:06.760064+00:00",
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2606.07562",
     "title": "The Montparnasse Algorithm for RNA Design",
     "source": "arXiv q-bio.BM",
@@ -67,7 +147,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-21T14:27:03.168494+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767751v1?rss=1",
@@ -120,22 +200,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-20T15:06:01.743168+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
-  },
-  {
-    "url": "https://arxiv.org/abs/2611.24546",
-    "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
-    "source": "arXiv q-bio.BM",
-    "summary": "arXiv:2611.24546v1 Announce Type: new Abstract: AlphaFold has transformed protein structure prediction, making structural models accessible across the life sciences. We explore experimentally validated cases of non-globular proteins to uncover where predictions diverge from biologically relevant structural states and how molecular context shapes these discrepancies, guiding a more informed interpretation of AlphaFold models.",
-    "published": "2026-11-19T05:00:00+00:00",
-    "matched": [
-      "alphafold",
-      "protein",
-      "protein structure",
-      "structure prediction"
-    ],
-    "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-19T15:29:13.422344+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26829",
@@ -180,7 +245,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767279v1?rss=1",
@@ -197,7 +262,7 @@
       "residue"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767614v1?rss=1",
@@ -300,7 +365,7 @@
       "protein"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766675v1?rss=1",
@@ -317,7 +382,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766698v1?rss=1",
@@ -330,7 +395,7 @@
       "protein"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.33195",
@@ -3346,7 +3411,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3359,7 +3424,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3372,7 +3437,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3385,7 +3450,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3399,7 +3464,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3414,7 +3479,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3427,7 +3492,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3440,7 +3505,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3453,7 +3518,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3480,6 +3545,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-22T14:19:46.115005+00:00"
+    "last_seen": "2026-11-23T17:43:06.760064+00:00"
   }
 ]
