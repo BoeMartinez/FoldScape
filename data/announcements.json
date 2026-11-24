@@ -1,5 +1,127 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.28599",
+    "title": "FastCREST: GPU-Accelerated CREST Conformer Searches with Consistent Energies and Gradients",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.28599v1 Announce Type: new Abstract: CREST conformer searches with GFN2-xTB take days for large, flexible molecules: one search of a 274-atom gallium(III)--peptide complex with CREST 3.0.2 took 321.5~h on 32 CPU threads. FastCREST keeps CREST's algorithm and changes how a search uses the hardware. Its metadynamics (MTD) and molecular dynamics (MD) trajectories run with tuned OpenMP settings and one GPU, which solves the self-consistent-charge (SCC) eigenproblem and evaluates the three-body dispersion term. About 15,000 geometry optimizations per iteration run as Slurm array jobs on ",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "peptide"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.28529",
+    "title": "General-purpose language models are neurosymbolic reasoners able to annotate proteins from sequence",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.28529v1 Announce Type: cross Abstract: Determining the function of genes across the tree of life is one of the major challenges in biology. Generative AI approaches to this problem generally fall into two categories: language models trained on biological sequences that are able to predict structure and function from signals in those sequences; and generalist language models trained on text, that are able to reason about biological function symbolically. A default operating assumption is that protein language models do not perform well on symbolic tasks, and that generalist language ",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "protein",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.29444",
+    "title": "RumiFold: Teaching an LLM to Natively Fold Proteins and Reason About Their Function",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.29444v1 Announce Type: cross Abstract: Can we teach a general-purpose language model to fold proteins? And if so, what does learning to fold enable beyond structure prediction itself? We introduce RumiFold, a pretrained chat model that learns to predict protein structures directly from its own hidden states. RumiFold processes proteins through repeated folding passes, then uses these folded representations to answer questions in natural language. It achieves folding accuracy comparable to dedicated single-representation models such as SimpleFold, alongside state-of-the-art performan",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein",
+      "protein structure",
+      "residue",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.30062",
+    "title": "What Do Co-Folding Models Learn? Insights from Enhanced Transition Path Sampling",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.30062v1 Announce Type: cross Abstract: Co-folding models are diffusion-based generative models that sample biomolecular complexes from distributions learned on a large corpus of experimental data. Although these models are powerful for structure prediction, it remains unclear whether the conformational ensembles they learn resemble physically meaningful statistical ensembles. To understand what these models learn, we introduce transition path sampling (TPS), which uses Markov chain Monte Carlo over denoising trajectories to sample the learned distribution. Because its Monte Carlo tr",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "boltz",
+      "folding",
+      "molecular dynamics",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.30336",
+    "title": "Impact of Topology and Sequence Length on the Pressure-Dependent Collapsibility of Proteins",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.30336v1 Announce Type: cross Abstract: Several physical and evolutionary factors, including temperature, pressure, solvent quality, and natural selection, influence how amino acid sequences adopt their native structures. Although protein folding has been extensively studied, the physical determinants of protein collapse and their relationship to native-state folding remain less understood. In particular, \"collapsibility\", the intrinsic propensity of a protein sequence to form compact conformations, is distinct from but closely related to \"foldability\", the ability to reach the nativ",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "amino acid",
+      "folding",
+      "protein",
+      "protein structure",
+      "sequence"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.15418",
+    "title": "Scaling Structure-Aware Virtual Screening to Billions of Molecules with SPRINT",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2411.15418v3 Announce Type: replace Abstract: Virtual screening of small molecules against protein targets can accelerate drug discovery and development by predicting drug-target interactions (DTIs). However, structure-based methods like molecular docking are too slow to allow for broad proteome-scale screens, limiting their application in screening for off-target effects or new molecular mechanisms. Recently, vector-based methods using protein language models (PLMs) have emerged as a complementary approach that bypasses explicit 3D structure modeling. Here, we develop SPRINT, a vector-b",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "binder",
+      "binding affinity",
+      "docking",
+      "protein",
+      "protein language model",
+      "proteome"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.07406",
+    "title": "Entangled Schr\\\"odinger Bridge Matching",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2511.07406v2 Announce Type: replace-cross Abstract: Simulating trajectories of multi-particle systems on complex energy landscapes is a central task in molecular dynamics (MD) and drug discovery, but remains challenging at scale due to computationally expensive and long simulations. Previous approaches leverage techniques such as flow or Schr\\\"odinger bridge matching to implicitly learn joint trajectories from data snapshots. However, many systems, including biomolecular systems and heterogeneous cell populations, undergo dynamic interactions that evolve over their trajectory and cannot ",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "molecular dynamics"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.24842",
+    "title": "Towards Accurate Prediction of Mutation-Induced Changes in Protein Structure",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.24842v2 Announce Type: replace-cross Abstract: Proteins can possess numerous mutations relative to their wild-type amino acid sequences with minimal impact to their structure and function. However, in other cases, even a single amino acid mutation relative to the wild-type sequence can lead to a large change in structure or even a disease phenotype. While the accuracy of wild-type protein structure prediction has improved significantly in recent years, it remains difficult to accurately predict the structure of mutant proteins. Here, we characterize the local mutation-induced struct",
+    "published": "2026-11-24T05:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "amino acid",
+      "crystal structure",
+      "protein",
+      "protein structure",
+      "sequence"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.24546",
     "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
     "source": "arXiv q-bio.BM",
@@ -60,7 +182,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-23T17:43:06.760064+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768078v1?rss=1",
@@ -77,7 +199,59 @@
       "protein structure"
     ],
     "first_seen": "2026-11-23T17:43:06.760064+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768119v1?rss=1",
+    "title": "A Strategy to Identify Endogenous Ligands for a Protein",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Protein-metabolite interactions are essential to numerous metabolic processes and underly many disease mechanisms. However, detecting these interactions is a challenge due to the transient nature of protein-metabolite associations. Here, we employ an untargeted functional metabolomics screening strategy to uncover low-affinity interactions between an entire metabolome and a kinase. We first utilize high-performance liquid chromatography (HPLC)-guided fractionation to separate a whole-metabolome extract into multiple fixed-time fractions. A metabolite fraction library (mFL) of one-dimensional (",
+    "published": "2026-11-23T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "ligand",
+      "protein"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768179v1?rss=1",
+    "title": "How Much Coordination Does an AAA+ Motor Require? A Case Study of the Archaeal Cdc48/p97 Homologue",
+    "source": "bioRxiv Biochemistry",
+    "summary": "AAA+ (ATPases Associated with diverse cellular Activities) motors harness ATP hydrolysis to remodel substrates, often through a spiral staircase architecture which is commonly associated with a sequential \"hand-over-hand\" translocation mechanism. However, the extent to which motor activity requires strict sequential order and interprotomer coordination remains incompletely understood. Here, we investigate the functional resilience of an archaeal AAA+ unfoldase, VAT, using reconstituted heterohexamers containing wild-type protomers and variants defective in nucleotide binding, hydrolysis, subst",
+    "published": "2026-11-23T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "folding"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767675v1?rss=1",
+    "title": "RUBRIC: rapid quality assessment tool for RNA 3D structures",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Cryo-electron microscopy has transformed RNA structural biology, revealing increasingly large and complex structures at an unprecedented pace. However, validation methods have lagged behind, and deposited models can contain distorted base pairs, incorrect ribose puckers and backbone conformational outliers. Here, we introduce Rapid Unified Base-pair, Ribose and backbone Integrity Check (RUBRIC), an open-source program that combines RNA structural annotation with local validation of base pairs, sugars, and backbones. RUBRIC assigns Leontis-Westhof classes and identifies geometrically ambiguous ",
+    "published": "2026-11-23T00:00:00+00:00",
+    "matched": [
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768189v1?rss=1",
+    "title": "AlphaFold-assisted design of a modular Laminin E8 Fragment Panel",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Laminins are large, heterotrimeric glycoproteins that are a major structural component of basement membranes and the extracellular matrix. Although they are difficult to produce recombinantly because of their large size, a smaller fragment of the laminin heterotrimer that supports cell adhesion and cell migration, termed E8, can be recombinantly expressed. Here, we use AlphaFold to optimize laminin E8 fragments and design a panel of interchangeable laminin , {beta}, and {gamma} chains that can be combined to produce all isoforms recombinantly. These recombinant E8 fragments support adhesion of",
+    "published": "2026-11-23T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein"
+    ],
+    "first_seen": "2026-11-24T17:14:23.822784+00:00",
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2606.07562",
@@ -200,7 +374,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-20T15:06:01.743168+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26829",
@@ -245,7 +419,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767279v1?rss=1",
@@ -262,7 +436,7 @@
       "residue"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767614v1?rss=1",
@@ -365,7 +539,7 @@
       "protein"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766675v1?rss=1",
@@ -382,7 +556,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.14.766698v1?rss=1",
@@ -395,7 +569,7 @@
       "protein"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.33195",
@@ -3411,7 +3585,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3424,7 +3598,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3437,7 +3611,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3450,7 +3624,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3464,7 +3638,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3479,7 +3653,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3492,7 +3666,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3505,7 +3679,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3518,7 +3692,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3545,6 +3719,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-23T17:43:06.760064+00:00"
+    "last_seen": "2026-11-24T17:14:23.822784+00:00"
   }
 ]
