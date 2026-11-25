@@ -1,5 +1,50 @@
 [
   {
+    "url": "https://arxiv.org/abs/2611.33104",
+    "title": "Evolutionary constraints on protein fold diversity",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.33104v1 Announce Type: new Abstract: Arrangements of secondary structures in proteins yield a wide variety of possible topologies, yet the protein folds observed in nature are limited in their diversity. Is the number of protein folds limited by biophysical constraints or by evolutionary contingency? In recent years, the development of new methods for protein structure prediction and comparison, molecular design, and the rapid progress of cryo-electron microscopy revealed new insights into the protein fold space. Here, we present recent findings demonstrating that natural proteins a",
+    "published": "2026-11-25T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein structure",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2611.32347",
+    "title": "Beyond Hard Tokens: Predictive Memory for Multimodal Protein Generation",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2611.32347v1 Announce Type: cross Abstract: Multimodal protein language models unify sequence and discrete structural tokens via iterative masked decoding, offering a promising paradigm for joint protein design. However, standard decoders rely on a memoryless mask reset at each iteration: only a sparse subset of newly committed hard tokens is carried forward, while all remaining unresolved sites are reset to an identical [MASK] embedding. In open-ended co-generation where neither modality provides a fixed external anchor, this stateless transition limits single-step refinement depth and ",
+    "published": "2026-11-25T05:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein design",
+      "protein language model",
+      "residue",
+      "sequence"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.04465",
+    "title": "The physical foundation beneath protein generative modeling",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.04465v2 Announce Type: replace Abstract: Physical equations in protein modeling appear to have been replaced by generative models trained directly on structure data. By learning a mapping from noise to data, sampling de novo protein structures has become much more efficient. However, such models can also learn non-physical features and break down with out-of-distribution settings which are typical in protein design campaigns. In this review, we highlight where the physics persists in protein generative modeling pipelines and the issues that linger when physically relevant components",
+    "published": "2026-11-25T05:00:00+00:00",
+    "matched": [
+      "de novo protein",
+      "protein",
+      "protein design",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.28599",
     "title": "FastCREST: GPU-Accelerated CREST Conformer Searches with Consistent Energies and Gradients",
     "source": "arXiv q-bio.BM",
@@ -122,6 +167,64 @@
     "last_seen": "2026-11-24T17:14:23.822784+00:00"
   },
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768656v1?rss=1",
+    "title": "Tuning evolutionary information in MSAs shapes protein generation and folding",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein multiple sequence alignments are widely regarded as fixed artifacts of homologue retrieval. An alignment's row composition shapes the evolutionary context that is supplied to a protein model. In this study, we tested whether tuning row composition would steer protein generation and structure prediction outcomes. We tuned lower-tail alignment information by controlling row selection within a reference protein-projected coordinate frame. We paired each information-targeted alignment with a matched-depth random-row control alignment. Across a cohort of 45 diverse proteins, row coherence a",
+    "published": "2026-11-24T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein",
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.767923v1?rss=1",
+    "title": "Defining phospho-Rab signalling networks downstream of LRRK2 kinase",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Activating mutations in leucine-rich repeat kinase 2 (LRRK2) are among the most common genetic risk factors for Parkinson's disease. LRRK2 phosphorylates a subset of Rab GTPases at a conserved Ser/Thr residue within the switch 2 alpha-helix, disrupting interactions with canonical regulators and effectors while promoting recruitment of phospho-specific effectors, including RILPL1, RILPL2, JIP3 and JIP4. However, the full spectrum of phosphorylation-dependent Rab interactions remains unknown. Here, we used mass spectrometry to characterise the phospho-Rab interactome. Purified pRab1, pRab3, pRab",
+    "published": "2026-11-24T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768456v1?rss=1",
+    "title": "Protein-interactions-guided peptide design for selective electrochemical detection of Salmonella typhimurium",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Protein-protein interactions (PPIs) are mediated by highly specific molecular recognition, and their interfaces provide a basis for designing highly selective peptide biorecognition elements for biosensing. Here we introduce a structure-based biomimetic strategy that allows recognizing a single target protein through both its homo- and hetero-interaction interfaces. We targeted the needle protein PrgI of the Salmonella typhimurium (ST) Type III Secretion System with two peptides: one derived from the PrgI oligomerization interface (residues 31-46, homo-interaction) and one from the PrgI-bindin",
+    "published": "2026-11-24T00:00:00+00:00",
+    "matched": [
+      "ligand",
+      "peptide",
+      "peptide design",
+      "protein",
+      "residue"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767663v1?rss=1",
+    "title": "A Shifting Landscape: Deconvoluting the Effect of Mg2+ and pH on Base Triple Formation in 7SK SL-1",
+    "source": "bioRxiv Biochemistry",
+    "summary": "The small-nuclear RNA (snRNA) 7SK is essential for regulating the transcription of genes by RNA polymerase II through its interactions with Hexamethylene Bisacetamide Inducible Protein (HEXIM) and positive transcription elongation factor b (P-TEFb). High-resolution structures of 7SK stem-loop 1 (SL-1) reveal the presence of several base triples that coordinate the interaction with HEXIM. However, different high-resolution structures of 7SK SL-1 exhibit different conformations, each with unique base triple configurations. Previous NMR studies show that the conformation of 7SK SL-1 is sensitive ",
+    "published": "2026-11-24T00:00:00+00:00",
+    "matched": [
+      "molecular dynamics",
+      "protein"
+    ],
+    "first_seen": "2026-11-25T16:59:16.783240+00:00",
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.24546",
     "title": "Biases and Limits of AlphaFold Predictions for Non-Globular Proteins",
     "source": "arXiv q-bio.BM",
@@ -213,7 +316,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768179v1?rss=1",
@@ -226,7 +329,7 @@
       "folding"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767675v1?rss=1",
@@ -238,7 +341,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768189v1?rss=1",
@@ -251,7 +354,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2606.07562",
@@ -374,7 +477,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-20T15:06:01.743168+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26829",
@@ -419,7 +522,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-19T15:29:13.422344+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.767279v1?rss=1",
@@ -3585,7 +3688,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3598,7 +3701,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3611,7 +3714,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3624,7 +3727,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3638,7 +3741,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3653,7 +3756,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3666,7 +3769,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3679,7 +3782,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3692,7 +3795,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3719,6 +3822,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-24T17:14:23.822784+00:00"
+    "last_seen": "2026-11-25T16:59:16.783240+00:00"
   }
 ]
