@@ -1,5 +1,33 @@
 [
   {
+    "url": "https://arxiv.org/abs/2606.05474",
+    "title": "AlloGen: Conformation-Selective Binder Generation with Differential State Scoring",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2606.05474v2 Announce Type: replace Abstract: Protein binder design commonly optimizes compatibility with a single receptor conformation, leaving preference over alternative functional states unresolved. To address this gap, we introduce AlloGen, a modular method that decouples backbone generation from state-selectivity scoring. We train its SE(3)-invariant interface graph transformer, $Q_\\theta$, through interface-quality regression followed by paired conformational discrimination. By comparing scores across states, we rerank candidates and guide frozen backbone generators without retra",
+    "published": "2026-11-26T05:00:00+00:00",
+    "matched": [
+      "binder",
+      "peptide",
+      "protein",
+      "rfdiffusion"
+    ],
+    "first_seen": "2026-11-26T16:38:10.675635+00:00",
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2609.36885",
+    "title": "RNA Design via Conditioned Flow Matching and Finite-Policy Reinforcement Learning",
+    "source": "arXiv q-bio.BM",
+    "summary": "arXiv:2609.36885v2 Announce Type: replace Abstract: RNA design aims to identify sequences that fold into specified secondary structures. Existing methods formulate the task as target-specific search or conditional generation. However, natural RNA evolution proceeds through sequence variation and selection, with compensatory substitutions, whereas these methods do not explicitly model this process. To address this limitation, we propose a two-stage framework comprising RNA Inverse-Folding Flow (RNA-IFlow) and RNA-IFlow-RL. RNA-IFlow uses structure-conditioned Dirichlet Flow Matching to model co",
+    "published": "2026-11-26T05:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-26T16:38:10.675635+00:00",
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2611.33104",
     "title": "Evolutionary constraints on protein fold diversity",
     "source": "arXiv q-bio.BM",
@@ -179,7 +207,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.767923v1?rss=1",
@@ -193,7 +221,7 @@
       "residue"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768456v1?rss=1",
@@ -209,7 +237,7 @@
       "residue"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767663v1?rss=1",
@@ -222,7 +250,22 @@
       "protein"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768775v1?rss=1",
+    "title": "BRIDGE: Backbone Representation for Inverse-folding-Driven Generalizable RNA Encoding",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "RNA recognizes small molecules and proteins through their three dimensional structures, but sparse functional annotations limit task specific learning of transferable structural features. We present BRIDGE, an inverse-folding encoder pretrained on 2,501 RNA chain records from experimental structures. Each nucleotide is represented by its phosphorus atom and five ribose atoms (P, C1', C2', C3', C4', O4'). Base coordinates are not encoder inputs. From these atoms, the encoder is trained to predict nucleotide identity, solvent accessible surface area (SASA) and base geometry. With matched readout",
+    "published": "2026-11-24T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "ligand",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-26T16:38:10.675635+00:00",
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.24546",
@@ -316,7 +359,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768179v1?rss=1",
@@ -329,7 +372,7 @@
       "folding"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767675v1?rss=1",
@@ -341,7 +384,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768189v1?rss=1",
@@ -354,7 +397,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2606.07562",
@@ -477,7 +520,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-20T15:06:01.743168+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26829",
@@ -3688,7 +3731,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3701,7 +3744,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3714,7 +3757,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3727,7 +3770,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3741,7 +3784,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3756,7 +3799,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3769,7 +3812,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3782,7 +3825,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3795,7 +3838,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3822,6 +3865,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-25T16:59:16.783240+00:00"
+    "last_seen": "2026-11-26T16:38:10.675635+00:00"
   }
 ]
