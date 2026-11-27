@@ -1,5 +1,36 @@
 [
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768453v1?rss=1",
+    "title": "GinsengMind: An evidence-grounded AI research agent for integrative molecular research in Panax ginseng",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Panax ginseng C. A. Meyer is one of the most extensively studied medicinal plants, with substantial pharmaceutical and economic importance owing to its diverse bioactive constituents, particularly ginsenosides. Despite considerable advances in ginseng molecular research, the fragmentation of genomic, transcriptomic, protein structural, and biochemical information remains a major challenge for investigating gene function and specialized metabolism. Here, we developed GinsengMind (https://ginsengai.nrc.ac.cn), an evidence-grounded AI research agent that integrates species-specific molecular know",
+    "published": "2026-11-27T00:00:00+00:00",
+    "matched": [
+      "enzyme",
+      "esmfold",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-27T16:23:32.424303+00:00",
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768646v1?rss=1",
+    "title": "Structural Landscape of MHC Complexes through Fold Mining",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Major histocompatibility complex (MHC) proteins share a characteristic structural platform formed by two -helices positioned above a {beta}-sheet (1-2 domain), which can accommodate ligands and provide an exposed surface for recognition by protein binding partners. This interaction system is best characterized for classical MHC-I molecules presenting peptides to T-cell receptors (TCRs), one of the most extensively studied mechanisms of immune recognition. However, non-classical MHC and MHC-like proteins reveal that the 1-2 platform is considerably more versatile, supporting a remarkably divers",
+    "published": "2026-11-27T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "ligand",
+      "peptide",
+      "protein",
+      "protein structure"
+    ],
+    "first_seen": "2026-11-27T16:23:32.424303+00:00",
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+  },
+  {
     "url": "https://arxiv.org/abs/2606.05474",
     "title": "AlloGen: Conformation-Selective Binder Generation with Differential State Scoring",
     "source": "arXiv q-bio.BM",
@@ -26,6 +57,34 @@
     ],
     "first_seen": "2026-11-26T16:38:10.675635+00:00",
     "last_seen": "2026-11-26T16:38:10.675635+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768763v1?rss=1",
+    "title": "RIPPLE: learning nucleotide relations in an RNA foundation model",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "RNA function depends on interactions between nucleotides that can be widely separated in sequence, yet capturing these relationships remains challenging for RNA language models. Existing approaches primarily learn nucleotide relationships implicitly from individual nucleotide reconstruction or rely on external structural information to model nucleotide interactions. Here we introduce RIPPLE, an RNA foundation model that learns to identify and represent sparse, predictively useful nucleotide relationships directly from sequence. Pretrained on 32.4 million RNA sequences, RIPPLE uses pairwise pre",
+    "published": "2026-11-26T00:00:00+00:00",
+    "matched": [
+      "sequence",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-27T16:23:32.424303+00:00",
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769100v1?rss=1",
+    "title": "GlycoBind: a general toolkit for protein-glycan binding prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein-glycan recognition controls immune responses, host-pathogen adhesion, cell signalling and the functional organization of the glycocalyx. Computational models can predict protein binding to monosaccharides or short oligosaccharides, but predicting binding to structurally diverse intact glycans remains challenging. Here we present GlycoBind, a general toolkit that accepts a protein structure in Protein Data Bank (PDB) format and an International Union of Pure and Applied Chemistry (IUPAC)-condensed glycan, and returns a binding score without requiring a protein-glycan complex or a dockin",
+    "published": "2026-11-26T00:00:00+00:00",
+    "matched": [
+      "docking",
+      "protein",
+      "protein structure",
+      "residue"
+    ],
+    "first_seen": "2026-11-27T16:23:32.424303+00:00",
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.33104",
@@ -207,7 +266,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.767923v1?rss=1",
@@ -221,7 +280,7 @@
       "residue"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768456v1?rss=1",
@@ -237,7 +296,7 @@
       "residue"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767663v1?rss=1",
@@ -250,7 +309,7 @@
       "protein"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768775v1?rss=1",
@@ -265,7 +324,7 @@
       "sequence"
     ],
     "first_seen": "2026-11-26T16:38:10.675635+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2611.24546",
@@ -359,7 +418,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768179v1?rss=1",
@@ -372,7 +431,7 @@
       "folding"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.767675v1?rss=1",
@@ -384,7 +443,7 @@
       "structure prediction"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768189v1?rss=1",
@@ -397,7 +456,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2606.07562",
@@ -520,7 +579,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-20T15:06:01.743168+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26829",
@@ -3731,7 +3790,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3744,7 +3803,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3757,7 +3816,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3770,7 +3829,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3784,7 +3843,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3799,7 +3858,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3812,7 +3871,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3825,7 +3884,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3838,7 +3897,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3865,6 +3924,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-26T16:38:10.675635+00:00"
+    "last_seen": "2026-11-27T16:23:32.424303+00:00"
   }
 ]
