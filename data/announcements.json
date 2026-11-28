@@ -1,5 +1,110 @@
 [
   {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769339v1?rss=1",
+    "title": "Enzymado: Are Protein Language Models Getting Better at Enzyme Tasks?",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein language model (PLM) embeddings are a common representation for enzyme engineering tasks. PLMs are pretrained using vast protein data, and while enzymes are proteins, they are distinguished by their catalytic nature, which is dependent on substrates and reaction mechanisms. Current PLM evaluations test isolated properties with incompatible data, splits, and metrics, leaving open how PLMs can better serve enzymes and what drives their performance. We present Enzymado, a framework for evaluating enzyme representations, with property datasets curated from public databases and experimental",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "catalytic",
+      "enzyme",
+      "protein",
+      "protein engineering",
+      "protein language model",
+      "residue"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.27.769337v1?rss=1",
+    "title": "PanPPI: ranking-trained protein embeddings for proteome-scale interaction screening",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Proteome-wide interaction screening requires ranking millions of protein pairs before costly structure prediction. PanPPI trains a cacheable protein encoder with a ranking loss, so each protein is embedded once and pairs are scored at 0.75 million per minute on one H200 GPU. PanPPI matched or outperformed published models on benchmarks, and in five eukaryotes its top 1% of pairs contained 52-88% of AlphaFold-Multimer's confident predictions among STRING-linked pairs.",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "protein",
+      "proteome",
+      "structure prediction"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769518v1?rss=1",
+    "title": "Conditional Dirichlet Flow Matching for exploring the sequence space of protein families",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein folds have evolved to support a diverse range of functions, and repurposing an existing fold can offer a more effective route to engineering new functions than designing a scaffold de novo. Here, we introduce Syzygy, a generative model that learns the evolutionary sequence patterns of protein families to generate artificial homologues that diverge from natural sequences while preserving family-specific characteristics. Based on Dirichlet flow matching, Syzygy is trained on a single multiple sequence alignment and enables sequence generation conditioned on protein length, a discrete fun",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "protein",
+      "protein engineering",
+      "sequence"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768079v1?rss=1",
+    "title": "TW-GMProt: Trust-Weighted Semi-Supervised Gated Modulation Protein Language Model for Antimicrobial Peptide Activity Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Antibiotic resistance poses a major global health threat, underscoring the need for faster approaches to antimicrobial discovery. Antimicrobial peptides (AMPs) are promising therapeutic candidates, but experimental activity screening remains costly and time-consuming. We introduce TW-GMProt, a trust-weighted semi-supervised gated modulation protein language model for quantitative AMP activity prediction. It integrates pretrained protein language model representations with convolutional neural networks through a gated modulation strategy, complemented by biophysical priors. To address the scarc",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "peptide",
+      "protein",
+      "protein language model"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769346v1?rss=1",
+    "title": "DASTevolve: Evolving executable protein-design programs with large language models",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Protein engineering often requires improving one property while preserving others across multiple regions or molecular states. An aggregate score can reveal a poor design yet offer little guidance about which decision to revise. We introduce DASTevolve, which represents a design task as two linked abstract syntax trees. The functional tree specifies objectives and state relationships, and its links to the structural tree identify where edits are permitted for each objective. A large language model (LLM), as inspired by the recent works on coding agents, proposes program revisions from evaluati",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "antibody",
+      "antibody design",
+      "binder",
+      "enzyme",
+      "esmfold",
+      "ligand"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.26.769488v1?rss=1",
+    "title": "A Reproducible, Leakage-Aware Machine Learning Pipeline for Antimicrobial Peptide Activity Prediction",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Antimicrobial peptides (AMPs) are key alternatives to conventional antibiotics, but published machine learning models may overestimate predictive performance because of positive-class sequence redundancy and data leakage. We developed a leakage-aware pipeline using 13,469 peptides from DRAMP v5.0 and UniProt, clustered at 40% sequence identity with CD-HIT to enforce cluster-level splitting. A Random Forest trained on sequence and physicochemical features achieved an AUC-ROC of 0.939 and a Matthews correlation coefficient (MCC) of 0.671 on a cluster-disjoint test set (mean AUC-ROC 0.923 {+/-} 0",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "esmfold",
+      "peptide",
+      "sequence"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768786v1?rss=1",
+    "title": "First in, first folded: evolution of vectorial substrate folding by metazoan Hsp60/10",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Group-I chaperonins such as GroEL/GroES fold proteins by encapsulating a complete non-native chain within a central chamber. This limits its substrates to proteins that can be accommodated within the cavity. Whether human mitochondrial Hsp60/10, a descendant of bacterial GroEL/ES, serving a larger proteome, retains the size constraint or bypasses it has remained unknown. Here, we show that human Hsp60/10 assists the folding of large multidomain proteins without the size-dependent decline in folding efficiency as observed with bacterial GroEL/ES. The human Hsp60/10 chaperonin assists the foldin",
+    "published": "2026-11-28T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein",
+      "proteome"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768453v1?rss=1",
     "title": "GinsengMind: An evidence-grounded AI research agent for integrative molecular research in Panax ginseng",
     "source": "bioRxiv Bioinformatics",
@@ -29,6 +134,65 @@
     ],
     "first_seen": "2026-11-27T16:23:32.424303+00:00",
     "last_seen": "2026-11-27T16:23:32.424303+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.13.766437v1?rss=1",
+    "title": "GlycaNER: An Automated Glycan Structure Term Detection and Normalization Tool in Biomedical Literature",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Glycans are complex carbohydrates covalently attached to biomolecules and play essential roles in protein folding, stability, intracellular trafficking, and molecular recognition. Glycan-related biological processes are vital to normal physiology, and their disruptions can contribute to various diseases. In the literature, glycans are described by their structures or recurring substructures, known as glycan structure terms (GSTs). We developed GlycaNER, a transformer-based entity recognition tool that detects GSTs and related glyco-terms in text, maps them to existing dictionary entries and su",
+    "published": "2026-11-27T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "protein"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.17.766942v1?rss=1",
+    "title": "VS-Suite: Automated Consensus Virtual Screening Platform for Improved Screening of Small Molecules",
+    "source": "bioRxiv Bioinformatics",
+    "summary": "Growing the recent advances in artificial intelligence and machine leaning (AI&ML) approaches accelerated small molecules screening against targeted proteins with limited computational resources and time. Finding accurate binding pose and affinity prediction is challenges task and traditional docking tools and lacks the reproducibility. Development of the Co-folding model is paradigm shift in drug discovery and development, allowing to predict protein ligand complexes without experimental crystal structures. Notably Boltz-2 predicts the complex structure along with binding affinity directly us",
+    "published": "2026-11-27T00:00:00+00:00",
+    "matched": [
+      "binder",
+      "binding affinity",
+      "boltz",
+      "crystal structure",
+      "docking",
+      "folding"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.25.769289v1?rss=1",
+    "title": "Structure-guided discovery of zinc enzymes and prediction of acetophenone reduction activity",
+    "source": "bioRxiv Biochemistry",
+    "summary": "Advances in artificial metalloenzyme design have expanded the range of reactions accessible to enzymes, yet the diversity of available scaffolds remains limited. Experimental activity data for individual non-native reactions are scarce, making it difficult to establish how the environment around a metal center shapes catalysis across scaffolds. Using phenylsilane-driven asymmetric reduction of acetophenone as a model reaction, we developed a workflow that combines structure-guided mining, experimental activity assays, and small-sample machine learning. We used the Zn-His coordination motif to ",
+    "published": "2026-11-27T00:00:00+00:00",
+    "matched": [
+      "alphafold",
+      "enzyme",
+      "enzyme design",
+      "protein",
+      "sequence"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.11.27.769052v1?rss=1",
+    "title": "RNA structure probing with 4-base-recognizing RNA cutters",
+    "source": "bioRxiv Biochemistry",
+    "summary": "To elucidate dynamic higher-order structures of RNA in human cells would be important not only to deeply understand the physiological functions of mRNA and non-coding RNA but also to establish precision medicine. tRNase ZL together with hook-type sgRNA works as a 4-base-recognizing RNA cutter. We thought that RNA structure probing using the RNA cutters with hook-type sgRNAs of various 4-base recognition sequences would provide valuable information on the higher-order structures of cellular RNA. In this study, we investigated the feasibility of this method in vitro. We examined nine 32-nt RNA t",
+    "published": "2026-11-27T00:00:00+00:00",
+    "matched": [
+      "folding",
+      "sequence"
+    ],
+    "first_seen": "2026-11-28T15:16:53.462474+00:00",
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2606.05474",
@@ -280,7 +444,7 @@
       "residue"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.22.768456v1?rss=1",
@@ -296,7 +460,7 @@
       "residue"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.19.767663v1?rss=1",
@@ -309,7 +473,7 @@
       "protein"
     ],
     "first_seen": "2026-11-25T16:59:16.783240+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.23.768775v1?rss=1",
@@ -418,7 +582,7 @@
       "protein"
     ],
     "first_seen": "2026-11-24T17:14:23.822784+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.biorxiv.org/content/10.64898/2026.11.20.768179v1?rss=1",
@@ -579,7 +743,7 @@
       "protein design"
     ],
     "first_seen": "2026-11-20T15:06:01.743168+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://arxiv.org/abs/2610.26829",
@@ -3790,7 +3954,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/06/custom-computing-for-the-next-generation-of-protein-design/",
@@ -3803,7 +3967,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/05/a-new-era-for-protein-design-in-oncology-dr-ahn-joins-the-ipd/",
@@ -3816,7 +3980,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2026/02/gbp511-vaccine-clinical-trial-begins/",
@@ -3829,7 +3993,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion3-now-available/",
@@ -3843,7 +4007,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/12/rfdiffusion2-efficient-enzymes-from-prompts/",
@@ -3858,7 +4022,7 @@
       "rfdiffusion"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/11/rfantibody-in-nature/",
@@ -3871,7 +4035,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/10/delivering-protein-nanoparticle-vaccines-via-mrna/",
@@ -3884,7 +4048,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/08/creating-multi-protein-systems/",
@@ -3897,7 +4061,7 @@
       "protein design"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   },
   {
     "url": "https://www.ipd.uw.edu/2025/07/hitting-undruggable-disease-targets/",
@@ -3924,6 +4088,6 @@
       "protein language model"
     ],
     "first_seen": "2026-10-17T22:30:22.075748+00:00",
-    "last_seen": "2026-11-27T16:23:32.424303+00:00"
+    "last_seen": "2026-11-28T15:16:53.462474+00:00"
   }
 ]
